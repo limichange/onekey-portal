@@ -1,0 +1,7 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+env.config.js
+env.development.config.js
+next.config.js
+gatsby-config.js

@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-plugin-i18n-simple",
+  "version": "1.0.0",
+  "main": "gatsby-node.js",
+  "keywords": [
+    "gatsby"
+  ],
+  "author": "limichange<limichange@hotmail.com>",
+  "license": "MIT"
+}
