@@ -24,6 +24,7 @@
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx --fix"
   },
   "dependencies": {
+    "@dinehq/revue-form-subscriber": "^1.1.0",
     "@emotion/react": "^11.9.0",
     "browser-lang": "^0.1.0",
     "browser-update": "^3.3.38",
