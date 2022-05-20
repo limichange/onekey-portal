@@ -23,14 +23,14 @@ const tsRules = {
   'sort-imports': [
     'error',
     {
-      'ignoreMemberSort': false,
-      'ignoreDeclarationSort': true,
+      ignoreMemberSort: false,
+      ignoreDeclarationSort: true,
     },
   ],
   'import/order': [
     'error',
     {
-      'groups': [
+      groups: [
         'builtin',
         'internal',
         'index',
@@ -40,35 +40,45 @@ const tsRules = {
         'object',
         'type',
       ],
-      'pathGroups': [
+      pathGroups: [
         {
-          'pattern': 'react',
-          'group': 'builtin',
-          'position': 'before',
+          pattern: 'react',
+          group: 'builtin',
+          position: 'before',
         },
         {
-          'pattern': '@onekeyhq/**',
-          'group': 'external',
-          'position': 'after',
+          pattern: '@onekeyhq/**',
+          group: 'external',
+          position: 'after',
         },
       ],
-      'alphabetize': {
-        'order': 'asc',
-        'caseInsensitive': true,
+      alphabetize: {
+        order: 'asc',
+        caseInsensitive: true,
       },
       'newlines-between': 'always',
-      'pathGroupsExcludedImportTypes': ['builtin'],
-      'warnOnUnassignedImports': true,
+      pathGroupsExcludedImportTypes: ['builtin'],
+      warnOnUnassignedImports: true,
     },
   ],
 };
 module.exports = {
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   env: {
     browser: true,
     es6: true,
     webextensions: true,
     serviceworker: true,
     worker: true,
+  },
+  globals: {
+    PWD: true,
   },
   overrides: [
     {
@@ -81,6 +91,9 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       extends: ['wesbos/typescript'],
+      parserOptions: {
+        project: './tsconfig.json',
+      },
       rules: {
         ...jsRules,
         ...tsRules,

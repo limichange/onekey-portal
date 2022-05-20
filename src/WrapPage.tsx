@@ -1,15 +1,9 @@
 import { FC, useEffect } from 'react';
 
-import { Global } from '@emotion/react';
 import { Helmet } from 'react-helmet';
 import { I18nextProvider } from 'react-i18next';
 
 import { createI18next } from './i18n';
-import { fontInterStyle } from './theme/fontInterStyle';
-import { fontStyreneStyle } from './theme/fontStyreneStyle';
-import { globalStyle } from './theme/globalStyle';
-import { isBrowser } from './utils';
-import { getPageLanguage } from './utils/getPageLanguage';
 
 interface WrapPageProps {
   children: React.ReactNode;
@@ -27,23 +21,23 @@ const WrapPage: FC<WrapPageProps> = (props) => {
   const { intl } = pageContext;
 
   useEffect(() => {
-    const isI18nPage = path.includes(`/en/`) || path.includes(`/zh/`);
+    // const isI18nPage = path.includes(`/en/`) || path.includes(`/zh/`);
 
-    if (isBrowser() && !isI18nPage) {
-      const { location } = window;
-      const { search } = location;
-      const detected = getPageLanguage();
-      const {
-        originalPath,
-      }: {
-        originalPath: string;
-      } = intl;
-      const queryParams = search || '';
-      const newUrl = `${location.origin}/${detected}${originalPath}${queryParams}`;
-      localStorage.setItem('language', detected);
-      location.replace(newUrl);
-      return;
-    }
+    // if (isBrowser() && !isI18nPage) {
+    //   const { location } = window;
+    //   const { search } = location;
+    //   const detected = getPageLanguage();
+    //   const {
+    //     originalPath,
+    //   }: {
+    //     originalPath: string;
+    //   } = intl;
+    //   const queryParams = search || '';
+    //   const newUrl = `${location.origin}/${detected}${originalPath}${queryParams}`;
+    //   localStorage.setItem('language', detected);
+    //   location.replace(newUrl);
+    //   return;
+    // }
 
     import('browser-update').then((bu) => {
       bu.default({
@@ -78,11 +72,8 @@ const WrapPage: FC<WrapPageProps> = (props) => {
           data-site="WWLGDZJB"
           data-spa="auto"
           defer
-        ></script>
+        />
       </Helmet>
-      <Global styles={fontStyreneStyle} />
-      <Global styles={fontInterStyle} />
-      <Global styles={globalStyle} />
 
       <I18nextProvider i18n={i18n}>{children}</I18nextProvider>
     </div>

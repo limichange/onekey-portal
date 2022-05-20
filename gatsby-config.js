@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://google.com',
-    title: 'title',
-    description: 'description',
+    siteUrl: 'https://portal.onekey.so',
+    title: 'onekey',
+    description: 'onekey',
     url: 'url',
     image: 'image',
     twitterUsername: 'twitterUsername',
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-typescript`,
       options: {
         isTSX: true, // defaults to false
-        jsxPragma: `jsx`, // defaults to "React"
+        jsxPragma: `React`, // defaults to "React"
         allExtensions: true, // defaults to false
       },
     },
@@ -33,7 +33,19 @@ module.exports = {
         icon: 'src/images/icon.png',
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          quality: 100,
+          breakpoints: [414, 960, 1200, 1440, 1920],
+          placeholder: "blurred",
+          backgroundColor: `transparent`,
+        },
+      }
+    },
+    `gatsby-plugin-less`
   ],
 }

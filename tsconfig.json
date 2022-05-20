@@ -2,7 +2,7 @@
   "compilerOptions": {
     "incremental": true,
     "composite": true,
-    "lib": ["ES2018"],
+    "lib": ["ES2018", "DOM"],
     "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -19,6 +19,7 @@
     "preserveWatchOutput": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "skipLibCheck": true
   }
 }
