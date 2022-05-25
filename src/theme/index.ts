@@ -25,6 +25,7 @@ export const theme = {
     white: '#FFFFFF',
     transparent: 'transparent',
     test100: '#F0F1F2',
+    test200: '#DADEE1',
     test300: '#8A9195',
     test400: '#313638',
     test500: '#101111',

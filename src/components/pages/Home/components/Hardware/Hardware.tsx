@@ -93,8 +93,10 @@ export const Hardware: React.FC = () => {
             </Flex>
             <Box>
               <GoToShopButton
-                buttonProps={{
-                  themeColor: 'white',
+                overrides={{
+                  button: {
+                    themeColor: 'dark',
+                  },
                 }}
               />
             </Box>

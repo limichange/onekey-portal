@@ -75,7 +75,7 @@ export const NormalNavigation: React.FC<NormalNavigationProps> = () => {
             </Box> */}
           </Ul>
 
-          <LaunchAppButton variant="outline" />
+          <LaunchAppButton variant="outlined" />
         </Container>
       </NavigationAnimationWrap>
 
