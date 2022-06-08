@@ -3,8 +3,9 @@ import React from 'react';
 import { useTheme } from '@emotion/react';
 import { Helmet } from 'react-helmet';
 
-import { Box, Main, Navigation, PageFooter, SEO } from '../../base';
+import { Box, Main, Navigation, SEO } from '../../base';
 import { FadeIn } from '../../base/FadeIn';
+import { PageFooter } from '../../common/PageFooter';
 
 import {
   Feature,
@@ -28,7 +29,10 @@ export const Home: React.FC = () => {
         <title>OneKey | All-in-one crypto wallet trusted by millions.</title>
       </Helmet>
 
-      <SEO title="OneKey | All-in-one crypto wallet trusted by millions." description="The best way to keep crypto assets safe in the industry. Your bitcoin, ethereum, solana, and other crypto assets can all be safe and secure." />
+      <SEO
+        title="OneKey | All-in-one crypto wallet trusted by millions."
+        description="The best way to keep crypto assets safe in the industry. Your bitcoin, ethereum, solana, and other crypto assets can all be safe and secure."
+      />
 
       <Navigation />
 

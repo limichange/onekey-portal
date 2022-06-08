@@ -1,3 +1,5 @@
+import './test.css';
+
 export { useTheme } from '@emotion/react';
 
 export const theme = {
@@ -34,6 +36,28 @@ export const theme = {
     test100: '#F0F1F2',
     test300: '#8A9195',
     test500: '#101111',
+  },
+  size: {
+    xxl: {
+      column: 112,
+      gutter: 24,
+    },
+    xl: {
+      column: 64,
+      gutter: 24,
+    },
+    l: {
+      column: 48,
+      gutter: 24,
+    },
+    // todo: check the size
+    m: {
+      column: (896 - 16 * 11) / 12,
+      gutter: 24,
+    },
+    s: {
+      gutter: 16,
+    },
   },
   gradients: {},
   text: {
@@ -218,6 +242,7 @@ export const theme = {
 export type MediaBreakpointsKey = keyof typeof mediaBreakpoints;
 
 export const mediaBreakpoints = {
+  xSmall: 0,
   small: 414,
   medium: 960,
   large: 1200,
@@ -243,3 +268,5 @@ declare module '@emotion/react' {
     mediaBreakpoints: typeof mediaBreakpoints;
   }
 }
+
+export * from './useColumnSize';

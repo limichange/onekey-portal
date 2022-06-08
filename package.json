@@ -14,6 +14,7 @@
   "main": "index.js",
   "scripts": {
     "develop": "npm run clean && gatsby develop -H 0.0.0.0",
+    "develop:https": "gatsby develop --https --key-file ./https/onekey.so.key --cert-file ./https/onekey.so.cert",
     "develop:local": "npm run clean && gatsby develop -H 0.0.0.0",
     "develop:production": "npm run clean && gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
@@ -22,7 +23,8 @@
     "clean": "gatsby clean && rm -rf .cache",
     "life": "git clean -xdf && yarn install && yarn develop",
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx --fix",
-    "lokalise": "node ./scripts/lokalise.js"
+    "lokalise": "node ./scripts/lokalise.js",
+    "icon": "node ./scripts/icon.js"
   },
   "dependencies": {
     "@dinehq/revue-form-subscriber": "^1.1.0",
@@ -31,6 +33,7 @@
     "body-scroll-lock": "^4.0.0-beta.0",
     "browser-lang": "^0.1.0",
     "browser-update": "^3.3.38",
+    "camelcase-keys": "^8.0.0",
     "click-to-react-component": "^1.0.6",
     "deepmerge": "^4.2.2",
     "detect-browser": "^5.3.0",

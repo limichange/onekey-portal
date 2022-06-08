@@ -1,50 +1,49 @@
-import { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 
 import { useTheme } from '@emotion/react';
-import ua2os from 'ua2os';
-import { OS } from 'ua2os/dist/types';
+import { detect } from 'detect-browser';
 
+import {
+  DownloadTypes,
+  useDownloadData,
+} from '../../../../../data/useDownloadData';
 import { useMediaQuery } from '../../../../../hooks';
 import { Container, Flex, Img, Section, Span } from '../../../../base';
 
 import arrowSvg from './images/arrow.svg';
 import { StartItem } from './StartItem';
-import { getStartItemDataByType } from './useStartItemsData';
 
 export const Start = () => {
   const theme = useTheme();
-  const [type, setType] = useState<OS>();
   const media = useMediaQuery();
+  const detectResult = detect();
+  const downloadData = useDownloadData();
 
-  useEffect(() => {
-    setType(ua2os(window.navigator.userAgent));
-  }, []);
+  const items = useMemo(() => {
+    const innerItems = [];
 
-  const items = [];
-
-  if (media.medium) {
-    items.push(getStartItemDataByType('desktop'));
-    items.push(getStartItemDataByType('mobile'));
-    items.push(getStartItemDataByType('browserExtension'));
-  } else {
-    // mobile
-    if (type === 'ios') {
-      items.push(getStartItemDataByType('ios'));
-    } else if (type === 'android') {
-      items.push(getStartItemDataByType('android'));
+    if (media.medium) {
+      innerItems.push(downloadData.desktop);
+      innerItems.push(downloadData.mobile);
+      innerItems.push(downloadData.browserExtension);
     } else {
-      items.push(getStartItemDataByType('mobile'));
+      // mobile
+      if (detectResult?.os === 'iOS') {
+        innerItems.push(downloadData.ios);
+      } else if (detectResult?.os === 'android') {
+        innerItems.push(downloadData.android);
+      } else {
+        innerItems.push(downloadData.mobile);
+      }
+
+      innerItems.push(downloadData.otherPlatforms);
     }
 
-    items.push(getStartItemDataByType('otherPlatforms'));
-  }
+    return innerItems;
+  }, [detectResult?.os, downloadData, media.medium]);
 
   return (
-    <Section
-      css={{
-        position: 'relative',
-      }}
-    >
+    <Section css={{ position: 'relative' }}>
       <Container>
         <Flex
           xs={{
@@ -63,15 +62,9 @@ export const Start = () => {
             m={{ flexDirection: 'row', alignItems: 'flex-end' }}
           >
             <Span
-              css={{
-                color: '#101111',
-              }}
-              xs={{
-                ...theme.text.medium900,
-              }}
-              xl={{
-                ...theme.text.medium1200,
-              }}
+              css={{ color: theme.colors.test500 }}
+              xs={{ ...theme.text.medium900 }}
+              xl={{ ...theme.text.medium1200 }}
             >
               Start using
               <br />
@@ -88,9 +81,10 @@ export const Start = () => {
             />
           </Flex>
           <Flex css={{ gap: 23 }}>
-            {items.map((item) => (
-              <StartItem key={item.type} {...item} />
-            ))}
+            {items.map((item) => {
+              const iconType = item.image as DownloadTypes;
+              return <StartItem key={item.type} {...item} image={iconType} />;
+            })}
           </Flex>
         </Flex>
       </Container>
