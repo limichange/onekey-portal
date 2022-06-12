@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 import { Helmet } from 'react-helmet';
@@ -14,7 +14,7 @@ export interface SecurityProps {
   children?: ReactNode;
 }
 
-export const Security: FC<SecurityProps> = (props) => {
+export const Security: React.FC<SecurityProps> = (props) => {
   const { children } = props;
   const theme = useTheme();
 
