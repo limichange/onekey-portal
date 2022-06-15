@@ -57,19 +57,8 @@ export const LeftArea: FC<LeftAreaProps> = (props) => {
         background: backgroundColor,
       }}
     >
-      <Box
-        xs={{
-          width: '50%',
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
-        <Ul
-          xs={{
-            margin: 0,
-            padding: 0,
-          }}
-        >
+      <Box xs={{ width: '50%', display: 'flex', alignItems: 'center' }}>
+        <Ul xs={{ margin: 0, padding: 0 }}>
           {items.map((item) => (
             <Link key={item.name} to={item.link}>
               <Li
