@@ -84,6 +84,28 @@ export function useNavigationDataObject() {
     path: 'https://docs.onekey.so/',
   };
 
+  const forBusiness = {
+    name: 'For Business',
+    key: 'for-business',
+    subItems: [
+      {
+        name: 'Enterprise Solutions',
+        key: 'enterprise-solutions',
+        path: '/enterprise',
+      },
+      {
+        name: 'Referral',
+        key: 'referral',
+        path: '/affiliate-program',
+      },
+      {
+        name: 'Co-branded products',
+        key: 'co-branded-products',
+        path: '/co-branded-partnership',
+      },
+    ],
+  };
+
   const helpCenter = {
     name: 'Help Center',
     key: 'help-center',
@@ -106,6 +128,16 @@ export function useNavigationDataObject() {
     key: 'shop',
     subItems: [
       {
+        name: 'Amazon (Global)',
+        key: 'amazon-Global',
+        path: 'https://www.amazon.com/dp/B0B2MWW2WJ',
+      },
+      {
+        name: 'Amazon (Japan)',
+        key: 'amazon-Japan',
+        path: 'https://www.amazon.co.jp/dp/B0B2MWW2WJ',
+      },
+      {
         name: 'YouZan',
         key: 'youzan',
         path: 'https://j.youzan.com/dZTtS2',
@@ -124,6 +156,7 @@ export function useNavigationDataObject() {
     services,
     security,
     forDeveloper,
+    forBusiness,
     helpCenter,
     shop,
   };
@@ -138,6 +171,7 @@ export function useNavigationData(): NavigationDataItem[] {
     object.services,
     object.security,
     object.forDeveloper,
+    object.forBusiness,
     object.helpCenter,
     object.shop,
   ];

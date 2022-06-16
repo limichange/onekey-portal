@@ -28,7 +28,6 @@ export const MobileContent: React.FC<MobileContentProps> = (props) => {
           gap: 32,
           flexDirection: 'column',
           justifyContent: 'center',
-          overflow: 'hidden',
         }}
       >
         <Title text={mobile.pageTitle} />
@@ -38,7 +37,7 @@ export const MobileContent: React.FC<MobileContentProps> = (props) => {
             icon={ios.icon}
             text={ios.name}
             url={ios.url}
-            information={ios.description}
+            information={ios.description.split('<br/>')}
           />
 
           <AndroidDownloadButton />

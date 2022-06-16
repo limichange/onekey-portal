@@ -1,8 +1,16 @@
-import React, { ReactNode } from 'react';
+import React, { Fragment, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { ArrowRightIcon, Box, Button, CheckIcon, Flex, Span } from '../../base';
+import {
+  ArrowRightIcon,
+  Box,
+  Button,
+  CheckIcon,
+  Flex,
+  Link,
+  Span,
+} from '../../base';
 
 export interface FeatureInformationCardProps {
   children?: ReactNode;
@@ -32,6 +40,8 @@ export const FeatureInformationCard: React.FC<FeatureInformationCardProps> = (
         borderStyle: 'solid',
         borderColor: theme.colors.test200,
         transition: theme.transitions.allEaseOut,
+      }}
+      m={{
         ':hover': {
           transform: 'translateY(-40px)',
           boxShadow: '0px 24px 48px rgba(0, 0, 0, 0.08)',
@@ -66,10 +76,10 @@ export const FeatureInformationCard: React.FC<FeatureInformationCardProps> = (
               const isLast = index === descriptions.length - 1;
 
               return (
-                <>
+                <Fragment key={description}>
                   <Span>{description}</Span>
                   {!isLast && <br />}
-                </>
+                </Fragment>
               );
             })}
           </Flex>
@@ -80,7 +90,7 @@ export const FeatureInformationCard: React.FC<FeatureInformationCardProps> = (
             xs={{ flexDirection: 'column', gap: 16, ...theme.text.medium400 }}
           >
             {points.map((point) => (
-              <Flex>
+              <Flex key={point}>
                 <Box
                   xs={{
                     color: theme.colors.brandAlt400,
@@ -97,13 +107,15 @@ export const FeatureInformationCard: React.FC<FeatureInformationCardProps> = (
 
         {button && (
           <Box xs={{ flex: 1, display: 'flex', alignItems: 'flex-end' }}>
-            <Button
-              size="large"
-              fillWidth
-              rightIcon={<ArrowRightIcon width={24} height={24} />}
-            >
-              {button.text}
-            </Button>
+            <Link css={{ width: '100%' }} to={button.link}>
+              <Button
+                size="large"
+                fillWidth
+                rightIcon={<ArrowRightIcon width={24} height={24} />}
+              >
+                {button.text}
+              </Button>
+            </Link>
           </Box>
         )}
       </Flex>
