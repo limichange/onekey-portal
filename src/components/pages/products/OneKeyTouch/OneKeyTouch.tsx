@@ -3,9 +3,18 @@ import { FC, ReactNode } from 'react';
 import { Helmet } from 'react-helmet';
 
 import { Box, Main } from '../../../base';
-import { Navigation, PageFooter } from '../../../common';
+import {
+  Navigation,
+  PageFooter,
+  StayInTouchWidthContainerAndPadding,
+} from '../../../common';
+import { FeatureSection } from '../components/FeatureSection';
+import { IntroductionSection } from '../components/IntroductionSection';
+import { MultiChainSupportSection } from '../components/MultiChainSupportSection';
+import { ProductInformation } from '../components/ProductInformation';
+import { TechnicalSpecificationsSection } from '../components/TechnicalSpecificationsSection';
 
-import { useOnekeyTouchData } from './useOneKeyTouchData';
+import { useOneKeyTouchData } from './useOneKeyTouchData';
 
 export interface OneKeyTouchProps {
   children?: ReactNode;
@@ -13,7 +22,7 @@ export interface OneKeyTouchProps {
 
 export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
   const { children } = props;
-  const onekeyTouchData = useOnekeyTouchData();
+  const onekeyTouchData = useOneKeyTouchData();
 
   return (
     <Box>
@@ -24,19 +33,21 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
       <Navigation />
 
       <Main>
-        {/* <ProductInformation />
+        <ProductInformation {...onekeyTouchData.productInformationData} />
 
-        <IntroductionSection />
+        <IntroductionSection items={onekeyTouchData.imageIntroduction} />
 
-        <FeatureSection />
+        <FeatureSection {...onekeyTouchData.feature} />
 
         <MultiChainSupportSection />
 
-        <TechnicalSpecificationsSection />
+        <TechnicalSpecificationsSection
+          {...onekeyTouchData.technicalSpecifications}
+        />
 
-        <RecommendSection />
+        <StayInTouchWidthContainerAndPadding />
 
-        <StayInTouchWidthContainerAndPadding /> */}
+        {/* <RecommendSection /> */}
       </Main>
 
       <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
