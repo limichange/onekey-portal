@@ -1,18 +1,25 @@
 import { StaticImage } from 'gatsby-plugin-image';
 
-import { useNavigationDataObject } from '../../../../common/Navigation/useNavigationData';
+import { filterShops, useOneKeyProduct } from '../../../../../data';
+import { ProductInformationProps } from '../../components/ProductInformation';
 
-export function useProductInformationData() {
-  const { shop } = useNavigationDataObject();
+export function useProductInformationData(): ProductInformationProps {
+  const { lite } = useOneKeyProduct();
 
   return {
-    shops: shop.subItems,
-    name: 'OneKey Lite',
+    status: lite.status,
+    shops: filterShops([
+      lite.shops.amazonGlobal,
+      lite.shops.amazonJapan,
+      lite.shops.youzan,
+      lite.shops.shopify,
+    ]),
+    name: lite.name,
     slogan: 'Recovery Phrase Backup Card',
     description: 'A higher definition of private key cold storage.',
     price: {
-      value: 19.99,
-      formatted: '$19.99',
+      value: lite.price,
+      formatted: lite.formattedPrice,
     },
     shopProductId: '41263919366306',
     gallery: [
