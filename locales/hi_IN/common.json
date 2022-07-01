@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "जल्द आ रहा है",
     "action__free_download": "मुफ्त डाउनलोड",
     "action__go_to_shop": "दुकान में जाओ",
     "action__launch_app": "ऐप लांच करें",
     "action__learn_more": "और अधिक जानें",
+    "action__subscribe": "सदस्यता लेने के",
     "app__copyright": "2022 OneKey, Inc. सर्वाधिकार सुरक्षित।",
     "coin__bitcoin": "Bitcoin",
     "coin__dash": "थोड़ा सा",
     "coin__dogecoin": "डॉगकॉइन",
     "coin__ethereum": "Ethereum",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "बिल्कुल नया डिज़ाइन, सुरक्षित चिप सुपरचार्ज्ड, सुंदर और सच्चे रंग का डिस्प्ले।",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "बायोमेट्रिक तकनीक, ऑप्टिकल एन्क्रिप्शन, प्रो जाने के कई कारण।",
+    "content__mini_sized_safety_without_compromise": "मिनी आकार, समझौता किए बिना सुरक्षा।",
+    "form__email_subscribe_information": "हमारी सूचनाओं की सदस्यता लें (गोपनीयता के कारण, आप जिस ईमेल का उपयोग OneKey खरीदने के लिए करते हैं, उससे भिन्न ईमेल का उपयोग करें। हम समय-समय पर उन आदेश जानकारी को भी हटाते हैं)",
+    "form__enter_your_email": "अपना ईमेल दर्ज करें",
+    "form__please_enter_an_email_address": "कृपया अपना ईमेल एड्रेस डालें।",
     "menu__advertising": "विज्ञापन देना",
     "menu__amazon_global": "अमेज़ॅन (वैश्विक)",
     "menu__amazon_japan": "अमेज़न (जापान)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "उपयोगकर्ता का समझौता",
     "menu__venture_capital": "उद्यम पूंजी",
     "menu__youzan": "YouZan",
-    "title__hiring": "हम टीम में शामिल होने के लिए स्व-प्रेरित लोगों को काम पर रख रहे हैं।",
-    "title__home_hero_1": "ऑल - इन - वन\\n क्रिप्टो वॉलेट।",
-    "title__home_hero_2": "विश्वस्त\\n लाखों द्वारा।",
-    "title__trustpilot_score_and_review": "ट्रस्टपायलट स्कोर और समीक्षा"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "संपर्क में रहना",
+    "title__subscribe_to_our_notifications": "हमारे नोटिफिकेशन को सब्सक्राइब करें"
 }

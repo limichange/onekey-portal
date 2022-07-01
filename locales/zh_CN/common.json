@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "快来了",
     "action__free_download": "免费下载",
     "action__go_to_shop": "去商店",
     "action__launch_app": "启动应用程序",
     "action__learn_more": "学到更多",
+    "action__subscribe": "订阅",
     "app__copyright": "2022 OneKey, Inc. 保留所有权利。",
     "coin__bitcoin": "比特币",
     "coin__dash": "短跑",
     "coin__dogecoin": "狗狗币",
     "coin__ethereum": "以太坊",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "全新设计，安全芯片增压，靓丽真彩显示。",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "生物识别技术、光学加密，有很多选择 Pro 的理由。",
+    "content__mini_sized_safety_without_compromise": "迷你尺寸，安全性毫不妥协。",
+    "form__email_subscribe_information": "订阅我们的通知（出于隐私原因，请使用与您购买时使用的电子邮件不同的电子邮件OneKey 。我们还会定期删除这些订单信息）",
+    "form__enter_your_email": "输入你的电子邮箱",
+    "form__please_enter_an_email_address": "请输入电子邮件地址。",
     "menu__advertising": "广告",
     "menu__amazon_global": "亚马逊（全球）",
     "menu__amazon_japan": "亚马逊（日本）",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "用户协议",
     "menu__venture_capital": "风险投资",
     "menu__youzan": "有赞",
-    "title__hiring": "我们正在招聘有上进心的人加入团队。",
-    "title__home_hero_1": "一体\\n加密钱包。",
-    "title__home_hero_2": "值得信赖\\n以百万计。",
-    "title__trustpilot_score_and_review": "Trustpilot 评分和评论"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "保持联系",
+    "title__subscribe_to_our_notifications": "订阅我们的通知"
 }

@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "malapit na",
     "action__free_download": "Libreng pag-download",
     "action__go_to_shop": "Pumunta sa Shop",
     "action__launch_app": "Ilunsad ang App",
     "action__learn_more": "Matuto pa",
+    "action__subscribe": "Mag-subscribe",
     "app__copyright": "2022 OneKey, Inc. Nakalaan ang lahat ng karapatan.",
     "coin__bitcoin": "Bitcoin",
     "coin__dash": "Dash",
     "coin__dogecoin": "Dogecoin",
     "coin__ethereum": "Ethereum",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "Bagong disenyo, secure na chip supercharged, maganda at totoong kulay na display.",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "Biometric tech, optical encryption, napakaraming dahilan para maging Pro.",
+    "content__mini_sized_safety_without_compromise": "Mini sized, kaligtasan nang walang kompromiso.",
+    "form__email_subscribe_information": "Mag-subscribe sa aming mga notification (para sa kadahilanang privacy, gumamit ng ibang email kaysa sa ginagamit mo sa pagbili ng OneKey . pana-panahon din naming tinatanggal ang impormasyon ng order na iyon)",
+    "form__enter_your_email": "Ilagay ang iyong email",
+    "form__please_enter_an_email_address": "Mangyaring magpasok ng email address.",
     "menu__advertising": "Advertising",
     "menu__amazon_global": "Amazon (Global)",
     "menu__amazon_japan": "Amazon (Japan)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "Kasunduan ng User",
     "menu__venture_capital": "Puhunan",
     "menu__youzan": "YouZan",
-    "title__hiring": "Nag-hire kami ng mga self-motivated na tao para sumali sa team.",
-    "title__home_hero_1": "Lahat sa isa\\n crypto wallet.",
-    "title__home_hero_2": "Pinagkakatiwalaan\\n ng milyun-milyon.",
-    "title__trustpilot_score_and_review": "Trustpilot score at pagsusuri"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "Manatiling nakikipag-ugnayan",
+    "title__subscribe_to_our_notifications": "Mag-subscribe sa aming mga notification"
 }

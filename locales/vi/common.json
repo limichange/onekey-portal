@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "Sắp có",
     "action__free_download": "Tải xuống miễn phí",
     "action__go_to_shop": "Đi đến cửa hàng",
     "action__launch_app": "Chạy chương trình",
     "action__learn_more": "Tìm hiểu thêm",
+    "action__subscribe": "Đặt mua",
     "app__copyright": "2022 OneKey, Inc. Mọi quyền được bảo lưu.",
     "coin__bitcoin": "Bitcoin",
     "coin__dash": "Dấu gạch ngang",
     "coin__dogecoin": "Dogecoin",
     "coin__ethereum": "Ethereum",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "Thiết kế hoàn toàn mới, chip siêu nạp an toàn, màu sắc hiển thị đẹp và trung thực.",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "Công nghệ sinh trắc học, mã hóa quang học, rất nhiều lý do để trở thành Pro.",
+    "content__mini_sized_safety_without_compromise": "Kích thước nhỏ, an toàn mà không thỏa hiệp.",
+    "form__email_subscribe_information": "Đăng ký nhận thông báo của chúng tôi (vì lý do bảo mật, hãy sử dụng email khác với email bạn sử dụng để mua hàng OneKey . Chúng tôi cũng định kỳ xóa các thông tin đặt hàng đó)",
+    "form__enter_your_email": "Nhập email của bạn",
+    "form__please_enter_an_email_address": "Vui lòng nhập một địa chỉ email.",
     "menu__advertising": "Quảng cáo",
     "menu__amazon_global": "Amazon (Toàn cầu)",
     "menu__amazon_japan": "Amazon (Nhật Bản)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "sự thỏa thuận của người dùng",
     "menu__venture_capital": "Đầu tư mạo hiểm",
     "menu__youzan": "YouZan",
-    "title__hiring": "Chúng tôi đang thuê những người năng động để tham gia vào nhóm.",
-    "title__home_hero_1": "Tất cả hợp lại thành một\\n ví tiền điện tử.",
-    "title__home_hero_2": "Đáng tin cậy\\n bởi hàng triệu.",
-    "title__trustpilot_score_and_review": "Điểm và đánh giá Trustpilot"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "Giữ liên lạc",
+    "title__subscribe_to_our_notifications": "Đăng ký nhận thông báo của chúng tôi"
 }

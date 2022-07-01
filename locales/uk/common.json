@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "незабаром",
     "action__free_download": "Безкоштовне завантаження",
     "action__go_to_shop": "Перейти до магазину",
     "action__launch_app": "Запустіть додаток",
     "action__learn_more": "Вивчайте більше",
+    "action__subscribe": "Підписатися",
     "app__copyright": "2022 OneKey, Inc. Усі права захищено.",
     "coin__bitcoin": "біткойн",
     "coin__dash": "тире",
     "coin__dogecoin": "Dogecoin",
     "coin__ethereum": "Ethereum",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "Абсолютно новий дизайн, безпечний чіп із наддувом, красивий кольоровий дисплей.",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "Біометричні технології, оптичне шифрування, так багато причин стати професіоналом.",
+    "content__mini_sized_safety_without_compromise": "Міні розміри, безпека без компромісів.",
+    "form__email_subscribe_information": "Підпишіться на наші сповіщення (з міркувань конфіденційності використовуйте іншу електронну адресу, ніж та, яку ви використовуєте для покупки OneKey . Ми також періодично видаляємо цю інформацію про замовлення)",
+    "form__enter_your_email": "Введіть свою електронну адресу",
+    "form__please_enter_an_email_address": "Будь ласка, введіть адресу електронної пошти.",
     "menu__advertising": "Реклама",
     "menu__amazon_global": "Amazon (глобальний)",
     "menu__amazon_japan": "Amazon (Японія)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "Угода користувача",
     "menu__venture_capital": "Венчурний капітал",
     "menu__youzan": "YouZan",
-    "title__hiring": "Ми наймаємо мотивованих людей, щоб приєднатися до команди.",
-    "title__home_hero_1": "Все в одному\\n крипто гаманець.",
-    "title__home_hero_2": "Довірений\\n на мільйони.",
-    "title__trustpilot_score_and_review": "Оцінка та огляд Trustpilot"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "Будь на зв'язку",
+    "title__subscribe_to_our_notifications": "Підпишіться на наші сповіщення"
 }

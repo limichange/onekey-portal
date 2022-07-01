@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "เร็วๆ นี้",
     "action__free_download": "ดาวน์โหลดฟรี",
     "action__go_to_shop": "ไปที่ร้านค้า",
     "action__launch_app": "เปิดแอป",
     "action__learn_more": "เรียนรู้เพิ่มเติม",
+    "action__subscribe": "ติดตาม",
     "app__copyright": "2022 OneKey, Inc. สงวนลิขสิทธิ์",
     "coin__bitcoin": "Bitcoin",
     "coin__dash": "Dash",
     "coin__dogecoin": "Dogecoin",
     "coin__ethereum": "Ethereum",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "ดีไซน์ใหม่ทั้งหมด ชิพซูเปอร์ชาร์จที่ปลอดภัย หน้าจอสีสวยงามและสมจริง",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "เทคโนโลยีไบโอเมตริกซ์ การเข้ารหัสด้วยแสง เหตุผลมากมายที่ควรใช้ Pro",
+    "content__mini_sized_safety_without_compromise": "ขนาดเล็ก ปลอดภัยไร้ที่ติ",
+    "form__email_subscribe_information": "สมัครรับการแจ้งเตือนของเรา (เพื่อความเป็นส่วนตัว โปรดใช้อีเมลอื่นที่ไม่ใช่อีเมลที่คุณใช้ซื้อ OneKey เรายังลบข้อมูลคำสั่งซื้อเหล่านั้นเป็นระยะ)",
+    "form__enter_your_email": "กรอกอีเมล์ของคุณ",
+    "form__please_enter_an_email_address": "กรุณาใส่ที่อยู่อีเมล.",
     "menu__advertising": "การโฆษณา",
     "menu__amazon_global": "อเมซอน (ทั่วโลก)",
     "menu__amazon_japan": "อเมซอน (ญี่ปุ่น)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "ข้อตกลงการใช้",
     "menu__venture_capital": "กลุ่มทุน",
     "menu__youzan": "ยูซาน",
-    "title__hiring": "เรากำลังจ้างคนที่มีแรงจูงใจในตนเองให้เข้าร่วมทีม",
-    "title__home_hero_1": "ทั้งหมดในอย่างเดียว\\n กระเป๋าเงินเข้ารหัส",
-    "title__home_hero_2": "ที่เชื่อถือ\\n โดยล้าน",
-    "title__trustpilot_score_and_review": "คะแนน Trustpilot & รีวิว"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "อยู่ในการติดต่อ",
+    "title__subscribe_to_our_notifications": "สมัครรับการแจ้งเตือนของเรา"
 }

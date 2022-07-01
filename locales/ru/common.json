@@ -1,13 +1,21 @@
 {
+    "action__coming_soon": "вскоре",
     "action__free_download": "Скачать бесплатно",
     "action__go_to_shop": "Идти в магазин",
     "action__launch_app": "Запустить приложение",
     "action__learn_more": "Учить больше",
+    "action__subscribe": "Подписывайся",
     "app__copyright": "2022 OneKey, Inc. Все права защищены.",
     "coin__bitcoin": "Биткойн",
     "coin__dash": "Бросаться",
     "coin__dogecoin": "Догикойн",
     "coin__ethereum": "Эфириум",
+    "content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display": "Абсолютно новый дизайн, защищенный чип с наддувом, красивый и реалистичный цветной дисплей.",
+    "content__biometric_tech__optical_encryption__so_many_reasons_to_go_pro": "Биометрические технологии, оптическое шифрование — так много причин, чтобы стать профессионалом.",
+    "content__mini_sized_safety_without_compromise": "Миниатюрный размер, безопасность без компромиссов.",
+    "form__email_subscribe_information": "Подпишитесь на наши уведомления (из соображений конфиденциальности используйте другой адрес электронной почты, отличный от того, который вы использовали для покупки OneKey . Мы также периодически удаляем эту информацию о заказе)",
+    "form__enter_your_email": "Введите адрес электронной почты",
+    "form__please_enter_an_email_address": "Пожалуйста, введите свой адрес электронной почты.",
     "menu__advertising": "Реклама",
     "menu__amazon_global": "Амазонка (глобальная)",
     "menu__amazon_japan": "Амазонка (Япония)",
@@ -55,8 +63,7 @@
     "menu__user_agreement": "Пользовательское Соглашение",
     "menu__venture_capital": "Венчурный капитал",
     "menu__youzan": "Юзан",
-    "title__hiring": "Мы набираем в команду целеустремленных людей.",
-    "title__home_hero_1": "Все в одном\\n крипто кошелек.",
-    "title__home_hero_2": "Доверенный\\n миллионами.",
-    "title__trustpilot_score_and_review": "Оценка и обзор Trustpilot"
+    "onekey": "OneKey",
+    "title__stay_in_touch": "Оставайтесь на связи",
+    "title__subscribe_to_our_notifications": "Подпишитесь на наши уведомления"
 }

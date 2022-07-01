@@ -2,16 +2,16 @@ import React from 'react';
 
 import { useTheme } from '@emotion/react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { useMediaQuery } from '../../../../../hooks';
-import { Box, Container, Section } from '../../../../base';
+import { Box, Container, I18n, Section } from '../../../../base';
 
 import { itemVariants, variants } from './animationVariants';
 import { OneKey } from './OneKey';
 
 export const Slogan: React.FC = () => {
   const theme = useTheme();
-  const media = useMediaQuery();
+  const { t } = useTranslation();
 
   return (
     <Section
@@ -26,23 +26,17 @@ export const Slogan: React.FC = () => {
     >
       <Container>
         <Box
-          xs={{
-            ...theme.text.medium700,
+          css={{
             color: theme.colors.test500,
           }}
+          xs={theme.text.medium700}
           m={{
             textAlign: 'center',
             ...theme.text.medium900,
           }}
-          l={{
-            ...theme.text.medium900,
-          }}
-          xl={{
-            ...theme.text.medium1000,
-          }}
-          xxl={{
-            ...theme.text.medium1100,
-          }}
+          l={theme.text.medium900}
+          xl={theme.text.medium1000}
+          xxl={theme.text.medium1100}
         >
           <motion.p
             viewport={{ once: true, amount: 'all' }}
@@ -50,18 +44,14 @@ export const Slogan: React.FC = () => {
             whileInView="open"
             initial="closed"
           >
-            {media.medium ? (
-              <motion.span variants={itemVariants}>
-                <OneKey /> is the smartest way
-                <br /> to secure, buy, exchange and <br />
-                grow your crypto assets.
-              </motion.span>
-            ) : (
-              <motion.span variants={itemVariants}>
-                <OneKey /> is the smartest way to secure, buy, exchange and grow
-                your crypto assets.
-              </motion.span>
-            )}
+            <motion.span variants={itemVariants}>
+              <OneKey />{' '}
+              <I18n
+                singleLine={['xs', 's']}
+                multiLine={['m', 'l', 'xl', 'xxl']}
+                text={t('title__home_slogan').replace('OneKey', '')}
+              />
+            </motion.span>
           </motion.p>
         </Box>
       </Container>
