@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { Li, Ul } from '../../../base/Box';
+import { Box, Li, Ul } from '../../../base/Box';
 import { Container } from '../../../base/Container';
 import { Link } from '../../../base/Link';
 import { Logo } from '../../../base/Logo';
@@ -10,6 +10,7 @@ import { DownloadButton } from '../../DownloadButton';
 import { NavigationAnimationWrap } from '../NavigationAnimationWrap';
 import { useNavigationDataObject } from '../useNavigationData';
 
+import { LanguageSwitchButton } from './LanguageSwitchButton';
 import { NavigationItem } from './NavigationItem';
 import { ProductPanel } from './ProductPanel';
 import { ServicesPanel } from './ServicesPanel';
@@ -76,16 +77,11 @@ export const NormalNavigation: React.FC<NormalNavigationProps> = () => {
               <NavigationItem {...item} />
             </Li>
           ))}
-
-          {/* <Box css={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-              <img
-                alt="language select icon"
-                src={languageSelectIcon}
-                css={{ width: 24, height: 24 }}
-              />
-              <NavigationItem>EN</NavigationItem>
-            </Box> */}
         </Ul>
+
+        <Box xs={{ paddingLeft: 32, paddingRight: 32 }}>
+          <LanguageSwitchButton />
+        </Box>
 
         <DownloadButton
           override={{
