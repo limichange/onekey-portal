@@ -2,14 +2,18 @@ import { FC, ReactNode } from 'react';
 
 import { Helmet } from 'react-helmet';
 
-import { Box, Main } from '../../../base';
+import { Box, Main, OnlyDisplay } from '../../../base';
 import {
   Navigation,
   PageFooter,
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
 import { FeatureSection } from '../components/FeatureSection';
+import { FullscreenScrollAnimation } from '../components/FullscreenScrollAnimation';
 import { IntroductionSection } from '../components/IntroductionSection';
+import { ImageIntroduction } from '../components/IntroductionSection/ImageIntroduction';
+import { IntroductionContainer } from '../components/IntroductionSection/IntroductionContainer';
+import { IntroductionSectionTitle } from '../components/IntroductionSection/IntroductionSectionTitle';
 import { MultiChainSupportSection } from '../components/MultiChainSupportSection';
 import { ProductInformation } from '../components/ProductInformation';
 import { RecommendSection } from '../components/RecommendSection';
@@ -36,10 +40,24 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
       <Main>
         <ProductInformation {...onekeyTouchData.productInformationData} />
 
-        <IntroductionSection
-          name={onekeyTouchData.productInformationData.name}
-          items={onekeyTouchData.imageIntroduction}
-        />
+        <IntroductionSection>
+          <IntroductionSectionTitle
+            name={onekeyTouchData.productInformationData.name}
+          />
+
+          <OnlyDisplay xs s>
+            <IntroductionContainer>
+              <ImageIntroduction items={onekeyTouchData.imageIntroduction} />
+            </IntroductionContainer>
+          </OnlyDisplay>
+
+          <OnlyDisplay m l xl xxl>
+            <FullscreenScrollAnimation
+              backgroundColor="#0D1013"
+              items={onekeyTouchData.imageIntroduction}
+            />
+          </OnlyDisplay>
+        </IntroductionSection>
 
         <FeatureSection {...onekeyTouchData.feature} />
 

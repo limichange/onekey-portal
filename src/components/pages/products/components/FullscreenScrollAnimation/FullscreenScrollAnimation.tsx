@@ -1,34 +1,44 @@
 import { FC, ReactNode } from 'react';
 
-import { useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import {
   useElementInViewportProgress,
-  useWindowSize,
+  usePositionAnimation,
 } from '../../../../../hooks';
-import { staticAssetPrefix } from '../../../../../utils';
-import { Box, CanvasPlayer } from '../../../../base';
+import { mergeRefs } from '../../../../../utils';
+import { Box } from '../../../../base';
+
+import { Player, PlayerProps } from './Player';
 
 export interface FullscreenScrollAnimationProps {
   children?: ReactNode;
+  backgroundColor: string;
+  items: PlayerProps['items'];
 }
-
-const images = [
-  ...new Array(60)
-    .fill(0)
-    .map((_, i) =>
-      staticAssetPrefix(`/hardware-mini-features/onekey-mini-features${i}.jpg`),
-    ),
-];
 
 export const FullscreenScrollAnimation: FC<FullscreenScrollAnimationProps> = (
   props,
 ) => {
-  const { children } = props;
-  const { height: windowHeight = 1, width: windowWidth = 1 } = useWindowSize();
-  const { ref, elementInViewportProgress } = useElementInViewportProgress(0);
+  const { children, items, backgroundColor } = props;
 
-  const motionValue = useTransform(elementInViewportProgress, [0, 2], [0, 59]);
+  const { ref, elementInViewportProgress } = useElementInViewportProgress(0);
+  const { ref: paddingRef, motionValue: paddingMotionValue } =
+    usePositionAnimation({
+      from: 60,
+      to: 0,
+    });
+  const { ref: borderRadiusRef, motionValue: borderRadiusMotionValue } =
+    usePositionAnimation({
+      from: 40,
+      to: 0,
+    });
+
+  const containerRef = mergeRefs(borderRadiusRef, paddingRef);
+  const allImages = items.reduce(
+    (acc: string[], item) => acc.concat(item.frames),
+    [],
+  );
 
   return (
     <Box>
@@ -36,26 +46,50 @@ export const FullscreenScrollAnimation: FC<FullscreenScrollAnimationProps> = (
 
       <Box
         css={{
-          height: '00%',
+          height: `${allImages.length * 6}vh`,
           position: 'relative',
+          zIndex: 9999,
         }}
       >
         <Box
           css={{
-            bottom: 0,
+            top: 0,
             position: 'sticky',
-            width: '100vw',
-            height: '100vh',
-            borderRadius: 24,
-            overflow: 'hidden',
           }}
         >
-          <CanvasPlayer
-            width={windowWidth}
-            height={windowHeight}
-            images={images}
-            frame={parseInt(motionValue.get().toFixed(0))}
-          />
+          <Box
+            xs={{
+              width: '100%',
+              height: '100vh',
+              overflow: 'hidden',
+              '& canvas': {
+                background: backgroundColor,
+                display: 'block',
+              },
+            }}
+          >
+            <motion.div
+              ref={containerRef}
+              style={{
+                paddingLeft: paddingMotionValue,
+                paddingRight: paddingMotionValue,
+              }}
+            >
+              <motion.div
+                style={{
+                  overflow: 'hidden',
+                  transform: `translate3d(0,0,0)`,
+                  borderRadius: borderRadiusMotionValue,
+                }}
+              >
+                <Player
+                  backgroundColor={backgroundColor}
+                  items={items}
+                  elementInViewportProgress={elementInViewportProgress}
+                />
+              </motion.div>
+            </motion.div>
+          </Box>
         </Box>
       </Box>
       {children}

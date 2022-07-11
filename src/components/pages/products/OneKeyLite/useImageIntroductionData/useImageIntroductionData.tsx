@@ -13,11 +13,9 @@ export function useImageIntroductionData() {
     {
       name: splitMultiline(name1),
       description: ``,
+      video: '/video/onekey-lite-feature-01.mp4',
       images: {
         s: <StaticImage src="./images/small/hardware0.jpg" alt={name1} />,
-        m: <StaticImage src="./images/large/hardware0.jpg" alt={name1} />,
-        l: <StaticImage src="./images/large/hardware0.jpg" alt={name1} />,
-        xl: <StaticImage src="./images/large/hardware0.jpg" alt={name1} />,
       },
     },
     {

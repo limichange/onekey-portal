@@ -1,6 +1,6 @@
-import { FC, ReactNode } from 'react';
+import { FC, Fragment, ReactNode } from 'react';
 
-import { Box, Flex, OnlyDisplay } from '../../../../../base';
+import { Box, Flex, OnlyDisplay, VideoPlayer } from '../../../../../base';
 import { IntroductionText } from '../IntroductionText';
 
 export interface ImageIntroductionProps {
@@ -8,11 +8,12 @@ export interface ImageIntroductionProps {
   items: {
     name: string | string[];
     description: string;
+    video?: string;
     images: {
-      s: ReactNode;
-      m: ReactNode;
-      l: ReactNode;
-      xl: ReactNode;
+      s?: ReactNode;
+      m?: ReactNode;
+      l?: ReactNode;
+      xl?: ReactNode;
     };
   }[];
 }
@@ -31,14 +32,34 @@ export const ImageIntroduction: FC<ImageIntroductionProps> = (props) => {
               transform: 'translateZ(0)',
             }}
           >
-            <OnlyDisplay xs>{item.images.s}</OnlyDisplay>
-            <OnlyDisplay s>{item.images.m}</OnlyDisplay>
-            <OnlyDisplay m l>
-              {item.images.l}
-            </OnlyDisplay>
-            <OnlyDisplay xl xxl>
-              {item.images.xl}
-            </OnlyDisplay>
+            {item.video && (
+              <Fragment key={item.description}>
+                <OnlyDisplay xs>{item.images.s}</OnlyDisplay>
+
+                <OnlyDisplay s m l xl xxl>
+                  <VideoPlayer
+                    style={{
+                      width: '100%',
+                    }}
+                    loop
+                    src={item.video}
+                  />
+                </OnlyDisplay>
+              </Fragment>
+            )}
+
+            {!item.video && (
+              <Fragment key={item.description}>
+                <OnlyDisplay xs>{item.images.s}</OnlyDisplay>
+                <OnlyDisplay s>{item.images.m}</OnlyDisplay>
+                <OnlyDisplay m l>
+                  {item.images.l}
+                </OnlyDisplay>
+                <OnlyDisplay xl xxl>
+                  {item.images.xl}
+                </OnlyDisplay>
+              </Fragment>
+            )}
           </Box>
           <Box
             xs={{
