@@ -40,38 +40,27 @@ export const Item: FC<ItemProps> = (props) => {
         <Flex
           {...hoverProps}
           css={{
-            opacity: status === 'coming-soon' ? 0.5 : 1,
+            cursor: status === 'coming-soon' ? 'not-allowed' : 'none',
+            opacity: status === 'coming-soon' ? 0.6 : 1,
             flexDirection: 'column',
             gap: 24,
           }}
         >
           <Box
             xs={{
-              position: 'relative',
               margin: '0 auto',
               width: '100%',
               height: 384,
               maxWidth: 310,
+              backgroundImage: `url(${image})`,
+              backgroundSize: 'auto 100%',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
             }}
           >
-            <Box
-              xs={{
-                position: 'relative',
-                width: '100%',
-                height: '100%',
-                backgroundImage: `url(${image})`,
-                backgroundSize: 'auto 100%',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
-                opacity: showProductImage ? 0 : 1,
-                transition: theme.transitions.allEaseOut,
-              }}
-            />
             {hoverImage && (
               <Box
                 xs={{
-                  position: 'absolute',
-                  top: 0,
                   width: '100%',
                   height: '100%',
                   backgroundImage: `url(${hoverImage})`,
@@ -92,12 +81,18 @@ export const Item: FC<ItemProps> = (props) => {
                 backgroundColor: theme.colors.test300,
               }}
             />
-            <Flex css={{ flexDirection: 'column', gap: 8 }}>
+            <Flex
+              css={{
+                flexDirection: 'column',
+                gap: 8,
+                transition: theme.transitions.allEaseOut,
+                color: isHovered ? theme.colors.white : theme.colors.test300,
+              }}
+            >
               <Flex
                 xs={{
                   alignItems: 'center',
                   ...theme.text.medium500,
-                  color: theme.colors.white,
                 }}
                 m={{ ...theme.text.medium600 }}
               >
@@ -112,9 +107,7 @@ export const Item: FC<ItemProps> = (props) => {
                 xs={{
                   ...theme.text.normal200,
                   transition: theme.transitions.allEaseOut,
-                  color: isHovered
-                    ? theme.colors.white
-                    : theme.background.test300,
+                  color: isHovered ? theme.colors.white : theme.colors.test300,
                 }}
                 m={{
                   ...theme.text.normal300,
