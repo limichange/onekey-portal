@@ -6,14 +6,15 @@ import { useHover } from '../../../../../hooks';
 import { Box } from '../../../../base/Box';
 import { Container } from '../../../../base/Container';
 import { Flex } from '../../../../base/Flex';
+import { useCurrentActiveMenuItem } from '../atom';
+import { PanelComponentProps } from '../NavigationItem';
 
 import { LeftArea } from './LeftArea';
 import { RightArea } from './RightArea';
 import { useProductPanel } from './useProductPanel';
 
-export interface ProductPanelProps {
+export interface ProductPanelProps extends PanelComponentProps {
   children?: ReactNode;
-  isActive: boolean;
 }
 
 const container = {
@@ -37,11 +38,15 @@ const container = {
 
 export const ProductPanel: FC<ProductPanelProps> = (props) => {
   const { children, isActive } = props;
+  const [currentActiveMenuItem, setCurrentActiveMenuItem] =
+    useCurrentActiveMenuItem();
   const { currentProductBackgroundColor } = useProductPanel();
-  const { hoverProps, isHovered } = useHover({ timeout: 100 });
   const [cursorVariant, setCursorVariant] = useState('hidden');
   const { hoverProps: RightAreaHoverProps, isHovered: isRightAreaHovered } =
     useHover({ timeout: 100 });
+  const { hoverProps, isHovered } = useHover({
+    onHoverEnd: () => setCurrentActiveMenuItem(''),
+  });
 
   const background = useMemo(
     () =>
@@ -52,12 +57,12 @@ export const ProductPanel: FC<ProductPanelProps> = (props) => {
   );
 
   useEffect(() => {
-    if (isHovered || isActive) {
+    if (currentActiveMenuItem === 'products' || isHovered || isActive) {
       setCursorVariant('visible');
     } else {
       setCursorVariant('hidden');
     }
-  }, [isHovered, isActive]);
+  }, [currentActiveMenuItem, isHovered, isActive]);
 
   return (
     <motion.div
@@ -67,6 +72,7 @@ export const ProductPanel: FC<ProductPanelProps> = (props) => {
       style={{
         width: '100%',
         overflow: 'hidden',
+        zIndex: 10,
       }}
     >
       <Box {...hoverProps} xs={{ background }}>

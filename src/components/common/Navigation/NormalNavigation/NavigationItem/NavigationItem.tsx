@@ -10,21 +10,28 @@ import { MenuItem, MenuItems } from '../../../../base';
 import { Box } from '../../../../base/Box';
 import { Link } from '../../../../base/Link';
 import { NavigationDataItem } from '../../useNavigationData';
+import { useCurrentActiveMenuItem } from '../atom';
+
+export type PanelComponentProps = {
+  isActive: boolean;
+  subItems: NavigationDataItem['subItems'];
+};
 
 export interface NavigationItemProps extends NavigationDataItem {
   children?: ReactNode;
-  panelComponent?: FC<{
-    isActive: boolean;
-    subItems: NavigationDataItem['subItems'];
-  }>;
+  panelComponent?: FC<PanelComponentProps>;
+  itemKey: string;
 }
 
 export const NavigationItem: FC<NavigationItemProps> = (props) => {
-  const { name, subItems, path, panelComponent, ...otherProps } = props;
-  const { hoverProps, isHovered } = useHover({
-    timeout: panelComponent ? 200 : 50,
-  });
+  const { name, subItems, path, itemKey, panelComponent, ...otherProps } =
+    props;
   const theme = useTheme();
+  const [, setCurrentActiveMenuItem] = useCurrentActiveMenuItem();
+  const { hoverProps, isHovered } = useHover({
+    timeout: 50,
+    onHoverStart: () => setCurrentActiveMenuItem(itemKey),
+  });
 
   const contentNode = (
     <Box
@@ -66,7 +73,10 @@ export const NavigationItem: FC<NavigationItemProps> = (props) => {
       {panelComponent &&
         slot &&
         createPortal(
-          createElement(panelComponent, { isActive: isHovered, subItems }),
+          createElement(panelComponent, {
+            isActive: isHovered,
+            subItems,
+          }),
           slot,
         )}
     </Box>
