@@ -70,7 +70,7 @@ export const NormalFeatureSection: FC<NormalFeatureSectionProps> = () => {
           <CanvasPlayer
             frame={parseInt(motionValue.get().toFixed(0))}
             width={windowWidth || 0}
-            height={(960 / 2880) * (windowWidth || 0)}
+            height={parseInt(((960 / 2880) * (windowWidth || 0)).toFixed(0))}
             images={new Array(30)
               .fill('')
               .map((_, index) =>
