@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "Aggiungi al carrello",
     "action__buy": "Acquistare",
+    "action__buy_now": "Acquista ora",
+    "action__cancel": "Annulla",
     "action__check_the_full_list": "Controlla l'elenco completo",
     "action__coming_soon": "Prossimamente",
     "action__contact_us": "Contattaci",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "App Store",
     "title__browser_extension": "Estensione del browser",
+    "title__choose_a_store": "Scegli un negozio",
     "title__desktop_app": "App desktop",
     "title__google_play": "Google Play",
     "title__hardware_bridge": "Ponte hardware",

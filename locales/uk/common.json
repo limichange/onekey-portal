@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "Додати в кошик",
     "action__buy": "купити",
+    "action__buy_now": "Купити зараз",
+    "action__cancel": "Скасувати",
     "action__check_the_full_list": "Перевірте повний список",
     "action__coming_soon": "незабаром",
     "action__contact_us": "Зв'яжіться з нами",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "Магазин додатків",
     "title__browser_extension": "Розширення для браузера",
+    "title__choose_a_store": "Виберіть магазин",
     "title__desktop_app": "Настільний додаток",
     "title__google_play": "Google Play",
     "title__hardware_bridge": "Апаратний міст",

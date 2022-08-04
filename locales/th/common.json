@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "หยิบใส่ตะกร้า",
     "action__buy": "ซื้อ",
+    "action__buy_now": "ซื้อเลย",
+    "action__cancel": "ยกเลิก",
     "action__check_the_full_list": "ตรวจสอบรายชื่อทั้งหมด",
     "action__coming_soon": "เร็วๆ นี้",
     "action__contact_us": "ติดต่อเรา",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "แอพสโตร์",
     "title__browser_extension": "ส่วนขยายเบราว์เซอร์",
+    "title__choose_a_store": "เลือกร้าน",
     "title__desktop_app": "แอพเดสก์ท็อป",
     "title__google_play": "Google Play",
     "title__hardware_bridge": "สะพานฮาร์ดแวร์",

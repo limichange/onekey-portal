@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "カートに追加",
     "action__buy": "買う",
+    "action__buy_now": "今買う",
+    "action__cancel": "キャンセル",
     "action__check_the_full_list": "完全なリストを確認してください",
     "action__coming_soon": "近日公開",
     "action__contact_us": "お問い合わせ",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "App Store",
     "title__browser_extension": "ブラウザ拡張機能",
+    "title__choose_a_store": "店舗を選択",
     "title__desktop_app": "デスクトップアプリ",
     "title__google_play": "グーグルプレイ",
     "title__hardware_bridge": "ハードウェアブリッジ",

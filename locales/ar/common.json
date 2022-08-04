@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "أضف إلى السلة",
     "action__buy": "يشتري",
+    "action__buy_now": "اشتري الآن",
+    "action__cancel": "يلغي",
     "action__check_the_full_list": "تحقق من القائمة الكاملة",
     "action__coming_soon": "قريبا",
     "action__contact_us": "اتصل بنا",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "متجر التطبيقات",
     "title__browser_extension": "امتداد المتصفح",
+    "title__choose_a_store": "اختر متجرًا",
     "title__desktop_app": "التطبيق سطح المكتب",
     "title__google_play": "تطبيقات جوجل",
     "title__hardware_bridge": "جسر الأجهزة",

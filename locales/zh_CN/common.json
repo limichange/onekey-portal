@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "添加到购物车",
     "action__buy": "买",
+    "action__buy_now": "立即购买",
+    "action__cancel": "取消",
     "action__check_the_full_list": "查看完整列表",
     "action__coming_soon": "即将上线",
     "action__contact_us": "联系我们",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "苹果应用商店",
     "title__browser_extension": "浏览器插件",
+    "title__choose_a_store": "选择商店",
     "title__desktop_app": "桌面端",
     "title__google_play": "谷歌商店",
     "title__hardware_bridge": "硬件桥",

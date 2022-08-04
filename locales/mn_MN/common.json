@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "Картанд нэмэх",
     "action__buy": "Худалдан авах",
+    "action__buy_now": "Одоо худалдаж авах",
+    "action__cancel": "Цуцлах",
     "action__check_the_full_list": "Бүрэн жагсаалтыг шалгана уу",
     "action__coming_soon": "тун удахгүй",
     "action__contact_us": "Бидэнтэй холбоо барина уу",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "App Store",
     "title__browser_extension": "Хөтөчийн өргөтгөл",
+    "title__choose_a_store": "Дэлгүүр сонгох",
     "title__desktop_app": "Ширээний програм",
     "title__google_play": "Google Play",
     "title__hardware_bridge": "Техник хангамжийн гүүр",

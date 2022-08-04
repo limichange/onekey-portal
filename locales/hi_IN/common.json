@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "कार्ट में जोड़ें",
     "action__buy": "खरीदना",
+    "action__buy_now": "अभी खरीदें",
+    "action__cancel": "रद्द करना",
     "action__check_the_full_list": "पूरी लिस्ट चेक करें",
     "action__coming_soon": "जल्द आ रहा है",
     "action__contact_us": "संपर्क करें",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "ऐप स्टोर",
     "title__browser_extension": "ब्राउज़र एक्सटेंशन",
+    "title__choose_a_store": "एक स्टोर चुनें",
     "title__desktop_app": "डेस्कटॉप ऐप",
     "title__google_play": "गूगल प्ले",
     "title__hardware_bridge": "हार्डवेयर ब्रिज",

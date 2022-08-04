@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "Добавить в корзину",
     "action__buy": "Купить",
+    "action__buy_now": "Купи сейчас",
+    "action__cancel": "Отмена",
     "action__check_the_full_list": "Проверить полный список",
     "action__coming_soon": "вскоре",
     "action__contact_us": "Свяжитесь с нами",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "Магазин приложений",
     "title__browser_extension": "Расширение для браузера",
+    "title__choose_a_store": "Выберите магазин",
     "title__desktop_app": "Настольное приложение",
     "title__google_play": "Гугл игры",
     "title__hardware_bridge": "Аппаратный мост",

@@ -1,6 +1,8 @@
 {
     "action__add_to_cart": "장바구니에 추가",
     "action__buy": "구입하다",
+    "action__buy_now": "지금 구매",
+    "action__cancel": "취소",
     "action__check_the_full_list": "전체 목록 확인",
     "action__coming_soon": "곧 온다",
     "action__contact_us": "문의하기",
@@ -76,6 +78,7 @@
     "onekey": "OneKey",
     "title__app_store": "앱 스토어",
     "title__browser_extension": "브라우저 확장",
+    "title__choose_a_store": "매장 선택",
     "title__desktop_app": "데스크탑 앱",
     "title__google_play": "구글 플레이",
     "title__hardware_bridge": "하드웨어 브리지",
