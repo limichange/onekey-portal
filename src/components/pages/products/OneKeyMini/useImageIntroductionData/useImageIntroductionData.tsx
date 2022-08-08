@@ -89,7 +89,7 @@ export function useImageIntroductionData() {
       },
       textColor: 'black',
       frames: [
-        ...new Array(60)
+        ...new Array(92)
           .fill(0)
           .map((_, i) =>
             staticAssetPrefix(

@@ -86,7 +86,7 @@ export function useImageIntroductionData() {
         ),
       },
       frames: [
-        ...new Array(60)
+        ...new Array(77)
           .fill(0)
           .map((_, i) =>
             staticAssetPrefix(
