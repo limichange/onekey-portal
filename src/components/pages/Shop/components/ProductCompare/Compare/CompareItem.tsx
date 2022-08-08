@@ -39,7 +39,7 @@ export const CompareItem: FC<CompareItemProps> = (props) => {
 
   const buttonProp: ButtonProps = mediaQuery.small
     ? { size: 'medium' }
-    : { size: 'large' };
+    : { size: 'small' };
 
   return (
     <Flex
@@ -50,8 +50,8 @@ export const CompareItem: FC<CompareItemProps> = (props) => {
         gap: 24,
       }}
       m={{
-        paddingLeft: 48,
-        paddingRight: 48,
+        paddingLeft: 24,
+        paddingRight: 24,
       }}
     >
       <Box

@@ -29,7 +29,7 @@ export const Cards: FC<CardsProps> = (props) => {
           }}
         >
           {Object.values(products.items).map((item) => (
-            <ProductCard {...item} />
+            <ProductCard key={item.name} {...item} />
           ))}
         </Flex>
       </OnlyDisplay>

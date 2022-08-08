@@ -29,9 +29,11 @@ export const Shop: React.FC = () => (
 
       <Container>
         <Products />
+      </Container>
 
-        <ProductCompare />
+      <ProductCompare />
 
+      <Container>
         <TwoMediaCards />
       </Container>
 

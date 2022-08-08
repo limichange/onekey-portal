@@ -32,9 +32,14 @@ export const Review: FC<ReviewProps> = (props) => {
 
       <Flex
         xs={{
+          gap: 12,
+          flexDirection: 'column',
+          paddingTop: 8,
+        }}
+        s={{
+          flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
-          paddingTop: 8,
         }}
       >
         <Span>
@@ -64,17 +69,19 @@ export const Review: FC<ReviewProps> = (props) => {
           </Link>
         </Span>
 
-        <Link to="https://help.onekey.so/hc/articles/4984467180303">
-          <Span
-            xs={{
-              textDecoration: 'underline',
-              ...theme.text.normal200,
-              color: theme.colors.test500,
-            }}
-          >
-            <I18n name="title__shipping_return" />
-          </Span>
-        </Link>
+        <Box>
+          <Link to="https://help.onekey.so/hc/articles/4984467180303">
+            <Span
+              xs={{
+                textDecoration: 'underline',
+                ...theme.text.normal200,
+                color: theme.colors.test500,
+              }}
+            >
+              <I18n name="title__shipping_return" />
+            </Span>
+          </Link>
+        </Box>
       </Flex>
       {children}
     </Box>

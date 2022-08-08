@@ -1,6 +1,7 @@
 import { FC, ReactNode } from 'react';
 
-import { Box, Flex } from '../../../../../base';
+import { Box, SwiperSlide } from '../../../../../base';
+import { FreeSwiper } from '../../../../../common';
 import { useProductCompareData } from '../useProductCompareData';
 
 import { CompareItem } from './CompareItem';
@@ -17,22 +18,28 @@ export const Compare: FC<CompareProps> = (props) => {
   return (
     <Box
       xs={{
+        display: 'flex',
+        justifyContent: 'center',
+        position: 'relative',
         paddingTop: 48,
         paddingBottom: 120,
       }}
     >
-      <Flex
-        xs={{
-          justifyContent: 'center',
-          gap: 24,
+      <FreeSwiper
+        style={{
+          paddingLeft: 24,
+          paddingRight: 24,
         }}
+        spaceBetween={24}
       >
         {Object.values(data.items).map((item) => (
-          <CompareItem {...item} />
+          <SwiperSlide style={{ maxWidth: 360, width: '60vw' }} key={item.name}>
+            <CompareItem {...item} />
+          </SwiperSlide>
         ))}
-      </Flex>
 
-      {children}
+        {children}
+      </FreeSwiper>
     </Box>
   );
 };
