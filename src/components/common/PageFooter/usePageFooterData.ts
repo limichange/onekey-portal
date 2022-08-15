@@ -13,7 +13,7 @@ export function usePageFooterData() {
         url: 'https://discord.gg/nwUJaTzjzv',
       },
       github: {
-        url: 'https://github.com/OneKeyHQ/OneKey-Wallet',
+        url: 'https://github.com/OneKeyHQ/',
       },
       reddit: {
         url: 'https://www.reddit.com/r/OneKeyHQ/',
@@ -75,7 +75,7 @@ export function usePageFooterData() {
           },
           {
             name: t('menu__open_source_community'),
-            link: 'https://github.com/OneKeyHQ/OneKey-Wallet',
+            link: 'https://github.com/OneKeyHQ/',
             status: 'external',
           },
           {
