@@ -71,14 +71,14 @@ export const Rewards: FC = () => {
             >
               Backed by the Best
             </Box>
-            {images.map((image) => (
+            {images.map((image, index) => (
               <Img
                 m={itemStyle.m}
                 xs={itemStyle.xs}
                 draggable={false}
                 key={image}
                 src={image}
-                alt="image"
+                alt={`image-${index}`}
               />
             ))}
           </Box>
