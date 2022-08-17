@@ -12,8 +12,8 @@ export function useCryptosTable() {
       app: t('menu__app').toLocaleUpperCase(),
       desktop: t('title__desktop_app').toLocaleUpperCase(),
       extension: t('menu__browser_extension').toLocaleUpperCase(),
-      mini: 'Mini',
-      touch: 'Touch',
+      mini: 'Mini'.toLocaleUpperCase(),
+      touch: 'Touch'.toUpperCase(),
     },
     data,
   };
