@@ -1,8 +1,8 @@
-// import eipsSvgUrl from './images/eips.svg';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useDownloadData, useOneKeyProduct } from '../../../data';
 
+import eipsSvgUrl from './images/eips.svg';
 import portfolioSvgUrl from './images/portfolio.svg';
 import recoverySvgUrl from './images/recovery-phrase-converter.svg';
 import swapSvgUrl from './images/swap.svg';
@@ -115,20 +115,18 @@ export function useNavigationDataObject(): Record<
         path: 'https://portfolio.onekey.so/',
         icon: portfolioSvgUrl,
       },
-      // todo
-      // {
-      //   name: 'EIPs',
-      //   key: 'eips',
-      //   description:
-      //     'We work tirelessly to support all types of EIP proposals, see the latest supported EIPs here.',
-      //   path: '',
-      //   icon: eipsSvgUrl,
-      // },
+      {
+        name: 'EIPs',
+        key: 'eips',
+        description: t('menu__eips_desc'),
+        path: '/eips',
+        icon: eipsSvgUrl,
+      },
       {
         name: t('menu__token_list'),
-        key: 'tokenlist',
+        key: 'cryptos',
         description: t('menu__token_list_desc'),
-        path: 'https://onekey.so/tokens',
+        path: '/cryptos',
         icon: tokenlistSvgUrl,
       },
       {

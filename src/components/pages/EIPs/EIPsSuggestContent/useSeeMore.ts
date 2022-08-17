@@ -7,13 +7,12 @@ interface UseSeeMoreParams<T> {
 
 export function useSeeMore<T>(params: UseSeeMoreParams<T>) {
   const { list: initialList, limit = 5 } = params;
+  const [page, setPage] = useState(0);
 
-  const [list, setList] = useState<T[]>(
-    initialList.length > limit ? initialList.slice(0, limit) : initialList,
-  );
+  const list = initialList.slice(0, (page + 1) * limit);
 
   function onClick() {
-    setList([...list, ...initialList.slice(list.length, list.length + limit)]);
+    setPage(page + 1);
   }
 
   return {

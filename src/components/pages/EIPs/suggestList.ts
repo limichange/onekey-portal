@@ -36,3 +36,28 @@ export const suggestList: SuggestListItem[] = Object.values(EIPs)
     },
   }))
   .filter((eip) => eip.supports.mobileApp || eip.supports.hardwareWallet);
+
+type Item = {
+  id: string;
+  title: string;
+};
+
+export function useSuggestList(eipIds: string[]) {
+  const innerSupports: Item[] = [];
+
+  Object.values(EIPs).forEach((eip) => {
+    if (eipIds.includes(eip.id)) {
+      innerSupports.push(eip);
+    }
+  });
+
+  return Object.values(EIPs)
+    .map((eip) => ({
+      ...eip,
+      supports: {
+        mobileApp: innerSupports.includes(eip),
+        hardwareWallet: innerSupports.includes(eip),
+      },
+    }))
+    .filter((eip) => eip.supports.mobileApp || eip.supports.hardwareWallet);
+}

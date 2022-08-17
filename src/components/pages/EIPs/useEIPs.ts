@@ -1,22 +1,29 @@
+import { useTranslation } from 'gatsby-plugin-react-i18next';
+
+import { useEIPsData } from '../../../data';
+
 import { EIPs } from './eipsList';
 import {
   hardwareWalletSupports,
   mobileAppSupports,
-  suggestList,
+  useSuggestList,
 } from './suggestList';
 
 export function useEIPs() {
+  const result = useEIPsData();
+  const suggestList = useSuggestList(result || []);
+  const { t } = useTranslation();
+
   return {
     mainTitle: {
-      title: 'Ethereum Improvement Proposals',
+      title: t('title__ethereum_improvement_proposals'),
       subtitle: 'EIPs',
-      description:
-        'Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards. Network upgrades are discussed separately in the Ethereum Project Management repository.',
+      description: t('title__ethereum_improvement_proposals_desc'),
     },
     thead: {
       EIPs: 'EIPs',
-      mobileApp: 'MOBILE APP',
-      hardwareWallet: 'HARDWARE WALLET',
+      mobileApp: t('title__mobile_app').toLocaleUpperCase(),
+      hardwareWallet: t('menu__hardware_device').toLocaleUpperCase(),
     },
     EIPs,
     mobileAppSupports,

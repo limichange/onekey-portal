@@ -43,7 +43,7 @@ export const ServicesPanel: FC<ServicesPanelProps> = (props) => {
       }}
     >
       <Container>
-        <Box xs={{ width: 820 }} {...hoverProps}>
+        <Box xs={{ maxWidth: 820 }} {...hoverProps}>
           <Box
             xs={{
               padding: 8,
@@ -53,14 +53,11 @@ export const ServicesPanel: FC<ServicesPanelProps> = (props) => {
             }}
           >
             <Flex xs={{ flexWrap: 'wrap' }}>
-              {subItems
-                // todo: add eips link
-                ?.filter((item) => item.key !== 'eips')
-                .map((item) => (
-                  <Box key={item.key} xs={{ width: '50%' }}>
-                    <ServicesPanelItem {...item} />
-                  </Box>
-                ))}
+              {subItems?.map((item) => (
+                <Box key={item.key} xs={{ width: '50%' }}>
+                  <ServicesPanelItem {...item} />
+                </Box>
+              ))}
             </Flex>
           </Box>
         </Box>

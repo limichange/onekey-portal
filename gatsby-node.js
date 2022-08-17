@@ -50,6 +50,9 @@ exports.onCreateWebpackConfig = ({ getConfig, actions, loaders, plugins }) => {
     plugins: [
       plugins.define({
         PUBLIC_URL: JSON.stringify(process.env.PUBLIC_URL || '/'),
+        API_URL: JSON.stringify(
+          process.env.API_URL || 'https://fiat.onekeytest.com',
+        ),
       }),
     ],
   });

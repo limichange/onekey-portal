@@ -51,11 +51,11 @@ export const ListContent: FC<ListContentProps> = (props) => {
             <EIPContentItem {...item} />
 
             <SuggestStatus isSupported={item.supports.mobileApp}>
-              Mobile App
+              {EIPsData.thead.mobileApp}
             </SuggestStatus>
 
             <SuggestStatus isSupported={item.supports.hardwareWallet}>
-              Hardware Wallet
+              {EIPsData.thead.hardwareWallet}
             </SuggestStatus>
           </Flex>
 

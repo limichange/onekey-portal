@@ -33,6 +33,7 @@ export const Hr: FC<BoxProps> = factory('hr');
 export const Ul: FC<BoxProps> = factory('ul');
 export const Ol: FC<BoxProps> = factory('ol');
 export const Li: FC<BoxProps> = factory('li');
+export const Th: FC<BoxProps> = factory('th');
 export const Img: FC<BoxProps & HTMLProps<HTMLImageElement>> = factory('img', {
   draggable: false,
 });

@@ -1,13 +1,20 @@
-import { suggestList } from './suggestList';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
+
+import { useChainsData } from '../../../../data';
 
 export function useCryptosTable() {
+  const { t } = useTranslation();
+  const data = useChainsData();
+
   return {
     thead: {
-      coins: 'COINS',
-      app: 'APP',
-      classicAndMini: 'Classic & Mini',
-      touchAndPro: 'Touch & Pro',
+      coins: t('title__coins').toLocaleUpperCase(),
+      app: t('menu__app').toLocaleUpperCase(),
+      desktop: t('title__desktop_app').toLocaleUpperCase(),
+      extension: t('menu__browser_extension').toLocaleUpperCase(),
+      mini: 'Mini',
+      touch: 'Touch',
     },
-    suggestList,
+    data,
   };
 }

@@ -23,10 +23,15 @@ yarn develop
 
 ## Build
 
-### CDN build
+### Production build
 
 ```
-PUBLIC_URL=https://cdn.onekey.so yarn run build:cdn
+PUBLIC_URL=https://cdn.onekey.so
+API_URL=https://fiat.onekeytest.com
+```
+
+```
+yarn run build:cdn
 ```
 
 ### Normal build

@@ -2,8 +2,7 @@ import { FC, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { staticAssetPrefix } from '../../../../utils/staticAssetPrefix';
-import { ArrowRightIcon, Box, Flex, Img, Link, Span } from '../../../base';
+import { Box, Flex, Img, Th } from '../../../base';
 import { StatusIcon } from '../../../common/StatusIcon';
 
 import { useCryptosTable } from './useCryptosTable';
@@ -53,10 +52,11 @@ export const TableContent: FC<TableContentProps> = (props) => {
             }}
           >
             <th>{cryptosTable.thead.coins}</th>
-            <th css={{ width: '20%' }}>{cryptosTable.thead.app}</th>
-            <th css={{ width: '20%' }}>{cryptosTable.thead.classicAndMini}</th>
-            <th css={{ width: '20%' }}>{cryptosTable.thead.touchAndPro}</th>
-            <th> </th>
+            <Th m={{ width: '15%' }}>{cryptosTable.thead.app}</Th>
+            <Th m={{ width: '15%' }}>{cryptosTable.thead.desktop}</Th>
+            <Th m={{ width: '15%' }}>{cryptosTable.thead.extension}</Th>
+            <Th m={{ width: '15%' }}>{cryptosTable.thead.mini}</Th>
+            <Th m={{ width: '15%' }}>{cryptosTable.thead.touch}</Th>
           </tr>
         </thead>
 
@@ -69,8 +69,8 @@ export const TableContent: FC<TableContentProps> = (props) => {
             },
           }}
         >
-          {cryptosTable.suggestList.map((item) => (
-            <tr css={{ height: 80 }} key={item.currency.name}>
+          {cryptosTable.data.map((item) => (
+            <tr css={{ height: 80 }} key={item.name}>
               <td>
                 <Flex xs={{ alignItems: 'center' }}>
                   <Img
@@ -80,39 +80,43 @@ export const TableContent: FC<TableContentProps> = (props) => {
                       borderRadius: '50%',
                       overflow: 'hidden',
                     }}
-                    src={staticAssetPrefix(
-                      `/cryptocurrency-icons/128/color/${item.currency.symbol.toLowerCase()}.png`,
-                    )}
+                    src={item.icon}
                   />
 
                   <Box xs={{ paddingLeft: 12 }}>
-                    <Box xs={theme.text.medium400}>{item.currency.symbol}</Box>
-                    <Box
+                    <Box xs={theme.text.medium400}>{item.name}</Box>
+                    {/* todo: maybe crypto name */}
+                    {/* <Box
                       xs={{
                         ...theme.text.medium100,
                         color: theme.colors.test300,
                       }}
                     >
-                      {item.currency.name}
-                    </Box>
+                      {item.name}
+                    </Box> */}
                   </Box>
                 </Flex>
               </td>
+
               <td>
                 <StatusIcon isSupported={item.support.app} />
               </td>
               <td>
-                <StatusIcon
-                  isSupported={item.support.classic && item.support.mini}
-                />
+                <StatusIcon isSupported={item.support.desktop} />
               </td>
               <td>
-                <StatusIcon
-                  isSupported={item.support.touch && item.support.pro}
-                />
+                <StatusIcon isSupported={item.support.extension} />
               </td>
-              <td css={{ textAlign: 'right' }}>
-                <Link to={item.currency.link}>
+              <td>
+                <StatusIcon isSupported={item.support.mini} />
+              </td>
+              <td>
+                <StatusIcon isSupported={item.support.touch} />
+              </td>
+
+              {/* todo: the chain link */}
+              {/* <td css={{ textAlign: 'right' }}>
+                <Link to={item.name}>
                   <Flex
                     xs={{
                       justifyContent: 'flex-end',
@@ -129,7 +133,7 @@ export const TableContent: FC<TableContentProps> = (props) => {
                     />
                   </Flex>
                 </Link>
-              </td>
+              </td> */}
             </tr>
           ))}
         </tbody>
