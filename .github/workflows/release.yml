@@ -33,6 +33,7 @@ jobs:
       - name: Build Target
         env:
           PUBLIC_URL: ${{ env.PUBLIC_URL }}
+          API_URL: 'https://fiat.onekeycn.com'
         run: |
           yarn && yarn build:cdn
 
