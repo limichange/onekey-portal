@@ -111,6 +111,10 @@ const WrapPage: FC<WrapPageProps> = (props) => {
             gtag('config', 'G-YL0P6QCC0D');
           `}
         </script>
+        <script
+          id="ze-snippet"
+          src="https://static.zdassets.com/ekr/snippet.js?key=272de4d5-5db1-4d12-bcbd-ce739d36810e"
+        />
       </Helmet>
 
       {children}
