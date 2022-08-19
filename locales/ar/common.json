@@ -68,6 +68,8 @@
     "menu__submit_dapp": "إرسال Dapp",
     "menu__submit_token": "إرسال الرمز",
     "menu__support": "الدعم",
+    "menu__supported_chains": "السلاسل المدعومة",
+    "menu__supported_chains_desc": "ضع أكثر من 1000 عملة مشفرة في جيبك ، ونحن نضيف المزيد طوال الوقت.",
     "menu__swap": "تبديل",
     "menu__swap_desc": "دعم ETH ، BSC mainnet ، رمز التبديل في سرعة البرق. إمداد مستقر لأحواض السوائل ، كن مطمئنًا.",
     "menu__system_status": "حالة النظام",

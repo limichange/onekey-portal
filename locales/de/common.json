@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Senden Sie Dapp",
     "menu__submit_token": "Token senden",
     "menu__support": "Die Unterstützung",
+    "menu__supported_chains": "Unterstützte Ketten",
+    "menu__supported_chains_desc": "Stecken Sie über 1.000 Kryptos in Ihre Tasche, und wir fügen ständig noch mehr hinzu.",
     "menu__swap": "Tausch",
     "menu__swap_desc": "ETH, BSC-Mainnet-Unterstützung, Token blitzschnell austauschen. Stabile Versorgung mit Flüssigkeitspools, seien Sie versichert.",
     "menu__system_status": "Systemstatus",

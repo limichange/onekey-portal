@@ -43,7 +43,7 @@ export const ServicesPanel: FC<ServicesPanelProps> = (props) => {
       }}
     >
       <Container>
-        <Box xs={{ maxWidth: 820 }} {...hoverProps}>
+        <Box xs={{ maxWidth: 860 }} {...hoverProps}>
           <Box
             xs={{
               padding: 8,

@@ -68,6 +68,8 @@
     "menu__submit_dapp": "जमा करें",
     "menu__submit_token": "टोकन जमा करें",
     "menu__support": "सहायता",
+    "menu__supported_chains": "समर्थित चेन",
+    "menu__supported_chains_desc": "अपनी जेब में 1,000 से अधिक क्रिप्टो डालें, और हम हर समय और भी जोड़ रहे हैं।",
     "menu__swap": "बदलना",
     "menu__swap_desc": "ETH, BSC मेननेट सपोर्ट, बिजली की गति में टोकन स्वैप करें। तरल पूल की स्थिर आपूर्ति, निश्चिंत रहें।",
     "menu__system_status": "व्यवस्था की स्थिति",

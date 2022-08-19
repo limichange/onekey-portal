@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Soumettre Dapp",
     "menu__submit_token": "Soumettre le jeton",
     "menu__support": "Soutien",
+    "menu__supported_chains": "Chaînes prises en charge",
+    "menu__supported_chains_desc": "Mettez plus de 1 000 Cryptos dans votre poche, et nous en ajoutons encore plus tout le temps.",
     "menu__swap": "Échanger",
     "menu__swap_desc": "ETH, prise en charge du réseau principal BSC, échange de jeton à la vitesse de l'éclair. Approvisionnement stable en piscines liquides, soyez assuré.",
     "menu__system_status": "État du système",

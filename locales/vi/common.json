@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Gửi Dapp",
     "menu__submit_token": "Gửi mã thông báo",
     "menu__support": "Ủng hộ",
+    "menu__supported_chains": "Chuỗi được hỗ trợ",
+    "menu__supported_chains_desc": "Đặt hơn 1.000 Cryptos trong túi của bạn và chúng tôi thậm chí luôn bổ sung nhiều hơn nữa.",
     "menu__swap": "Tráo đổi",
     "menu__swap_desc": "Hỗ trợ mạng chính ETH, BSC, trao đổi mã thông báo với tốc độ cực nhanh. Nguồn cung cấp vũng thanh lý ổn định, yên tâm.",
     "menu__system_status": "Trạng thái hệ thống",

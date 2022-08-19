@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Dapp জমা দিন",
     "menu__submit_token": "টোকেন জমা দিন",
     "menu__support": "সমর্থন",
+    "menu__supported_chains": "সমর্থিত চেইন",
+    "menu__supported_chains_desc": "আপনার পকেটে 1,000 টিরও বেশি ক্রিপ্টো রাখুন এবং আমরা সব সময় আরও যোগ করছি৷",
     "menu__swap": "অদলবদল",
     "menu__swap_desc": "ETH, BSC মেইননেট সমর্থন, বজ্র গতিতে টোকেন অদলবদল। তরল পুলের স্থিতিশীল সরবরাহ, নিশ্চিত থাকুন।",
     "menu__system_status": "সিস্টেমের অবস্থা",

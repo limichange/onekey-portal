@@ -68,6 +68,8 @@
     "menu__submit_dapp": "提交 Dapp",
     "menu__submit_token": "提交代币",
     "menu__support": "技术支持",
+    "menu__supported_chains": "支持的链",
+    "menu__supported_chains_desc": "将 1,000 多个 Cryptos 放入您的口袋，我们甚至一直在添加更多。",
     "menu__swap": "闪兑",
     "menu__swap_desc": "极速交易 ETH，BSC 等主网代币。流动性充分、稳定。",
     "menu__system_status": "系统状况",

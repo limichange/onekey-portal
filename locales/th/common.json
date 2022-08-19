@@ -68,6 +68,8 @@
     "menu__submit_dapp": "ส่ง Dapp",
     "menu__submit_token": "ส่งโทเค็น",
     "menu__support": "สนับสนุน",
+    "menu__supported_chains": "โซ่ที่รองรับ",
+    "menu__supported_chains_desc": "ใส่มากกว่า 1,000 Cryptos ในกระเป๋าของคุณ และเรายังเพิ่มมากขึ้นตลอดเวลา",
     "menu__swap": "แลกเปลี่ยน",
     "menu__swap_desc": "ETH, รองรับเครือข่ายหลัก BSC, สลับโทเค็นด้วยความเร็วสูง แหล่งจ่ายของเหลวที่เสถียร วางใจได้",
     "menu__system_status": "สถานะของระบบ",

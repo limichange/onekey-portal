@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Dapp 제출",
     "menu__submit_token": "토큰 제출",
     "menu__support": "지원하다",
+    "menu__supported_chains": "지원되는 체인",
+    "menu__supported_chains_desc": "주머니에 1,000개 이상의 크립토를 넣고 계속 추가하고 있습니다.",
     "menu__swap": "교환",
     "menu__swap_desc": "ETH, BSC 메인넷 지원, 번개 같은 속도로 토큰을 교환합니다. 안정적인 액체 풀 공급, 안심하세요.",
     "menu__system_status": "시스템 상태",

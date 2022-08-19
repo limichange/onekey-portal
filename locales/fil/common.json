@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Isumite ang Dapp",
     "menu__submit_token": "Isumite ang Token",
     "menu__support": "Suporta",
+    "menu__supported_chains": "Mga Sinusuportahang Chain",
+    "menu__supported_chains_desc": "Maglagay ng higit sa 1,000 Cryptos sa iyong bulsa, at nagdaragdag pa kami ng higit pa sa lahat ng oras.",
     "menu__swap": "Magpalit",
     "menu__swap_desc": "ETH, BSC mainnet support, swap token sa bilis ng kidlat. Matatag na supply ng mga likidong pool, makatitiyak.",
     "menu__system_status": "Kalagayan ng sistema",

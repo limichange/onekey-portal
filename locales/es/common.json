@@ -68,6 +68,8 @@
     "menu__submit_dapp": "Enviar Dapp",
     "menu__submit_token": "Enviar token",
     "menu__support": "Apoyo",
+    "menu__supported_chains": "Cadenas compatibles",
+    "menu__supported_chains_desc": "Ponga más de 1,000 Cryptos en su bolsillo, e incluso estamos agregando más todo el tiempo.",
     "menu__swap": "Intercambio",
     "menu__swap_desc": "ETH, soporte de red principal BSC, token de intercambio a la velocidad del rayo. Suministro estable de piscinas líquidas, puede estar seguro.",
     "menu__system_status": "Estado del sistema",

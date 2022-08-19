@@ -2,6 +2,7 @@ import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useDownloadData, useOneKeyProduct } from '../../../data';
 
+import chainsSvgUrl from './images/chains.svg';
 import eipsSvgUrl from './images/eips.svg';
 import portfolioSvgUrl from './images/portfolio.svg';
 import recoverySvgUrl from './images/recovery-phrase-converter.svg';
@@ -116,18 +117,25 @@ export function useNavigationDataObject(): Record<
         icon: portfolioSvgUrl,
       },
       {
-        name: 'EIPs',
-        key: 'eips',
-        description: t('menu__eips_desc'),
-        path: '/eips',
-        icon: eipsSvgUrl,
-      },
-      {
         name: t('menu__token_list'),
         key: 'cryptos',
         description: t('menu__token_list_desc'),
         path: '/cryptos',
         icon: tokenlistSvgUrl,
+      },
+      {
+        name: t('menu__supported_chains'),
+        key: 'chain',
+        description: t('menu__supported_chains_desc'),
+        path: 'https://www.onekey.so/tokens',
+        icon: chainsSvgUrl,
+      },
+      {
+        name: 'EIPs',
+        key: 'eips',
+        description: t('menu__eips_desc'),
+        path: '/eips',
+        icon: eipsSvgUrl,
       },
       {
         name: t('menu__recovery_phrase_converter'),
