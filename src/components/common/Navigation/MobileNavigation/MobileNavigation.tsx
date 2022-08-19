@@ -2,6 +2,7 @@ import React, { Fragment, ReactNode, useCallback, useState } from 'react';
 
 import { useTheme } from '@emotion/react';
 
+import { Link } from '../../../base';
 import { Box } from '../../../base/Box';
 import { Flex } from '../../../base/Flex';
 import { MenuCloseIcon, MenuIcon } from '../../../base/Icon';
@@ -13,13 +14,15 @@ import { useNavigationData } from '../useNavigationData';
 import { MobileMenuItems } from './MobileMenuItems';
 
 const LogoIcon = (
-  <Logo
-    css={{
-      width: 48,
-      height: 48,
-      color: 'black',
-    }}
-  />
+  <Link to="/">
+    <Logo
+      css={{
+        width: 48,
+        height: 48,
+        color: 'black',
+      }}
+    />
+  </Link>
 );
 
 export interface MobileNavigationProps {
