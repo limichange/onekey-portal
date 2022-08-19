@@ -8,7 +8,7 @@ import {
   PageFooter,
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
-import { MobileCart, NavigationCart } from '../components/Cart';
+import { NavigationCart } from '../components/Cart';
 import { FeatureSection } from '../components/FeatureSection';
 import { IntroductionSection } from '../components/IntroductionSection';
 import { ImageIntroduction } from '../components/IntroductionSection/ImageIntroduction';
@@ -61,7 +61,7 @@ export const OneKeyLite: FC<OneKeyLiteProps> = (props) => {
 
       <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
 
-      <MobileCart {...OneKeyLiteData.productInformationData} />
+      {/* <MobileCart {...OneKeyLiteData.productInformationData} /> */}
 
       {children}
     </Box>
