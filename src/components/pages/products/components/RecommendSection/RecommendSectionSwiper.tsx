@@ -30,6 +30,8 @@ export const RecommendSectionSwiper: FC<RecommendSectionSwiperProps> = (
           style={{
             width: 300,
             paddingRight: 25,
+            display: 'flex',
+            height: 'auto',
           }}
           key={item.name}
         >

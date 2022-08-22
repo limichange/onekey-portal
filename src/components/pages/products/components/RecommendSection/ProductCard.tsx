@@ -26,6 +26,7 @@ export const ProductCard: FC<ProductCardProps> = (props) => {
       xs={{
         borderRadius: 40,
         backgroundColor: theme.colors.test100,
+        height: '100%',
       }}
     >
       <Link to={data.status === 'normal' ? data.path : ''}>
@@ -41,7 +42,7 @@ export const ProductCard: FC<ProductCardProps> = (props) => {
                   opacity: data.status === 'normal' && isHovered ? 0 : 1,
                   transition: theme.transitions.allCubicBezier,
                 }}
-                m={{
+                l={{
                   height: 320,
                 }}
                 xxl={{

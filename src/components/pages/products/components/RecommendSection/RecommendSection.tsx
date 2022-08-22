@@ -35,16 +35,17 @@ export const RecommendSection: FC<RecommendSectionProps> = (props) => {
 
       <Container>
         <Box xs={{ paddingTop: 40 }} m={{ paddingTop: 80 }}>
-          <OnlyDisplay xs s m>
+          <OnlyDisplay xs s>
             <RecommendSectionSwiper data={data} />
           </OnlyDisplay>
 
-          <OnlyDisplay l xl xxl>
+          <OnlyDisplay m l xl xxl>
             <Box
               m={{
                 display: 'flex',
                 gap: 25,
                 justifyContent: 'space-between',
+                alignItems: 'stretch',
               }}
             >
               {data.map((item) => (
