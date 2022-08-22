@@ -15,6 +15,7 @@ export interface DownloadButtonProps {
   information: string[] | string;
   buttonType?: ButtonProps['variant'];
   buttonSize?: ButtonProps['size'];
+  buttonMaxWidth?: string | number;
   url?: string;
 }
 
@@ -26,6 +27,7 @@ export const DownloadButton: FC<DownloadButtonProps> = (props) => {
     url = '',
     buttonSize = 'large',
     buttonType = 'outlined',
+    buttonMaxWidth = 220,
   } = props;
 
   return (
@@ -35,7 +37,7 @@ export const DownloadButton: FC<DownloadButtonProps> = (props) => {
         alignItems: 'center',
         textAlign: 'center',
         flex: 1,
-        maxWidth: 220,
+        maxWidth: buttonMaxWidth,
       }}
     >
       <Link disabled={!url} css={{ width: '100%' }} to={url}>

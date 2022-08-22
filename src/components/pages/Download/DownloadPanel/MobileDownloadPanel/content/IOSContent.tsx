@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { Divider, Flex } from '../../../../../base';
+import { Box, Divider, Flex } from '../../../../../base';
 import { DownloadButton } from '../../DownloadButton';
 import { FAQ } from '../../FAQ';
 import { Title } from '../../Title';
@@ -39,16 +39,21 @@ export const IOSContent: FC<IOSContentProps> = (props) => {
     <ContentContainer>
       <Title name={mobile.pageTitle} />
 
-      <Flex xs={{ gap: 16 }}>
+      <Flex
+        xs={{ gap: 16, flexDirection: 'column-reverse' }}
+        s={{ flexDirection: 'row' }}
+      >
         {buttons.map((item) => (
-          <DownloadButton
-            buttonSize="medium"
-            key={item.text}
-            icon={item.icon}
-            text={item.text}
-            url={item.url}
-            information={item.infos}
-          />
+          <Box key={item.text} s={{ maxWidth: 220 }}>
+            <DownloadButton
+              buttonSize="medium"
+              icon={item.icon}
+              text={item.text}
+              url={item.url}
+              information={item.infos}
+              buttonMaxWidth="100%"
+            />
+          </Box>
         ))}
       </Flex>
 

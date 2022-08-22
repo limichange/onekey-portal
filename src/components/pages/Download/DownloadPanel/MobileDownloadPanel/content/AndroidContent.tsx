@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { Flex, Link, Span } from '../../../../../base';
+import { Box, Flex, I18n, Link, Span } from '../../../../../base';
 import { DownloadButton } from '../../DownloadButton';
 import { Title } from '../../Title';
 import { useOneKeyDownloadData } from '../../useOneKeyDownloadData';
@@ -40,16 +40,21 @@ export const AndroidContent: FC<AndroidContentProps> = (props) => {
     <ContentContainer>
       <Title name={mobile.pageTitle} />
 
-      <Flex xs={{ gap: 16 }}>
+      <Flex
+        xs={{ gap: 16, flexDirection: 'column-reverse' }}
+        s={{ flexDirection: 'row' }}
+      >
         {buttons.map((item) => (
-          <DownloadButton
-            buttonSize="medium"
-            key={item.text}
-            icon={item.icon}
-            text={item.text}
-            url={item.url}
-            information={item.infos}
-          />
+          <Box key={item.text} s={{ maxWidth: 220 }}>
+            <DownloadButton
+              buttonSize="medium"
+              icon={item.icon}
+              text={item.text}
+              url={item.url}
+              information={item.infos}
+              buttonMaxWidth="100%"
+            />
+          </Box>
         ))}
       </Flex>
 
@@ -65,7 +70,7 @@ export const AndroidContent: FC<AndroidContentProps> = (props) => {
               color: theme.colors.test500,
             }}
           >
-            Download Android APK
+            <I18n name="action__download" /> Android APK
           </Span>
         </Link>
       </Flex>
