@@ -8,12 +8,12 @@ export function useCryptosTable() {
 
   return {
     thead: {
-      coins: t('title__coins').toLocaleUpperCase(),
-      app: t('menu__app').toLocaleUpperCase(),
-      desktop: t('title__desktop_app').toLocaleUpperCase(),
-      extension: t('menu__browser_extension').toLocaleUpperCase(),
-      mini: 'Mini'.toLocaleUpperCase(),
-      touch: 'Touch'.toUpperCase(),
+      coins: t('title__coins'),
+      app: t('title__mobile_app'),
+      desktop: t('title__desktop_app'),
+      extension: t('menu__browser_extension'),
+      mini: 'Mini & Classic',
+      touch: 'Touch & Pro',
     },
     data,
   };
