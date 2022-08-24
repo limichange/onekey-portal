@@ -118,16 +118,16 @@ export function useNavigationDataObject(): Record<
       },
       {
         name: t('menu__token_list'),
-        key: 'cryptos',
+        key: 'tokens',
         description: t('menu__token_list_desc'),
-        path: '/cryptos',
+        path: 'https://www.onekey.so/tokens',
         icon: tokenlistSvgUrl,
       },
       {
         name: t('menu__supported_chains'),
-        key: 'chain',
+        key: 'cryptos',
         description: t('menu__supported_chains_desc'),
-        path: 'https://www.onekey.so/tokens',
+        path: '/cryptos',
         icon: chainsSvgUrl,
       },
       {
