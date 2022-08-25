@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { ArrowRightIcon, Box, Button, Flex, Span } from '../../../base';
+import { ArrowRightIcon, Box, Button, Flex, Link, Span } from '../../../base';
 
 import { ProductShowcaseSectionDataItem } from './useProductShowcaseSectionData';
 
@@ -81,12 +81,14 @@ export const ProductShowcaseSectionItem: FC<ProductShowcaseSectionItemProps> = (
 
           {button && (
             <Box>
-              <Button
-                variant="outlined"
-                rightIcon={<ArrowRightIcon width={24} height={24} />}
-              >
-                {button.text}
-              </Button>
+              <Link to={button.url}>
+                <Button
+                  variant="outlined"
+                  rightIcon={<ArrowRightIcon width={24} height={24} />}
+                >
+                  {button.text}
+                </Button>
+              </Link>
             </Box>
           )}
         </Flex>
