@@ -64,7 +64,10 @@ export const BuyNow: FC<BuyNowProps> = (props) => {
       </OnlyDisplay>
 
       {isMenuOpen && (
-        <ActionSheet title={t('title__choose_a_store')}>
+        <ActionSheet
+          onCancel={() => setIsMenuOpen(false)}
+          title={t('title__choose_a_store')}
+        >
           {shops.map((item) => (
             <Link to={item.url} key={item.name}>
               <ActionSheetItem>

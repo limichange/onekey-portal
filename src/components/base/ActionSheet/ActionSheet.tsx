@@ -12,10 +12,11 @@ import { OnlyDisplay } from '../OnlyDisplay';
 export interface ActionSheetProps {
   children?: ReactNode;
   title?: string;
+  onCancel?: () => void;
 }
 
 export const ActionSheet: FC<ActionSheetProps> = (props) => {
-  const { children, title } = props;
+  const { children, title, onCancel = () => {} } = props;
   const theme = useTheme();
 
   if (!isBrowser() || !document?.body) {
@@ -25,7 +26,7 @@ export const ActionSheet: FC<ActionSheetProps> = (props) => {
   return createPortal(
     <OnlyDisplay xs s>
       <Box
-        // onClick={onClose}
+        onClick={onCancel}
         xs={{
           position: 'fixed',
           top: 0,
@@ -82,6 +83,7 @@ export const ActionSheet: FC<ActionSheetProps> = (props) => {
           <Divider color={theme.colors.test200} />
 
           <Span
+            onClick={onCancel}
             xs={{
               ...theme.text.normal500,
               textAlign: 'center',

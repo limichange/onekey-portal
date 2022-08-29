@@ -1,8 +1,13 @@
-import { FC, ReactNode } from 'react';
+import { FC, ReactNode, useState } from 'react';
 
-import { useTheme } from '@emotion/react';
-
-import { Box, Flex, I18n, Link, Span } from '../../../../../base';
+import {
+  ActionSheet,
+  ActionSheetItem,
+  Box,
+  ChevronDownIcon,
+  Flex,
+  Link,
+} from '../../../../../base';
 import { DownloadButton } from '../../DownloadButton';
 import { Title } from '../../Title';
 import { useOneKeyDownloadData } from '../../useOneKeyDownloadData';
@@ -15,26 +20,13 @@ export interface AndroidContentProps {
 
 export const AndroidContent: FC<AndroidContentProps> = (props) => {
   const { children } = props;
-  const theme = useTheme();
   const {
     platforms: { web, androidGooglePlay, androidAPK },
     types: { mobile },
   } = useOneKeyDownloadData();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const buttons = [
-    {
-      text: androidGooglePlay.name,
-      icon: androidGooglePlay.icon,
-      url: androidGooglePlay.url,
-      infos: androidGooglePlay.description,
-    },
-    {
-      text: web.name,
-      icon: web.icon,
-      url: web.url,
-      infos: web.description,
-    },
-  ];
+  const links = [androidGooglePlay, androidAPK];
 
   return (
     <ContentContainer>
@@ -42,38 +34,42 @@ export const AndroidContent: FC<AndroidContentProps> = (props) => {
 
       <Flex
         xs={{ gap: 16, flexDirection: 'column-reverse' }}
-        s={{ flexDirection: 'row' }}
+        s={{ flexDirection: 'row', maxWidth: 220 * 2 }}
       >
-        {buttons.map((item) => (
-          <Box key={item.text} s={{ maxWidth: 220 }}>
-            <DownloadButton
-              buttonSize="medium"
-              icon={item.icon}
-              text={item.text}
-              url={item.url}
-              information={item.infos}
-              buttonMaxWidth="100%"
-            />
-          </Box>
-        ))}
+        <DownloadButton
+          buttonSize="medium"
+          onClick={() => {
+            setIsMenuOpen(true);
+          }}
+          url="/download/#"
+          icon={androidAPK.icon}
+          rightIcon={ChevronDownIcon}
+          text="Android"
+          information={androidAPK.description}
+          buttonMaxWidth="100%"
+        />
+
+        <DownloadButton
+          buttonSize="medium"
+          icon={web.icon}
+          text={web.name}
+          url={web.url}
+          information=""
+          buttonMaxWidth="100%"
+        />
       </Flex>
 
-      <Flex
-        xs={{ justifyContent: 'center' }}
-        s={{ justifyContent: 'flex-start' }}
-      >
-        <Link to={androidAPK.url}>
-          <Span
-            xs={{
-              ...theme.text.normal200,
-              textAlign: 'center',
-              color: theme.colors.test500,
-            }}
-          >
-            <I18n name="action__download" /> Android APK
-          </Span>
-        </Link>
-      </Flex>
+      {isMenuOpen && (
+        <ActionSheet onCancel={() => setIsMenuOpen(false)}>
+          {links.map((item) => (
+            <Link to={item.url} key={item.name}>
+              <ActionSheetItem>
+                <Box xs={{ paddingLeft: 0, paddingRight: 0 }}>{item.name}</Box>
+              </ActionSheetItem>
+            </Link>
+          ))}
+        </ActionSheet>
+      )}
 
       {children}
     </ContentContainer>
