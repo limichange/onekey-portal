@@ -73,6 +73,7 @@
     "menu__swap": "แลกเปลี่ยน",
     "menu__swap_desc": "ETH, รองรับเครือข่ายหลัก BSC, สลับโทเค็นด้วยความเร็วสูง แหล่งจ่ายของเหลวที่เสถียร วางใจได้",
     "menu__system_status": "สถานะของระบบ",
+    "menu__the_developer_portal": "พอร์ทัลนักพัฒนา",
     "menu__token_list": "รายการโทเค็น",
     "menu__token_list_desc": "เพิ่มโทเค็น ETH, BSC, HECO ไปยังส่วนขยายและแอป",
     "menu__user_agreement": "ข้อตกลงการใช้",

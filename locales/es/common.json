@@ -73,6 +73,7 @@
     "menu__swap": "Intercambio",
     "menu__swap_desc": "ETH, soporte de red principal BSC, token de intercambio a la velocidad del rayo. Suministro estable de piscinas líquidas, puede estar seguro.",
     "menu__system_status": "Estado del sistema",
+    "menu__the_developer_portal": "El portal del desarrollador",
     "menu__token_list": "lista de fichas",
     "menu__token_list_desc": "Agregue tokens ETH, BSC, HECO a la extensión y la aplicación",
     "menu__user_agreement": "Acuerdo del Usuario",

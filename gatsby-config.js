@@ -3,7 +3,7 @@ const {languages, defaultLanguage} = require('./languages');
 module.exports = {
   assetPrefix: process.env.PUBLIC_URL || '',
   siteMetadata: {
-    siteUrl: 'https://portal.onekey.so',
+    siteUrl: 'https://onekey.so',
     title: 'onekey',
     description: 'onekey',
     url: 'url',
@@ -26,7 +26,7 @@ module.exports = {
         languages,
         defaultLanguage,
         // if you are using Helmet, you must include siteUrl, and make sure you add http:https
-        siteUrl: 'https://portal.onekey.so',
+        siteUrl: 'https://onekey.so',
         // if you are using trailingSlash gatsby config include it here, as well (the default is 'always')
         trailingSlash: 'always',
         // you can pass any i18next options

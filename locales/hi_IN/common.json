@@ -73,6 +73,7 @@
     "menu__swap": "बदलना",
     "menu__swap_desc": "ETH, BSC मेननेट सपोर्ट, बिजली की गति में टोकन स्वैप करें। तरल पूल की स्थिर आपूर्ति, निश्चिंत रहें।",
     "menu__system_status": "व्यवस्था की स्थिति",
+    "menu__the_developer_portal": "डेवलपर पोर्टल",
     "menu__token_list": "टोकनलिस्ट",
     "menu__token_list_desc": "एक्सटेंशन और ऐप में ETH, BSC, HECO टोकन जोड़ें",
     "menu__user_agreement": "उपयोगकर्ता का समझौता",

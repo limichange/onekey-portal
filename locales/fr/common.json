@@ -73,6 +73,7 @@
     "menu__swap": "Échanger",
     "menu__swap_desc": "ETH, prise en charge du réseau principal BSC, échange de jeton à la vitesse de l'éclair. Approvisionnement stable en piscines liquides, soyez assuré.",
     "menu__system_status": "État du système",
+    "menu__the_developer_portal": "Le portail des développeurs",
     "menu__token_list": "Liste de jetons",
     "menu__token_list_desc": "Ajouter des jetons ETH, BSC, HECO à l'extension et à l'application",
     "menu__user_agreement": "Accord de l'utilisateur",

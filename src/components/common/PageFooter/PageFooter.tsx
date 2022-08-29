@@ -3,6 +3,7 @@ import { FC } from 'react';
 import { useTheme } from '@emotion/react';
 
 import { useMediaQuery } from '../../../hooks';
+import { OnlyDisplay } from '../../base';
 import { Box, Footer } from '../../base/Box';
 import { Container } from '../../base/Container';
 import { Flex } from '../../base/Flex';
@@ -55,15 +56,15 @@ export const PageFooter: FC<PageFooterProps> = (props) => {
               }}
               m={{ padding: 0 }}
             >
-              {media.medium && isShowMediaLinks && (
-                <MediaLinkList color={theme.colors.white} />
-              )}
+              <OnlyDisplay m l xl xxl>
+                {isShowMediaLinks && (
+                  <MediaLinkList color={theme.colors.white} />
+                )}
 
-              {media.medium && (
                 <Box xs={{ paddingBottom: 46 }} l={{ paddingBottom: 0 }}>
                   <Copyright />
                 </Box>
-              )}
+              </OnlyDisplay>
             </Flex>
           </Flex>
 

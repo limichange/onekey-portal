@@ -4,7 +4,7 @@ import { useTheme } from '@emotion/react';
 import { atom, useAtom } from 'jotai';
 
 import { useOneKeyProduct } from '../../../../../data/useOneKeyProduct';
-import { useShopMenu } from '../../useNavigationData';
+import { useShopMenu } from '../../../../../data/useShopMenu';
 
 type ProductItem = {
   key: string;

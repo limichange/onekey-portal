@@ -26,7 +26,7 @@ export function useData() {
       image: <StaticImage src="./images/Home3.jpg" alt={title3} />,
       title: title3,
       description: t('title__the_hub_for_your_cryptos_desc'),
-      link: 'https://onekey.so/cryptos',
+      link: '/cryptos',
     },
     {
       image: <StaticImage src="./images/Home4.jpg" alt={title4} />,

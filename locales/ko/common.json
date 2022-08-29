@@ -73,6 +73,7 @@
     "menu__swap": "교환",
     "menu__swap_desc": "ETH, BSC 메인넷 지원, 번개 같은 속도로 토큰을 교환합니다. 안정적인 액체 풀 공급, 안심하세요.",
     "menu__system_status": "시스템 상태",
+    "menu__the_developer_portal": "개발자 포털",
     "menu__token_list": "토큰 목록",
     "menu__token_list_desc": "확장 및 앱에 ETH, BSC, HECO 토큰 추가",
     "menu__user_agreement": "사용자 계약",

@@ -1,7 +1,14 @@
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
+import { useDownloadData } from '../../../data/useDownloadData';
+import { useOneKeyProduct } from '../../../data/useOneKeyProduct';
+import { useShopMenu } from '../../../data/useShopMenu';
+
 export function usePageFooterData() {
   const { t } = useTranslation();
+  const oneKeyProduct = useOneKeyProduct();
+  const shopMenu = useShopMenu();
+  const downloadData = useDownloadData();
 
   return {
     media: {
@@ -24,43 +31,145 @@ export function usePageFooterData() {
     },
     menuData: [
       {
-        name: t('menu__product'),
+        name: t('menu__products'),
         link: '',
         list: [
           {
-            name: t('menu__crowdfunding'),
-            link: 'https://crowdfund.onekey.so/',
-            status: 'external',
+            name: 'OneKey Mini',
+            link: oneKeyProduct.mini.path,
           },
           {
-            name: t('menu__mobile_wallet'),
-            link: 'https://onekey.so/download',
-            status: 'external',
+            name: 'OneKey Touch',
+            link: oneKeyProduct.touch.path,
           },
           {
-            name: t('menu__hardware_device'),
-            link: 'https://onekey.so/hardware',
-            status: 'external',
+            name: 'OneKey Lite',
+            link: oneKeyProduct.lite.path,
           },
           {
-            name: t('menu__browser_extension'),
-            link: 'https://onekey.so/plugin',
-            status: 'external',
+            name: shopMenu.name,
+            link: shopMenu.path,
           },
+        ],
+      },
+      {
+        name: t('menu__app'),
+        link: '',
+        list: [
+          {
+            name: downloadData.desktop.name,
+            key: downloadData.desktop.name,
+            link: downloadData.desktop.path,
+          },
+          {
+            name: downloadData.mobile.name,
+            key: downloadData.mobile.name,
+            link: downloadData.mobile.path,
+          },
+          {
+            name: downloadData.browserExtension.name,
+            key: downloadData.browserExtension.name,
+            link: downloadData.browserExtension.path,
+          },
+          {
+            name: downloadData.bridge.name,
+            key: downloadData.bridge.name,
+            link: downloadData.bridge.path,
+          },
+          {
+            name: downloadData.web.name,
+            key: downloadData.web.name,
+            link: downloadData.web.path,
+          },
+        ],
+      },
+      {
+        name: t('menu__services'),
+        link: '',
+        list: [
           {
             name: t('menu__swap'),
-            link: 'https://swap.onekey.so/',
-            status: 'external',
+            link: 'https://swap.onekey.so/#/swap',
+          },
+          {
+            name: t('menu__portfolio'),
+            link: 'https://portfolio.onekey.so/',
           },
           {
             name: t('menu__token_list'),
-            link: 'https://onekey.so/tokens',
-            status: 'external',
+            link: 'https://www.onekey.so/tokens',
+          },
+          {
+            name: t('menu__supported_chains'),
+            link: '/cryptos',
           },
           {
             name: t('menu__recovery_phrase_converter'),
             link: 'https://bip39.onekey.so/',
-            status: 'external',
+          },
+          {
+            name: 'EIPs',
+            link: '/eips',
+          },
+        ],
+      },
+      {
+        name: t('menu__information'),
+        link: '',
+        list: [
+          {
+            name: t('menu__security'),
+            link: '/security',
+          },
+          {
+            name: t('menu__submit_dapp'),
+            link: 'https://gr4yl99ujhl.typeform.com/to/kDJuiIQ9',
+          },
+          {
+            name: t('menu__submit_token'),
+            link: 'https://gr4yl99ujhl.typeform.com/to/ZM0qyr9e',
+          },
+        ],
+      },
+      {
+        name: t('menu__developer'),
+        link: '',
+        list: [
+          {
+            name: t('menu__the_developer_portal'),
+            link: 'https://developer.onekey.so/',
+          },
+        ],
+      },
+      {
+        name: t('menu__solutions'),
+        link: '',
+        list: [
+          {
+            name: t('menu__enterprise_solutions'),
+            link: '/enterprise',
+          },
+          {
+            name: t('menu__referral'),
+            link: '/affiliate-program',
+          },
+          {
+            name: t('menu__co_branded_products'),
+            link: '/co-branded-partnership',
+          },
+        ],
+      },
+      {
+        name: t('menu__support'),
+        link: '',
+        list: [
+          {
+            name: t('menu__beginners_guide'),
+            link: 'https://help.onekey.so/hc/categories/360000170236',
+          },
+          {
+            name: t('menu__hardware_wallet_manual'),
+            link: 'https://help.onekey.so/hc/articles/360002123856',
           },
         ],
       },
@@ -71,94 +180,22 @@ export function usePageFooterData() {
           {
             name: t('menu__system_status'),
             link: 'https://onekeyhq.github.io/upptime',
-            status: 'external',
           },
           {
             name: t('menu__open_source_community'),
-            link: 'https://github.com/OneKeyHQ/',
-            status: 'external',
+            link: 'https://github.com/OneKeyHQ/OneKey-Wallet',
           },
           {
             name: t('menu__media_kits'),
-            link: 'https://help.onekey.so/hc/articles/360002200956',
-            status: 'external',
+            link: 'https://help.onekey.so/hc/en-us/articles/360002200956',
           },
           {
             name: t('menu__privacy_agreement'),
-            link: 'https://help.onekey.so/hc/articles/360002003315',
-            status: 'external',
+            link: 'https://help.onekey.so/hc/en-us/articles/360002003315',
           },
           {
             name: t('menu__user_agreement'),
-            link: 'https://help.onekey.so/hc/articles/360002014776',
-            status: 'external',
-          },
-        ],
-      },
-      {
-        name: t('menu__information'),
-        link: '',
-        list: [
-          {
-            name: t('menu__submit_dapp'),
-            link: 'https://gr4yl99ujhl.typeform.com/to/kDJuiIQ9',
-            status: 'external',
-          },
-          {
-            name: t('menu__submit_token'),
-            link: 'https://gr4yl99ujhl.typeform.com/to/ZM0qyr9e',
-            status: 'external',
-          },
-          {
-            name: t('menu__venture_capital'),
-            link: 'https://onekey.so/ventures',
-            status: 'external',
-          },
-          {
-            name: t('menu__sales_alliance'),
-            link: 'https://help.onekey.so/hc/articles/360002658076',
-            status: 'external',
-          },
-          {
-            name: t('menu__advertising'),
-            link: 'https://help.onekey.so/hc/articles/360002658096',
-            status: 'external',
-          },
-          {
-            name: t('menu__investor_relations'),
-            link: 'https://onekey.so/invest',
-            status: 'external',
-          },
-        ],
-      },
-      {
-        name: t('menu__crypto_assets'),
-        link: '/crypto-assets',
-        list: [
-          {
-            name: 'Bitcoin (BTC)',
-            link: 'https://onekey.so/coins/btc',
-            status: 'external',
-          },
-          {
-            name: 'Ethereum (ETH)',
-            link: 'https://onekey.so/coins/eth',
-            status: 'external',
-          },
-          {
-            name: 'Litecoin (LTC)',
-            link: 'https://onekey.so/coins/ltc',
-            status: 'external',
-          },
-          {
-            name: 'Dogecoin (DOGE)',
-            link: '#Dogecoin',
-            status: 'disabled',
-          },
-          {
-            name: 'Dash (DASH)',
-            link: '#Dash',
-            status: 'disabled',
+            link: 'https://help.onekey.so/hc/en-us/articles/360002014776',
           },
         ],
       },

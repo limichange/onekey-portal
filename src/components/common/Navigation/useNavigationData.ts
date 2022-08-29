@@ -1,6 +1,7 @@
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useDownloadData, useOneKeyProduct } from '../../../data';
+import { useShopMenu } from '../../../data/useShopMenu';
 
 import chainsSvgUrl from './images/chains.svg';
 import eipsSvgUrl from './images/eips.svg';
@@ -18,15 +19,6 @@ export type NavigationDataItem = {
   language?: string;
   subItems?: NavigationDataItem[];
 };
-
-export function useShopMenu() {
-  const { t } = useTranslation();
-  return {
-    name: t('title__view_all_products'),
-    key: 'shop',
-    path: '/shop',
-  } as const;
-}
 
 export function useNavigationDataObject(): Record<
   | 'products'

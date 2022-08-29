@@ -33,8 +33,7 @@ export const MenuList: FC = () => {
             width: '50%',
           }}
           l={{
-            paddingBottom: 0,
-            width: 'fit-content',
+            width: '25%',
             ':last-child': {
               paddingRight: 0,
             },
@@ -65,13 +64,11 @@ export const MenuList: FC = () => {
             {/* level2 */}
             {item.list.map((childItem) => (
               <a
-                href={childItem.link}
+                href={childItem.link || '#'}
                 key={childItem.name}
                 css={{
                   ...theme.text.normal200,
                   color: theme.colors.white,
-                  cursor:
-                    childItem.status === 'disabled' ? 'not-allowed' : 'pointer',
                   ':first-letter': {
                     textTransform: 'uppercase',
                   },
