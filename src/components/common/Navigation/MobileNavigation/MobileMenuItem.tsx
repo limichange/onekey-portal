@@ -54,9 +54,7 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
               }}
             >
               {menuItem.icon && (
-                <Box xs={{ width: 24, height: 24 }}>
-                  <Img src={menuItem.icon} />
-                </Box>
+                <Img xs={{ width: 24, height: 24 }} src={menuItem.icon} />
               )}
 
               {menuItem.name}
