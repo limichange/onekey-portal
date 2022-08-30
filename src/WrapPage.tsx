@@ -35,29 +35,6 @@ const WrapPage: FC<WrapPageProps> = (props) => {
   const { defaultLanguage, routed, language } = pageContext.i18n;
 
   useEffect(() => {
-    import('browser-update').then((bu) => {
-      bu.default({
-        test: false,
-        reminder: 0,
-        reminderClosed: 1,
-        no_permanent_hide: true,
-        required: {
-          e: 16,
-        },
-        url: 'https://browser-update.org/zh/update.html',
-        text: {
-          msg: '本网站使用最新技术构建，为保证最佳浏览体验，请更新您的浏览器（{brow_name}）',
-          msgmore: '',
-          bupdate: '更新浏览器',
-          bignore: '忽略提醒',
-          remind: '将会在 {days} 天后提醒',
-          bnever: '不再提示',
-        },
-      });
-    });
-  }, []);
-
-  useEffect(() => {
     if (isBrowser()) {
       const { search } = location;
 

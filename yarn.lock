@@ -4286,11 +4286,6 @@ browser-lang@^0.1.0:
   resolved "https://registry.yarnpkg.com/browser-lang/-/browser-lang-0.1.0.tgz#da9bb26e4f82b4385a51054af5495f6a9de475f7"
   integrity sha512-p4mdcU9fIsoDtbAVorKtxo5H86mK040MYn96yshyhfN3OF0iySuITgR8IxldI72MJAultMnwqDgwfWWwjUrSsw==
 
-browser-update@^3.3.38:
-  version "3.3.40"
-  resolved "https://registry.yarnpkg.com/browser-update/-/browser-update-3.3.40.tgz#37ebc086f1e5ee22dd7754064acaf2a23af94686"
-  integrity sha512-0xJsvKzAcTDnTXFtHFPK/S4sgoKRuE8jmicaiy0PYfHdLDZoaPhtdoWdEs9xXHlIapTVGinF14HTsfSV4qASNw==
-
 browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.17.5, browserslist@^4.18.1, browserslist@^4.20.2, browserslist@^4.20.3, browserslist@^4.21.3, browserslist@^4.6.6:
   version "4.21.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.3.tgz#5df277694eb3c48bc5c4b05af3e8b7e09c5a6d1a"
