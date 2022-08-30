@@ -2,7 +2,6 @@ import { FC } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { useMediaQuery } from '../../../hooks';
 import { OnlyDisplay } from '../../base';
 import { Box, Footer } from '../../base/Box';
 import { Container } from '../../base/Container';
@@ -13,6 +12,7 @@ import { Copyright } from './Copyright';
 import { EmailSubscribe } from './EmailSubscribe';
 import { Logo } from './Logo';
 import { MenuList } from './MenuList';
+import { OpenSourceIcon } from './OpenSourceIcon';
 
 export interface PageFooterProps {
   isShowEmailSubscribe?: boolean;
@@ -22,7 +22,6 @@ export interface PageFooterProps {
 export const PageFooter: FC<PageFooterProps> = (props) => {
   const { isShowEmailSubscribe = true, isShowMediaLinks = true } = props;
   const theme = useTheme();
-  const media = useMediaQuery();
 
   return (
     <Footer
@@ -47,28 +46,28 @@ export const PageFooter: FC<PageFooterProps> = (props) => {
             {/* Logo */}
             <Logo />
 
-            <Flex
-              xs={{
-                paddingTop: 20,
-                paddingBottom: 80,
-                flexDirection: 'column',
-                gap: 32,
-              }}
-              m={{ padding: 0 }}
-            >
-              <OnlyDisplay m l xl xxl>
+            <OnlyDisplay m l xl xxl>
+              <Flex
+                xs={{
+                  paddingTop: 20,
+                  paddingBottom: 80,
+                  flexDirection: 'column',
+                  gap: 24,
+                }}
+                m={{ padding: 0, paddingBottom: 0 }}
+              >
                 {isShowMediaLinks && (
                   <MediaLinkList color={theme.colors.white} />
                 )}
 
-                <Box xs={{ paddingBottom: 46 }} l={{ paddingBottom: 0 }}>
-                  <Copyright />
-                </Box>
-              </OnlyDisplay>
-            </Flex>
+                <OpenSourceIcon />
+
+                <Copyright />
+              </Flex>
+            </OnlyDisplay>
           </Flex>
 
-          <Box xs={{ maxWidth: 867, flex: 1 }}>
+          <Box xs={{ flex: 1 }}>
             {/* menu list */}
             <MenuList />
 
@@ -78,17 +77,27 @@ export const PageFooter: FC<PageFooterProps> = (props) => {
                 <EmailSubscribe />
               </Box>
             )}
-          </Box>
 
-          {!media.medium && (
-            <Box xs={{ paddingTop: 20, paddingBottom: 80 }}>
-              {isShowMediaLinks && <MediaLinkList color={theme.colors.white} />}
+            <OnlyDisplay xs s>
+              <Box xs={{ paddingTop: 20, paddingBottom: 80, maxWidth: 480 }}>
+                <Flex
+                  xs={{
+                    justifyContent: 'space-between',
+                  }}
+                >
+                  {isShowMediaLinks && (
+                    <MediaLinkList color={theme.colors.white} />
+                  )}
 
-              <Box xs={{ paddingTop: 8 }}>
-                <Copyright />
+                  <OpenSourceIcon />
+                </Flex>
+
+                <Box xs={{ paddingTop: 8 }}>
+                  <Copyright />
+                </Box>
               </Box>
-            </Box>
-          )}
+            </OnlyDisplay>
+          </Box>
         </Box>
       </Container>
     </Footer>
