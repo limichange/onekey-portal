@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 import { Box, Li, Ul } from '../../../base/Box';
 import { Container } from '../../../base/Container';
@@ -22,6 +23,12 @@ export interface NormalNavigationProps {
 export const NormalNavigation: React.FC<NormalNavigationProps> = () => {
   const theme = useTheme();
   const data = useNavigationDataObject();
+  const { scrollY } = useScroll();
+  const downloadButtonBackground = useTransform(
+    scrollY,
+    (value) => `rgba(255, 255, 255, ${value > 10 ? 0 : 0.4})`,
+  );
+
   const menuData = [
     {
       ...data.products,
@@ -82,13 +89,22 @@ export const NormalNavigation: React.FC<NormalNavigationProps> = () => {
           <LanguageSwitchButton />
         </Box>
 
-        <DownloadButton
-          override={{
-            button: {
-              variant: 'outlined',
-            },
+        <motion.div
+          style={{
+            position: 'relative',
+            backgroundColor: downloadButtonBackground,
+            borderRadius: 60,
+            transform: 'translateZ(0)',
           }}
-        />
+        >
+          <DownloadButton
+            override={{
+              button: {
+                variant: 'outlined',
+              },
+            }}
+          />
+        </motion.div>
       </Container>
     </NavigationAnimationWrap>
   );
