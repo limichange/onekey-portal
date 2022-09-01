@@ -5,7 +5,6 @@ import { useTheme } from '@emotion/react';
 import { useHover } from '../../../../../hooks';
 import { Box } from '../../../../base/Box';
 import { Container } from '../../../../base/Container';
-import { Flex } from '../../../../base/Flex';
 import { useCurrentActiveMenuItem } from '../atom';
 import { PanelComponentProps } from '../NavigationItem';
 import { useNormalNavigationHeight } from '../useNormalNavigationHeight';
@@ -47,18 +46,18 @@ export const ServicesPanel: FC<ServicesPanelProps> = (props) => {
           <Box
             xs={{
               padding: 8,
-              borderRadius: 16,
+              borderRadius: theme.borderRadius.xl,
               background: theme.colors.white,
               boxShadow: theme.shadow.hover,
             }}
           >
-            <Flex xs={{ flexWrap: 'wrap' }}>
+            <Box
+              xs={{ display: 'grid', gridTemplateColumns: `repeat(2, 1fr)` }}
+            >
               {subItems?.map((item) => (
-                <Box key={item.key} xs={{ width: '50%' }}>
-                  <ServicesPanelItem {...item} />
-                </Box>
+                <ServicesPanelItem {...item} key={item.key} />
               ))}
-            </Flex>
+            </Box>
           </Box>
         </Box>
       </Container>
