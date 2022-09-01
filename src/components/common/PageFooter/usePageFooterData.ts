@@ -89,11 +89,11 @@ export function usePageFooterData() {
         list: [
           {
             name: t('menu__swap'),
-            link: 'https://swap.onekey.so/#/swap',
+            link: 'https://app.onekey.so/tab/swap',
           },
           {
             name: t('menu__portfolio'),
-            link: 'https://portfolio.onekey.so/',
+            link: 'https://app.onekey.so',
           },
           {
             name: t('menu__token_list'),
