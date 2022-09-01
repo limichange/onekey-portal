@@ -18,3 +18,7 @@ declare module '*.svg' {
   export { ReactComponent };
   export default content;
 }
+
+interface Window {
+  ethereum?: any;
+}

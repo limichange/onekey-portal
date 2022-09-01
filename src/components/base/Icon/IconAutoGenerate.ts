@@ -72,6 +72,8 @@ export { ReactComponent as MobileIcon } from './images/mobile.svg';
 export { default as MobileIconInline } from './images/mobile.svg';
 export { ReactComponent as PackageIcon } from './images/package.svg';
 export { default as PackageIconInline } from './images/package.svg';
+export { ReactComponent as SearchIcon } from './images/search.svg';
+export { default as SearchIconInline } from './images/search.svg';
 export { ReactComponent as ServiceIcon } from './images/service.svg';
 export { default as ServiceIconInline } from './images/service.svg';
 export { ReactComponent as ShopIcon } from './images/shop.svg';

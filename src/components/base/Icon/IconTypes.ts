@@ -36,6 +36,7 @@ export type IconTypes =
   | 'MenuIcon'
   | 'MobileIcon'
   | 'PackageIcon'
+  | 'SearchIcon'
   | 'ServiceIcon'
   | 'ShopIcon'
   | 'StarHalfIcon'

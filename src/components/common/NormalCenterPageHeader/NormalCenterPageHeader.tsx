@@ -7,9 +7,9 @@ import { SectionTitle } from '../SectionTitle';
 
 export interface NormalCenterPageHeaderProps {
   children?: ReactNode;
-  title?: string;
-  subtitle?: string;
-  description?: string;
+  title?: string | ReactNode;
+  subtitle?: string | ReactNode;
+  description?: string | ReactNode;
 }
 
 export const NormalCenterPageHeader: FC<NormalCenterPageHeaderProps> = (
@@ -20,11 +20,12 @@ export const NormalCenterPageHeader: FC<NormalCenterPageHeaderProps> = (
 
   return (
     <Box
-      xs={{ textAlign: 'center', paddingTop: '18vh', paddingBottom: '12vh' }}
+      xs={{ textAlign: 'center', paddingTop: '26vh', paddingBottom: '16vh' }}
     >
       <SectionTitle>
         {title}
-        <br />
+
+        {subtitle && <br />}
 
         <Span xs={{ color: theme.colors.brandAlt400 }}>{subtitle}</Span>
       </SectionTitle>

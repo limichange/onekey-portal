@@ -238,6 +238,13 @@ export const theme = {
     modal: 9000,
     overlay: 8000,
   },
+  borderRadius: {
+    s: 4,
+    m: 8,
+    l: 12,
+    xl: 16,
+    xxl: 20,
+  },
   shadow: {
     hover: '0px 0px 1px rgba(0, 0, 0, 0.08), 0px 8px 12px rgba(0, 0, 0, 0.08)',
   },

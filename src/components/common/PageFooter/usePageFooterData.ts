@@ -97,7 +97,7 @@ export function usePageFooterData() {
           },
           {
             name: t('menu__token_list'),
-            link: 'https://www.onekey.so/tokens',
+            link: '/tokens',
           },
           {
             name: t('menu__supported_chains'),

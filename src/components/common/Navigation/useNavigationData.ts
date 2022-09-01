@@ -112,7 +112,7 @@ export function useNavigationDataObject(): Record<
         name: t('menu__token_list'),
         key: 'tokens',
         description: t('menu__token_list_desc'),
-        path: 'https://www.onekey.so/tokens',
+        path: '/tokens',
         icon: tokenlistSvgUrl,
       },
       {
