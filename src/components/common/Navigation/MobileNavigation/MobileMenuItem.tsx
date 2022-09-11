@@ -78,6 +78,7 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
                 alignItems: 'center',
                 paddingTop: 10,
                 paddingBottom: 10,
+                color: theme.colors.test500,
               }}
             >
               {menuItem.icon && (
