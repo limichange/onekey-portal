@@ -1,29 +1,12 @@
 import React, { Fragment, ReactNode, useCallback, useState } from 'react';
 
-import { useTheme } from '@emotion/react';
-
-import { Link } from '../../../base';
+import { Flex } from '../../../base';
 import { Box } from '../../../base/Box';
-import { Flex } from '../../../base/Flex';
-import { MenuCloseIcon, MenuIcon } from '../../../base/Icon';
-import { Logo } from '../../../base/Logo';
-import { DownloadButton } from '../../DownloadButton';
+import { MenuIcon } from '../../../base/Icon';
 import { NavigationAnimationWrap } from '../NavigationAnimationWrap';
-import { useNavigationData } from '../useNavigationData';
 
-import { MobileMenuItems } from './MobileMenuItems';
-
-const LogoIcon = (
-  <Link to="/">
-    <Logo
-      css={{
-        width: 48,
-        height: 48,
-        color: 'black',
-      }}
-    />
-  </Link>
-);
+import { LogoIcon } from './LogoIcon';
+import { MobileNavigationPanel } from './MobileNavigationPanel';
 
 export interface MobileNavigationProps {
   children?: ReactNode;
@@ -32,8 +15,6 @@ export interface MobileNavigationProps {
 export const MobileNavigation: React.FC<MobileNavigationProps> = (props) => {
   const { children } = props;
   const [menuActive, setMenuActive] = useState(false);
-  const theme = useTheme();
-  const navigationData = useNavigationData();
 
   const openMenu = useCallback(() => {
     setMenuActive(true);
@@ -69,50 +50,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = (props) => {
         </Flex>
       </NavigationAnimationWrap>
 
-      {menuActive && (
-        <Box
-          xs={{
-            zIndex: 8000,
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundColor: theme.colors.white,
-            overflow: 'auto',
-            WebkitOverflowScrolling: 'auto',
-          }}
-        >
-          <Flex
-            xs={{
-              padding: '20px',
-              justifyContent: 'space-between',
-            }}
-          >
-            {LogoIcon}
-
-            <Box onClick={closeMenu}>
-              <MenuCloseIcon
-                {...{
-                  width: 40,
-                  height: 40,
-                }}
-              />
-            </Box>
-          </Flex>
-
-          <MobileMenuItems mobileMenus={navigationData} />
-
-          <Box
-            xs={{
-              paddingLeft: 20,
-              paddingRight: 20,
-            }}
-          >
-            <DownloadButton />
-          </Box>
-        </Box>
-      )}
+      {menuActive && <MobileNavigationPanel onCloseMenu={closeMenu} />}
     </Fragment>
   );
 };
