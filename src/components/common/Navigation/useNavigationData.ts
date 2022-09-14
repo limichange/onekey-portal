@@ -45,6 +45,11 @@ export function useNavigationDataObject(): Record<
         path: oneKeyProduct.mini.path,
       },
       {
+        name: oneKeyProduct.classic.name,
+        key: oneKeyProduct.classic.name,
+        path: oneKeyProduct.classic.path,
+      },
+      {
         name: oneKeyProduct.touch.name,
         key: oneKeyProduct.touch.name,
         path: oneKeyProduct.touch.path,

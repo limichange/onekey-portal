@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}}恢復表",
     "content__int_sticker": "{{value}}貼紙",
     "content__int_usb_type_c_cable": "{{value}} USB Type-C 數據線",
+    "content__monochrome_display": "單色顯示器",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n隨機數發生器",
     "content__plastic": "塑料",
     "content__recovery_phrase_backup_card": "恢復短語備份卡",
     "title__certifications_and_standards": "認證和標準",

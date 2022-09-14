@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} recovery sheet",
     "content__int_sticker": "{{value}} sticker",
     "content__int_usb_type_c_cable": "{{value}} usb type-c cable",
+    "content__monochrome_display": "Monochrome na Display",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n Random Number Generator",
     "content__plastic": "Plastic",
     "content__recovery_phrase_backup_card": "Pagbawi ng Phrase Backup Card",
     "title__certifications_and_standards": "Mga Sertipikasyon at Pamantayan",

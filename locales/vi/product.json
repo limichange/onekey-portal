@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "bảng khôi phục {{value}}",
     "content__int_sticker": "Hình dán {{value}}",
     "content__int_usb_type_c_cable": "{{value}} cáp usb type-c",
+    "content__monochrome_display": "Màn hình đơn sắc",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A \/ B \/ C\\n Trình tạo số ngẫu nhiên",
     "content__plastic": "Nhựa",
     "content__recovery_phrase_backup_card": "Thẻ sao lưu cụm từ khôi phục",
     "title__certifications_and_standards": "Chứng nhận và Tiêu chuẩn",

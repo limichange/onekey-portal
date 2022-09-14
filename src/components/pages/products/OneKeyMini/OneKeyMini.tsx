@@ -70,7 +70,7 @@ export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
           {...oneKeyMiniData.technicalSpecifications}
         />
 
-        <RecommendSection include={['touch', 'pro', 'lite']} />
+        <RecommendSection include={['touch', 'classic', 'lite']} />
 
         <StayInTouchWidthContainerAndPadding />
       </Main>

@@ -33,6 +33,13 @@ export function useProductPanel() {
         fontColor: theme.colors.test500,
       },
       {
+        key: oneKeyProduct.classic.name,
+        name: oneKeyProduct.classic.name,
+        link: oneKeyProduct.classic.path,
+        backgroundColor: theme.colors.test100,
+        fontColor: theme.colors.test500,
+      },
+      {
         key: oneKeyProduct.touch.name,
         name: oneKeyProduct.touch.name,
         link: oneKeyProduct.touch.path,

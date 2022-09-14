@@ -2,6 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { splitMultiline } from '../../../../../utils';
+import { ImageIntroductionItemProps } from '../../components';
 
 import videoPoster from './images/onekey-lite-feature-01-poster.jpg';
 
@@ -11,10 +12,11 @@ export function useImageIntroductionData() {
   const name2 = t('title__scan_set_code_backed_up');
   const name3 = t('title__water_resistance_also_tear_resistant');
 
-  const items = [
+  const items: ImageIntroductionItemProps[] = [
     {
       name: splitMultiline(name1),
       description: ``,
+      type: 'video',
       video: '/video/onekey-lite-feature-01.mp4',
       videoPoster,
       images: {

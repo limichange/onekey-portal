@@ -38,7 +38,12 @@ export function useTechnicalSpecificationsSectionData() {
             },
             {
               title2: t('title__certifications_and_standards'),
-              description: t('content__ce_rohs_and_csprng'),
+              descriptions: [
+                t('content__ce_rohs_and_csprng'),
+                t(
+                  'content__nist_sp_800_90_a_b_c_random_number_generator',
+                ).replace('\\n', ' '),
+              ],
             },
             {
               title2: t('title__chips'),

@@ -7,7 +7,10 @@ export default Shop;
 export const query = graphql`
   query ($language: String!) {
     locales: allLocale(
-      filter: { ns: { in: ["common", "shop"] }, language: { eq: $language } }
+      filter: {
+        ns: { in: ["common", "shop", "product"] }
+        language: { eq: $language }
+      }
     ) {
       edges {
         node {

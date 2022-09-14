@@ -13,6 +13,7 @@ import {
   I18n,
   Img,
   Link,
+  MultilineText,
   Span,
 } from '../../../../../base';
 import { BuyNow } from '../../../../../common';
@@ -142,16 +143,29 @@ export const CompareItem: FC<CompareItemProps> = (props) => {
           >
             {item.icon && <Img src={item.icon} />}
             {!item.icon && (
-              <Span
-                xs={{
-                  ...theme.text.medium300,
-                  color: theme.colors.test500,
-                }}
-                s={theme.text.medium400}
-                m={theme.text.medium500}
-              >
-                {item.name}
-              </Span>
+              <Box>
+                <Span
+                  xs={{
+                    ...theme.text.medium300,
+                    color: theme.colors.test500,
+                  }}
+                  s={theme.text.medium400}
+                  m={theme.text.medium500}
+                >
+                  {item.name}
+                </Span>
+
+                {item.description && (
+                  <Box
+                    xs={{
+                      ...theme.text.normal100,
+                      color: theme.colors.test300,
+                    }}
+                  >
+                    <MultilineText text={item.description} />
+                  </Box>
+                )}
+              </Box>
             )}
 
             <Span

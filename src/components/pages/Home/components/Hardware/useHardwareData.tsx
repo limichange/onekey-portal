@@ -4,13 +4,15 @@ import { Loader } from 'pixi.js';
 
 import { useOneKeyProduct } from '../../../../../data/useOneKeyProduct';
 
+import classicOutlineImage from './images/classic.svg';
+import classicHover from './images/classicHover.png';
 import miniOutlineImage from './images/mini.svg';
 import miniHover from './images/miniHover.png';
-import todoOutlineImage from './images/todo.svg';
 import touchOutlineImage from './images/touch.svg';
 import touchHover from './images/touchHover.png';
+import { ItemProps } from './Item';
 
-export function useHardwareData() {
+export function useHardwareData(): ItemProps[] {
   const oneKeyProduct = useOneKeyProduct();
 
   useEffect(() => {
@@ -26,6 +28,14 @@ export function useHardwareData() {
       link: oneKeyProduct.mini.path,
     },
     {
+      image: classicOutlineImage,
+      title: oneKeyProduct.classic.name,
+      hoverImage: classicHover,
+      description: oneKeyProduct.classic.description,
+      link: oneKeyProduct.classic.path,
+      status: 'available',
+    },
+    {
       image: touchOutlineImage,
       title: oneKeyProduct.touch.name,
       hoverImage: touchHover,
@@ -33,12 +43,5 @@ export function useHardwareData() {
       link: oneKeyProduct.touch.path,
       status: 'available',
     },
-    {
-      image: todoOutlineImage,
-      title: oneKeyProduct.pro.name,
-      hoverImage: '',
-      description: oneKeyProduct.pro.description,
-      status: 'coming-soon',
-    },
-  ] as const;
+  ];
 }

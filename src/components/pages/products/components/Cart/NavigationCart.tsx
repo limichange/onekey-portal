@@ -45,7 +45,7 @@ export const NavigationCart: FC<NavigationCartProps> = (props) => {
     } else {
       setCursorVariant('hidden');
     }
-  }, [centerPosition]);
+  }, [centerPosition, setCursorVariant]);
 
   return (
     <OnlyDisplay m l xl xxl>

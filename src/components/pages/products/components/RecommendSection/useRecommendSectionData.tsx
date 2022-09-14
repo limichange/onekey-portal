@@ -7,6 +7,7 @@ import {
   useOneKeyProduct,
 } from '../../../../../data/useOneKeyProduct';
 
+import classicImage from './images/classic.svg';
 import LiteImage from './images/lite.svg';
 import MiniImage from './images/mini.svg';
 import ProImage from './images/pro.svg';
@@ -49,6 +50,11 @@ export function useRecommendSectionData(): {
         ...oneKeyProduct.lite,
         image: LiteImage,
         hoverImage: <StaticImage src="./images/liteHover.png" alt="mini" />,
+      },
+      {
+        ...oneKeyProduct.classic,
+        image: classicImage,
+        hoverImage: <StaticImage src="./images/classicHover.png" alt="mini" />,
       },
     ],
   };

@@ -103,5 +103,22 @@ export function useOneKeyProduct(): OneKeyProducts {
         youzan: undefined,
       },
     },
+    classic: {
+      shopProductId: '#',
+      name: 'OneKey Classic',
+      price: 89,
+      formattedPrice: '$89.00',
+      status: 'normal',
+      description: t(
+        'content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all',
+      ),
+      path: '/products/onekey-classic-hardware-wallet/',
+      shops: {
+        amazonGlobal: undefined,
+        amazonJapan: undefined,
+        shopify: undefined,
+        youzan: undefined,
+      },
+    },
   };
 }

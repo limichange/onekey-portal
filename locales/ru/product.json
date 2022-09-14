@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} лист восстановления",
     "content__int_sticker": "{{value}} стикер",
     "content__int_usb_type_c_cable": "{{value}} USB-кабель типа C",
+    "content__monochrome_display": "Монохромный дисплей",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "НИСТ СП 800-90А\/Б\/К\\n Генератор случайных чисел",
     "content__plastic": "Пластик",
     "content__recovery_phrase_backup_card": "Резервная карта фразы восстановления",
     "title__certifications_and_standards": "Сертификаты и стандарты",

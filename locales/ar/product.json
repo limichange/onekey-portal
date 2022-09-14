@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "ورقة استرداد {{value}}",
     "content__int_sticker": "ملصق {{value}}",
     "content__int_usb_type_c_cable": "{{value}} كبل USB من النوع c",
+    "content__monochrome_display": "شاشة أحادية اللون",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "نيست SP 800-90A \/ B \/ C.\\n عشوائي عدد المولدات",
     "content__plastic": "بلاستيك",
     "content__recovery_phrase_backup_card": "استعادة عبارة النسخ الاحتياطي",
     "title__certifications_and_standards": "الشهادات والمعايير",

@@ -14,6 +14,7 @@ export const ContentItemDescriptions: FC<ContentItemDescriptionsProps> = (
   return (
     <Flex
       xs={{
+        paddingTop: 4,
         flexDirection: 'column',
       }}
     >

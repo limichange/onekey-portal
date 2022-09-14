@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} 복구 시트",
     "content__int_sticker": "{{value}} 스티커",
     "content__int_usb_type_c_cable": "{{value}} usb type-c 케이블",
+    "content__monochrome_display": "흑백 디스플레이",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n 난수 생성기",
     "content__plastic": "플라스틱",
     "content__recovery_phrase_backup_card": "복구 문구 백업 카드",
     "title__certifications_and_standards": "인증 및 표준",

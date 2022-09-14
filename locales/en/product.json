@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} recovery sheet",
     "content__int_sticker": "{{value}} sticker",
     "content__int_usb_type_c_cable": "{{value}} usb type-c cable",
+    "content__monochrome_display": "Monochrome Display",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\nRandom Number Generator",
     "content__plastic": "Plastic",
     "content__recovery_phrase_backup_card": "Recovery Phrase Backup Card",
     "title__certifications_and_standards": "Certifications and Standards",

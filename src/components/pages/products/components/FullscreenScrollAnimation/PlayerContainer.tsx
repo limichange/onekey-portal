@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC, useMemo, useState } from 'react';
 
 import { MotionValue, useTransform } from 'framer-motion';
 
@@ -24,18 +24,16 @@ export const PlayerContainer: FC<PlayerContainerProps> = (props) => {
   const { elementInViewportProgress, items, backgroundColor } = props;
   const { height: windowHeight = 1, width: windowWidth = 1 } = useWindowSize();
   const [totalProgress, setTotalProgress] = useState(0);
-
+  const [currentProgress, setCurrentProgress] = useState(0);
   const [player, setPlayer] = useState<Player | null>(null);
 
-  const allFrames = items.map((item) => item.frames);
+  const allFrames = useMemo(() => items.map((item) => item.frames), [items]);
 
-  const motionValue = useTransform(
-    elementInViewportProgress,
-    [0, 1],
-    [0, totalProgress],
-  );
+  useTransform(elementInViewportProgress, (value) => {
+    const newValue = parseFloat((value * totalProgress).toFixed(0));
 
-  const currentProgress = parseFloat(motionValue.get().toFixed(1));
+    if (currentProgress !== newValue) setCurrentProgress(newValue);
+  });
 
   return (
     <Box xs={{ position: 'relative' }}>

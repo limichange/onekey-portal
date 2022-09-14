@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} Wiederherstellungsblatt",
     "content__int_sticker": "{{value}} Aufkleber",
     "content__int_usb_type_c_cable": "{{value}} USB-Typ-C-Kabel",
+    "content__monochrome_display": "Monochromes Display",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n Zufallszahlengenerator",
     "content__plastic": "Kunststoff",
     "content__recovery_phrase_backup_card": "Wiederherstellungssatz-Sicherungskarte",
     "title__certifications_and_standards": "Zertifizierungen und Standards",

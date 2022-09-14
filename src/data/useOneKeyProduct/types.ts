@@ -27,4 +27,5 @@ export type OneKeyProducts = {
   touch: ProductItem;
   lite: ProductItem;
   pro: ProductItem;
+  classic: ProductItem;
 };

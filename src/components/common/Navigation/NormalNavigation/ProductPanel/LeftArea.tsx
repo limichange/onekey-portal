@@ -85,7 +85,7 @@ export const LeftArea: FC<LeftAreaProps> = (props) => {
 
       <Box
         xs={{ width: '50%', height: '100%', position: 'relative' }}
-        xxl={{ height: '340px' }}
+        xl={{ height: '400px' }}
       >
         <AnimatePresence exitBeforeEnter>
           <motion.div
@@ -105,11 +105,20 @@ export const LeftArea: FC<LeftAreaProps> = (props) => {
                 alt="OneKeyMini"
               />
             )}
+            {currentSelected === oneKeyProduct.classic.name && (
+              <StaticImage
+                loading="eager"
+                draggable={false}
+                css={{ width: '100%', height: '100%' }}
+                src="./images/OneKeyClassic.png"
+                alt="OneKeyClassic"
+              />
+            )}
             {currentSelected === oneKeyProduct.lite.name && (
               <StaticImage
                 loading="eager"
                 draggable={false}
-                css={{ width: '90%', height: 'auto', marginTop: '-30%' }}
+                css={{ width: '100%', height: '100%' }}
                 src="./images/OneKeyLite.png"
                 alt="OneKeyLite"
               />
@@ -154,6 +163,7 @@ export const LeftArea: FC<LeftAreaProps> = (props) => {
             <StaticImage src="./images/OneKeyMini.png" alt="OneKeyMini" />
             <StaticImage src="./images/OneKeyTouch.png" alt="OneKeyTouch" />
             <StaticImage src="./images/Shop.png" alt="Shop" />
+            <StaticImage src="./images/OneKeyClassic.png" alt="OneKeyClassic" />
           </Box>,
           document.body,
         )}

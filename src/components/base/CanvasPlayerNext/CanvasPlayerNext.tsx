@@ -88,5 +88,12 @@ export const CanvasPlayerNext: FC<CanvasPlayerNextProps> = (props) => {
     }
   }, [width, height]);
 
-  return <canvas ref={canvasRef} />;
+  return (
+    <canvas
+      style={{
+        display: 'block',
+      }}
+      ref={canvasRef}
+    />
+  );
 };

@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} เอกสารการกู้คืน",
     "content__int_sticker": "{{value}} สติกเกอร์",
     "content__int_usb_type_c_cable": "{{value}} สาย usb type-c",
+    "content__monochrome_display": "จอแสดงผลขาวดำ",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n เครื่องกำเนิดตัวเลขสุ่ม",
     "content__plastic": "พลาสติก",
     "content__recovery_phrase_backup_card": "บัตรสำรองวลีกู้คืน",
     "title__certifications_and_standards": "ใบรับรองและมาตรฐาน",

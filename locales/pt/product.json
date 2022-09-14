@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} folha de recuperação",
     "content__int_sticker": "{{value}} adesivo",
     "content__int_usb_type_c_cable": "{{value}} cabo usb tipo-c",
+    "content__monochrome_display": "Tela Monocromática",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n Gerador de números aleatórios",
     "content__plastic": "Plástico",
     "content__recovery_phrase_backup_card": "Cartão de backup de frase de recuperação",
     "title__certifications_and_standards": "Certificações e Normas",

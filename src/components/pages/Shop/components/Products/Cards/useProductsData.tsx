@@ -28,6 +28,24 @@ export function useProductsData() {
     ),
   };
 
+  const classic: ProductItem = {
+    ...oneKeyProduct.classic,
+    image: (
+      <StaticImage
+        style={{ width: '100%', height: 'auto' }}
+        src="./images/shop-product-card-classic.png"
+        alt="classic"
+      />
+    ),
+    bigImage: (
+      <StaticImage
+        style={{ width: '100%', height: 'auto' }}
+        src="./images/shop-product-card-classicBig.png"
+        alt="classic"
+      />
+    ),
+  };
+
   const touch: ProductItem = {
     ...oneKeyProduct.touch,
     image: (
@@ -58,6 +76,6 @@ export function useProductsData() {
   };
 
   return {
-    items: { touch, mini, lite },
+    items: { touch, classic, mini, lite },
   } as const;
 }

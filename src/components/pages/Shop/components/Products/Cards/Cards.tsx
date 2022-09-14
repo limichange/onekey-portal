@@ -43,6 +43,8 @@ export const Cards: FC<CardsProps> = (props) => {
         >
           <BigProductCard {...products.items.touch} />
 
+          <BigProductCard {...products.items.classic} />
+
           <Flex xs={{ gap: 24 }}>
             <Box xs={{ flex: 1 }}>
               <ProductCard {...products.items.mini} />

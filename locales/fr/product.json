@@ -10,6 +10,8 @@
     "content__int_recovery_sheet": "{{value}} feuille de récupération",
     "content__int_sticker": "Autocollant {{value}}",
     "content__int_usb_type_c_cable": "{{value}} câble usb type-c",
+    "content__monochrome_display": "Affichage monochrome",
+    "content__nist_sp_800_90_a_b_c_random_number_generator": "NIST SP 800-90A\/B\/C\\n Générateur de nombres aléatoires",
     "content__plastic": "Plastique",
     "content__recovery_phrase_backup_card": "Carte de sauvegarde de phrase de récupération",
     "title__certifications_and_standards": "Certifications et normes",

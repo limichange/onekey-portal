@@ -1,15 +1,15 @@
 import { FC, ReactNode } from 'react';
 
-import { Box } from '../../../../base';
+import { Box, BoxProps } from '../../../../base';
 
-export interface IntroductionContainerProps {
+export interface IntroductionContainerProps extends BoxProps {
   children?: ReactNode;
 }
 
 export const IntroductionContainer: FC<IntroductionContainerProps> = (
   props,
 ) => {
-  const { children } = props;
+  const { children, ...otherProps } = props;
 
   return (
     <Box
@@ -17,6 +17,7 @@ export const IntroductionContainer: FC<IntroductionContainerProps> = (
       m={{ paddingLeft: 32, paddingRight: 32 }}
       xl={{ paddingLeft: 36, paddingRight: 36 }}
       xxl={{ paddingLeft: 40, paddingRight: 40 }}
+      externalProps={otherProps}
     >
       {children}
     </Box>
