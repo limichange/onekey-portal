@@ -2,18 +2,25 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useOneKeyProduct } from '../../../../../data';
+import { useSortShopOrder } from '../../../../../hooks/useSortShopOrder';
 import { ProductInformationProps } from '../../components/ProductInformation';
 
 export function useProductInformationData(): ProductInformationProps {
   const { classic } = useOneKeyProduct();
   const { t } = useTranslation();
+  const shops = useSortShopOrder([
+    classic.shops.shopify,
+    classic.shops.amazonGlobal,
+    classic.shops.amazonJapan,
+    classic.shops.youzan,
+  ]);
 
   return {
-    status: 'comingSoon',
-    shops: [],
     name: classic.name,
+    status: classic.status,
     slogan: t('content__crypto_hardware_wallet'),
     description: classic.description,
+    shops,
     price: {
       value: classic.price,
       formatted: classic.formattedPrice,

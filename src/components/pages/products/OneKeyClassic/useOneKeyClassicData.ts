@@ -6,14 +6,14 @@ import { useProductInformationData } from './useProductInformationData';
 import { useTechnicalSpecificationsSectionData } from './useTechnicalSpecificationsData';
 
 export function useOneKeyClassicData() {
-  const products = useOneKeyProduct();
+  const { classic } = useOneKeyProduct();
   const feature = useFeatureSectionData();
   const productInformation = useProductInformationData();
   const technicalSpecifications = useTechnicalSpecificationsSectionData();
   const imagesIntroduction = useImagesIntroduction();
 
   return {
-    title: products.classic.name,
+    title: classic.name,
     recommends: ['mini', 'touch', 'lite'],
     feature,
     productInformation,

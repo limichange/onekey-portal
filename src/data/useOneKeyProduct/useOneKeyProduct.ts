@@ -104,7 +104,7 @@ export function useOneKeyProduct(): OneKeyProducts {
       },
     },
     classic: {
-      shopProductId: '#',
+      shopProductId: '42536440529058',
       name: 'OneKey Classic',
       price: 89,
       formattedPrice: '$89.00',
@@ -114,10 +114,26 @@ export function useOneKeyProduct(): OneKeyProducts {
       ),
       path: '/products/onekey-classic-hardware-wallet/',
       shops: {
-        amazonGlobal: undefined,
-        amazonJapan: undefined,
-        shopify: undefined,
-        youzan: undefined,
+        amazonGlobal: {
+          key: 'amazonGlobal',
+          url: 'https://www.amazon.com/dp/B0BCV1D1VY',
+          name: tAmazonGlobal,
+        },
+        amazonJapan: {
+          key: 'amazonJapan',
+          url: 'https://www.amazon.co.jp/dp/B08M2PVCJY',
+          name: tAmazonJapan,
+        },
+        shopify: {
+          key: 'shopify',
+          url: 'https://shop.onekey.so/products/onekey-classic-crypto-hardware-wallet?variant=42536440529058',
+          name: tShopify,
+        },
+        youzan: {
+          key: 'youzan',
+          url: 'https://detail.youzan.com/show/goods?alias=276qihi1dldnl',
+          name: tYouzan,
+        },
       },
     },
   };

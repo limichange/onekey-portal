@@ -16,6 +16,7 @@ import {
   IntroductionSection,
   IntroductionSectionTitle,
   MultiChainSupportSection,
+  NavigationCart,
   ProductInformation,
   RecommendSection,
   TechnicalSpecificationsSection,
@@ -45,8 +46,7 @@ export const OneKeyClassic: FC<OneKeyClassicProps> = (props) => {
       </Helmet>
 
       <Navigation>
-        {/* todo */}
-        {/* <NavigationCart {...data.productInformation} /> */}
+        <NavigationCart {...data.productInformation} />
       </Navigation>
 
       <Main>
