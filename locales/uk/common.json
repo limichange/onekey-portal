@@ -42,6 +42,8 @@
     "menu__eips": "EIPs",
     "menu__eips_desc": "Ми невпинно працюємо, щоб підтримувати всі типи пропозицій EIP, дивіться останні підтримувані EIP тут.",
     "menu__enterprise_solutions": "Enterprise Solutions",
+    "menu__evm_chain_list": "Список ланцюгів EVM",
+    "menu__evm_chain_list_desc": "Допомога користувачам у підключенні до мереж EVM.",
     "menu__getting_started": "Починаємо",
     "menu__getting_started_desc": "Почніть швидко від 0 до 1, і тут можна знайти відповіді на більшість запитань, які можуть виникнути.",
     "menu__hardware_device": "Апаратний пристрій",

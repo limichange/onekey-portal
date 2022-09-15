@@ -42,6 +42,8 @@
     "menu__eips": "EIP",
     "menu__eips_desc": "Lavoriamo instancabilmente per supportare tutti i tipi di proposte EIP, vedere gli ultimi EIP supportati qui.",
     "menu__enterprise_solutions": "Soluzioni aziendali",
+    "menu__evm_chain_list": "Elenco delle catene EVM",
+    "menu__evm_chain_list_desc": "Aiutare gli utenti a connettersi a reti alimentate da EVM.",
     "menu__getting_started": "Iniziare",
     "menu__getting_started_desc": "Inizia rapidamente da 0 a 1 e la maggior parte delle domande che potresti incontrare possono trovare risposta qui.",
     "menu__hardware_device": "Dispositivo hardware",

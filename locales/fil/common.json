@@ -42,6 +42,8 @@
     "menu__eips": "Mga EIP",
     "menu__eips_desc": "Kami ay nagtatrabaho nang walang pagod upang suportahan ang lahat ng uri ng mga panukala sa EIP, tingnan ang pinakabagong mga sinusuportahang EIP dito.",
     "menu__enterprise_solutions": "Mga Solusyon sa Enterprise",
+    "menu__evm_chain_list": "Listahan ng Chain ng EVM",
+    "menu__evm_chain_list_desc": "Pagtulong sa mga user na kumonekta sa mga network na pinapagana ng EVM.",
     "menu__getting_started": "Nagsisimula",
     "menu__getting_started_desc": "Magsimula nang mabilis mula 0 hanggang 1, at karamihan sa mga tanong na maaari mong makaharap ay masasagot dito.",
     "menu__hardware_device": "Hardware Device",

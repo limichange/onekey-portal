@@ -42,6 +42,8 @@
     "menu__eips": "EIPs",
     "menu__eips_desc": "نحن نعمل بلا كلل لدعم جميع أنواع مقترحات EIP ، راجع أحدث خطط EIP المدعومة هنا.",
     "menu__enterprise_solutions": "حلول المشاريع",
+    "menu__evm_chain_list": "قائمة سلسلة EVM",
+    "menu__evm_chain_list_desc": "مساعدة المستخدمين على الاتصال بالشبكات التي تعمل بنظام EVM.",
     "menu__getting_started": "ابدء",
     "menu__getting_started_desc": "ابدأ بسرعة من 0 إلى 1 ، ويمكن الإجابة على معظم الأسئلة التي قد تواجهها هنا.",
     "menu__hardware_device": "جهاز الجهاز",

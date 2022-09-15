@@ -42,6 +42,8 @@
     "menu__eips": "EIP",
     "menu__eips_desc": "Бид бүх төрлийн EIP саналыг дэмжихийн тулд уйгагүй ажилладаг. Хамгийн сүүлийн үеийн дэмжигдсэн EIP-г эндээс үзнэ үү.",
     "menu__enterprise_solutions": "Enterprise Solutions",
+    "menu__evm_chain_list": "EVM сүлжээний жагсаалт",
+    "menu__evm_chain_list_desc": "Хэрэглэгчдэд EVM сүлжээтэй холбогдоход туслах.",
     "menu__getting_started": "Эхлэх",
     "menu__getting_started_desc": "0-ээс 1 хүртэл хурдан эхлэх ба танд тулгарч болох ихэнх асуултын хариултыг эндээс авах боломжтой.",
     "menu__hardware_device": "Техник хангамжийн төхөөрөмж",

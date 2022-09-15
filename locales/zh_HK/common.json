@@ -42,6 +42,8 @@
     "menu__eips": "EIP",
     "menu__eips_desc": "我哋孜孜唔倦地支持所有類型嘅 EIP 提案，請喺此處查睇最新支持嘅 EIP。",
     "menu__enterprise_solutions": "企業解決方案",
+    "menu__evm_chain_list": "EVM 鍊錶",
+    "menu__evm_chain_list_desc": "幫助用戶連接到 EVM 驅動的網絡。",
     "menu__getting_started": "入門",
     "menu__getting_started_desc": "從0到1快速入門，你可能遇到的大部分問題都可以在這裡得到解答。",
     "menu__hardware_device": "硬件設備",

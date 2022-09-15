@@ -42,6 +42,8 @@
     "menu__eips": "EIP",
     "menu__eips_desc": "我们孜孜不倦地支持所有类型的 EIP 提案，请在此处查看最新支持的 EIP。",
     "menu__enterprise_solutions": "企业解决方案",
+    "menu__evm_chain_list": "EVM 链表",
+    "menu__evm_chain_list_desc": "帮助用户连接到 EVM 驱动的网络。",
     "menu__getting_started": "入门",
     "menu__getting_started_desc": "从0到1快速入门，你可能遇到的大部分问题都可以在这里得到解答。",
     "menu__hardware_device": "硬件设备",

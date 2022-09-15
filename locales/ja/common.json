@@ -42,6 +42,8 @@
     "menu__eips": "EIP",
     "menu__eips_desc": "私たちはあらゆるタイプのEIP提案をサポートするために弛まぬ努力をしている。最新にサポートされているEIPはこちらをご参照ください。",
     "menu__enterprise_solutions": "法人向けソリューションプラン",
+    "menu__evm_chain_list": "EVM チェーン リスト",
+    "menu__evm_chain_list_desc": "ユーザーが EVM を利用したネットワークに接続できるようにします。",
     "menu__getting_started": "入門",
     "menu__getting_started_desc": "0から1まで素早く入門、関心を持つかもしれない質問のほとんどはここで回答が見つかる。",
     "menu__hardware_device": "ハードウェアデバイス",

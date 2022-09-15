@@ -5,6 +5,7 @@ import { useShopMenu } from '../../../data/useShopMenu';
 
 import chainsSvgUrl from './images/chains.svg';
 import eipsSvgUrl from './images/eips.svg';
+import evmSvgUrl from './images/evm.svg';
 import portfolioSvgUrl from './images/portfolio.svg';
 import recoverySvgUrl from './images/recovery-phrase-converter.svg';
 import swapSvgUrl from './images/swap.svg';
@@ -140,6 +141,13 @@ export function useNavigationDataObject(): Record<
         description: t('menu__recovery_phrase_converter_desc'),
         path: 'https://bip39.onekey.so/',
         icon: recoverySvgUrl,
+      },
+      {
+        name: t('menu__evm_chain_list'),
+        key: 'evm-chain-list',
+        description: t('menu__evm_chain_list_desc'),
+        path: 'https://chainlist.onekey.so/',
+        icon: evmSvgUrl,
       },
     ],
   };
