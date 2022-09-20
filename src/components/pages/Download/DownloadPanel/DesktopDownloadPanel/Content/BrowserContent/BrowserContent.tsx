@@ -1,9 +1,8 @@
 import React, { FC } from 'react';
 
-import { Divider } from '../../../../../../base/Divider';
+import { Box } from '../../../../../../base';
 import { Flex } from '../../../../../../base/Flex';
 import { DownloadButton } from '../../../DownloadButton';
-import { FAQ } from '../../../FAQ';
 import { Title } from '../../../Title';
 import { useOneKeyDownloadData } from '../../../useOneKeyDownloadData';
 
@@ -14,7 +13,7 @@ export interface BrowserContentProps {
 export const BrowserContent: FC<BrowserContentProps> = (props) => {
   const { children } = props;
   const {
-    platforms: { chrome, edge, firefox },
+    platforms: { chrome, edge, firefox, brave },
     types: { browser },
   } = useOneKeyDownloadData();
 
@@ -37,6 +36,12 @@ export const BrowserContent: FC<BrowserContentProps> = (props) => {
       url: edge.url,
       infos: [],
     },
+    {
+      text: brave.name,
+      icon: brave.icon,
+      url: brave.url,
+      infos: [],
+    },
   ];
 
   return (
@@ -51,24 +56,27 @@ export const BrowserContent: FC<BrowserContentProps> = (props) => {
       >
         <Title name={browser.pageTitle} />
 
-        <Flex xs={{ gap: 16 }}>
+        <Box>
           {buttons.map((item) => (
-            <DownloadButton
+            <Box
               key={item.text}
-              icon={item.icon}
-              text={item.text}
-              url={item.url}
-              information={item.infos}
-            />
+              xs={{
+                marginRight: 12,
+                marginBottom: 8,
+                width: 220,
+                display: 'inline-block',
+              }}
+            >
+              <DownloadButton
+                icon={item.icon}
+                text={item.text}
+                url={item.url}
+                information={item.infos}
+              />
+            </Box>
           ))}
-        </Flex>
+        </Box>
       </Flex>
-
-      <Divider />
-
-      {edge.faq && (
-        <FAQ title={edge.faq.title} questions={edge.faq.questions} />
-      )}
 
       {children}
     </>

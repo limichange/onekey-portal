@@ -12,6 +12,8 @@ export { ReactComponent as ArrowRightIcon } from './images/arrow-right.svg';
 export { default as ArrowRightIconInline } from './images/arrow-right.svg';
 export { ReactComponent as BoxIcon } from './images/box.svg';
 export { default as BoxIconInline } from './images/box.svg';
+export { ReactComponent as BraveIcon } from './images/brave.svg';
+export { default as BraveIconInline } from './images/brave.svg';
 export { ReactComponent as CheckIcon } from './images/check.svg';
 export { default as CheckIconInline } from './images/check.svg';
 export { ReactComponent as ChevronDownIcon } from './images/chevron-down.svg';

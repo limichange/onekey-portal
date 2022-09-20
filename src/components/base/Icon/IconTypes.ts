@@ -6,6 +6,7 @@ export type IconTypes =
   | 'ArrowLeftIcon'
   | 'ArrowRightIcon'
   | 'BoxIcon'
+  | 'BraveIcon'
   | 'CheckIcon'
   | 'ChevronDownIcon'
   | 'ChevronLeftIcon'

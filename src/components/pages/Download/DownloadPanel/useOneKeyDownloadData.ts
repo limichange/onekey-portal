@@ -5,6 +5,7 @@ import {
   AndroidIcon,
   AppleIcon,
   BoxIcon,
+  BraveIcon,
   ChromeIcon,
   DesktopIcon,
   EdgeIcon,
@@ -106,14 +107,13 @@ export function useOneKeyDownloadData() {
     name: 'Edge',
     description: '',
     url: formattedData.edge.url,
-    faq: {
-      title: '',
-      questions: [
-        {
-          text: t('title__edge_version_has_not_support_hardware_yet'),
-        },
-      ],
-    },
+  };
+
+  const brave = {
+    icon: BraveIcon,
+    name: 'Brave',
+    description: '',
+    url: formattedData.chrome.url,
   };
 
   const web = {
@@ -217,6 +217,7 @@ export function useOneKeyDownloadData() {
       chrome,
       firefox,
       edge,
+      brave,
       bridgeMac,
       bridgeWin,
       bridgeLinux64Deb,

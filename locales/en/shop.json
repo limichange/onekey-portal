@@ -6,7 +6,7 @@
     "content__int_mah_battery": "{{value}}mAh Battery",
     "content__multi_touch_screen": "Multi-Touch Screen",
     "content__usb_c_connector": "USB-C Connector",
-    "content__which_one_is_right_for_you": "Which one is right for you?",
+    "content__which_one_is_right_for_you": "Which is the right one for you?",
     "title__battery": "battery",
     "title__bluetooth": "bluetooth",
     "title__ce_rohs_and_csprng": "CE, RoHS and CSPRNG",
@@ -15,6 +15,6 @@
     "title__control": "control",
     "title__display": "display",
     "title__hardware_wallets": "Hardware wallets",
-    "title__shop_onekey": "Shop OneKey",
+    "title__shop_onekey": "Shop for OneKey",
     "title__shop_onekey_desc": "Level up your crypto security by choosing the world's most advanced hardware wallet."
 }
