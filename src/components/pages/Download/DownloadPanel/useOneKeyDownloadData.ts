@@ -62,14 +62,14 @@ export function useOneKeyDownloadData() {
 
   const macIntel = {
     icon: AppleIcon,
-    name: 'Mac Intel',
+    name: t('content__intel_chip'),
     description: `v${formattedData.macIntel.version}, for macOS 10.8+`,
     url: formattedData.macIntel.url,
   };
 
   const macSilicon = {
     icon: AppleIcon,
-    name: 'Mac Silicon',
+    name: t('content__apple_m_series_chip'),
     description: `v${formattedData.macSilicon.version}, for macOS 10.8+`,
     url: formattedData.macSilicon.url,
   };
