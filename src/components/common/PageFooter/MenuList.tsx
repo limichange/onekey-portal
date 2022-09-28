@@ -2,6 +2,7 @@ import { FC } from 'react';
 
 import { useTheme } from '@emotion/react';
 
+import { Link } from '../../base';
 import { Box, Span } from '../../base/Box';
 
 import { usePageFooterData } from './usePageFooterData';
@@ -63,8 +64,8 @@ export const MenuList: FC = () => {
           >
             {/* level2 */}
             {item.list.map((childItem) => (
-              <a
-                href={childItem.link || '#'}
+              <Link
+                to={childItem.link || '#'}
                 key={childItem.name}
                 css={{
                   ...theme.text.normal200,
@@ -75,7 +76,7 @@ export const MenuList: FC = () => {
                 }}
               >
                 {childItem.name}
-              </a>
+              </Link>
             ))}
           </Box>
         </Box>
