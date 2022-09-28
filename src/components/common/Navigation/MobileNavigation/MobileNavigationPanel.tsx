@@ -64,6 +64,7 @@ export const MobileNavigationPanel: FC<MobileNavigationPanelProps> = (
           paddingLeft: 20,
           paddingRight: 20,
         }}
+        onClick={onCloseMenu}
       >
         <DownloadButton />
       </Box>
