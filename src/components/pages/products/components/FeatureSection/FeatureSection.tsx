@@ -1,8 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { useTheme } from '@emotion/react';
-
-import { Box, Container, Flex, Section, Span } from '../../../../base';
+import { Box, Container, Flex, Section } from '../../../../base';
 import { SectionTitle } from '../../../../common';
 
 import { FeatureItem, FeatureSectionDataItem } from './FeatureItem';
@@ -15,8 +13,7 @@ export interface FeatureSectionProps {
 }
 
 export const FeatureSection: FC<FeatureSectionProps> = (props) => {
-  const { children, items: featureSectionData, title, description } = props;
-  const theme = useTheme();
+  const { children, items: featureSectionData, title } = props;
 
   return (
     <Section>
@@ -24,14 +21,6 @@ export const FeatureSection: FC<FeatureSectionProps> = (props) => {
         <Box xs={{ paddingTop: 120 }}>
           <Flex xs={{ textAlign: 'center', gap: 20, flexDirection: 'column' }}>
             <SectionTitle>{title}</SectionTitle>
-
-            <Span
-              css={{ color: theme.colors.test400 }}
-              xs={theme.text.normal200}
-              l={theme.text.normal500}
-            >
-              {description}
-            </Span>
           </Flex>
           <Flex
             xs={{
