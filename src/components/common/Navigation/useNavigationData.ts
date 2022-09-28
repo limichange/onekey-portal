@@ -189,18 +189,7 @@ export function useNavigationDataObject(): Record<
   const helpCenter = {
     name: t('menu__support'),
     key: 'help-center',
-    subItems: [
-      {
-        name: t('menu__beginners_guide'),
-        key: 'beginner-guide',
-        path: 'https://help.onekey.so/hc/categories/360000170236',
-      },
-      {
-        name: t('menu__hardware_wallet_manual'),
-        key: 'hardware-wallet-manual',
-        path: 'https://help.onekey.so/hc/articles/360002123856',
-      },
-    ],
+    path: 'https://help.onekey.so/',
   };
 
   return {
