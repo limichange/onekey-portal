@@ -94,7 +94,7 @@ export const OneKeyClassic: FC<OneKeyClassicProps> = (props) => {
         <StayInTouchWidthContainerAndPadding />
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
 
       {children}
     </div>

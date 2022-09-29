@@ -44,7 +44,7 @@ export const Security: React.FC<SecurityProps> = (props) => {
         </Container>
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
       {children}
     </>
   );

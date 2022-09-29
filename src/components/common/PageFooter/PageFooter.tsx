@@ -67,7 +67,7 @@ export const PageFooter: FC<PageFooterProps> = (props) => {
             </OnlyDisplay>
           </Flex>
 
-          <Box xs={{ flex: 1 }}>
+          <Box xs={{ flex: 1, maxWidth: 1100 }}>
             {/* menu list */}
             <MenuList />
 

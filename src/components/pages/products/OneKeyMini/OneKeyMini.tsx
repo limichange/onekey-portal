@@ -75,7 +75,7 @@ export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
         <StayInTouchWidthContainerAndPadding />
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
 
       {/* <MobileCart {...oneKeyMiniData.productInformation} /> */}
 

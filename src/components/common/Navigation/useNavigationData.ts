@@ -1,6 +1,10 @@
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { useDownloadData, useOneKeyProduct } from '../../../data';
+import {
+  useDownloadData,
+  useExternalUrls,
+  useOneKeyProduct,
+} from '../../../data';
 import { useShopMenu } from '../../../data/useShopMenu';
 
 import chainsSvgUrl from './images/chains.svg';
@@ -35,6 +39,7 @@ export function useNavigationDataObject(): Record<
   const { t } = useTranslation();
   const shopMenu = useShopMenu();
   const downloadData = useDownloadData();
+  const externalUrls = useExternalUrls();
 
   const products = {
     name: t('menu__products'),
@@ -101,17 +106,17 @@ export function useNavigationDataObject(): Record<
     key: 'services',
     subItems: [
       {
-        name: t('menu__swap'),
+        name: externalUrls.swap.name,
         key: 'swap',
         description: t('menu__swap_desc'),
-        path: 'https://swap.onekey.so/#/swap',
+        path: externalUrls.swap.link,
         icon: swapSvgUrl,
       },
       {
-        name: t('menu__portfolio'),
+        name: externalUrls.portfolio.name,
         key: 'portfolio',
         description: t('menu__portfolio_desc'),
-        path: 'https://portfolio.onekey.so/',
+        path: externalUrls.portfolio.link,
         icon: portfolioSvgUrl,
       },
       {

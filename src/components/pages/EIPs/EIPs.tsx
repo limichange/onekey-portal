@@ -40,7 +40,7 @@ export const EIPs: FC<EIPsProps> = (props) => {
         {children}
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
     </Box>
   );
 };

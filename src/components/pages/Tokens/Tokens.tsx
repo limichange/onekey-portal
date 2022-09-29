@@ -86,7 +86,7 @@ export const Tokens: FC<TokensProps> = (props) => {
         {children}
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
     </Box>
   );
 };

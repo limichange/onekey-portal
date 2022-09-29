@@ -72,7 +72,7 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
         <StayInTouchWidthContainerAndPadding />
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
 
       {children}
     </Box>

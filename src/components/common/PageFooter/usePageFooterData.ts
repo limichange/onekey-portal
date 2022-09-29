@@ -1,5 +1,6 @@
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
+import { useExternalUrls } from '../../../data';
 import { useDownloadData } from '../../../data/useDownloadData';
 import { useOneKeyProduct } from '../../../data/useOneKeyProduct';
 import { useShopMenu } from '../../../data/useShopMenu';
@@ -9,6 +10,7 @@ export function usePageFooterData() {
   const oneKeyProduct = useOneKeyProduct();
   const shopMenu = useShopMenu();
   const downloadData = useDownloadData();
+  const externalUrls = useExternalUrls();
 
   return {
     media: {
@@ -87,14 +89,8 @@ export function usePageFooterData() {
         name: t('menu__services'),
         link: '',
         list: [
-          {
-            name: t('menu__swap'),
-            link: 'https://app.onekey.so/tab/swap',
-          },
-          {
-            name: t('menu__portfolio'),
-            link: 'https://app.onekey.so',
-          },
+          externalUrls.swap,
+          externalUrls.portfolio,
           {
             name: t('menu__token_list'),
             link: '/tokens',
@@ -181,10 +177,7 @@ export function usePageFooterData() {
             name: t('menu__system_status'),
             link: 'https://onekeyhq.github.io/upptime',
           },
-          {
-            name: t('menu__open_source_community'),
-            link: 'https://github.com/OneKeyHQ/OneKey-Wallet',
-          },
+          externalUrls.openSourceCommunity,
           {
             name: t('menu__media_kits'),
             link: 'https://help.onekey.so/hc/en-us/articles/360002200956',

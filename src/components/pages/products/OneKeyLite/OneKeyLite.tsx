@@ -59,7 +59,7 @@ export const OneKeyLite: FC<OneKeyLiteProps> = (props) => {
         <StayInTouchWidthContainerAndPadding />
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
 
       {/* <MobileCart {...OneKeyLiteData.productInformationData} /> */}
 

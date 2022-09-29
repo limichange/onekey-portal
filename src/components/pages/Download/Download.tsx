@@ -46,7 +46,7 @@ const Download: React.FC = () => (
       </Container>
     </Main>
 
-    <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={false} />
+    <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
   </>
 );
 
