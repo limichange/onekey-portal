@@ -3,20 +3,18 @@ import { FC, ReactNode } from 'react';
 import { useTheme } from '@emotion/react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { useMediaQuery } from '../../../../../../hooks';
 import { dynamicTextStyle } from '../../../../../../utils';
 import {
   Box,
-  ButtonProps,
   Container,
   Flex,
   GoToShopButton,
   H1,
   I18n,
   Link,
+  OnlyDisplay,
   Span,
 } from '../../../../../base';
-import { FadeIn } from '../../../../../base/FadeIn';
 import { DownloadButton } from '../../../../../common/DownloadButton';
 import { HeroBanner } from '../../../../../common/HeroBanner';
 
@@ -28,12 +26,7 @@ export interface ContentProps {
 
 export const Content: FC<ContentProps> = () => {
   const theme = useTheme();
-  const mediaQuery = useMediaQuery();
   const { t } = useTranslation();
-
-  const buttonProp: ButtonProps = mediaQuery.small
-    ? { size: 'medium' }
-    : { xs: { width: '100%' }, size: 'large' };
 
   return (
     <Container
@@ -47,8 +40,8 @@ export const Content: FC<ContentProps> = () => {
         display: 'flex',
       }}
     >
-      <FadeIn
-        style={{
+      <Box
+        xs={{
           flex: 1,
           display: 'flex',
           flexDirection: 'column',
@@ -91,15 +84,35 @@ export const Content: FC<ContentProps> = () => {
         </H1>
 
         {/* buttons */}
-        <Box
-          xs={{ display: 'flex', gap: 20, flexDirection: 'column' }}
-          s={{ flexDirection: 'row' }}
-        >
-          <DownloadButton override={{ button: buttonProp }} />
-          <GoToShopButton
-            overrides={{ button: { ...buttonProp, fillHeight: true } }}
-          />
-        </Box>
+        <OnlyDisplay xs s>
+          <Box
+            xs={{ display: 'flex', gap: 20, flexDirection: 'column' }}
+            s={{ flexDirection: 'row' }}
+          >
+            <DownloadButton override={{ button: { size: 'large' } }} />
+            <GoToShopButton
+              overrides={{
+                button: {
+                  xs: { width: '100%' },
+                  size: 'large',
+                  fillHeight: true,
+                },
+              }}
+            />
+          </Box>
+        </OnlyDisplay>
+
+        <OnlyDisplay m l xl xxl>
+          <Box
+            xs={{ display: 'flex', gap: 20, flexDirection: 'column' }}
+            s={{ flexDirection: 'row' }}
+          >
+            <DownloadButton override={{ button: { size: 'medium' } }} />
+            <GoToShopButton
+              overrides={{ button: { size: 'medium', fillHeight: true } }}
+            />
+          </Box>
+        </OnlyDisplay>
 
         {/* stars and link */}
         <Flex
@@ -124,7 +137,7 @@ export const Content: FC<ContentProps> = () => {
             </Span>
           </Link>
         </Flex>
-      </FadeIn>
+      </Box>
     </Container>
   );
 };
