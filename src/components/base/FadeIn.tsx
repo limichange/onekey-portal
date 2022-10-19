@@ -13,7 +13,7 @@ export const FadeIn: FC<FadeInProps> = (props) => {
   return (
     <motion.div
       style={style}
-      initial={{ opacity: 0, y: 60 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}

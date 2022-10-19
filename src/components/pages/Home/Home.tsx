@@ -79,9 +79,7 @@ export const Home: React.FC = () => {
           <Start />
         </FadeIn>
 
-        <FadeIn>
-          <PageFooter />
-        </FadeIn>
+        <PageFooter />
       </Box>
     </>
   );
