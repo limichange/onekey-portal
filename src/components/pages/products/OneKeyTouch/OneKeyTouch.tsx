@@ -2,6 +2,7 @@ import { FC, ReactNode } from 'react';
 
 import { Helmet } from 'react-helmet';
 
+import { useGPUTier } from '../../../../hooks';
 import { Box, Main, OnlyDisplay } from '../../../base';
 import {
   Navigation,
@@ -28,6 +29,7 @@ export interface OneKeyTouchProps {
 export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
   const { children } = props;
   const onekeyTouchData = useOneKeyTouchData();
+  const { isEnergySavingMode } = useGPUTier();
 
   return (
     <Box>
@@ -52,10 +54,17 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
           </OnlyDisplay>
 
           <OnlyDisplay m l xl xxl>
-            <FullscreenScrollAnimation
-              backgroundColor="#0D1013"
-              items={onekeyTouchData.imageIntroduction}
-            />
+            {!isEnergySavingMode && (
+              <FullscreenScrollAnimation
+                backgroundColor="#0D1013"
+                items={onekeyTouchData.imageIntroduction}
+              />
+            )}
+            {isEnergySavingMode && (
+              <IntroductionContainer>
+                <ImageIntroduction items={onekeyTouchData.imageIntroduction} />
+              </IntroductionContainer>
+            )}
           </OnlyDisplay>
         </IntroductionSection>
 
@@ -72,7 +81,7 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
         <StayInTouchWidthContainerAndPadding />
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
 
       {children}
     </Box>

@@ -27,6 +27,18 @@ export function useImageIntroductionData() {
             alt={name1}
           />
         ),
+        l: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-01.jpg"
+            alt={name1}
+          />
+        ),
+        xl: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-01.jpg"
+            alt={name1}
+          />
+        ),
       },
       frames: [
         ...new Array(60)
@@ -57,6 +69,18 @@ export function useImageIntroductionData() {
             alt={name2}
           />
         ),
+        l: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-02.jpg"
+            alt={name2}
+          />
+        ),
+        xl: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-02.jpg"
+            alt={name2}
+          />
+        ),
       },
       frames: [
         ...new Array(60)
@@ -83,6 +107,18 @@ export function useImageIntroductionData() {
         m: (
           <StaticImage
             src="./images/m/mini-information-tablet-03.jpg"
+            alt={name3}
+          />
+        ),
+        l: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-03.jpg"
+            alt={name3}
+          />
+        ),
+        xl: (
+          <StaticImage
+            src="./images/l/mini-information-desktop-03.jpg"
             alt={name3}
           />
         ),

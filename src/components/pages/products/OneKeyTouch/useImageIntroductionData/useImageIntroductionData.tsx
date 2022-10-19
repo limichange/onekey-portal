@@ -26,6 +26,18 @@ export function useImageIntroductionData() {
             alt={name1}
           />
         ),
+        l: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-01.jpg"
+            alt={name1}
+          />
+        ),
+        xl: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-01.jpg"
+            alt={name1}
+          />
+        ),
       },
       frames: [
         ...new Array(70)
@@ -55,6 +67,18 @@ export function useImageIntroductionData() {
             alt={name2}
           />
         ),
+        l: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-02.jpg"
+            alt={name2}
+          />
+        ),
+        xl: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-02.jpg"
+            alt={name2}
+          />
+        ),
       },
       frames: [
         ...new Array(60)
@@ -79,6 +103,18 @@ export function useImageIntroductionData() {
           />
         ),
         m: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-03.jpg"
+            alt={name3}
+          />
+        ),
+        l: (
+          <StaticImage
+            src="./images/large/touch-information-tablet-03.jpg"
+            alt={name3}
+          />
+        ),
+        xl: (
           <StaticImage
             src="./images/large/touch-information-tablet-03.jpg"
             alt={name3}

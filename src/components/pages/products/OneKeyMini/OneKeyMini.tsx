@@ -2,6 +2,7 @@ import { FC, ReactNode } from 'react';
 
 import { Helmet } from 'react-helmet';
 
+import { useGPUTier } from '../../../../hooks';
 import { Box, Main, OnlyDisplay } from '../../../base';
 import {
   Navigation,
@@ -29,6 +30,7 @@ export interface OneKeyMiniProps {
 export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
   const { children } = props;
   const oneKeyMiniData = useOneKeyMiniData();
+  const { isEnergySavingMode } = useGPUTier();
 
   return (
     <Box>
@@ -55,10 +57,17 @@ export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
           </OnlyDisplay>
 
           <OnlyDisplay m l xl xxl>
-            <FullscreenScrollAnimation
-              backgroundColor="#F0F1F2"
-              items={oneKeyMiniData.imageIntroduction}
-            />
+            {!isEnergySavingMode && (
+              <FullscreenScrollAnimation
+                backgroundColor="#F0F1F2"
+                items={oneKeyMiniData.imageIntroduction}
+              />
+            )}
+            {isEnergySavingMode && (
+              <IntroductionContainer>
+                <ImageIntroduction items={oneKeyMiniData.imageIntroduction} />
+              </IntroductionContainer>
+            )}
           </OnlyDisplay>
         </IntroductionSection>
 

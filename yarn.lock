@@ -4797,6 +4797,13 @@ detect-browser@^5.2.0, detect-browser@^5.3.0:
   resolved "https://registry.yarnpkg.com/detect-browser/-/detect-browser-5.3.0.tgz#9705ef2bddf46072d0f7265a1fe300e36fe7ceca"
   integrity sha512-53rsFbGdwMwlF7qvCt0ypLM5V5/Mbl0szB7GPN8y9NCcbknYOeVVXdrXEq+90IwAfrrzt6Hd+u2E2ntakICU8w==
 
+detect-gpu@^4.0.44:
+  version "4.0.44"
+  resolved "https://registry.yarnpkg.com/detect-gpu/-/detect-gpu-4.0.44.tgz#d6b546d3c3ea5305f49892e38b78ce8d67b7db98"
+  integrity sha512-D/rZfI88ECK9I2hNni3DjFR6KKr4l+lOBY7fTj0dGRKOAp0qJU7LD3RNmuggBXnv1hDRXlP/jtK0yRn68hN+Ew==
+  dependencies:
+    webgl-constants "^1.1.1"
+
 detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
@@ -11325,6 +11332,11 @@ webextension-polyfill@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.7.0.tgz#0df1120ff0266056319ce1a622b09ad8d4a56505"
   integrity sha512-su48BkMLxqzTTvPSE1eWxKToPS2Tv5DLGxKexLEVpwFd6Po6N8hhSLIvG6acPAg7qERoEaDL+Y5HQJeJeml5Aw==
+
+webgl-constants@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/webgl-constants/-/webgl-constants-1.1.1.tgz#f9633ee87fea56647a60b9ce735cbdfb891c6855"
+  integrity sha512-LkBXKjU5r9vAW7Gcu3T5u+5cvSvh5WwINdr0C+9jpzVB41cjQAP5ePArDtk/WHYdVj0GefCgM73BA7FlIiNtdg==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
