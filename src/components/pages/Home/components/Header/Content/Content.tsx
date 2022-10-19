@@ -121,8 +121,7 @@ export const Content: FC<ContentProps> = () => {
         >
           <Stars />
 
-          {/* todo: i18n link */}
-          <Link to="https://help.onekey.so/hc/articles/360002003315-Privacy-Policy">
+          <Link to="https://www.trustpilot.com/review/onekey.so">
             <Span
               xs={{
                 ...theme.text.normal100,
