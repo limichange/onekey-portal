@@ -26,3 +26,5 @@ export * from './Menu';
 export * from './MultilineText';
 export * from './I18n';
 export * from './CanvasPlayerNext';
+export * from './Marquee';
+export * from './DynamicContent';

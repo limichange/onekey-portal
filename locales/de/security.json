@@ -4,7 +4,7 @@
     "title__cold_keys": "Kalte Schlüssel",
     "title__cold_keys_desc_1": "Wir speichern den privaten Schlüssel nicht im Mikroprozessor (MCU) Ihres Geräts, sondern in einem separaten Sicherheitschip ATECC608A.",
     "title__cold_keys_desc_2": "Ganz gleich, wie Sie Ihre Hardware-Wallet OneKey verwenden, Ihr privater Schlüssel hat das Internet von Anfang bis Ende nie berührt.",
-    "title__cold_keys_desc_3": "Insbesondere hilft Ihnen OneKey , jede On-Chain-Transaktion zu bestätigen und zu autorisieren, der Signiervorgang wird auf Ihrem Gerät durchgeführt, nicht auf Ihrem PC oder Telefon. Dadurch wird verhindert, dass bösartige Programme Sie zu risikoreichen Vorgängen täuschen oder dazu verleiten, z. B. Krypto-Assets an die getarnte Adresse eines Bösewichts zu senden.",
+    "title__cold_keys_desc_3": "Insbesondere hilft Ihnen OneKey, jede On-Chain-Transaktion zu bestätigen und zu autorisieren, der Signiervorgang wird auf Ihrem Gerät durchgeführt, nicht auf Ihrem PC oder Telefon. Dadurch wird verhindert, dass bösartige Programme Sie zu risikoreichen Vorgängen täuschen oder dazu verleiten, z. B. Krypto-Assets an die getarnte Adresse eines Bösewichts zu senden.",
     "title__eal6_certification": "EAL6-Zertifizierung",
     "title__eal6_certification_desc": "Einige der OneKey Produktlinien haben die EAL6-Zertifizierung bestanden, und wir werden sie auf die gesamte Produktlinie ausdehnen.",
     "title__earn_the_trust_of_top_and_professional_institutions": "Verdienen Sie das Vertrauen erstklassiger und professioneller Institutionen",

@@ -108,15 +108,15 @@ export function useNavigationDataObject(): Record<
       {
         name: externalUrls.swap.name,
         key: 'swap',
-        description: t('menu__swap_desc'),
-        path: externalUrls.swap.link,
+        description: externalUrls.swap.description,
+        path: externalUrls.swap.url,
         icon: swapSvgUrl,
       },
       {
         name: externalUrls.portfolio.name,
         key: 'portfolio',
-        description: t('menu__portfolio_desc'),
-        path: externalUrls.portfolio.link,
+        description: externalUrls.portfolio.description,
+        path: externalUrls.portfolio.url,
         icon: portfolioSvgUrl,
       },
       {
@@ -194,7 +194,7 @@ export function useNavigationDataObject(): Record<
   const helpCenter = {
     name: t('menu__support'),
     key: 'help-center',
-    path: 'https://help.onekey.so/',
+    path: externalUrls.helpCenter.url,
   };
 
   return {

@@ -9,7 +9,7 @@ export const Logo: FC<LogoProps> = (props) => {
   const { ...otherProps } = props;
 
   return (
-    <Box {...otherProps}>
+    <Box className="onekey-logo" {...otherProps}>
       <svg
         width="100%"
         height="100%"

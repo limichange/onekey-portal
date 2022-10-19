@@ -9,17 +9,21 @@ import { Navigation } from '../../common/Navigation';
 import { PageFooter } from '../../common/PageFooter';
 
 import {
+  ChooseUs,
+  Contact,
+  FAQ,
   Feature,
   Hardware,
   Header,
   LogoWall,
-  Products,
+  MultiImageIntroduction,
   Rewards,
   Security,
-  Slogan,
   Start,
+  WhatOurUsersSay,
   Why,
 } from './components';
+import { WhatMakesOneKeyDifferent } from './components/WhatMakesOneKeyDifferent';
 
 export const Home: React.FC = () => {
   const theme = useTheme();
@@ -37,17 +41,17 @@ export const Home: React.FC = () => {
       <Main>
         <Header />
 
+        <ChooseUs />
+
         <FadeIn>
           <LogoWall />
         </FadeIn>
 
         <FadeIn>
-          <Slogan />
+          <MultiImageIntroduction />
         </FadeIn>
 
-        <FadeIn>
-          <Products />
-        </FadeIn>
+        <WhatMakesOneKeyDifferent />
 
         <FadeIn>
           <Hardware />
@@ -55,6 +59,10 @@ export const Home: React.FC = () => {
 
         <FadeIn>
           <Security />
+        </FadeIn>
+
+        <FadeIn>
+          <WhatOurUsersSay />
         </FadeIn>
 
         <FadeIn>
@@ -66,19 +74,23 @@ export const Home: React.FC = () => {
         </FadeIn>
 
         <FadeIn>
+          <FAQ />
+        </FadeIn>
+
+        <FadeIn>
           <Rewards />
         </FadeIn>
-      </Main>
 
-      <Box
-        css={{
-          background: theme.background.test100,
-        }}
-      >
         <FadeIn>
           <Start />
         </FadeIn>
 
+        <FadeIn>
+          <Contact />
+        </FadeIn>
+      </Main>
+
+      <Box css={{ background: theme.colors.brandAlt200 }}>
         <PageFooter />
       </Box>
     </>

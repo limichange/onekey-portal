@@ -4,6 +4,7 @@ export function useRuntimeDetect() {
   const browser = detect();
 
   return {
+    isSafari: browser?.name === 'safari',
     isIOS: browser?.os === 'iOS',
     isAndroid: browser?.os === 'Android OS' || browser?.os === 'android',
     isMobilePhone:

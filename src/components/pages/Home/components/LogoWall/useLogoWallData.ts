@@ -1,8 +1,8 @@
 import alchemy from './images/alchemy.svg';
-import alibaba from './images/alibaba.svg';
 import amber from './images/amber.svg';
 import bixin from './images/bixin.svg';
 import cobo from './images/cobo.svg';
+import coinbase from './images/coinbase.svg';
 import infura from './images/infura.svg';
 import meta from './images/meta.svg';
 
@@ -21,16 +21,16 @@ export function useLogoWallData() {
       src: bixin,
     },
     {
+      name: 'coinbase',
+      src: coinbase,
+    },
+    {
       name: 'infura',
       src: infura,
     },
     {
       name: 'cobo',
       src: cobo,
-    },
-    {
-      name: 'alibaba',
-      src: alibaba,
     },
     {
       name: 'meta',

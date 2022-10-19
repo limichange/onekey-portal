@@ -89,7 +89,9 @@ export const Content: FC<ContentProps> = () => {
             xs={{ display: 'flex', gap: 20, flexDirection: 'column' }}
             s={{ flexDirection: 'row' }}
           >
-            <DownloadButton override={{ button: { size: 'large' } }} />
+            <DownloadButton
+              override={{ button: { xs: { width: '100%' }, size: 'large' } }}
+            />
             <GoToShopButton
               overrides={{
                 button: {

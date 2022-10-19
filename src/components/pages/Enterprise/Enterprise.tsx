@@ -33,7 +33,7 @@ export const Enterprise: FC<EnterpriseProps> = (props) => {
         {children}
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
     </Box>
   );
 };

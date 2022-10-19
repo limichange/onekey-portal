@@ -9,4 +9,5 @@ export * from './useMediaQueryMapValues';
 export * from './useInterval';
 export * from './useRuntimeDetect';
 export * from './useOnClickOutside';
+export * from './useKeyPress';
 export * from './useGPUTier';

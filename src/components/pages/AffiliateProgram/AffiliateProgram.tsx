@@ -56,7 +56,7 @@ export const AffiliateProgram: FC<AffiliateProgramProps> = (props) => {
         {children}
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
     </Box>
   );
 };

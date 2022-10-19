@@ -4,10 +4,11 @@ import { useTheme } from '@emotion/react';
 import { createPortal } from 'react-dom';
 
 import { isBrowser } from '../../../utils';
-import { Box, Span } from '../Box';
-import { Divider } from '../Divider';
-import { I18n } from '../I18n';
+import { Box } from '../Box';
 import { OnlyDisplay } from '../OnlyDisplay';
+
+import { ActionSheetCancel } from './ActionSheetCancel';
+import { ActionSheetDivider } from './ActionSheetDivider';
 
 export interface ActionSheetProps {
   children?: ReactNode;
@@ -59,6 +60,7 @@ export const ActionSheet: FC<ActionSheetProps> = (props) => {
             zIndex: 4002,
             padding: 8,
             paddingTop: 16,
+            overflow: 'hidden',
             background: 'white',
             display: 'flex',
             flexDirection: 'column',
@@ -80,24 +82,11 @@ export const ActionSheet: FC<ActionSheetProps> = (props) => {
 
           {children}
 
-          <Divider color={theme.colors.test200} />
+          <ActionSheetDivider />
 
-          <Span
-            onClick={onCancel}
-            xs={{
-              ...theme.text.normal500,
-              textAlign: 'center',
-              padding: 8,
-              transition: theme.transitions.allEaseInOut,
-              borderRadius: 8,
-              cursor: 'pointer',
-              ':hover': {
-                background: theme.colors.test100,
-              },
-            }}
-          >
-            <I18n name="action__cancel" />
-          </Span>
+          <Box onClick={onCancel}>
+            <ActionSheetCancel />
+          </Box>
         </Box>
       </Box>
     </OnlyDisplay>,

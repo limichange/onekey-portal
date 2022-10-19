@@ -3,7 +3,7 @@
     "title__ce_and_rohs_certification_desc": "Il suo generatore interno di numeri casuali di alta qualità soddisfa NIST SP 800-90A\/B\/C.",
     "title__cold_keys": "Chiavi fredde",
     "title__cold_keys_desc_1": "Non memorizziamo la chiave privata nel microprocessore del tuo dispositivo (MCU), ma in un chip di sicurezza separato ATECC608A.",
-    "title__cold_keys_desc_2": "Allo stesso modo, indipendentemente da come utilizzi il tuo portafoglio hardware OneKey , la tua chiave privata non ha mai toccato Internet dall'inizio alla fine.",
+    "title__cold_keys_desc_2": "Allo stesso modo, indipendentemente da come utilizzi il tuo portafoglio hardware OneKey, la tua chiave privata non ha mai toccato Internet dall'inizio alla fine.",
     "title__cold_keys_desc_3": "In particolare, OneKey ti aiuta a confermare e autorizzare ogni transazione on-chain, il processo di firma viene eseguito sul tuo dispositivo, non sul tuo PC o telefono. Ciò impedisce ai programmi dannosi di falsificare o indurre l'utente in operazioni ad alto rischio, come l'invio di risorse crittografiche all'indirizzo mascherato di un malintenzionato.",
     "title__eal6_certification": "Certificazione EAL6",
     "title__eal6_certification_desc": "Alcune delle linee di prodotti OneKey hanno superato la certificazione EAL6 e la espanderemo all'intera linea di prodotti.",

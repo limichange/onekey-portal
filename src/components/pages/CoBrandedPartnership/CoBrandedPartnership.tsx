@@ -39,7 +39,7 @@ export const CoBrandedPartnership: FC<CoBrandedPartnershipProps> = (props) => {
         {children}
       </Main>
 
-      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
     </Box>
   );
 };

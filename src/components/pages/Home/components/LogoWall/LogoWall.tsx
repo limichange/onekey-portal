@@ -1,15 +1,33 @@
-import { FC } from 'react';
+import { FC, useRef } from 'react';
 
-import { useMediaQuery } from '../../../../../hooks';
+import { motion, useScroll, useTransform } from 'framer-motion';
+
+import { useMediaQuery, useRuntimeDetect } from '../../../../../hooks';
 import { Box, Container } from '../../../../base';
-import { FadeIn } from '../../../../base/FadeIn';
 
 import { LogoItem } from './LogoItem';
+import { LogoWallTitle } from './LogoWallTitle';
 import { useLogoWallData } from './useLogoWallData';
 
 export const LogoWall: FC = () => {
   const logos = useLogoWallData();
   const media = useMediaQuery();
+  const { isSafari } = useRuntimeDetect();
+
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ['center 70vh', 'center end'],
+  });
+  const transform = useTransform(scrollYProgress, (value) =>
+    media.medium ? `rotate(${value * 25}deg)` : '',
+  );
+  const opacity = useTransform(scrollYProgress, (value) =>
+    media.medium ? 1 - value : 1,
+  );
+  const filter = useTransform(scrollYProgress, (value) =>
+    isSafari || !media.medium ? `blur(0)` : `blur(${value * 20}px)`,
+  );
 
   let logosGroup = [
     logos.slice(0, 2),
@@ -27,26 +45,22 @@ export const LogoWall: FC = () => {
   }
 
   return (
-    <FadeIn>
-      <Container>
-        <Box
-          xs={{
-            paddingTop: 30,
-            paddingBottom: 30,
-            label: 'LogoWall',
-          }}
+    <Container>
+      <Box m={{ paddingBottom: '10vh' }}>
+        <motion.div
+          style={{ filter, transform, opacity, transformOrigin: 'left' }}
+          ref={containerRef}
         >
+          <LogoWallTitle />
+
           {logosGroup &&
             logosGroup.map((innerLogos) => (
               <Box
                 key={JSON.stringify(innerLogos)}
                 xs={{
                   display: 'flex',
-                  justifyContent: 'space-around',
+                  justifyContent: 'center',
                   alignItems: 'center',
-                }}
-                xl={{
-                  justifyContent: 'space-between',
                 }}
               >
                 {innerLogos.map((logo) => (
@@ -54,8 +68,8 @@ export const LogoWall: FC = () => {
                 ))}
               </Box>
             ))}
-        </Box>
-      </Container>
-    </FadeIn>
+        </motion.div>
+      </Box>
+    </Container>
   );
 };

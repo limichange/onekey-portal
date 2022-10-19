@@ -17,10 +17,10 @@
     "title__secure_element_desc_1": "We have observed that some wallets store the most valuable private keys directly in the microprocessor (MCU), which is quite scary.",
     "title__secure_element_desc_2": "In contrast, OneKey uses a Secure Element to protect your crypto assets - the ATECC608A from Microchip, to be exact.",
     "title__secure_element_desc_3": "With the exquisitely designed SHA-256 response control, we can use it to effectively prevent replay and eavesdropping attacks.",
-    "title__security_both_hard_and_soft": "Security, \\nboth hard and soft.",
-    "title__security_both_hard_and_soft_desc": "Asia's most trusted and easy-to-use hardware wallet.",
+    "title__security_both_hard_and_soft": "Security, \\nboth hardware and software.",
+    "title__security_both_hard_and_soft_desc": "The most trusted and easy-to-use hardware wallet in Asia.",
     "title__ultrasonic_welding_process": "Ultrasonic Welding Process",
     "title__ultrasonic_welding_process_desc": "if someone tries to tamper with the device and seal it again, you can notice a clear difference and the device is visibly perceived when it is tampered with.",
-    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions": "What makes OneKey earn the trust of top pro institutions",
-    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions_desc": "OneKey provides best-in-class security for encrypted assets without compromising accessibility and day-to-day operations. The future is always unpredictable and our mission is to give everyone the ability to keep their crypto assets safe."
+    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions": "What makes OneKey earn the trust of top professional institutions",
+    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions_desc": "OneKey provides best-in-class security for encrypted assets without compromising accessibility and day-to-day operations. Our mission is to give everyone the ability to keep their crypto assets safe, no matter what potential risks there might be."
 }

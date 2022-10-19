@@ -1,28 +1,10 @@
 import { FC } from 'react';
 
+import { useExternalUrls } from '../../../data';
 import { BoxProps } from '../../base/Box';
 import { Flex } from '../../base/Flex';
 import { DiscordIcon, GithubIcon, TwitterIcon } from '../../base/Icon';
 import { Link } from '../../base/Link';
-
-const mediaData = {
-  twitter: {
-    url: 'https://twitter.com/OneKeyHQ',
-    username: 'OneKeyHQ',
-  },
-  discord: {
-    url: 'https://discord.gg/nwUJaTzjzv',
-  },
-  github: {
-    url: 'https://github.com/OneKeyHQ/',
-  },
-  reddit: {
-    url: 'https://www.reddit.com/r/OneKeyHQ/',
-  },
-  weibo: {
-    url: 'https://weibo.com/yourKeysyourBitcoin',
-  },
-};
 
 export interface MediaLinkListProps {
   color: string;
@@ -30,6 +12,7 @@ export interface MediaLinkListProps {
 
 export const MediaLinkList: FC<BoxProps> = (props) => {
   const { color, ...otherProps } = props;
+  const externalUrls = useExternalUrls();
 
   return (
     <Flex
@@ -45,15 +28,15 @@ export const MediaLinkList: FC<BoxProps> = (props) => {
       }}
       externalProps={otherProps}
     >
-      <Link css={{ color }} to={mediaData.twitter.url}>
+      <Link css={{ color }} to={externalUrls.twitter.url}>
         <TwitterIcon width={32} height={32} />
       </Link>
 
-      <Link css={{ color }} to={mediaData.github.url}>
+      <Link css={{ color }} to={externalUrls.github.url}>
         <GithubIcon width={32} height={32} />
       </Link>
 
-      <Link css={{ color }} to={mediaData.discord.url}>
+      <Link css={{ color }} to={externalUrls.discord.url}>
         <DiscordIcon width={32} height={32} />
       </Link>
     </Flex>

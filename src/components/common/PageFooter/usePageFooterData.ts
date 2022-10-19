@@ -14,22 +14,11 @@ export function usePageFooterData() {
 
   return {
     media: {
-      twitter: {
-        url: 'https://twitter.com/OneKeyHQ',
-        username: 'OneKeyHQ',
-      },
-      discord: {
-        url: 'https://discord.gg/nwUJaTzjzv',
-      },
-      github: {
-        url: 'https://github.com/OneKeyHQ/',
-      },
-      reddit: {
-        url: 'https://www.reddit.com/r/OneKeyHQ/',
-      },
-      weibo: {
-        url: 'https://weibo.com/yourKeysyourBitcoin',
-      },
+      twitter: externalUrls.twitter,
+      discord: externalUrls.discord,
+      github: externalUrls.github,
+      reddit: externalUrls.reddit,
+      weibo: externalUrls.weibo,
     },
     menuData: [
       {
@@ -89,8 +78,14 @@ export function usePageFooterData() {
         name: t('menu__services'),
         link: '',
         list: [
-          externalUrls.swap,
-          externalUrls.portfolio,
+          {
+            name: externalUrls.swap.name,
+            link: externalUrls.swap.url,
+          },
+          {
+            name: externalUrls.portfolio.name,
+            link: externalUrls.portfolio.url,
+          },
           {
             name: t('menu__token_list'),
             link: '/tokens',
@@ -177,7 +172,10 @@ export function usePageFooterData() {
             name: t('menu__system_status'),
             link: 'https://onekeyhq.github.io/upptime',
           },
-          externalUrls.openSourceCommunity,
+          {
+            name: externalUrls.openSourceCommunity.name,
+            link: externalUrls.openSourceCommunity.url,
+          },
           {
             name: t('menu__media_kits'),
             link: 'https://help.onekey.so/hc/en-us/articles/360002200956',

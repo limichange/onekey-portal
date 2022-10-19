@@ -9,14 +9,15 @@ import {
   Container,
   Flex,
   I18n,
+  OnlyDisplay,
   Section,
   Span,
   Swiper as SwiperComponent,
   SwiperSlide,
   useContainerMargin,
 } from '../../../../base';
+import { PrevAndNext } from '../../../../common';
 
-import { Arrow } from './Arrow';
 import { Item } from './Item';
 import { useData } from './useData';
 
@@ -58,39 +59,20 @@ export const Why: FC = () => {
             </Span>
 
             {/* controller */}
-            <Box
-              xs={{
-                display: 'none',
-              }}
-              m={{
-                display: 'flex',
-              }}
-            >
-              <Arrow
-                disabled={!allowSlidePrev}
-                onClick={() => {
+            <OnlyDisplay m l xl>
+              <PrevAndNext
+                allowPrev={!!allowSlidePrev}
+                prevClick={() => {
                   thumbsSwiper?.slidePrev();
                   updateSlideStatus();
                 }}
-                direction="left"
-                xs={{
-                  width: 64,
-                }}
-              />
-              <Arrow
-                disabled={!allowSlideNext}
-                xs={{
-                  marginLeft: 24,
-                  width: 128,
-                  justifyContent: 'flex-end',
-                }}
-                onClick={() => {
+                allowNext={!!allowSlideNext}
+                nextClick={() => {
                   thumbsSwiper?.slideNext();
                   updateSlideStatus();
                 }}
-                direction="right"
               />
-            </Box>
+            </OnlyDisplay>
           </Flex>
         </Container>
 

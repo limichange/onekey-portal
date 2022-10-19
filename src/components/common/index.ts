@@ -22,3 +22,8 @@ export * from './SetUpYourOnekeyHardwareWalletMediaCard';
 export * from './TwoMediaCards';
 export * from './FloatCursor';
 export * from './SectionTitle';
+export * from './BrandHighlight';
+export * from './BlackHighlight';
+export * from './BoldHighlight';
+export * from './RedHighlight';
+export * from './PrevAndNext';

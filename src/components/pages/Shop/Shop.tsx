@@ -40,6 +40,6 @@ export const Shop: React.FC = () => (
       <StayInTouchWidthContainerAndPadding />
     </Main>
 
-    <PageFooter isShowEmailSubscribe={false} isShowMediaLinks={true} />
+    <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
   </>
 );
