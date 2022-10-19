@@ -63,7 +63,7 @@ export const TextContainer: FC<TextContainerProps> = (props) => {
     if (target) {
       target.innerHTML = `
         <div style="color: #F2F2F2">${newContentBackground}</div>
-        <div style="position: absolute; top: 0; left: 0;">${newContent}</div>
+        <div style="position: absolute; top: 0; left: 0; right: 0;">${newContent}</div>
       `;
 
       const { lastElementChild } = target;
