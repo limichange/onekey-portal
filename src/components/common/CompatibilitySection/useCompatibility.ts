@@ -40,12 +40,14 @@ export function useCompatibility(): CompatibilityItem[] {
       name: 'Trezor web wallet ',
       url: 'https://wallet.trezor.io',
       image: trezorPng,
+      tutorials: 'https://help.onekey.so/hc/articles/5707286585743',
     },
     {
       type: t('title__open_source'),
       name: 'MetaMask',
       url: 'https://metamask.io',
       image: metamaskPng,
+      tutorials: 'https://help.onekey.so/hc/articles/5707302603151',
     },
     {
       type: t('title__partly_open_source'),

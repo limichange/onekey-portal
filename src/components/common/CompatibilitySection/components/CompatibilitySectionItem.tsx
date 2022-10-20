@@ -10,8 +10,11 @@ import {
   Img,
   Link,
   OnlyDisplay,
+  Span,
 } from '../../../base';
 import { CompatibilityItem } from '../useCompatibility';
+
+import { Tutorials } from './Tutorials';
 
 export interface CompatibilitySectionItemProps extends CompatibilityItem {
   children?: ReactNode;
@@ -20,7 +23,7 @@ export interface CompatibilitySectionItemProps extends CompatibilityItem {
 export const CompatibilitySectionItem: FC<CompatibilitySectionItemProps> = (
   props,
 ) => {
-  const { image, name, url, children, type } = props;
+  const { image, name, url, children, type, tutorials } = props;
   const theme = useTheme();
 
   return (
@@ -74,6 +77,12 @@ export const CompatibilitySectionItem: FC<CompatibilitySectionItemProps> = (
             l={theme.text.normal400}
           >
             {url.replace('https://', '')}
+
+            {tutorials && (
+              <Span xs={{ paddingLeft: 6 }}>
+                <Tutorials url={tutorials} />
+              </Span>
+            )}
           </Box>
         </Box>
 
