@@ -129,21 +129,9 @@ export function useCompatibility(): CompatibilityItem[] {
     },
     {
       type: t('title__open_source'),
-      name: 'imToken',
-      url: 'https://token.im',
-      image: imtokenPng,
-    },
-    {
-      type: t('title__open_source'),
-      name: 'TokenPocket',
-      url: 'https://tokenpocket.pro',
-      image: tokenpocketPng,
-    },
-    {
-      type: t('title__open_source'),
-      name: 'Zerion',
-      url: 'https://zerion.io',
-      image: zerionPng,
+      name: 'Sparrow',
+      url: 'https://sparrowwallet.com',
+      image: sparrowPng,
     },
     {
       type: t('title__open_source'),
@@ -152,16 +140,28 @@ export function useCompatibility(): CompatibilityItem[] {
       image: wasabiPng,
     },
     {
-      type: t('title__open_source'),
+      type: '',
+      name: 'imToken',
+      url: 'https://token.im',
+      image: imtokenPng,
+    },
+    {
+      type: '',
+      name: 'TokenPocket',
+      url: 'https://tokenpocket.pro',
+      image: tokenpocketPng,
+    },
+    {
+      type: '',
+      name: 'Zerion',
+      url: 'https://zerion.io',
+      image: zerionPng,
+    },
+    {
+      type: '',
       name: 'Phantom',
       url: 'https://phantom.app',
       image: phantomPng,
-    },
-    {
-      type: t('title__open_source'),
-      name: 'Sparrow',
-      url: 'https://sparrowwallet.com',
-      image: sparrowPng,
     },
   ];
 }
