@@ -102,10 +102,15 @@
     "title__mobile_app": "Aplicación movil",
     "title__multi_chain_support": "Soporte multicadena",
     "title__multi_chain_support_desc": "Soporte para tokens en cadenas ETH, BSC y HECO.",
+    "title__open_source": "Fuente abierta",
     "title__other_platforms": "Otras plataformas",
+    "title__partly_open_source": "Parcialmente de código abierto",
+    "title__perfectly_compatible_with_the_following_third_party_software": "Perfectamente compatible con el siguiente software de terceros",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "Probado y disponible, visite <TutorialsLink> Todos los tutoriales <\/TutorialsLink> para obtener más información.",
     "title__security": "seguridad",
     "title__set_up_your_onekey_hardware_wallet": "Configure su billetera de hardware OneKey",
     "title__stay_in_touch": "Mantente en contacto",
     "title__subscribe_to_our_notifications": "Suscríbete a nuestras notificaciones",
+    "title__tutorials": "Tutoriales",
     "title__view_all_products": "Ver todos los productos"
 }

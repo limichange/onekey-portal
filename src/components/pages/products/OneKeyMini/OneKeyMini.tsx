@@ -9,6 +9,7 @@ import {
   PageFooter,
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
+import { CompatibilitySection } from '../components';
 import { NavigationCart } from '../components/Cart';
 import { FeatureSection } from '../components/FeatureSection';
 import { FullscreenScrollAnimation } from '../components/FullscreenScrollAnimation';
@@ -70,6 +71,8 @@ export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
             )}
           </OnlyDisplay>
         </IntroductionSection>
+
+        <CompatibilitySection />
 
         <FeatureSection {...oneKeyMiniData.feature} />
 

@@ -10,6 +10,8 @@ export { ReactComponent as ArrowLeftIcon } from './images/arrow-left.svg';
 export { default as ArrowLeftIconInline } from './images/arrow-left.svg';
 export { ReactComponent as ArrowRightIcon } from './images/arrow-right.svg';
 export { default as ArrowRightIconInline } from './images/arrow-right.svg';
+export { ReactComponent as ArrowUpRightIcon } from './images/arrow-up-right.svg';
+export { default as ArrowUpRightIconInline } from './images/arrow-up-right.svg';
 export { ReactComponent as BoxIcon } from './images/box.svg';
 export { default as BoxIconInline } from './images/box.svg';
 export { ReactComponent as BraveIcon } from './images/brave.svg';

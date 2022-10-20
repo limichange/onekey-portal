@@ -102,10 +102,15 @@
     "title__mobile_app": "Mobile App",
     "title__multi_chain_support": "Multi-chain support",
     "title__multi_chain_support_desc": "Suporta para sa mga token sa ETH, BSC at HECO chain.",
+    "title__open_source": "Open source",
     "title__other_platforms": "Iba pang mga platform",
+    "title__partly_open_source": "Bahagyang open source",
+    "title__perfectly_compatible_with_the_following_third_party_software": "Ganap na katugma sa sumusunod na software ng third-party",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "Sinubukan at available, bisitahin ang <TutorialsLink> Lahat ng tutorial <\/TutorialsLink> para matuto pa.",
     "title__security": "seguridad",
     "title__set_up_your_onekey_hardware_wallet": "I-set up ang iyong OneKey hardware wallet",
     "title__stay_in_touch": "Manatiling nakikipag-ugnayan",
     "title__subscribe_to_our_notifications": "Mag-subscribe sa aming mga notification",
+    "title__tutorials": "Mga Tutorial",
     "title__view_all_products": "Tingnan ang Lahat ng Produkto"
 }

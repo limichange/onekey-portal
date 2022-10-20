@@ -102,10 +102,15 @@
     "title__mobile_app": "Ứng dụng di động",
     "title__multi_chain_support": "Hỗ trợ đa chuỗi",
     "title__multi_chain_support_desc": "Hỗ trợ mã thông báo trên chuỗi ETH, BSC và HECO.",
+    "title__open_source": "Mã nguồn mở",
     "title__other_platforms": "Các nền tảng khác",
+    "title__partly_open_source": "Một phần mã nguồn mở",
+    "title__perfectly_compatible_with_the_following_third_party_software": "Hoàn toàn tương thích với phần mềm của bên thứ ba sau",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "Đã được kiểm tra và có sẵn, hãy truy cập <TutorialsLink> Tất cả các hướng dẫn <\/TutorialsLink> để tìm hiểu thêm.",
     "title__security": "Bảo vệ",
     "title__set_up_your_onekey_hardware_wallet": "Thiết lập ví phần cứng OneKey của bạn",
     "title__stay_in_touch": "Giữ liên lạc",
     "title__subscribe_to_our_notifications": "Đăng ký nhận thông báo của chúng tôi",
+    "title__tutorials": "Hướng dẫn",
     "title__view_all_products": "Xem tất cả các sản phẩm"
 }

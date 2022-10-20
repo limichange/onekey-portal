@@ -5,6 +5,7 @@ export type IconTypes =
   | 'AppleIcon'
   | 'ArrowLeftIcon'
   | 'ArrowRightIcon'
+  | 'ArrowUpRightIcon'
   | 'BoxIcon'
   | 'BraveIcon'
   | 'CheckIcon'

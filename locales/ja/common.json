@@ -102,10 +102,15 @@
     "title__mobile_app": "モバイルアプリ",
     "title__multi_chain_support": "マルチチェーンに対応",
     "title__multi_chain_support_desc": "ETH、BSC、及びHECOチェーンでのトークンに対応。",
+    "title__open_source": "オープンソース",
     "title__other_platforms": "その他のプラットフォーム",
+    "title__partly_open_source": "一部オープンソース",
+    "title__perfectly_compatible_with_the_following_third_party_software": "以下のサードパーティ製ソフトウェアと完全に互換性があります",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "テスト済みで利用可能です。詳細については、 <TutorialsLink>すべてのチュートリアル<\/TutorialsLink>にアクセスしてください。",
     "title__security": "安全",
     "title__set_up_your_onekey_hardware_wallet": "OneKey ハードウェアウォレットを設定する",
     "title__stay_in_touch": "連絡を取り合う",
     "title__subscribe_to_our_notifications": "通知を購読する",
+    "title__tutorials": "チュートリアル",
     "title__view_all_products": "全ての製品を表示"
 }

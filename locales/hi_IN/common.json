@@ -102,10 +102,15 @@
     "title__mobile_app": "मोबाइल एप्लिकेशन",
     "title__multi_chain_support": "मल्टी-चेन सपोर्ट",
     "title__multi_chain_support_desc": "ETH, BSC और HECO श्रृंखलाओं पर टोकन के लिए समर्थन।",
+    "title__open_source": "खुला स्त्रोत",
     "title__other_platforms": "अन्य प्लेटफार्म",
+    "title__partly_open_source": "आंशिक रूप से खुला स्रोत",
+    "title__perfectly_compatible_with_the_following_third_party_software": "निम्नलिखित तृतीय-पक्ष सॉफ़्टवेयर के साथ पूरी तरह से संगत",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "परीक्षण किया गया और उपलब्ध है, अधिक जानने के लिए <TutorialsLink> सभी ट्यूटोरियल <\/TutorialsLink> पर जाएं।",
     "title__security": "सुरक्षा",
     "title__set_up_your_onekey_hardware_wallet": "अपना OneKey हार्डवेयर वॉलेट सेट करें",
     "title__stay_in_touch": "संपर्क में रहना",
     "title__subscribe_to_our_notifications": "हमारे नोटिफिकेशन को सब्सक्राइब करें",
+    "title__tutorials": "ट्यूटोरियल",
     "title__view_all_products": "सभी उत्पाद देखें"
 }

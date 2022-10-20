@@ -8,6 +8,7 @@ import {
   PageFooter,
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
+import { CompatibilitySection } from '../components';
 import { NavigationCart } from '../components/Cart';
 import { FeatureSection } from '../components/FeatureSection';
 import { IntroductionSection } from '../components/IntroductionSection';
@@ -49,6 +50,8 @@ export const OneKeyLite: FC<OneKeyLiteProps> = (props) => {
             <ImageIntroduction items={OneKeyLiteData.imageIntroduction} />
           </IntroductionContainer>
         </IntroductionSection>
+
+        <CompatibilitySection />
 
         <FeatureSection {...OneKeyLiteData.feature} />
 

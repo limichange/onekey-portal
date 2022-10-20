@@ -6,3 +6,4 @@ export * from './FeatureSection';
 export * from './FullscreenScrollAnimation';
 export * from './RecommendSection';
 export * from './Cart';
+export * from '../../../common/CompatibilitySection';

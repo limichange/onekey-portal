@@ -102,10 +102,15 @@
     "title__mobile_app": "Гар утасны програм",
     "title__multi_chain_support": "Олон хэлхээний дэмжлэг",
     "title__multi_chain_support_desc": "ETH, BSC болон HECO сүлжээн дэх жетонуудыг дэмжих.",
+    "title__open_source": "Нээлттэй эх сурвалж",
     "title__other_platforms": "Бусад платформууд",
+    "title__partly_open_source": "Хэсэгчилсэн нээлттэй эх сурвалж",
+    "title__perfectly_compatible_with_the_following_third_party_software": "Дараахь гуравдагч талын програм хангамжтай төгс нийцдэг",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "Туршсан бөгөөд ашиглах боломжтой, дэлгэрэнгүй үзэхийн тулд <TutorialsLink> Бүх хичээлүүд <\/TutorialsLink> руу зочилно уу.",
     "title__security": "аюулгүй байдал",
     "title__set_up_your_onekey_hardware_wallet": "OneKey тоног төхөөрөмжийн түрийвчээ тохируулна уу",
     "title__stay_in_touch": "Холбоотой байгаарай",
     "title__subscribe_to_our_notifications": "Манай мэдэгдлүүдийг захиалаарай",
+    "title__tutorials": "Хичээлүүд",
     "title__view_all_products": "Бүх бүтээгдэхүүнийг үзэх"
 }

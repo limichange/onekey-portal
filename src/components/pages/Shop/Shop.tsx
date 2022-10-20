@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 
 import { Container, Main, SEO } from '../../base';
 import {
+  CompatibilitySection,
   Navigation,
   PageFooter,
   StayInTouchWidthContainerAndPadding,
@@ -30,6 +31,8 @@ export const Shop: React.FC = () => (
       <Container>
         <Products />
       </Container>
+
+      <CompatibilitySection />
 
       <ProductCompare />
 

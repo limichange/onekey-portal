@@ -9,6 +9,7 @@ import {
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
 import {
+  CompatibilitySection,
   FeatureSection,
   ImageIntroduction,
   ImageIntroductionItem,
@@ -80,6 +81,8 @@ export const OneKeyClassic: FC<OneKeyClassicProps> = (props) => {
             </IntroductionContainer>
           </OnlyDisplay>
         </IntroductionSection>
+
+        <CompatibilitySection />
 
         <FeatureSection {...data.feature} />
 

@@ -27,3 +27,4 @@ export * from './BlackHighlight';
 export * from './BoldHighlight';
 export * from './RedHighlight';
 export * from './PrevAndNext';
+export * from './CompatibilitySection';

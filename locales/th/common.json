@@ -102,10 +102,15 @@
     "title__mobile_app": "แอพมือถือ",
     "title__multi_chain_support": "รองรับหลายเชน",
     "title__multi_chain_support_desc": "รองรับโทเค็นบนโซ่ ETH, BSC และ HECO",
+    "title__open_source": "โอเพ่นซอร์ส",
     "title__other_platforms": "แพลตฟอร์มอื่นๆ",
+    "title__partly_open_source": "โอเพ่นซอร์สบางส่วน",
+    "title__perfectly_compatible_with_the_following_third_party_software": "เข้ากันได้อย่างสมบูรณ์แบบกับซอฟต์แวร์ของบริษัทอื่นต่อไปนี้",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "ทดสอบและพร้อมใช้งานแล้ว ไปที่ <TutorialsLink> ช่วยสอนทั้งหมด <\/TutorialsLink> เพื่อเรียนรู้เพิ่มเติม",
     "title__security": "ความปลอดภัย",
     "title__set_up_your_onekey_hardware_wallet": "ตั้งค่า OneKey hardware wallet ของคุณ",
     "title__stay_in_touch": "อยู่ในการติดต่อ",
     "title__subscribe_to_our_notifications": "สมัครรับการแจ้งเตือนของเรา",
+    "title__tutorials": "บทช่วยสอน",
     "title__view_all_products": "ดูสินค้าทั้งหมด"
 }

@@ -9,6 +9,7 @@ import {
   PageFooter,
   StayInTouchWidthContainerAndPadding,
 } from '../../../common';
+import { CompatibilitySection } from '../components';
 import { FeatureSection } from '../components/FeatureSection';
 import { FullscreenScrollAnimation } from '../components/FullscreenScrollAnimation';
 import { IntroductionSection } from '../components/IntroductionSection';
@@ -67,6 +68,8 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
             )}
           </OnlyDisplay>
         </IntroductionSection>
+
+        <CompatibilitySection />
 
         <FeatureSection {...onekeyTouchData.feature} />
 

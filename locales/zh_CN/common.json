@@ -102,10 +102,15 @@
     "title__mobile_app": "移动端",
     "title__multi_chain_support": "多链支持",
     "title__multi_chain_support_desc": "支持 ETH、BSC 和 HECO 链上的代币。",
+    "title__open_source": "开源",
     "title__other_platforms": "其他平台",
+    "title__partly_open_source": "部分开源",
+    "title__perfectly_compatible_with_the_following_third_party_software": "完美兼容以下第三方软件",
+    "title__perfectly_compatible_with_the_following_third_party_software_desc": "经测试可用，请访问<TutorialsLink>所有教程<\/TutorialsLink>了解更多信息。",
     "title__security": "安全",
     "title__set_up_your_onekey_hardware_wallet": "设置您的OneKey硬件钱包",
     "title__stay_in_touch": "保持联系",
     "title__subscribe_to_our_notifications": "订阅我们的通知",
+    "title__tutorials": "教程",
     "title__view_all_products": "查看所有产品"
 }
