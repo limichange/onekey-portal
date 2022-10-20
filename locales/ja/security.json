@@ -7,7 +7,7 @@
     "title__cold_keys_desc_3": "具体的には、 OneKeyは、すべてのオンチェーントランザクションの確認及び承認することに役立ち、署名プロセスは、PCやスマートフォンではなく、デバイスで実行される。これにより、悪意のあるプログラムに騙され、リスクの高い操作を防ぐことができる、例えば：悪意のある人物の偽装アドレスに暗号資産を送信すること。",
     "title__eal6_certification": "EAL6認証",
     "title__eal6_certification_desc": "一部の OneKey 製品ラインはEAL6認定を通し、当該認証を製品ライン全体まで拡張する。",
-    "title__earn_the_trust_of_top_and_professional_institutions": "一流且つ専門な機関に信頼される",
+    "title__earn_the_trust_of_top_and_professional_institutions": "一流の専門機関に信頼される",
     "title__earn_the_trust_of_top_and_professional_institutions_desc": "OneKey は、アクセシビリティと日常業務に支障を来さない前提で、暗号資産に最高なセキュリティを提供する。将来は常に予測不可能であり、私たちの使命は、すべての人に暗号資産を安全に保つ力を与えることである。",
     "title__open_source": "オープンソース",
     "title__open_source_desc_1": "オリジナルのソフトウェアとファームウェアコードをGithubでオープンソースにして、誰でもチェックして検証できるようにしている。",
@@ -21,6 +21,6 @@
     "title__security_both_hard_and_soft_desc": "アジアで最も信頼され、使いやすいハードウェアウォレット。",
     "title__ultrasonic_welding_process": "超音波溶接プロセス",
     "title__ultrasonic_welding_process_desc": "誰かがデバイスを改ざんして再度封印しようとすると、明確な違いに気付くことができ、改ざんされたときにデバイスが視覚的に認識される。",
-    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions": "OneKey は一流且つ専門機関の信頼を獲得する理由は何であろう。",
+    "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions": "OneKey は一流の専門機関に信頼される理由は何であろう。",
     "title__what_makes_onekey_earn_the_trust_of_top_pro_institutions_desc": "OneKey は、アクセシビリティと日常業務に支障を来さない前提で、暗号資産に最高なセキュリティを提供する。将来は常に予測不可能であり、私たちの使命は、すべての人に暗号資産を安全に保つ力を与えることである。"
 }
