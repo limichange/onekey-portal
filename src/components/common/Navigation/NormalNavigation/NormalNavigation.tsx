@@ -3,6 +3,7 @@ import React, { ReactNode } from 'react';
 import { useTheme } from '@emotion/react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
+import { LogoDownloadModalArea } from '../../../base';
 import { Box, Li, Ul } from '../../../base/Box';
 import { Container } from '../../../base/Container';
 import { Link } from '../../../base/Link';
@@ -54,19 +55,22 @@ export const NormalNavigation: React.FC<NormalNavigationProps> = () => {
           alignItems: 'center',
         }}
       >
-        <Link to="/">
-          <Logo
-            css={{
-              width: 48,
-              height: 48,
-              color: 'black',
-              ':hover': {
-                cursor: 'pointer',
-                color: theme.colors.brand400,
-              },
-            }}
-          />
-        </Link>
+        <LogoDownloadModalArea>
+          <Link to="/">
+            <Logo
+              css={{
+                width: 48,
+                height: 48,
+                color: 'black',
+                ':hover': {
+                  cursor: 'pointer',
+                  color: theme.colors.brand400,
+                },
+              }}
+            />
+          </Link>
+        </LogoDownloadModalArea>
+
         <Ul
           xs={{ flex: 1, display: 'flex', gap: 28, paddingLeft: 12 }}
           l={{ gap: 32 }}

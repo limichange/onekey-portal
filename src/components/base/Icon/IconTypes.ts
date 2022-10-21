@@ -3,6 +3,7 @@ export type IconTypes =
   | 'AndroidIcon'
   | 'AppStoreIcon'
   | 'AppleIcon'
+  | 'ArrowDownIcon'
   | 'ArrowLeftIcon'
   | 'ArrowRightIcon'
   | 'ArrowUpRightIcon'

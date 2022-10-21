@@ -28,3 +28,4 @@ export * from './I18n';
 export * from './CanvasPlayerNext';
 export * from './Marquee';
 export * from './DynamicContent';
+export * from './LogoDownloadModal';

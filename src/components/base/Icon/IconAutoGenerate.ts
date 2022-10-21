@@ -6,6 +6,8 @@ export { ReactComponent as AppStoreIcon } from './images/app-store.svg';
 export { default as AppStoreIconInline } from './images/app-store.svg';
 export { ReactComponent as AppleIcon } from './images/apple.svg';
 export { default as AppleIconInline } from './images/apple.svg';
+export { ReactComponent as ArrowDownIcon } from './images/arrow-down.svg';
+export { default as ArrowDownIconInline } from './images/arrow-down.svg';
 export { ReactComponent as ArrowLeftIcon } from './images/arrow-left.svg';
 export { default as ArrowLeftIconInline } from './images/arrow-left.svg';
 export { ReactComponent as ArrowRightIcon } from './images/arrow-right.svg';
