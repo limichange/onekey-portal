@@ -45,7 +45,7 @@ export const Text1: FC = () => {
   );
 
   const filter = useTransform(scrollYProgress, (value) =>
-    media.medium ? `blur(${value * 30}px)` : `blur(0)`,
+    media.medium ? `blur(${value * 5}px)` : `blur(0)`,
   );
 
   const { status } = useStatusUpdate(containerRef, 0.1);
