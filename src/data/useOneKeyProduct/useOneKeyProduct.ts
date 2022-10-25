@@ -45,8 +45,8 @@ export function useOneKeyProduct(): OneKeyProducts {
       shopProductId: '41169098178722',
       status: 'normal',
       name: 'OneKey Touch',
-      price: 135,
-      formattedPrice: '$135.00',
+      price: TBA,
+      formattedPrice: 'TBA',
       description: t(
         'content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display',
       ),
