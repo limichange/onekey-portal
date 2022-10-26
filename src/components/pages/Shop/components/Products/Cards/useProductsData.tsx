@@ -7,7 +7,7 @@ import { useOneKeyProduct } from '../../../../../../data/useOneKeyProduct';
 export type ProductItem = {
   name: string;
   description: string;
-  price: number;
+  price: number | string;
   formattedPrice: string;
   image: ReactNode;
   bigImage?: ReactNode;

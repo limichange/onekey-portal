@@ -16,7 +16,7 @@ import TouchImage from './images/touch.svg';
 export type RecommendSectionDataItem = {
   name: string;
   description: string;
-  price: number;
+  price: number | string;
   formattedPrice: string;
   image: string;
   hoverImage: ReactNode;

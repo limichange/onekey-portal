@@ -10,7 +10,7 @@ export type ProductItem = {
   shopProductId?: string;
   status: ProductStatus;
   name: string;
-  price: number;
+  price: number | string;
   formattedPrice: string;
   description: string;
   path: string;

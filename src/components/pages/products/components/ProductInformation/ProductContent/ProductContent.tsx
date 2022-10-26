@@ -24,7 +24,7 @@ export interface ProductContentProps extends BuyNowProps {
   description: string;
   status: ProductStatus;
   price: {
-    value: number;
+    value: number | string;
     formatted: string;
   };
 }
