@@ -1,16 +1,16 @@
 {
     "custom_packaging": "Custom packaging",
-    "deliver_to_end_users": "Deliver to end-users",
-    "minimum_int_units": "Minimum {{value}} units",
-    "title__co_branded_partnership": "Co-branded\\npartnership",
-    "title__co_branded_partnership_desc": "Check out our co-branded offers to bring your marketing to life.",
+    "deliver_to_end_users": "Delivery to end-users",
+    "minimum_int_units": "Minimum purchase amount {{value}} ",
+    "title__co_branded_partnership": "Co-branded partnership",
+    "title__co_branded_partnership_desc": "Check out our co-branded offers and bring your marketing campaign to life.",
     "title__dropshipping": "Dropshipping",
-    "title__dropshipping_desc": "We'll design the product together, and OneKey will take care of the rest of the process - this includes delivery logistics.",
+    "title__dropshipping_desc": "Only take part in custom product design. OneKey will take care of the rest.",
     "title__logo_engraving": "Logo engraving",
     "title__our_offer": "Our Offer",
-    "title__our_offer_desc": "Customize your OneKey hardware wallet and reward your community, partners, or staff with incentives.",
+    "title__our_offer_desc": "Customize your OneKey hardware wallets and reward your community, partners, or staff.",
     "title__pro_team": "Pro Team",
-    "title__pro_team_desc": "Promote and personalize your latest OneKey device. Services range from engraving the hardware wallet to customizations of packaging, cards and sleeves.",
+    "title__pro_team_desc": "Your logo, your packaging, your cards, your paper sleeves, your OneKey.",
     "title__standard": "Standard",
-    "title__standard_desc": "Personalize your OneKey's latest device with a custom engraving."
+    "title__standard_desc": "Personalize your OneKey device with a custom Logo engraving."
 }
