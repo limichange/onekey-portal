@@ -7,6 +7,8 @@ export interface TokenImpl {
   name: string;
   impl: string;
   chainId: string;
+  icon: string;
+  base: string;
 }
 
 export function useTokenImpls() {

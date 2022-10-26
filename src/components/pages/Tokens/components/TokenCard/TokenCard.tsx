@@ -1,17 +1,17 @@
-import { FC, ReactNode } from 'react';
+import { FC, Fragment, ReactNode } from 'react';
 
 import { Interpolation, Theme, useTheme } from '@emotion/react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 import LazyLoad from 'react-lazyload';
 
 import { Box, Divider, Flex, I18n, Img, Link, Span } from '../../../../base';
+import { TokenImpl } from '../../hooks/useTokenImpls';
 import { Token } from '../../hooks/useTokenList';
-import { Chain } from '../../types/Chain';
 import { addToWallet } from '../../utils/addToWallet';
 
 export interface TokenCardProps extends Token {
   children?: ReactNode;
-  chain: Chain;
+  chain: TokenImpl;
 }
 
 export const TokenCard: FC<TokenCardProps> = (props) => {
@@ -91,17 +91,21 @@ export const TokenCard: FC<TokenCardProps> = (props) => {
           alignItems: 'stretch',
         }}
       >
-        <Link xs={{ flex: 1 }} to={`${chain.base}/token/${address}`}>
-          <Box {...buttonStyle}>
-            <I18n name="action__view" />
-          </Box>
-        </Link>
+        {chain.base && (
+          <Fragment key="base">
+            <Link xs={{ flex: 1 }} to={`${chain.base}/token/${address}`}>
+              <Box {...buttonStyle}>
+                <I18n name="action__view" />
+              </Box>
+            </Link>
 
-        <Divider
-          xs={{ height: 'auto' }}
-          direction="v"
-          color={theme.colors.test200}
-        />
+            <Divider
+              xs={{ height: 'auto' }}
+              direction="v"
+              color={theme.colors.test200}
+            />
+          </Fragment>
+        )}
 
         <Box
           {...buttonStyle}
@@ -116,7 +120,7 @@ export const TokenCard: FC<TokenCardProps> = (props) => {
               },
               chain.chainId,
               t('content__switch_network', {
-                value: chain.type,
+                value: chain.name,
               }),
             );
           }}

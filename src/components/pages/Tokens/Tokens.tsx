@@ -3,16 +3,15 @@ import { FC, ReactNode, useState } from 'react';
 import { useTheme } from '@emotion/react';
 import { Helmet } from 'react-helmet';
 
-import { Box, Container, Flex, Main } from '../../base';
+import { Box, Container, Main } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { PageTitle } from './components/PageTitle';
 import { TokenCards } from './components/TokenCards';
 import { TokenSearchInput } from './components/TokenSearchInput';
 import { TokenTypeSwitch } from './components/TokenTypeSwitch';
-import { useChains } from './hooks/useChains';
+import { useSelectState } from './hooks/useSelectState';
 import { useTokenList } from './hooks/useTokenList';
-import { Chain } from './types/Chain';
 
 export interface TokensProps {
   children?: ReactNode;
@@ -21,10 +20,9 @@ export interface TokensProps {
 export const Tokens: FC<TokensProps> = (props) => {
   const { children } = props;
   const theme = useTheme();
-  const chains = useChains();
-  const [chain, setChain] = useState<Chain>(chains.bsc);
   const [searchInputValue, setSearchInputValue] = useState('');
-  const { data } = useTokenList(chain);
+  const { currentActiveChain } = useSelectState();
+  const { data } = useTokenList(currentActiveChain);
 
   return (
     <Box xs={{ background: theme.colors.test100 }}>
@@ -40,30 +38,28 @@ export const Tokens: FC<TokensProps> = (props) => {
           }}
         >
           <Container>
-            <Flex
+            <Box
               xs={{
-                justifyContent: 'space-between',
+                display: 'grid',
                 paddingTop: 8,
                 paddingBottom: 8,
-                gap: 8,
-                flexDirection: 'column',
+                gridGap: 8,
               }}
-              m={{ flexDirection: 'row' }}
             >
-              <Box m={{ width: 420 }}>
-                <TokenTypeSwitch
-                  value={chain}
-                  onChange={(newValue) => setChain(newValue)}
-                />
-              </Box>
+              <TokenTypeSwitch />
 
-              <Box m={{ width: 420 }}>
+              <Box
+                xs={{ display: 'grid', gridGap: 24 }}
+                m={{ gridTemplateColumns: `repeat(2, 1fr)` }}
+                l={{ gridTemplateColumns: `repeat(3, 1fr)` }}
+                xxl={{ gridTemplateColumns: `repeat(4, 1fr)` }}
+              >
                 <TokenSearchInput
                   value={searchInputValue}
                   onChange={setSearchInputValue}
                 />
               </Box>
-            </Flex>
+            </Box>
           </Container>
         </Box>
       </Navigation>
@@ -72,11 +68,13 @@ export const Tokens: FC<TokensProps> = (props) => {
         <Container>
           <PageTitle />
 
-          <TokenCards
-            chain={chain}
-            searchString={searchInputValue}
-            tokens={data}
-          />
+          {currentActiveChain && (
+            <TokenCards
+              chain={currentActiveChain}
+              searchString={searchInputValue}
+              tokens={data}
+            />
+          )}
 
           <Box xs={{ paddingTop: 80, paddingBottom: 80 }}>
             <StayInTouch />

@@ -1,8 +1,8 @@
 import { FC, ReactNode, useEffect, useMemo, useState } from 'react';
 
 import { Box, Button, I18n } from '../../../../base';
+import { TokenImpl } from '../../hooks/useTokenImpls';
 import { Token } from '../../hooks/useTokenList';
-import { Chain } from '../../types/Chain';
 import { TokenCard } from '../TokenCard';
 import { TokenCardPlaceholder } from '../TokenCardPlaceholder';
 import { TokenNotFound } from '../TokenNotFound';
@@ -11,7 +11,7 @@ export interface TokenCardsProps {
   children?: ReactNode;
   tokens?: Token[];
   searchString: string;
-  chain: Chain;
+  chain: TokenImpl;
 }
 
 export type TokenCardsStatus = 'normal' | 'none' | 'loading';
@@ -58,20 +58,10 @@ export const TokenCards: FC<TokenCardsProps> = (props) => {
   return (
     <Box>
       <Box
-        xs={{
-          display: 'grid',
-          gridTemplateColumns: `repeat(1, 1fr);`,
-          gridGap: 24,
-        }}
-        m={{
-          gridTemplateColumns: `repeat(2, 1fr);`,
-        }}
-        l={{
-          gridTemplateColumns: `repeat(3, 1fr);`,
-        }}
-        xxl={{
-          gridTemplateColumns: `repeat(4, 1fr);`,
-        }}
+        xs={{ display: 'grid', gridGap: 24 }}
+        m={{ gridTemplateColumns: `repeat(2, 1fr)` }}
+        l={{ gridTemplateColumns: `repeat(3, 1fr)` }}
+        xxl={{ gridTemplateColumns: `repeat(4, 1fr)` }}
       >
         {status === 'normal' &&
           tokensFiltered

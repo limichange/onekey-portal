@@ -1,43 +1,42 @@
 import { FC, ReactNode } from 'react';
 
-import { useTheme } from '@emotion/react';
-
 import { Box } from '../../../../base';
-import { useChains } from '../../hooks/useChains';
-import { Chain } from '../../types/Chain';
+import { useSelectState } from '../../hooks/useSelectState';
+import { SelectMoreChainsButton } from '../SelectMoreChainsButton';
 
 import { SwitchItem } from './SwitchItem';
 
 export interface TokenTypeSwitchProps {
   children?: ReactNode;
-  onChange?: (value: Chain) => void;
-  value: Chain;
 }
 
 export const TokenTypeSwitch: FC<TokenTypeSwitchProps> = (props) => {
-  const { children, value, onChange } = props;
-  const theme = useTheme();
-  const chains = useChains();
+  const { children } = props;
+  const { currentActiveChain, setCurrentActiveChain, tokenImplsDataArray } =
+    useSelectState();
 
   return (
     <Box
       xs={{
-        display: 'flex',
-        gap: 8,
-        padding: 4,
-        background: theme.colors.test200,
-        borderRadius: theme.borderRadius.l,
+        display: 'grid',
+        gridGap: 4,
+        gridTemplateColumns: 'repeat(3, 1fr)',
       }}
+      m={{ gridTemplateColumns: 'repeat(5, 1fr)' }}
+      l={{ gridTemplateColumns: 'repeat(10, 1fr)' }}
     >
-      {Object.values(chains).map((chain) => (
+      {tokenImplsDataArray[0].map((chain) => (
         <SwitchItem
-          key={chain.type}
-          active={value.type === chain.type}
-          onClick={() => onChange?.(chain)}
+          icon={chain.icon}
+          key={chain.name}
+          active={currentActiveChain?.name === chain.name}
+          onClick={() => setCurrentActiveChain(chain)}
         >
-          {chain.type}
+          {chain.name}
         </SwitchItem>
       ))}
+
+      <SelectMoreChainsButton />
 
       {children}
     </Box>

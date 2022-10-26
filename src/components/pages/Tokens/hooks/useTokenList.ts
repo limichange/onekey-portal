@@ -2,9 +2,8 @@ import useSWR from 'swr';
 import urlJoin from 'url-join';
 
 import { fetcher } from '../../../../utils';
-import { Chain } from '../types/Chain';
 
-import { useTokenImpls } from './useTokenImpls';
+import { TokenImpl, useTokenImpls } from './useTokenImpls';
 
 export interface Token {
   id: string;
@@ -28,15 +27,18 @@ export interface Token {
   marketCap?: number;
 }
 
-export function useTokenList(chain: Chain) {
+export function useTokenList(chain?: TokenImpl) {
   const { data } = useTokenImpls();
 
-  const impl = data?.find(
-    (item) => item.name.toLocaleLowerCase() === chain.type.toLocaleLowerCase(),
-  );
+  const impl = chain
+    ? data?.find(
+        (item) =>
+          item.name.toLocaleLowerCase() === chain.name.toLocaleLowerCase(),
+      )
+    : undefined;
 
   return useSWR<Token[]>(
-    impl
+    impl && chain
       ? urlJoin(
           API_URL,
           'token/list',
