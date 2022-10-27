@@ -29,11 +29,11 @@ export const CompatibilitySection: FC<CompatibilitySectionProps> = (props) => {
           <CompatibilitySectionTitle />
 
           <Box
+            xs={{ position: 'relative' }}
             l={{
               display: 'grid',
               gridTemplateColumns: 'repeat(2, 1fr)',
               gridColumnGap: 24,
-              position: 'relative',
             }}
           >
             {data.map((item, index) => {
