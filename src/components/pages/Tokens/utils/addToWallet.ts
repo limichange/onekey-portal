@@ -9,7 +9,7 @@ export function addToWallet(
 ) {
   const ethereum = window.ethereum as MetaMaskInpageProvider;
 
-  if (ethereum && ethereum.chainId === chainId) {
+  if (ethereum && Number(ethereum.chainId) === Number(chainId)) {
     ethereum
       .request({
         method: 'wallet_watchAsset',

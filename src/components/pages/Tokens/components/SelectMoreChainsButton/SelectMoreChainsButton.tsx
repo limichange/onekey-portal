@@ -31,7 +31,7 @@ export const SelectMoreChainsButton: FC<SelectMoreChainsButtonProps> = (
   }, [currentActiveChain]);
 
   return (
-    <Fragment key={'SelectMoreChainsButton'}>
+    <Fragment key="SelectMoreChainsButton">
       <Box
         {...hoverProps}
         onClick={() => setIsClick(true)}
