@@ -53,7 +53,7 @@
     "menu__evm_chain_list": "EVM 鍊錶",
     "menu__evm_chain_list_desc": "幫助用戶連接到 EVM 驅動的網絡。",
     "menu__getting_started": "入門",
-    "menu__getting_started_desc": "從0到1快速入門，你可能遇到的大部分問題都可以在這裡得到解答。",
+    "menu__getting_started_desc": "從 0 到 1 快速入門\\n問題多多？快來這裏尋找答案！",
     "menu__github_desc": "如果您是開發者，遇到技術難題，請來這裡提問",
     "menu__hardware_device": "硬件設備",
     "menu__hardware_wallet_manual": "硬件錢包手冊",

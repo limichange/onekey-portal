@@ -14,14 +14,25 @@ export const LogoItem: FC<LogoItemProps> = (props) => {
   return (
     <Box
       xs={{
-        width: 160,
-        height: 80,
+        width: 160 * 0.8,
+        height: 80 * 0.8,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
       }}
+      m={{
+        width: 160,
+        height: 80,
+      }}
     >
-      <Img xs={{}} src={src} alt={name} />
+      <Img
+        xs={{
+          width: '100%',
+          height: '100%',
+        }}
+        src={src}
+        alt={name}
+      />
       {children}
     </Box>
   );

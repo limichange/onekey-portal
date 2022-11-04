@@ -53,7 +53,7 @@
     "menu__evm_chain_list": "EVM 链表",
     "menu__evm_chain_list_desc": "帮助用户连接到 EVM 驱动的网络。",
     "menu__getting_started": "入门",
-    "menu__getting_started_desc": "从0到1快速入门，你可能遇到的大部分问题都可以在这里得到解答。",
+    "menu__getting_started_desc": "从 0 到 1 快速入门\\n问题多多？快来这里寻找答案！",
     "menu__github_desc": "如果您是开发者，遇到技术难题，请来这里提问",
     "menu__hardware_device": "硬件设备",
     "menu__hardware_wallet_manual": "硬件钱包手册",

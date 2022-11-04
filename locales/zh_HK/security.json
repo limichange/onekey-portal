@@ -15,7 +15,7 @@
     "title__secure_element": "安全元件",
     "title__secure_element_desc_1": "我們觀察到，有些錢包將最有價值的私鑰直接存儲在微處理器（MCU）中，這是相當可怕的。",
     "title__secure_element_desc_2": "相比之下， OneKey 使用安全元件——來自 Microchip 的 ATECC608A——來保護您的加密資產。",
-    "title__secure_element_desc_3": "通過精心設計的SHA-256響應控制，我們可以有效防止重放和竊聽攻擊。",
+    "title__secure_element_desc_3": "OneKey 配備了精心設計的 SHA-256 響應控製，可以有效防止重放和竊聽攻擊。",
     "title__security_both_hard_and_soft": "安全至上，\\nOneKey 護航。",
     "title__security_both_hard_and_soft_desc": "全亞洲最值得信賴且易於使用的硬件錢包。",
     "title__ultrasonic_welding_process": "超聲波焊接工藝",
