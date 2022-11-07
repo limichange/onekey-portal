@@ -2,12 +2,16 @@ import { FC, Fragment, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { Flex, H2, Span } from '../../../../../base';
+import { Box, Flex, Span } from '../../../../../base';
+import { MultilineText } from '../../../../../common';
+
+import { IntroductionTextDescription } from './IntroductionTextDescription';
+import { IntroductionTextTitle } from './IntroductionTextTitle';
 
 export interface IntroductionTextProps {
   children?: ReactNode;
   name: string | string[];
-  description: string;
+  description: string | string[];
   color?: 'black' | 'difference';
 }
 
@@ -30,12 +34,7 @@ export const IntroductionText: FC<IntroductionTextProps> = (props) => {
             }),
       }}
     >
-      <H2
-        xs={theme.text.medium700}
-        m={theme.text.medium900}
-        xl={theme.text.medium1000}
-        xxl={theme.text.medium1200}
-      >
+      <IntroductionTextTitle>
         {typeof name === 'string' && name}
         {Array.isArray(name) &&
           name.map((item) => (
@@ -44,18 +43,13 @@ export const IntroductionText: FC<IntroductionTextProps> = (props) => {
               <br />
             </Fragment>
           ))}
-      </H2>
+      </IntroductionTextTitle>
 
-      <Span
-        css={{ paddingTop: 8 }}
-        xs={theme.text.normal400}
-        s={{ maxWidth: 360 }}
-        l={{ maxWidth: 420 }}
-        xl={theme.text.normal500}
-        xxl={theme.text.normal600}
-      >
-        {description}
-      </Span>
+      <Box xs={{ paddingTop: 8 }} m={{ paddingTop: 20 }}>
+        <IntroductionTextDescription>
+          <MultilineText text={description} />
+        </IntroductionTextDescription>
+      </Box>
 
       {children}
     </Flex>

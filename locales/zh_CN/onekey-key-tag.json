@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "防水的\\n耐酸碱、耐化学腐蚀\\n耐极端高温和低温\\n不显眼\\n自混淆加密",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "航空级钛合金。耐火性提高到 1668°C*。",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag 的航空级 TC 4 钛合金的熔点为 1668 摄氏度，是锡的 7 倍，铝的 2.5 倍，使其能够抵抗大多数高温情况。\\n *相当于 3034 华氏度。",
+    "title__have_fun_with_the_dot_punching_game": "玩打点游戏",
+    "title__how_to_read": "如何阅读",
+    "title__how_to_read_desc_1": "合计每行中的数字。",
+    "title__how_to_read_desc_2": "每行的总和表示单词在单词列表中的位置。检查单词是否与您的初始密码短语匹配。",
+    "title__how_to_setup": "如何设置",
+    "title__how_to_setup_desc_1": "KeyTag 的每一行代表一个单词。",
+    "title__how_to_setup_desc_2": "在提供的打印单词列表中查找您通行证上的每个单词，并为每个黑色实心圆圈打一个孔。",
+    "title__record_24_words_and_2_extra_passphrases": "记录 24 个单词和 2 个额外的密码",
+    "title__record_24_words_and_2_extra_passphrases_desc": "所有钱包都从 BIP39 中选择条款。这个按字母顺序排列的列表有 2048 个单词。 KeyTag 巧妙地使用了它们的单词列表位置，而不是字母和单词。我们还为密码短语添加了两个额外的插槽。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "小的。\\n小中最小的。\\n小得不可思议。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g，信用卡大小的1\/4，随身携带。"
+}

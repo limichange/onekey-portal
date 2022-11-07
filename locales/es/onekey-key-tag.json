@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "Impermeable\\n Resistente a ácidos y álcalis, corrosión química.\\n Resistente a temperaturas extremas altas y bajas\\n Discreto\\n Cifrado de auto ofuscación",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Aleación de titanio de grado aeroespacial. Resistencia al fuego elevada a 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "La aleación de titanio TC 4 de grado aeroespacial de KeyTag tiene un punto de fusión de 1668 grados Celsius, siete veces el del estaño y 2,5 veces el del aluminio, lo que lo hace resistente a la mayoría de las situaciones de alta temperatura.\\n *Equivalente a 3034 grados Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Diviértete con el juego de punzonar",
+    "title__how_to_read": "Cómo leer",
+    "title__how_to_read_desc_1": "Suma los números de cada fila.",
+    "title__how_to_read_desc_2": "El total de cada fila indica la posición de la palabra en la lista de palabras. Verifique que las palabras coincidan con las de su frase de contraseña inicial.",
+    "title__how_to_setup": "Como instalar",
+    "title__how_to_setup_desc_1": "Cada fila de KeyTag representa una sola palabra.",
+    "title__how_to_setup_desc_2": "Busque cada palabra en su pase en la lista de palabras impresa proporcionada y perfore un agujero para cada círculo negro.",
+    "title__record_24_words_and_2_extra_passphrases": "Graba 24 palabras y 2 frases de contraseña adicionales",
+    "title__record_24_words_and_2_extra_passphrases_desc": "Todas las billeteras seleccionan términos de BIP39. Esta lista alfabética tiene 2048 palabras. En lugar de letras y palabras, KeyTag utiliza inteligentemente las ubicaciones de su lista de palabras. También agregamos dos ranuras adicionales para frases de contraseña.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Pequeña.\\n El más pequeño de los pequeños.\\n Increíblemente pequeño.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14 g, 1\/4 del tamaño de una tarjeta de crédito, llévala a todas partes."
+}

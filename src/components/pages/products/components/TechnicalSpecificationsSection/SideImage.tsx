@@ -19,6 +19,7 @@ export const SideImage: FC<SideImageProps> = (props) => {
         backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        height: 400,
       }}
       xs={{
         backgroundImage: `url(${smallImageUrl})`,

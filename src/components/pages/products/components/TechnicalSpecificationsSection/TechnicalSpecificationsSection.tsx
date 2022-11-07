@@ -51,7 +51,9 @@ export const TechnicalSpecificationsSection: FC<
             <SideImage {...images} />
           </Flex>
 
-          <Content content={content} />
+          <Flex xs={{ flex: 1, justifyContent: 'center' }}>
+            <Content content={content} />
+          </Flex>
         </Flex>
       </Container>
       {children}

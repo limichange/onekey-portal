@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "Imperméable\\n Résistant aux acides et aux alcalis, à la corrosion chimique\\n Résistant aux hautes et basses températures extrêmes\\n Discret\\n Cryptage auto-obscurcissant",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Alliage de titane de qualité aérospatiale. Résistance au feu portée à 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "L'alliage de titane TC 4 de qualité aérospatiale de KeyTag a un point de fusion de 1668 degrés Celsius, sept fois celui de l'étain et 2,5 fois celui de l'aluminium, ce qui le rend résistant à la plupart des situations à haute température.\\n *Équivalent à 3034 degrés Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Amusez-vous avec le jeu de pointage",
+    "title__how_to_read": "Comment lire",
+    "title__how_to_read_desc_1": "Faites le total des nombres dans chaque ligne.",
+    "title__how_to_read_desc_2": "Le total de chaque ligne indique la position du mot dans la liste de mots. Vérifiez que les mots correspondent à ceux de votre phrase de passe initiale.",
+    "title__how_to_setup": "Comment configurer",
+    "title__how_to_setup_desc_1": "Chaque ligne de KeyTag représente un seul mot.",
+    "title__how_to_setup_desc_2": "Recherchez chaque mot sur votre pass dans la liste de mots imprimée fournie et percez un trou pour chaque cercle rempli de noir.",
+    "title__record_24_words_and_2_extra_passphrases": "Enregistrez 24 mots et 2 mots de passe supplémentaires",
+    "title__record_24_words_and_2_extra_passphrases_desc": "Tous les portefeuilles sélectionnent des termes de BIP39. Cette liste alphabétique compte 2048 mots. Au lieu de lettres et de mots, KeyTag utilise intelligemment leurs emplacements de liste de mots. Nous avons également ajouté deux emplacements supplémentaires pour les phrases secrètes.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Petit.\\n Le plus petit des petits.\\n Incroyablement minuscule.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g, 1\/4 de la taille d'une carte de crédit, emportez-le partout."
+}

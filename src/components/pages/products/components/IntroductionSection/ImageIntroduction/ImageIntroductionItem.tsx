@@ -11,6 +11,9 @@ import {
 } from '../../../../../base';
 import { PlayerContainer } from '../../FullscreenScrollAnimation/PlayerContainer';
 import { IntroductionText } from '../IntroductionText';
+import { IntroductionTextPosition } from '../IntroductionText/IntroductionTextPosition';
+
+import { ImageIntroductionItemContainer } from './ImageIntroductionItemContainer';
 
 export interface ImageIntroductionItemProps {
   children?: ReactNode;
@@ -65,13 +68,7 @@ export const ImageIntroductionItem: FC<ImageIntroductionItemProps> = (
 
   return (
     <div ref={ref} style={{ position: 'relative' }}>
-      <Box
-        xs={{
-          borderRadius: 40,
-          overflow: 'hidden',
-          transform: 'translateZ(0)',
-        }}
-      >
+      <ImageIntroductionItemContainer>
         {type === 'frames' && frames && (
           <Box>
             <PlayerContainer
@@ -136,21 +133,10 @@ export const ImageIntroductionItem: FC<ImageIntroductionItemProps> = (
             </OnlyDisplay>
           </Fragment>
         )}
-      </Box>
-      <Box
-        xs={{
-          position: 'absolute',
-          padding: 12,
-          left: 24,
-          bottom: 24,
-        }}
-        m={{
-          left: '3vw',
-          bottom: '3vw',
-        }}
-      >
+      </ImageIntroductionItemContainer>
+      <IntroductionTextPosition>
         <IntroductionText name={name} description={description} />
-      </Box>
+      </IntroductionTextPosition>
 
       {children}
     </div>

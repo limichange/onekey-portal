@@ -1,6 +1,6 @@
-import { FC, ReactNode } from 'react';
+import { FC, Fragment, ReactNode } from 'react';
 
-import { Box, Flex, OnlyDisplay } from '../../../../../base';
+import { Box, OnlyDisplay } from '../../../../../base';
 
 import { BigProductCard } from './BigProductCard';
 import { ProductCard } from './ProductCard';
@@ -15,48 +15,35 @@ export const Cards: FC<CardsProps> = (props) => {
   const products = useProductsData();
 
   return (
-    <Flex
-      xs={{
-        flexDirection: 'column',
-        gap: 24,
-      }}
-    >
+    <Fragment key="cards">
       <OnlyDisplay xs s>
-        <Flex
-          xs={{
-            flexDirection: 'column',
-            gap: 24,
-          }}
-        >
+        <Box xs={{ display: 'grid', gap: 24 }}>
           {Object.values(products.items).map((item) => (
             <ProductCard key={item.name} {...item} />
           ))}
-        </Flex>
+        </Box>
       </OnlyDisplay>
 
       <OnlyDisplay m l xl xxl>
-        <Flex
-          xs={{
-            flexDirection: 'column',
-            gap: 24,
-          }}
-        >
+        <Box xs={{ display: 'grid', gap: 24 }}>
           <BigProductCard {...products.items.touch} />
 
-          <BigProductCard {...products.items.classic} />
-
-          <Flex xs={{ gap: 24 }}>
-            <Box xs={{ flex: 1 }}>
-              <ProductCard {...products.items.mini} />
-            </Box>
-            <Box xs={{ flex: 1 }}>
-              <ProductCard {...products.items.lite} />
-            </Box>
-          </Flex>
-        </Flex>
+          <Box
+            xs={{
+              display: 'grid',
+              gap: 24,
+              gridTemplateColumns: 'repeat(2, 1fr)',
+            }}
+          >
+            <ProductCard {...products.items.classic} />
+            <ProductCard {...products.items.mini} />
+            <ProductCard {...products.items.lite} />
+            <ProductCard {...products.items.keyTag} />
+          </Box>
+        </Box>
       </OnlyDisplay>
 
       {children}
-    </Flex>
+    </Fragment>
   );
 };

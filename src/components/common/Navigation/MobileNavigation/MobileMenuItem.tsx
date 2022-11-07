@@ -62,7 +62,6 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
           </Flex>
         </Link>
       )}
-
       {menuItem.subItems && (
         <Box>
           <Flex
@@ -99,8 +98,7 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
               <MenuListArrowIcon />
             </Box>
           </Flex>
-
-          {isOpen && (
+          {isOpen && !menuItem.component && (
             <Ul
               xs={{
                 listStyle: 'none',
@@ -116,6 +114,7 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
               ))}
             </Ul>
           )}
+          {isOpen && menuItem.component}
         </Box>
       )}
     </Li>

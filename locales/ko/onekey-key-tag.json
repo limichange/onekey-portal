@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "방수\\n 산 및 알칼리, 화학적 부식에 강함\\n 극한의 고온 및 저온에 강함\\n 눈에 거슬리지 않는\\n 자체 난독화 암호화",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "항공우주 등급 티타늄 합금. 1668°C*까지 내화성 향상.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag의 항공우주 등급 TC 4 티타늄 합금은 섭씨 1668도, 주석의 7배, 알루미늄의 2.5배에 달하는 융점을 가지므로 대부분의 고온 상황에 잘 견딥니다.\\n *화씨 3034도에 해당합니다.",
+    "title__have_fun_with_the_dot_punching_game": "도트펀칭 게임을 즐겨보세요",
+    "title__how_to_read": "읽는 방법",
+    "title__how_to_read_desc_1": "각 행에 있는 숫자의 합계를 구합니다.",
+    "title__how_to_read_desc_2": "각 행의 합계는 단어 목록에서 단어의 위치를 나타냅니다. 단어가 초기 암호의 단어와 일치하는지 확인하십시오.",
+    "title__how_to_setup": "설정 방법",
+    "title__how_to_setup_desc_1": "KeyTag의 각 행은 단일 단어를 나타냅니다.",
+    "title__how_to_setup_desc_2": "제공된 인쇄된 단어 목록에서 패스의 각 단어를 찾아 검정색으로 채워진 각 원에 구멍을 뚫습니다.",
+    "title__record_24_words_and_2_extra_passphrases": "24개의 단어와 2개의 추가 암호를 기록하세요.",
+    "title__record_24_words_and_2_extra_passphrases_desc": "모든 지갑은 BIP39에서 용어를 선택합니다. 이 알파벳순 목록에는 2048개의 단어가 있습니다. KeyTag는 문자와 단어 대신 단어 목록 위치를 현명하게 사용합니다. 또한 암호를 위한 두 개의 추가 슬롯을 추가했습니다.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "작은.\\n 작은 것 중 가장 작은 것.\\n 엄청나게 작습니다.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g, 신용카드 1\/4 크기, 어디든지 가지고 다니세요."
+}

@@ -75,7 +75,18 @@ export function useProductsData() {
     ),
   };
 
+  const keyTag: ProductItem = {
+    ...oneKeyProduct.keyTag,
+    image: (
+      <StaticImage
+        style={{ width: '100%', height: 'auto' }}
+        src="./images/shop-product-card-kettagBig.png"
+        alt="keyTag"
+      />
+    ),
+  };
+
   return {
-    items: { touch, classic, mini, lite },
+    items: { touch, classic, mini, lite, keyTag },
   } as const;
 }

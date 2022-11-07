@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "Impermeabile\\n Resistente agli acidi e agli alcali, alla corrosione chimica\\n Resistente alle alte e basse temperature estreme\\n Discreto\\n Crittografia con auto-offuscamento",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Lega di titanio di grado aerospaziale. Resistenza al fuoco aumentata a 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "La lega di titanio TC 4 di KeyTag di grado aerospaziale ha un punto di fusione di 1668 gradi Celsius, sette volte quello dello stagno e 2,5 volte quello dell'alluminio, il che lo rende resistente alla maggior parte delle situazioni ad alta temperatura.\\n *Equivalente a 3034 gradi Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Divertiti con il gioco dei punti",
+    "title__how_to_read": "Come leggere",
+    "title__how_to_read_desc_1": "Somma i numeri in ogni riga.",
+    "title__how_to_read_desc_2": "Il totale di ogni riga indica la posizione della parola nell'elenco delle parole. Verifica che le parole corrispondano a quelle della tua passphrase iniziale.",
+    "title__how_to_setup": "Come impostare",
+    "title__how_to_setup_desc_1": "Ogni riga di KeyTag rappresenta una singola parola.",
+    "title__how_to_setup_desc_2": "Cerca ogni parola sul tuo pass nell'elenco di parole stampato fornito e fai un buco per ogni cerchio pieno di nero.",
+    "title__record_24_words_and_2_extra_passphrases": "Registra 24 parole e 2 passphrase extra",
+    "title__record_24_words_and_2_extra_passphrases_desc": "Tutti i portafogli selezionano i termini da BIP39. Questo elenco alfabetico ha 2048 parole. Invece di lettere e parole, KeyTag utilizza in modo intelligente le posizioni dell'elenco di parole. Abbiamo anche aggiunto due slot extra per le passphrase.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Piccolo.\\n Il più piccolo dei piccoli.\\n Incredibilmente minuscolo.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14 g, 1\/4 delle dimensioni di una carta di credito, portalo ovunque."
+}

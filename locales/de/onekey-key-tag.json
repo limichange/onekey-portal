@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "Wasserdicht\\n Beständig gegen Säure und Alkali, chemische Korrosion\\n Beständig gegen extrem hohe und niedrige Temperaturen\\n Unaufdringlich\\n Selbst verschleiernde Verschlüsselung",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Titanlegierung in Luft- und Raumfahrtqualität. Feuerwiderstand erhöht auf 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "Die luft- und raumfahrttaugliche Titanlegierung TC 4 von KeyTag hat einen Schmelzpunkt von 1668 Grad Celsius, sieben Mal so hoch wie der von Zinn und 2,5 Mal so hoch wie der von Aluminium, wodurch sie den meisten Hochtemperatursituationen standhält.\\n *Entspricht 3034 Grad Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Viel Spaß mit dem Punktespiel",
+    "title__how_to_read": "Wie man liest",
+    "title__how_to_read_desc_1": "Zähle die Zahlen in jeder Reihe zusammen.",
+    "title__how_to_read_desc_2": "Die Summe jeder Zeile gibt die Position des Wortes in der Wortliste an. Überprüfen Sie, ob die Wörter mit denen in Ihrer ursprünglichen Passphrase übereinstimmen.",
+    "title__how_to_setup": "Wie stellt man das ein",
+    "title__how_to_setup_desc_1": "Jede Zeile von KeyTag repräsentiert ein einzelnes Wort.",
+    "title__how_to_setup_desc_2": "Schlagen Sie jedes Wort auf Ihrem Pass in der bereitgestellten gedruckten Wortliste nach und stanzen Sie ein Loch für jeden schwarz gefüllten Kreis.",
+    "title__record_24_words_and_2_extra_passphrases": "Nehmen Sie 24 Wörter und 2 zusätzliche Passphrasen auf",
+    "title__record_24_words_and_2_extra_passphrases_desc": "Alle Wallets wählen Begriffe aus BIP39. Diese alphabetische Liste hat 2048 Wörter. Anstelle von Buchstaben und Wörtern verwendet KeyTag auf intelligente Weise deren Wortlistenpositionen. Wir haben auch zwei zusätzliche Slots für Passphrasen hinzugefügt.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Klein.\\n Der Kleinste der Kleinen.\\n Unglaublich winzig.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14 g, 1\/4 so groß wie eine Kreditkarte, überall hin mitnehmen."
+}

@@ -28,4 +28,5 @@ export type OneKeyProducts = {
   lite: ProductItem;
   pro: ProductItem;
   classic: ProductItem;
+  keyTag: ProductItem;
 };

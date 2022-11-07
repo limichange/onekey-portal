@@ -136,5 +136,37 @@ export function useOneKeyProduct(): OneKeyProducts {
         },
       },
     },
+    keyTag: {
+      status: 'normal',
+      name: 'OneKey KeyTag',
+      price: 59,
+      formattedPrice: '$59.00',
+      description: t(
+        'content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit',
+      ),
+      path: '/products/onekey-keytag',
+      shops: {
+        amazonGlobal: {
+          key: 'amazonGlobal',
+          url: 'https://www.amazon.com/dp/B0BLBZDNRN',
+          name: tAmazonGlobal,
+        },
+        amazonJapan: {
+          key: 'amazonJapan',
+          url: 'https://www.amazon.co.jp/dp/B0BLBZDNRN',
+          name: tAmazonJapan,
+        },
+        shopify: {
+          key: 'shopify',
+          url: 'https://shop.onekey.so/products/keytag',
+          name: tShopify,
+        },
+        youzan: {
+          key: 'youzan',
+          url: 'https://detail.youzan.com/show/goods?alias=2x5qe7f9o0c81ac',
+          name: tYouzan,
+        },
+      },
+    },
   };
 }

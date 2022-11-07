@@ -10,11 +10,11 @@ import { Link } from '../../../base/Link';
 import { Logo } from '../../../base/Logo';
 import { DownloadButton } from '../../DownloadButton';
 import { NavigationAnimationWrap } from '../NavigationAnimationWrap';
+import { ProductPanel } from '../ProductPanel';
 import { useNavigationDataObject } from '../useNavigationData';
 
 import { LanguageSwitchButton } from './LanguageSwitchButton';
 import { NavigationItem } from './NavigationItem';
-import { ProductPanel } from './ProductPanel';
 import { ServicesPanel } from './ServicesPanel';
 
 export interface NormalNavigationProps {

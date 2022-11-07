@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "À prova d'água\\n Resistente a ácidos e álcalis, corrosão química\\n Resistente a temperaturas extremas altas e baixas\\n Discreto\\n Criptografia auto-ofuscante",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Liga de titânio de grau aeroespacial. Resistência ao fogo aumentada para 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "A liga de titânio TC 4 de grau aeroespacial da KeyTag tem um ponto de fusão de 1668 graus Celsius, sete vezes maior que o estanho e 2,5 vezes maior que o alumínio, tornando-o resistente à maioria das situações de alta temperatura.\\n * Equivalente a 3034 graus Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Divirta-se com o jogo de pontos",
+    "title__how_to_read": "Como ler",
+    "title__how_to_read_desc_1": "Some os números em cada linha.",
+    "title__how_to_read_desc_2": "O total de cada linha indica a posição da palavra na lista de palavras. Verifique se as palavras correspondem às da sua senha inicial.",
+    "title__how_to_setup": "Como configurar",
+    "title__how_to_setup_desc_1": "Cada linha de KeyTag representa uma única palavra.",
+    "title__how_to_setup_desc_2": "Procure cada palavra em seu passe na lista de palavras impressa fornecida e faça um furo para cada círculo preenchido em preto.",
+    "title__record_24_words_and_2_extra_passphrases": "Grave 24 palavras e 2 senhas extras",
+    "title__record_24_words_and_2_extra_passphrases_desc": "Todas as carteiras selecionam termos do BIP39. Esta lista alfabética tem 2048 palavras. Em vez de letras e palavras, o KeyTag usa inteligentemente seus locais de lista de palavras. Também adicionamos dois slots extras para senhas.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Pequena.\\n O menor dos pequenos.\\n Incrivelmente minúsculo.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g, 1\/4 do tamanho de um cartão de crédito, leve para qualquer lugar."
+}

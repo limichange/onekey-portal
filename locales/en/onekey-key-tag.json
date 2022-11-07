@@ -1,0 +1,16 @@
+{
+    "content__keytag_features": "Waterproof\\nResistant to acid and alkali, chemical corrosion\\nResistant to extreme high and low temperatures\\nUnobtrusive\\nSelf-obfuscating encryption",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "Aerospace-grade titanium alloy. Fire resistance raised to 1668°C*.",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag's aerospace-grade TC 4 titanium alloy has a melting point of 1668 degrees Celsius, seven times that of tin and 2.5 times that of aluminum, making it resistant to most high-temperature situations. \\n*Equivalent to 3034 degrees Fahrenheit.",
+    "title__have_fun_with_the_dot_punching_game": "Have fun with the dot-punching game",
+    "title__how_to_read": "How to read",
+    "title__how_to_read_desc_1": "Total the numbers in each row. ",
+    "title__how_to_read_desc_2": "The total of each row indicates the word's position in the word list. Check that the words match those on your initial passphrase.",
+    "title__how_to_setup": "How to setup",
+    "title__how_to_setup_desc_1": "Each row of KeyTag represents a single word.",
+    "title__how_to_setup_desc_2": "Look up each word on your pass in the provided printed word list and punch a hole for each black filled circle.",
+    "title__record_24_words_and_2_extra_passphrases": "Record 24 words and 2 extra passphrases",
+    "title__record_24_words_and_2_extra_passphrases_desc": "All wallets select terms from BIP39. This alphabetical list has 2048 words. Instead of letters and words, KeyTag smartly uses their word list locations. We also added two extra slots for passphrases.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "Small.\\nThe smallest \\nof the small.\\nIncredibly tiny.",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g, 1\/4 the size of a credit card, take it everywhere."
+}
