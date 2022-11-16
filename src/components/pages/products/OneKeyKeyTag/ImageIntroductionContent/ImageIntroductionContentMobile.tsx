@@ -42,7 +42,7 @@ export const ImageIntroductionContentMobile: FC<
         <ImageIntroductionItemContainer>
           {imagesIntroduction.object.item2.item2MobileImage}
 
-          <Box xs={{ background: '#edeeef' }}>
+          <Box xs={{ background: '#f0f1f3' }}>
             <TextContainer>
               <IntroductionTextTitle>
                 {imagesIntroduction.object.item2.item2title}
@@ -66,7 +66,7 @@ export const ImageIntroductionContentMobile: FC<
         <ImageIntroductionItemContainer>
           {imagesIntroduction.object.item3.item3MobileImage}
 
-          <Box xs={{ background: '#f1f1f2' }}>
+          <Box xs={{ background: '#efefef' }}>
             <TextContainer>
               <IntroductionTextTitle>
                 <MultilineText
@@ -88,7 +88,7 @@ export const ImageIntroductionContentMobile: FC<
         <ImageIntroductionItemContainer>
           {imagesIntroduction.object.item4.item4MobileImage}
 
-          <Box xs={{ background: '#ebebeb' }}>
+          <Box xs={{ background: '#eceeef' }}>
             <TextContainer>
               <Box xs={{ display: 'grid', gridGap: 8 }}>
                 {imagesIntroduction.object.item4.item4title
