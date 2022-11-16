@@ -1,16 +1,16 @@
 {
-    "content__keytag_features": "防水\\n酸、アルカリ、化学腐食に強い\\n極端な高温および低温への耐性\\n目立たない\\n自己難読化暗号化",
+    "content__keytag_features": "防水\\n酸、アルカリ、化学腐食に強い\\n極端な高温および低温への耐性も強い\\n目立たない\\n難読暗号化の特性を持つ",
     "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "航空宇宙グレードのチタン合金。耐火性を1668℃までアップ※。",
-    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag の航空宇宙グレードの TC 4 チタン合金の融点は摂氏 1668 度で、錫の 7 倍、アルミニウムの 2.5 倍であり、ほとんどの高温状況に耐性があります。\\n *華氏3034度に相当。",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag に使用された航空宇宙グレードの TC 4 チタン合金の融点は摂氏 1668 度で、錫の 7 倍、アルミニウムの 2.5 倍になり、ほとんどの高温状況に耐性がある。\\n *華氏3034度に相当。",
     "title__have_fun_with_the_dot_punching_game": "ドットパンチングゲームを楽しもう",
     "title__how_to_read": "読み方",
-    "title__how_to_read_desc_1": "各行の数字を合計します。",
-    "title__how_to_read_desc_2": "各行の合計は、単語リスト内の単語の位置を示します。単語が最初のパスフレーズの単語と一致することを確認してください。",
+    "title__how_to_read_desc_1": "各行の数字を合計する。",
+    "title__how_to_read_desc_2": "各行の合計は、単語リスト内の単語の位置を示す。単語が最初のパスフレーズの単語と一致することを確認してください。",
     "title__how_to_setup": "セットアップ方法",
-    "title__how_to_setup_desc_1": "KeyTag の各行は、1 つの単語を表します。",
-    "title__how_to_setup_desc_2": "提供された印刷された単語リストでパスの各単語を調べ、黒く塗りつぶされた円ごとに穴を開けます。",
-    "title__record_24_words_and_2_extra_passphrases": "24 単語と 2 つの追加パスフレーズを記録する",
-    "title__record_24_words_and_2_extra_passphrases_desc": "すべてのウォレットは BIP39 から条件を選択します。このアルファベット順のリストには 2048 の単語があります。文字や単語の代わりに、KeyTag は単語リストの場所を賢く使用します。また、パスフレーズ用に 2 つのスロットを追加しました。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny": "小さな。\\n小さいうちの一番小さい。\\n信じられないほど小さい。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g、クレジット カードの 1\/4 のサイズで、どこにでも持っていけます。"
+    "title__how_to_setup_desc_1": "KeyTag の各行は、1 つの単語を表す。",
+    "title__how_to_setup_desc_2": "同封された単語リストで各単語を調べ、黒い実円ごとに穴を開ける。",
+    "title__record_24_words_and_2_extra_passphrases": "24桁の単語と 2 つの追加パスフレーズを記録できる",
+    "title__record_24_words_and_2_extra_passphrases_desc": "すべてのウォレットは BIP39 から単語を選択する。このアルファベット順のリストには 2048 の単語がある。文字や単語の代わりに、KeyTag には単語リストの位置を表す数字を賢く使用する。また、パスフレーズ用に 2 つのスロットも追加した。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "小さな。\\n超小さい。\\n信じられないほど小さい。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "重さは14gで、クレジット カードの 1\/4 のサイズで、どこにも持っていける。"
 }

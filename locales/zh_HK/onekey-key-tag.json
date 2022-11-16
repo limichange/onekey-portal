@@ -1,16 +1,16 @@
 {
-    "content__keytag_features": "防水的\\n耐酸鹼、耐化學腐蝕\\n耐極端高溫和低溫\\n不顯眼\\n自混淆加密",
-    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "航空級鈦合金。耐火性提高到 1668°C*。",
-    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "KeyTag 的航空級 TC 4 鈦合金的熔點為 1668 攝氏度，是錫的 7 倍，鋁的 2.5 倍，使其能夠抵抗大多數高溫情況。\\n *相當於 3034 華氏度。",
-    "title__have_fun_with_the_dot_punching_game": "玩打點遊戲",
+    "content__keytag_features": "防水\\n耐酸鹼、耐化學腐蝕\\n耐極端高溫和低溫\\n唔引人矚目\\n自帶混淆加密",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668": "尖端航天鈦合金，大幅提升耐火能力，最高到 1668 攝氏度*。",
+    "title__aerospace_grade_titanium_alloy_fire_resistance_raised_to_1668_desc": "經過軍方安全實驗室檢測，KeyTag 采用嘅航天級 TC 4鈦合金熔點高達 1668攝氏度，系錫嘅7倍，鋁嘅2.5倍，足夠抵御自然界絕大多數高溫環境。\\n*相當於3034華氏度。",
+    "title__have_fun_with_the_dot_punching_game": "一起嚟玩打點游戲",
     "title__how_to_read": "如何閱讀",
-    "title__how_to_read_desc_1": "合計每行中的數字。",
-    "title__how_to_read_desc_2": "每行的總和表示單詞在單詞列表中的位置。檢查單詞是否與您的初始密碼短語匹配。",
+    "title__how_to_read_desc_1": "將每行各個黑色孔位對應嘅數字相加。",
+    "title__how_to_read_desc_2": "得到嘅數字，就代表該助記詞喺單詞列表中嘅位置，以此類推，你就能獲得荷包完整嘅助記詞。",
     "title__how_to_setup": "如何設置",
     "title__how_to_setup_desc_1": "KeyTag 的每一行代表一個單詞。",
-    "title__how_to_setup_desc_2": "在提供的打印單詞列表中查找您通行證上的每個單詞，並為每個黑色實心圓圈打一個孔。",
-    "title__record_24_words_and_2_extra_passphrases": "記錄 24 個單詞和 2 個額外的密碼",
-    "title__record_24_words_and_2_extra_passphrases_desc": "所有錢包都從 BIP39 中選擇條款。這個按字母順序排列的列表有 2048 個單詞。 KeyTag 巧妙地使用了它們的單詞列表位置，而不是字母和單詞。我們還為密碼短語添加了兩個額外的插槽。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny": "小的。\\n小中最小的。\\n小得不可思議。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "14g，信用卡大小的1\/4，隨身攜帶。"
+    "title__how_to_setup_desc_2": "喺提供嘅打印單詞列表中查搵你嘅每個助記詞，並依據黑色實心圓圈嘅位置打孔。",
+    "title__record_24_words_and_2_extra_passphrases": "至強兼容能力，記錄24位助記詞+2組 Passphrase",
+    "title__record_24_words_and_2_extra_passphrases_desc": "所有荷包都使用相同嘅BIP39單詞列表嚟選擇單詞。呢個列表包含2048個按字母順序和編號嘅單詞。喺 KeyTag 中打入嘅唔系字母和單詞，而系代表佢哋喺單詞列表中各自位置嘅數字。\u2028\u2028你瞧，我哋甚至額外增加了兩欄用以記錄 Passphrase。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "小。\\n超级小。\\n小得不可思議。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "重量14g，身材只有信用卡約1\/4大小，帶到邊度都唔容易讓人發現。"
 }
