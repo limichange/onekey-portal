@@ -30,9 +30,20 @@ export const Home: React.FC = () => {
   const theme = useTheme();
   const widget = useRef<{ remove: () => void } | null>(null);
   const modal = useRef<{ remove: () => void } | null>(null);
+  const isLoad = useRef(false);
 
   const loadVideoModal = useCallback(() => {
-    if (!isBrowser() || !window.videoask) return false;
+    if (
+      !isBrowser() ||
+      !window.videoask ||
+      widget.current ||
+      modal.current ||
+      isLoad.current
+    ) {
+      return false;
+    }
+
+    isLoad.current = true;
 
     const VIDEOASK_EMBED_CONFIG = {
       kind: 'widget',
@@ -67,9 +78,11 @@ export const Home: React.FC = () => {
       if (loadVideoModal()) {
         clearInterval(setIntervalId);
       }
-    }, 1000);
+    }, 1500);
 
     return () => {
+      clearInterval(setIntervalId);
+
       widget.current?.remove();
       widget.current = null;
 
