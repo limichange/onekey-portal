@@ -45,7 +45,7 @@ export function useTechnicalSpecificationsSectionData() {
             },
             {
               title2: t('title__chips'),
-              description: 'STM32F205RGY6',
+              description: 'ATECC608A',
             },
           ],
         },

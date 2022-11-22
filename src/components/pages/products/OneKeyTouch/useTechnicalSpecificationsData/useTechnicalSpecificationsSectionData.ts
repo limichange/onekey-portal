@@ -45,7 +45,7 @@ export function useTechnicalSpecificationsSectionData() {
             },
             {
               title2: t('title__chips'),
-              description: 'STM32H757XIH6',
+              description: 'ATECC608A',
             },
           ],
         },
