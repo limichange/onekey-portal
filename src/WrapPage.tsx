@@ -79,6 +79,7 @@ const WrapPage: FC<WrapPageProps> = (props) => {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-YL0P6QCC0D"
         />
+        <script async src="https://www.videoask.com/embed/embed.js" />
         <script>
           {`
             window.dataLayer = window.dataLayer || [];

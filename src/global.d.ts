@@ -21,4 +21,7 @@ declare module '*.svg' {
 
 interface Window {
   ethereum?: any;
+  videoask?: {
+    loadEmbed: (config: any, callback: any) => Promise<any>;
+  };
 }

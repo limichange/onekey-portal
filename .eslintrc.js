@@ -84,6 +84,7 @@ module.exports = {
   globals: {
     PUBLIC_URL: true,
     API_URL: true,
+    videoask: true,
   },
   overrides: [
     {
