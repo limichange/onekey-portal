@@ -12,5 +12,13 @@ export interface TokenImpl {
 }
 
 export function useTokenImpls() {
-  return useSWR<TokenImpl[]>(urlJoin(API_URL, 'token/impls'), fetcher);
+  const { data, ...others } = useSWR<TokenImpl[]>(
+    urlJoin(API_URL, 'token/impls'),
+    fetcher,
+  );
+
+  return {
+    data: data?.filter((item) => item.impl.toLocaleLowerCase() === 'evm') || [],
+    ...others,
+  };
 }
