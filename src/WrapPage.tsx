@@ -5,6 +5,7 @@ import {
   LANGUAGE_KEY,
   PageContext,
 } from 'gatsby-plugin-react-i18next/dist/types';
+import Cookies from 'js-cookie';
 import { Helmet } from 'react-helmet';
 
 import { isBrowser } from './utils';
@@ -46,6 +47,8 @@ const WrapPage: FC<WrapPageProps> = (props) => {
       }
 
       window.localStorage.setItem(LANGUAGE_KEY, detected);
+
+      Cookies.set(LANGUAGE_KEY, detected);
 
       if (detected !== defaultLanguage && !routed) {
         const queryParams = search || '';
