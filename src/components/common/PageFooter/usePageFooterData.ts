@@ -120,6 +120,10 @@ export function usePageFooterData() {
             name: t('menu__submit_token'),
             link: 'https://gr4yl99ujhl.typeform.com/to/ZM0qyr9e',
           },
+          {
+            name: t('title__resellers'),
+            link: 'https://help.onekey.so/hc/en-us/articles/5967821214223',
+          },
         ],
       },
       {
