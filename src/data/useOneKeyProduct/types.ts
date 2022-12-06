@@ -17,6 +17,7 @@ export type ProductItem = {
   shops: {
     amazonGlobal?: Shop;
     amazonJapan?: Shop;
+    amazon?: Shop;
     shopify?: Shop;
     youzan?: Shop;
   };

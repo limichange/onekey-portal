@@ -2,15 +2,17 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useOneKeyProduct } from '../../../../../data';
+import { useSortShopOrder } from '../../../../../hooks/useSortShopOrder';
 import { ProductInformationProps } from '../../components/ProductInformation';
 
 export function useProductInformationData(): ProductInformationProps {
   const { touch } = useOneKeyProduct();
   const { t } = useTranslation();
+  const shops = useSortShopOrder(Object.values(touch.shops));
 
   return {
-    status: 'comingSoon',
-    shops: [],
+    status: touch.status,
+    shops,
     name: touch.name,
     slogan: t('content__crypto_hardware_wallet'),
     description: touch.description,

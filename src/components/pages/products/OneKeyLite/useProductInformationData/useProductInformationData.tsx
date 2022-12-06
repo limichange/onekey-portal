@@ -8,12 +8,7 @@ import { ProductInformationProps } from '../../components/ProductInformation';
 export function useProductInformationData(): ProductInformationProps {
   const { lite } = useOneKeyProduct();
   const { t } = useTranslation();
-  const shops = useSortShopOrder([
-    lite.shops.shopify,
-    lite.shops.amazonGlobal,
-    lite.shops.amazonJapan,
-    lite.shops.youzan,
-  ]);
+  const shops = useSortShopOrder(Object.values(lite.shops));
 
   return {
     status: lite.status,

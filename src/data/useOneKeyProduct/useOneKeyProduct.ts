@@ -6,6 +6,7 @@ export function useOneKeyProduct(): OneKeyProducts {
   const { t } = useTranslation();
   const tAmazonGlobal = t('menu__amazon_global');
   const tAmazonJapan = t('menu__amazon_japan');
+  const tAmazon = t('menu__amazon');
   const tYouzan = t('menu__youzan');
   const tShopify = 'Shopify';
 
@@ -19,6 +20,11 @@ export function useOneKeyProduct(): OneKeyProducts {
       description: t('content__mini_sized_safety_without_compromise'),
       path: '/products/onekey-mini-hardware-wallet/',
       shops: {
+        shopify: {
+          key: 'shopify',
+          url: 'https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722',
+          name: tShopify,
+        },
         amazonGlobal: {
           key: 'amazonGlobal',
           url: 'https://www.amazon.com/dp/B0B2MWW2WJ',
@@ -28,11 +34,6 @@ export function useOneKeyProduct(): OneKeyProducts {
           key: 'amazonJapan',
           url: 'https://www.amazon.co.jp/dp/B0B2MWW2WJ',
           name: tAmazonJapan,
-        },
-        shopify: {
-          key: 'shopify',
-          url: 'https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722',
-          name: tShopify,
         },
         youzan: {
           key: 'youzan',
@@ -45,17 +46,28 @@ export function useOneKeyProduct(): OneKeyProducts {
       shopProductId: '41169098178722',
       status: 'normal',
       name: 'OneKey Touch',
-      price: 'TBA',
-      formattedPrice: 'TBA',
+      price: 249,
+      formattedPrice: '$249.00',
       description: t(
         'content__all_new_design__secure_chip_supercharged__beautiful_and_true_color_display',
       ),
       path: '/products/onekey-touch-hardware-wallet/',
       shops: {
-        amazonGlobal: undefined,
-        amazonJapan: undefined,
-        shopify: undefined,
-        youzan: undefined,
+        shopify: {
+          key: 'shopify',
+          name: tShopify,
+          url: 'https://shop.onekey.so/products/onekey-touch-crypto-hardware-wallet',
+        },
+        amazon: {
+          key: 'amazon',
+          name: tAmazon,
+          url: 'https://amazon.com/dp/B0BP16TLMG',
+        },
+        youzan: {
+          key: 'youzan',
+          url: 'https://detail.youzan.com/show/goods?alias=1y9b9m8snro1djg',
+          name: tYouzan,
+        },
       },
     },
     lite: {
@@ -69,6 +81,11 @@ export function useOneKeyProduct(): OneKeyProducts {
       ),
       path: '/products/onekey-lite-hardware-wallet/',
       shops: {
+        shopify: {
+          key: 'shopify',
+          name: tShopify,
+          url: 'https://shop.onekey.so/products/onekey-lite-recovery-phrase-backup-card-for-onekey-wallet-app?variant=41263919366306',
+        },
         amazonGlobal: {
           key: 'amazonGlobal',
           name: tAmazonGlobal,
@@ -78,11 +95,6 @@ export function useOneKeyProduct(): OneKeyProducts {
           key: 'amazonJapan',
           name: tAmazonJapan,
           url: 'https://www.amazon.co.jp/dp/B0B596BZ1V',
-        },
-        shopify: {
-          key: 'shopify',
-          name: tShopify,
-          url: 'https://shop.onekey.so/products/onekey-lite-recovery-phrase-backup-card-for-onekey-wallet-app?variant=41263919366306',
         },
         youzan: undefined,
       },
@@ -114,6 +126,11 @@ export function useOneKeyProduct(): OneKeyProducts {
       ),
       path: '/products/onekey-classic-hardware-wallet/',
       shops: {
+        shopify: {
+          key: 'shopify',
+          url: 'https://shop.onekey.so/products/onekey-classic-crypto-hardware-wallet?variant=42536440529058',
+          name: tShopify,
+        },
         amazonGlobal: {
           key: 'amazonGlobal',
           url: 'https://www.amazon.com/dp/B0BCV1D1VY',
@@ -123,11 +140,6 @@ export function useOneKeyProduct(): OneKeyProducts {
           key: 'amazonJapan',
           url: 'https://www.amazon.co.jp/dp/B08M2PVCJY',
           name: tAmazonJapan,
-        },
-        shopify: {
-          key: 'shopify',
-          url: 'https://shop.onekey.so/products/onekey-classic-crypto-hardware-wallet?variant=42536440529058',
-          name: tShopify,
         },
         youzan: {
           key: 'youzan',
@@ -146,6 +158,11 @@ export function useOneKeyProduct(): OneKeyProducts {
       ),
       path: '/products/onekey-keytag',
       shops: {
+        shopify: {
+          key: 'shopify',
+          url: 'https://shop.onekey.so/products/keytag',
+          name: tShopify,
+        },
         amazonGlobal: {
           key: 'amazonGlobal',
           url: 'https://www.amazon.com/dp/B0BLBZDNRN',
@@ -155,11 +172,6 @@ export function useOneKeyProduct(): OneKeyProducts {
           key: 'amazonJapan',
           url: 'https://www.amazon.co.jp/dp/B0BLBZDNRN',
           name: tAmazonJapan,
-        },
-        shopify: {
-          key: 'shopify',
-          url: 'https://shop.onekey.so/products/keytag',
-          name: tShopify,
         },
         youzan: {
           key: 'youzan',

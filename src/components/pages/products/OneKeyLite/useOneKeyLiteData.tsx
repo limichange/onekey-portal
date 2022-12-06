@@ -9,7 +9,6 @@ export function useOneKeyLiteData() {
 
   return {
     title: 'OneKey Lite',
-
     imageIntroduction,
     productInformationData,
     feature,

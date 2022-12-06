@@ -47,19 +47,10 @@ export function useProductCompareData(): {
 } {
   const product = useOneKeyProduct();
   const { t } = useTranslation();
-  const miniShops = useSortShopOrder([
-    product.mini.shops.shopify,
-    product.mini.shops.amazonGlobal,
-    product.mini.shops.amazonJapan,
-    product.mini.shops.youzan,
-  ]);
 
-  const classicShops = useSortShopOrder([
-    product.classic.shops.shopify,
-    product.classic.shops.amazonGlobal,
-    product.classic.shops.amazonJapan,
-    product.classic.shops.youzan,
-  ]);
+  const miniShops = useSortShopOrder(Object.values(product.mini.shops));
+  const classicShops = useSortShopOrder(Object.values(product.classic.shops));
+  const touchShops = useSortShopOrder(Object.values(product.touch.shops));
 
   return {
     items: {
@@ -158,9 +149,10 @@ export function useProductCompareData(): {
           <StaticImage src="./images/shop-compare-touch.png" alt="touch" />
         ),
         name: product.touch.name,
+        shops: touchShops,
         price: product.touch.formattedPrice,
         productDetailUrl: product.touch.path,
-        status: 'comingSoon',
+        status: product.touch.status,
         productCompareDetail: [
           {
             name: t('title__ce_rohs_and_csprng'),
