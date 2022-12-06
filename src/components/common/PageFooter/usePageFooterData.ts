@@ -26,15 +26,19 @@ export function usePageFooterData() {
         link: '',
         list: [
           {
-            name: 'OneKey Mini',
+            name: oneKeyProduct.mini.name,
             link: oneKeyProduct.mini.path,
           },
           {
-            name: 'OneKey Touch',
+            name: oneKeyProduct.classic.name,
+            link: oneKeyProduct.classic.path,
+          },
+          {
+            name: oneKeyProduct.touch.name,
             link: oneKeyProduct.touch.path,
           },
           {
-            name: 'OneKey Lite',
+            name: oneKeyProduct.lite.name,
             link: oneKeyProduct.lite.path,
           },
           {
