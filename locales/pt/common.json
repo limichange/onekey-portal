@@ -29,6 +29,7 @@
     "content__bluetooth": "Bluetooth",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "De longe, a carteira de hardware mais clássica, você pode usá-la mesmo em movimento, aquela que tem tudo.",
     "content__intel_chip": "Chip Intel",
+    "content__mac_app_store": "Loja de aplicativos Mac",
     "content__mini_sized_safety_without_compromise": "Tamanho mini, segurança sem compromisso.",
     "content__no_results": "Sem resultados",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "Poderoso kit de backup de carteira feito de titânio de grau aeronáutico, com 2 cópias de KeyTag incluídas no kit.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "Configure sua carteira de hardware OneKey",
     "title__stay_in_touch": "Manter contato",
     "title__subscribe_to_our_notifications": "Assine nossas notificações",
+    "title__try_our_app_wallet_first_its_free": "Experimente nossa carteira de aplicativos\\n primeiro? É grátis.",
     "title__tutorials": "Tutoriais",
     "title__view_all_products": "Ver todos os produtos"
 }

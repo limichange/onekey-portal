@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Voir les portefeuilles tiers ici",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-hameçonnage, SCAM et interception d'autorisations de contrats malveillants",
     "content__browser_plug_in": "Plug-in de navigateur",
     "content__cost_of_a_onekey_hardware_wallet": "Coût d'un portefeuille matériel OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "La valeur de vos crypto-actifs",
     "content__use_app_independently_without_hardware": "Utilisez l'application indépendamment sans matériel",
     "content__use_app_only": "Utiliser uniquement l'application",
+    "title__best_fido_key": "Meilleure clé FIDO",
+    "title__best_fido_key_desc": "OneKey prend en charge les protocoles FIDO et FIDO2* et fonctionne avec Google, GitHub, Dropbox, Binance et Coinbase. Soyez une clé physique sécurisée pour votre compte. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> répertorie tous nos sites 2FA.",
+    "title__currency_support": "Prise en charge des devises",
+    "title__earths_strongest_wallet": "Le portefeuille le plus solide de la Terre",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... Et bien plus encore. OneKey prend en charge des centaines de portefeuilles logiciels tiers.",
+    "title__migrating_to_onekey": "Migration vers OneKey",
+    "title__migrating_to_onekey_desc": "OneKey prend en charge toutes les plates-formes et toutes les pièces, vous pouvez donc y accéder depuis Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken ou tout autre portefeuille.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey comparé à d'autres portefeuilles matériels",
-    "title__starting_from_free_buy_if_you_need_it": "À partir de gratuit. Achetez si vous en avez besoin.",
+    "title__starting_from_free_buy_if_you_need_it": "À partir de gratuit.\\n Achetez si vous en avez besoin.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Il n'est pas nécessaire d'avoir un portefeuille matériel pour utiliser l'application.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Il n'y a pas de plafond sur le nombre de pièces que vous pouvez déposer.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Nos produits et services ont été essayés et testés par des clients du monde entier.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Pour utiliser un portefeuille matériel, vous n'aurez qu'à payer une petite somme unique.",
-    "title__use_the_app_wallet_to_feel_it_first": "Utilisez le portefeuille d'applications pour le sentir en premier ?",
+    "title__switch_to_open_source_wallet": "Passez au portefeuille open source.",
+    "title__switch_to_open_source_wallet_desc": "Le portefeuille à source fermée est comme une boîte noire, personne ne sait ce qui se passe à l'intérieur.\\n Faites confiance au code et aux mathématiques, pas aux AD.\\n Un portefeuille open source vérifiable est toujours le meilleur.",
     "title__why_use_onekey": "Pourquoi utiliser OneKey ?",
-    "title__why_use_onekey_desc": "Open source et facile à utiliser dès le premier jour."
+    "title__why_use_onekey_desc": "Open source et facile à utiliser dès le premier jour.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Sans portefeuille matériel, les pirates peuvent voler vos pièces.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Chaque jour, les cryptos des gens sont pris par des phrases clés ou des contrats nuisibles qui obtiennent illégalement une autorisation. Les gens perdent toujours des choses avant de regretter de ne pas avoir de portefeuille matériel.\\n Un portefeuille matériel isole vos clés privées du réseau. Toutes les transactions de signature sont effectuées en toute sécurité sur l'appareil, vous pouvez donc dormir tranquille."
 }

@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "在這裡查看第三方錢包",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "防釣魚、SCAM和惡意合約授權攔截",
     "content__browser_plug_in": "瀏覽器插件",
     "content__cost_of_a_onekey_hardware_wallet": "OneKey 硬件錢包的成本",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "您的加密資產的價值",
     "content__use_app_independently_without_hardware": "脫離硬件獨立使用App",
     "content__use_app_only": "僅使用應用程序",
+    "title__best_fido_key": "最佳 FIDO 密鑰",
+    "title__best_fido_key_desc": "OneKey 支持 FIDO 和 FIDO2 協議*，並與 Google、GitHub、Dropbox、Binance 和 Coinbase 合作。成為您帳戶的安全物理密鑰。 <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link>列出了我們所有的 2FA 站點。",
+    "title__currency_support": "貨幣支持",
+    "title__earths_strongest_wallet": "地球上最堅固的錢包",
+    "title__earths_strongest_wallet_desc": "MetaMask、Phantom、Bitcoin Core、Electrum、Spectre、Wasabi、Sparrow……等等。 OneKey 支持數百種第三方軟件錢包。",
+    "title__migrating_to_onekey": "遷移到一鍵",
+    "title__migrating_to_onekey_desc": "OneKey 支持所有平台和硬幣，因此您可以從 Ledger、Trezor、Phantom、MetaMask、Zerion、TokenPocket、imToken 或任何其他錢包切換到它。",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey 與其他硬件錢包相比",
-    "title__starting_from_free_buy_if_you_need_it": "從免費開始。有需要就買。",
+    "title__starting_from_free_buy_if_you_need_it": "從免費開始。\\n有需要就買。",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "使用該應用程序不需要硬件錢包。",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "您可以存入的代幣數量沒有上限。",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "我們的產品和服務已經過世界各地客戶的試用和測試。",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "要使用硬件錢包，您只需一次性支付一小筆費用。",
-    "title__use_the_app_wallet_to_feel_it_first": "使用App Wallet先感受一下？",
-    "title__why_use_onekey": "為什麼要使用一鍵？",
-    "title__why_use_onekey_desc": "從第一天起就開源且易於使用。"
+    "title__switch_to_open_source_wallet": "切換到開源錢包。",
+    "title__switch_to_open_source_wallet_desc": "閉源錢包就像一個黑盒子，沒有人知道裡面發生了什麼。\\n相信代碼和數學，而不是廣告。\\n可驗證的開源錢包永遠是最好的。",
+    "title__why_use_onekey": "為什麼要使用\\nOneKey？",
+    "title__why_use_onekey_desc": "從第一天起就開源且易於使用。",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "如果沒有硬件錢包，黑客可能會竊取您的硬幣。",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "每天，人們的密碼都被非法獲得授權的助記詞或有害合約所竊取。人總是丟了東西才後悔沒有硬件錢包。\\n硬件錢包將您的私鑰與網絡隔離開來。所有簽名交易均在設備上安全完成，讓您高枕無憂。"
 }

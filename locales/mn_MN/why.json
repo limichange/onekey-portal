@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Гуравдагч этгээдийн түрийвчийг эндээс үзнэ үү",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Фишингийн эсрэг, SCAM болон хортой гэрээний зөвшөөрлийг таслан зогсоох",
     "content__browser_plug_in": "Хөтөчийн залгаас",
     "content__cost_of_a_onekey_hardware_wallet": "OneKey тоног төхөөрөмжийн түрийвчний үнэ",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Таны крипто хөрөнгийн үнэ цэнэ",
     "content__use_app_independently_without_hardware": "Аппликешныг техник хангамжгүйгээр бие даан ашиглана уу",
     "content__use_app_only": "Зөвхөн апп ашиглана уу",
+    "title__best_fido_key": "Шилдэг FIDO түлхүүр",
+    "title__best_fido_key_desc": "OneKey нь FIDO болон FIDO2 протоколуудыг* дэмждэг бөгөөд Google, GitHub, Dropbox, Binance, Coinbase-тэй ажилладаг. Бүртгэлийнхээ аюулгүй физик түлхүүр болоорой. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> нь манай бүх 2FA сайтуудыг жагсаав.",
+    "title__currency_support": "Валютын дэмжлэг",
+    "title__earths_strongest_wallet": "Дэлхийн хамгийн хүчтэй түрийвч",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Specter, Wasabi, Sparrow... гэх мэт. OneKey нь олон зуун гуравдагч талын програм хангамжийн түрийвчийг дэмждэг.",
+    "title__migrating_to_onekey": "OneKey руу шилжиж байна",
+    "title__migrating_to_onekey_desc": "OneKey нь бүх платформ болон зоосыг дэмждэг тул та үүнийг Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken болон бусад түрийвчнээс сольж болно.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey нь бусад тоног төхөөрөмжийн түрийвчтэй харьцуулахад",
-    "title__starting_from_free_buy_if_you_need_it": "Үнэгүйгээс эхэлнэ. Хэрэгтэй бол худалдаж аваарай.",
+    "title__starting_from_free_buy_if_you_need_it": "Үнэгүйгээс эхэлнэ.\\n Хэрэгтэй бол худалдаж аваарай.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Програмыг ашиглахын тулд тоног төхөөрөмжийн хэтэвчтэй байх шаардлагагүй.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Таны байршуулж болох зоосны хэмжээ хязгааргүй.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Манай бүтээгдэхүүн, үйлчилгээг дэлхийн өнцөг булан бүрт байгаа үйлчлүүлэгчид туршиж, туршиж үзсэн.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Тоног төхөөрөмжийн хэтэвч ашиглахын тулд та зөвхөн нэг удаагийн бага хэмжээний төлбөр төлөх шаардлагатай болно.",
-    "title__use_the_app_wallet_to_feel_it_first": "Эхлээд үүнийг мэдрэхийн тулд App Wallet ашиглах уу?",
+    "title__switch_to_open_source_wallet": "Нээлттэй эхийн түрийвч рүү шилжих.",
+    "title__switch_to_open_source_wallet_desc": "Хаалттай эхийн түрийвч нь хар хайрцагтай адил бөгөөд дотор нь юу болж байгааг хэн ч мэдэхгүй.\\n AD-д биш, код, математикт итгэ.\\n Баталгаажуулж болох нээлттэй эхийн түрийвч үргэлж хамгийн шилдэг нь байдаг.",
     "title__why_use_onekey": "Яагаад OneKey ашиглах вэ?",
-    "title__why_use_onekey_desc": "Нээлттэй эх сурвалж, эхний өдрөөсөө хэрэглэхэд хялбар."
+    "title__why_use_onekey_desc": "Нээлттэй эх сурвалж, эхний өдрөөсөө хэрэглэхэд хялбар.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Тоног төхөөрөмжийн хэтэвчгүй бол хакерууд таны зоосыг хулгайлж магадгүй.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Өдөр бүр хүмүүсийн криптог хууль бусаар зөвшөөрөл авсан үрийн хэллэг эсвэл хортой гэрээгээр авдаг. Хүмүүс техник хангамжийн хэтэвчгүйдээ харамсахаас өмнө үргэлж юмаа алддаг.\\n Техник хангамжийн түрийвч нь таны хувийн түлхүүрүүдийг сүлжээнээс тусгаарладаг. Гарын үсэг зурах бүх гүйлгээ нь төхөөрөмж дээр найдвартай хийгддэг тул та амар амгалан байх боломжтой."
 }

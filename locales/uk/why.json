@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Перегляньте сторонні гаманці тут",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Антифішинг, шахрайство та зловмисне перехоплення авторизації контракту",
     "content__browser_plug_in": "Плагін для браузера",
     "content__cost_of_a_onekey_hardware_wallet": "Вартість апаратного гаманця OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Вартість ваших криптоактивів",
     "content__use_app_independently_without_hardware": "Використовуйте додаток самостійно без апаратного забезпечення",
     "content__use_app_only": "Використовуйте лише додаток",
+    "title__best_fido_key": "Найкращий ключ FIDO",
+    "title__best_fido_key_desc": "OneKey підтримує протоколи FIDO і FIDO2* і працює з Google, GitHub, Dropbox, Binance і Coinbase. Будьте безпечним фізичним ключем для свого облікового запису. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> містить список усіх наших сайтів 2FA.",
+    "title__currency_support": "Підтримка валюти",
+    "title__earths_strongest_wallet": "Найміцніший гаманець на Землі",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... І багато іншого. OneKey підтримує сотні програмних гаманців сторонніх виробників.",
+    "title__migrating_to_onekey": "Перехід на OneKey",
+    "title__migrating_to_onekey_desc": "OneKey підтримує всі платформи та монети, тому ви можете перейти на нього з Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken або будь-якого іншого гаманця.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey порівняно з іншими апаратними гаманцями",
-    "title__starting_from_free_buy_if_you_need_it": "Починаючи з безкоштовного. Купуйте, якщо вам це потрібно.",
+    "title__starting_from_free_buy_if_you_need_it": "Починаючи з безкоштовного.\\n Купіть, якщо вам це потрібно.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Для використання програми не обов’язково мати апаратний гаманець.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Немає обмеження на кількість монет, які ви можете внести.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Наші продукти та послуги перевірені клієнтами з усього світу.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Щоб скористатися апаратним гаманцем, вам потрібно буде сплатити лише невелику одноразову комісію.",
-    "title__use_the_app_wallet_to_feel_it_first": "Використовувати App Wallet, щоб відчути це першим?",
+    "title__switch_to_open_source_wallet": "Перейдіть на гаманець з відкритим кодом.",
+    "title__switch_to_open_source_wallet_desc": "Гаманець із закритим вихідним кодом схожий на чорний ящик, ніхто не знає, що відбувається всередині.\\n Довіряйте коду та математиці, а не оголошенням.\\n Перевірений гаманець з відкритим кодом завжди найкращий.",
     "title__why_use_onekey": "Навіщо використовувати OneKey?",
-    "title__why_use_onekey_desc": "Відкритий код і простий у використанні з першого дня."
+    "title__why_use_onekey_desc": "Відкритий код і простий у використанні з першого дня.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Без апаратного гаманця хакери можуть викрасти ваші монети.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Щодня криптографії людей захоплюються початковими фразами або шкідливими контрактами, які незаконно отримують дозвіл. Люди завжди втрачають речі, перш ніж пошкодують, що у них немає апаратного гаманця.\\n Апаратний гаманець ізолює ваші особисті ключі від мережі. Усі транзакції з підписами виконуються безпечно на пристрої, тому ви можете бути спокійні."
 }

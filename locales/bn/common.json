@@ -29,6 +29,7 @@
     "content__bluetooth": "ব্লুটুথ",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "এখন পর্যন্ত সবচেয়ে ক্লাসিক হার্ডওয়্যার মানিব্যাগ, আপনি যেতে যেতেও এটি ব্যবহার করতে পারেন, যেটিতে সব আছে।",
     "content__intel_chip": "ইন্টেল চিপ",
+    "content__mac_app_store": "ম্যাক অ্যাপ স্টোর",
     "content__mini_sized_safety_without_compromise": "মিনি আকারের, আপস ছাড়া নিরাপত্তা.",
     "content__no_results": "কোন ফলাফল নেই",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "এয়ারক্রাফ্ট-গ্রেড টাইটানিয়াম দিয়ে তৈরি শক্তিশালী ওয়ালেট ব্যাকআপ কিট, কিট-এর মধ্যে 2 কপি কীট্যাগ অন্তর্ভুক্ত।",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "আপনার OneKeyহার্ডওয়্যার ওয়ালেট সেট আপ করুন",
     "title__stay_in_touch": "সাথে থাকুন",
     "title__subscribe_to_our_notifications": "আমাদের বিজ্ঞপ্তি সাবস্ক্রাইব করুন",
+    "title__try_our_app_wallet_first_its_free": "আমাদের অ্যাপ ওয়ালেট চেষ্টা করুন\\n প্রথম? এটা বিনামূল্যে.",
     "title__tutorials": "টিউটোরিয়াল",
     "title__view_all_products": "সমস্ত পণ্য দেখুন"
 }

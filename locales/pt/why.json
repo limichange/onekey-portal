@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Veja carteiras de terceiros aqui",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-phishing, SCAM e interceptação de autorização de contrato maliciosa",
     "content__browser_plug_in": "plug-in do navegador",
     "content__cost_of_a_onekey_hardware_wallet": "Custo de uma carteira de hardware OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "O valor dos seus criptoativos",
     "content__use_app_independently_without_hardware": "Use o aplicativo de forma independente sem hardware",
     "content__use_app_only": "Usar apenas aplicativo",
+    "title__best_fido_key": "Melhor chave FIDO",
+    "title__best_fido_key_desc": "OneKey oferece suporte aos protocolos FIDO e FIDO2* e funciona com Google, GitHub, Dropbox, Binance e Coinbase. Seja uma chave física segura para sua conta. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> lista todos os nossos sites 2FA.",
+    "title__currency_support": "Suporte a moeda",
+    "title__earths_strongest_wallet": "A Carteira Mais Forte da Terra",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Specter, Wasabi, Sparrow... E muito mais. OneKey suporta centenas de carteiras de software de terceiros.",
+    "title__migrating_to_onekey": "Migrando para OneKey",
+    "title__migrating_to_onekey_desc": "OneKey suporta todas as plataformas e moedas, então você pode mudar para Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken ou qualquer outra carteira.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey em comparação com outras carteiras de hardware",
-    "title__starting_from_free_buy_if_you_need_it": "Começando de graça. Compre se precisar.",
+    "title__starting_from_free_buy_if_you_need_it": "Começando de graça.\\n Compre se precisar.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Ter uma carteira de hardware não é necessário para usar o aplicativo.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Não há limite para a quantidade de moedas que você pode depositar.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Nossos produtos e serviços foram experimentados e testados por clientes em todo o mundo.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Para usar uma carteira de hardware, você só precisará pagar uma pequena taxa única.",
-    "title__use_the_app_wallet_to_feel_it_first": "Use a App Wallet para sentir primeiro?",
+    "title__switch_to_open_source_wallet": "Mude para carteira de código aberto.",
+    "title__switch_to_open_source_wallet_desc": "A carteira de código fechado é como uma caixa preta, ninguém sabe o que está acontecendo lá dentro.\\n Confie em código e matemática, não em ADs.\\n A carteira de código aberto verificável é sempre a melhor.",
     "title__why_use_onekey": "Por que usar o OneKey?",
-    "title__why_use_onekey_desc": "Código aberto e fácil de usar desde o primeiro dia."
+    "title__why_use_onekey_desc": "Código aberto e fácil de usar desde o primeiro dia.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Sem uma carteira de hardware, os hackers podem roubar suas moedas.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Todos os dias, as criptos das pessoas são tomadas por frases-semente ou contratos prejudiciais que obtêm autorização ilegalmente. As pessoas sempre perdem coisas antes de se arrepender de não ter uma carteira de hardware.\\n Uma carteira de hardware isola suas chaves privadas da rede. Todas as transações de assinatura são feitas com segurança no dispositivo, para que você possa ficar tranquilo."
 }

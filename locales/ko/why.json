@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "여기에서 타사 지갑 보기",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "피싱 방지, SCAM 및 악의적인 계약 권한 가로채기",
     "content__browser_plug_in": "브라우저 플러그인",
     "content__cost_of_a_onekey_hardware_wallet": "OneKey 하드웨어 지갑 비용",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "암호화 자산의 가치",
     "content__use_app_independently_without_hardware": "하드웨어 없이 독립적으로 앱 사용",
     "content__use_app_only": "앱만 사용",
+    "title__best_fido_key": "최고의 FIDO 키",
+    "title__best_fido_key_desc": "OneKey는 FIDO 및 FIDO2 프로토콜*을 지원하며 Google, GitHub, Dropbox, Binance 및 Coinbase와 함께 작동합니다. 귀하의 계정에 대한 안전한 물리적 키가 되십시오. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> 에는 모든 2FA 사이트가 나와 있습니다.",
+    "title__currency_support": "통화 지원",
+    "title__earths_strongest_wallet": "지구 최강의 지갑",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... 등등. OneKey는 수백 개의 타사 소프트웨어 지갑을 지원합니다.",
+    "title__migrating_to_onekey": "OneKey로 마이그레이션",
+    "title__migrating_to_onekey_desc": "OneKey는 모든 플랫폼과 코인을 지원하므로 Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken 또는 기타 지갑에서 전환할 수 있습니다.",
     "title__onekey_compared_to_other_hardware_wallets": "다른 하드웨어 지갑과 비교한 OneKey",
-    "title__starting_from_free_buy_if_you_need_it": "무료로 시작합니다. 필요하시면 구매하세요.",
+    "title__starting_from_free_buy_if_you_need_it": "무료로 시작합니다.\\n 필요하시면 구매하세요.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "앱을 사용하기 위해 하드웨어 지갑이 필요하지 않습니다.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "입금할 수 있는 코인의 양에는 제한이 없습니다.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "우리의 제품과 서비스는 전 세계 고객이 시도하고 테스트했습니다.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "하드웨어 지갑을 사용하려면 소액의 일회성 요금만 지불하면 됩니다.",
-    "title__use_the_app_wallet_to_feel_it_first": "App Wallet을 사용하여 먼저 느끼십니까?",
+    "title__switch_to_open_source_wallet": "오픈 소스 지갑으로 전환하십시오.",
+    "title__switch_to_open_source_wallet_desc": "폐쇄형 소스 지갑은 마치 블랙박스와 같아서 내부에서 무슨 일이 일어나고 있는지 아무도 모릅니다.\\n AD가 아닌 신뢰 코드와 수학.\\n 검증 가능한 오픈소스 지갑은 언제나 최고입니다.",
     "title__why_use_onekey": "OneKey를 사용하는 이유는 무엇입니까?",
-    "title__why_use_onekey_desc": "오픈 소스이며 첫날부터 사용하기 쉽습니다."
+    "title__why_use_onekey_desc": "오픈 소스이며 첫날부터 사용하기 쉽습니다.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "하드웨어 지갑이 없으면 해커가 코인을 훔칠 수 있습니다.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "매일 사람들의 암호 화폐는 불법적으로 권한을 얻는 시드 문구 또는 유해한 계약에 의해 취해집니다. 사람들은 하드웨어 지갑이 없는 것을 후회하기 전에 항상 물건을 잃습니다.\\n 하드웨어 지갑은 개인 키를 네트워크에서 격리합니다. 모든 서명 거래는 기기에서 안전하게 이루어지므로 안심하셔도 됩니다."
 }

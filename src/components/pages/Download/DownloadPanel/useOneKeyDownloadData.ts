@@ -74,6 +74,13 @@ export function useOneKeyDownloadData() {
     url: formattedData.macSilicon.url,
   };
 
+  const macStore = {
+    icon: AppleIcon,
+    name: t('content__mac_app_store'),
+    description: `v${formattedData.macStore.version}, for macOS 10.8+`,
+    url: formattedData.macStore.url,
+  };
+
   const win = {
     icon: WindowsIcon,
     name: 'Windows',
@@ -212,6 +219,7 @@ export function useOneKeyDownloadData() {
       androidAPK,
       macIntel,
       macSilicon,
+      macStore,
       win,
       linux,
       chrome,

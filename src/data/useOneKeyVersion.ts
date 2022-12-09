@@ -62,6 +62,7 @@ export function useOneKeyVersion() {
     androidAPK: { url: '', version: '' },
     macIntel: { url: '', version: '' },
     macSilicon: { url: '', version: '' },
+    macStore: { url: '', version: '' },
     win: { url: '', version: '' },
     linux: { url: '', version: '' },
     asc: { url: '', version: '' },
@@ -139,6 +140,9 @@ export function useOneKeyVersion() {
 
       formattedData.macSilicon.url = desktop.macArm;
       formattedData.macSilicon.version = desktop.version.join('.');
+
+      formattedData.macStore.url = desktop.mas.url;
+      formattedData.macStore.version = desktop.mas.version.join('.');
 
       // win
       formattedData.win.url = desktop.win;

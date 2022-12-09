@@ -29,6 +29,7 @@
     "content__bluetooth": "블루투스",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "지금까지 가장 클래식한 하드웨어 지갑으로 이동 중에도 사용할 수 있으며 모든 것을 갖춘 지갑입니다.",
     "content__intel_chip": "인텔 칩",
+    "content__mac_app_store": "맥 앱 스토어",
     "content__mini_sized_safety_without_compromise": "미니 사이즈, 타협 없는 안전성.",
     "content__no_results": "결과 없음",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "항공기 등급 티타늄으로 제작된 강력한 지갑 백업 키트로 2개의 KeyTag 사본이 키트에 포함되어 있습니다.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "OneKey 하드웨어 지갑 설정",
     "title__stay_in_touch": "연락을 유지하다",
     "title__subscribe_to_our_notifications": "알림 구독",
+    "title__try_our_app_wallet_first_its_free": "앱 지갑을 사용해 보세요\\n 첫 번째? 그것은 무료입니다.",
     "title__tutorials": "튜토리얼",
     "title__view_all_products": "모든 제품 보기"
 }

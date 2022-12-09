@@ -28,6 +28,7 @@ export function useOtherPlatformsData(): {
         subItems: [
           platforms.macIntel,
           platforms.macSilicon,
+          platforms.macStore,
           platforms.win,
           platforms.linux,
         ],

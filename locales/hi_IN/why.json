@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "तृतीय-पक्ष वॉलेट यहां देखें",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "एंटी-फ़िशिंग, SCAM और दुर्भावनापूर्ण अनुबंध प्राधिकरण अवरोधन",
     "content__browser_plug_in": "ब्राउज़र प्लग-इन",
     "content__cost_of_a_onekey_hardware_wallet": "वनकी हार्डवेयर वॉलेट की कीमत",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "आपकी क्रिप्टो संपत्ति का मूल्य",
     "content__use_app_independently_without_hardware": "हार्डवेयर के बिना स्वतंत्र रूप से ऐप का प्रयोग करें",
     "content__use_app_only": "ऐप का ही इस्तेमाल करें",
+    "title__best_fido_key": "सर्वश्रेष्ठ FIDO कुंजी",
+    "title__best_fido_key_desc": "OneKey FIDO और FIDO2 प्रोटोकॉल * का समर्थन करता है और Google, GitHub, Dropbox, Binance और Coinbase के साथ काम करता है। अपने खाते के लिए एक सुरक्षित भौतिक कुंजी बनें। <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> हमारी सभी 2FA साइटों को सूचीबद्ध करती है।",
+    "title__currency_support": "मुद्रा समर्थन",
+    "title__earths_strongest_wallet": "पृथ्वी का सबसे मजबूत बटुआ",
+    "title__earths_strongest_wallet_desc": "मेटामास्क, फैंटम, बिटकॉइन कोर, इलेक्ट्रम, स्पेक्टर, वसाबी, स्पैरो... और भी बहुत कुछ। OneKey सैकड़ों तृतीय-पक्ष सॉफ़्टवेयर वॉलेट का समर्थन करता है।",
+    "title__migrating_to_onekey": "OneKey में माइग्रेट करना",
+    "title__migrating_to_onekey_desc": "OneKey सभी प्लेटफार्मों और सिक्कों का समर्थन करता है, इसलिए आप इसे लेजर, ट्रेजर, फैंटम, मेटामास्क, ज़ीरियन, टोकनपॉकेट, आईएमटोकन, या किसी अन्य वॉलेट से स्विच कर सकते हैं।",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey अन्य हार्डवेयर वॉलेट की तुलना में",
-    "title__starting_from_free_buy_if_you_need_it": "फ्री से शुरू। जरूरत हो तो खरीदें।",
+    "title__starting_from_free_buy_if_you_need_it": "फ्री से शुरू।\\n जरूरत हो तो खरीदें।",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "ऐप का उपयोग करने के लिए हार्डवेयर वॉलेट होने की आवश्यकता नहीं है।",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "आपके द्वारा जमा किए जा सकने वाले सिक्कों की मात्रा पर कोई सीमा नहीं है।",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "हमारे उत्पादों और सेवाओं को पूरी दुनिया में ग्राहकों द्वारा आजमाया और परखा गया है।",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "हार्डवेयर वॉलेट का उपयोग करने के लिए, आपको केवल एक बार के छोटे से शुल्क का भुगतान करने की आवश्यकता होगी।",
-    "title__use_the_app_wallet_to_feel_it_first": "इसे पहले महसूस करने के लिए ऐप वॉलेट का उपयोग करें?",
+    "title__switch_to_open_source_wallet": "ओपन-सोर्स वॉलेट पर स्विच करें।",
+    "title__switch_to_open_source_wallet_desc": "क्लोज्ड सोर्स वॉलेट एक ब्लैक बॉक्स की तरह है, कोई नहीं जानता कि अंदर क्या हो रहा है।\\n ट्रस्ट कोड और गणित, विज्ञापन नहीं।\\n सत्यापन योग्य ओपन सोर्स वॉलेट हमेशा सबसे अच्छा होता है।",
     "title__why_use_onekey": "वनकी का उपयोग क्यों करें?",
-    "title__why_use_onekey_desc": "खुला स्रोत और पहले दिन से उपयोग में आसान।"
+    "title__why_use_onekey_desc": "खुला स्रोत और पहले दिन से उपयोग में आसान।",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "बिना हार्डवेयर वॉलेट के, हैकर्स आपके सिक्के चुरा सकते हैं।",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "हर दिन, लोगों के क्रिप्टो बीज वाक्यांशों या हानिकारक अनुबंधों द्वारा लिए जाते हैं जो अवैध रूप से प्राधिकरण प्राप्त करते हैं। हार्डवेयर वॉलेट न होने का पछतावा करने से पहले लोग हमेशा चीजें खो देते हैं।\\n एक हार्डवेयर वॉलेट आपकी निजी चाबियों को नेटवर्क से अलग करता है। सभी हस्ताक्षर लेनदेन डिवाइस पर सुरक्षित रूप से किए जाते हैं, ताकि आप निश्चिंत हो सकें।"
 }

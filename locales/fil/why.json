@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Tingnan ang mga wallet ng third-party dito",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-phishing, SCAM at malisyosong pagharang sa awtorisasyon ng kontrata",
     "content__browser_plug_in": "Plug-in ng browser",
     "content__cost_of_a_onekey_hardware_wallet": "Halaga ng isang OneKey Hardware Wallet",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Ang halaga ng iyong mga crypto asset",
     "content__use_app_independently_without_hardware": "Gamitin ang App nang nakapag-iisa nang walang hardware",
     "content__use_app_only": "Gamitin lang ang app",
+    "title__best_fido_key": "Pinakamahusay na FIDO key",
+    "title__best_fido_key_desc": "Sinusuportahan ng OneKey ang FIDO at FIDO2 protocol* at gumagana sa Google, GitHub, Dropbox, Binance, at Coinbase. Maging isang secure na pisikal na key para sa iyong account. Inililista ng <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> ang lahat ng aming 2FA site.",
+    "title__currency_support": "Suporta sa pera",
+    "title__earths_strongest_wallet": "Pinakamalakas na Wallet sa Earth",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... At marami pang iba. Sinusuportahan ng OneKey ang daan-daang mga third-party na software wallet.",
+    "title__migrating_to_onekey": "Paglipat sa OneKey",
+    "title__migrating_to_onekey_desc": "Sinusuportahan ng OneKey ang lahat ng platform at coin, kaya maaari kang lumipat dito mula sa Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken, o anumang iba pang wallet.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey kumpara sa iba pang hardware wallet",
-    "title__starting_from_free_buy_if_you_need_it": "Simula sa libre. Bumili kung kailangan mo ito.",
+    "title__starting_from_free_buy_if_you_need_it": "Simula sa libre.\\n Bumili kung kailangan mo ito.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Ang pagkakaroon ng hardware wallet ay hindi kinakailangan upang magamit ang app.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Walang limitasyon sa halaga ng mga barya na maaari mong ideposito.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Ang aming mga produkto at serbisyo ay sinubukan at nasubok ng mga customer sa buong mundo.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Para makagamit ng hardware wallet, kailangan mo lang magbayad ng maliit na isang beses na bayad.",
-    "title__use_the_app_wallet_to_feel_it_first": "Gamitin ang App Wallet para maramdaman muna ito?",
+    "title__switch_to_open_source_wallet": "Lumipat sa open-source na wallet.",
+    "title__switch_to_open_source_wallet_desc": "Ang closed source wallet ay parang black box lang, walang nakakaalam kung ano ang nangyayari sa loob.\\n Trust code at math, hindi mga AD.\\n Ang nabe-verify na open source na wallet ay palaging ang pinakamahusay.",
     "title__why_use_onekey": "Bakit gagamit ng OneKey?",
-    "title__why_use_onekey_desc": "Open source at madaling gamitin mula sa unang araw."
+    "title__why_use_onekey_desc": "Open source at madaling gamitin mula sa unang araw.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Kung walang hardware wallet, maaaring nakawin ng mga hacker ang iyong mga barya.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Araw-araw, ang cryptos ng mga tao ay kinukuha ng mga seed phrase o mapaminsalang kontrata na ilegal na nakakakuha ng pahintulot. Palaging nawawalan ng mga bagay ang mga tao bago pagsisihan na walang hardware wallet.\\n Ang isang hardware wallet ay naghihiwalay sa iyong mga pribadong key mula sa network. Ang lahat ng mga signature na transaksyon ay ligtas na ginagawa sa device, para makapagpahinga ka nang maluwag."
 }

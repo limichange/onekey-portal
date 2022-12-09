@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Посмотреть сторонние кошельки здесь",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Антифишинг, SCAM и перехват авторизации злонамеренного контракта",
     "content__browser_plug_in": "Плагин для браузера",
     "content__cost_of_a_onekey_hardware_wallet": "Стоимость аппаратного кошелька OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Стоимость ваших криптоактивов",
     "content__use_app_independently_without_hardware": "Используйте приложение самостоятельно без аппаратного обеспечения",
     "content__use_app_only": "Использовать только приложение",
+    "title__best_fido_key": "Лучший ключ FIDO",
+    "title__best_fido_key_desc": "OneKey поддерживает протоколы FIDO и FIDO2* и работает с Google, GitHub, Dropbox, Binance и Coinbase. Будьте безопасным физическим ключом для вашей учетной записи. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> содержит список всех наших сайтов 2FA.",
+    "title__currency_support": "Валютная поддержка",
+    "title__earths_strongest_wallet": "Самый надежный кошелек Земли",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... И многое другое. OneKey поддерживает сотни сторонних программных кошельков.",
+    "title__migrating_to_onekey": "Переход на OneKey",
+    "title__migrating_to_onekey_desc": "OneKey поддерживает все платформы и монеты, поэтому вы можете переключиться на него из Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken или любого другого кошелька.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey по сравнению с другими аппаратными кошельками",
-    "title__starting_from_free_buy_if_you_need_it": "Начиная с бесплатного. Купите, если вам это нужно.",
+    "title__starting_from_free_buy_if_you_need_it": "Начиная с бесплатного.\\n Купите, если вам это нужно.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Наличие аппаратного кошелька не требуется для использования приложения.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Ограничения на количество монет, которые вы можете внести, нет.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Наши продукты и услуги были опробованы и проверены клиентами по всему миру.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Чтобы использовать аппаратный кошелек, вам нужно будет заплатить только небольшую единовременную плату.",
-    "title__use_the_app_wallet_to_feel_it_first": "Используйте App Wallet, чтобы почувствовать это первым?",
+    "title__switch_to_open_source_wallet": "Переключитесь на кошелек с открытым исходным кодом.",
+    "title__switch_to_open_source_wallet_desc": "Кошелек с закрытым исходным кодом похож на черный ящик, никто не знает, что происходит внутри.\\n Доверяйте коду и математике, а не рекламе.\\n Поддающийся проверке кошелек с открытым исходным кодом всегда лучший.",
     "title__why_use_onekey": "Зачем использовать OneKey?",
-    "title__why_use_onekey_desc": "Открытый исходный код и простой в использовании с первого дня."
+    "title__why_use_onekey_desc": "Открытый исходный код и простой в использовании с первого дня.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Без аппаратного кошелька хакеры могут украсть ваши монеты.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Каждый день криптовалюты людей забираются с помощью seed-фраз или вредоносных контрактов, которые получают незаконную авторизацию. Люди всегда теряют вещи, прежде чем пожалеют об отсутствии аппаратного кошелька.\\n Аппаратный кошелек изолирует ваши личные ключи от сети. Все операции с подписью безопасно выполняются на устройстве, так что вы можете быть спокойны."
 }

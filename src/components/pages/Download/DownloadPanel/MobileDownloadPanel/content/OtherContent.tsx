@@ -16,22 +16,16 @@ export const OtherContent: FC<OtherContentProps> = (props) => {
   const { children } = props;
 
   const {
-    platforms: { macIntel, macSilicon, win, linux },
+    platforms: { macStore, win, linux },
     types: { desktop },
   } = useOneKeyDownloadData();
 
   const buttons = [
     {
-      text: macIntel.name,
-      icon: macIntel.icon,
-      infos: macIntel.description,
-      url: macIntel.url,
-    },
-    {
-      text: macSilicon.name,
-      icon: macSilicon.icon,
-      infos: macSilicon.description,
-      url: macSilicon.url,
+      text: macStore.name,
+      icon: macStore.icon,
+      infos: macStore.description,
+      url: macStore.url,
     },
     {
       text: win.name,

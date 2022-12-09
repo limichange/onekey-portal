@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Visualizza i portafogli di terze parti qui",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-phishing, SCAM e intercettazione di autorizzazioni di contratti dannosi",
     "content__browser_plug_in": "Plug-in del browser",
     "content__cost_of_a_onekey_hardware_wallet": "Costo di un portafoglio hardware OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Il valore delle tue risorse crittografiche",
     "content__use_app_independently_without_hardware": "Usa l'app in modo indipendente senza hardware",
     "content__use_app_only": "Usa solo l'app",
+    "title__best_fido_key": "La migliore chiave FIDO",
+    "title__best_fido_key_desc": "OneKey supporta i protocolli FIDO e FIDO2* e funziona con Google, GitHub, Dropbox, Binance e Coinbase. Diventa una chiave fisica sicura per il tuo account. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> elenca tutti i nostri siti 2FA.",
+    "title__currency_support": "Supporto valutario",
+    "title__earths_strongest_wallet": "Il portafoglio più forte della Terra",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... E molto altro ancora. OneKey supporta centinaia di portafogli software di terze parti.",
+    "title__migrating_to_onekey": "Migrazione a OneKey",
+    "title__migrating_to_onekey_desc": "OneKey supporta tutte le piattaforme e le monete, quindi puoi passare ad esso da Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken o qualsiasi altro portafoglio.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey rispetto ad altri portafogli hardware",
-    "title__starting_from_free_buy_if_you_need_it": "A partire da gratis. Acquista se ne hai bisogno.",
+    "title__starting_from_free_buy_if_you_need_it": "A partire da gratis.\\n Acquista se ne hai bisogno.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Non è necessario disporre di un portafoglio hardware per utilizzare l'app.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Non c'è un limite alla quantità di monete che puoi depositare.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "I nostri prodotti e servizi sono stati provati e testati da clienti di tutto il mondo.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Per utilizzare un portafoglio hardware, dovrai solo pagare una piccola commissione una tantum.",
-    "title__use_the_app_wallet_to_feel_it_first": "Utilizzare l'App Wallet per sentirlo per primo?",
+    "title__switch_to_open_source_wallet": "Passa al portafoglio open source.",
+    "title__switch_to_open_source_wallet_desc": "Il portafoglio closed source è proprio come una scatola nera, nessuno sa cosa sta succedendo dentro.\\n Fidati del codice e della matematica, non degli annunci pubblicitari.\\n Il portafoglio open source verificabile è sempre il migliore.",
     "title__why_use_onekey": "Perché usare OneKey?",
-    "title__why_use_onekey_desc": "Open source e facile da usare fin dal primo giorno."
+    "title__why_use_onekey_desc": "Open source e facile da usare fin dal primo giorno.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Senza un portafoglio hardware, gli hacker potrebbero rubare le tue monete.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Ogni giorno, le criptovalute delle persone vengono prese da frasi seme o contratti dannosi che ottengono illegalmente l'autorizzazione. Le persone perdono sempre le cose prima di pentirsi di non avere un portafoglio hardware.\\n Un portafoglio hardware isola le tue chiavi private dalla rete. Tutte le transazioni di firma vengono eseguite in modo sicuro sul dispositivo, quindi puoi stare tranquillo."
 }

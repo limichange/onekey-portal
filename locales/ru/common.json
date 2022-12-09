@@ -29,6 +29,7 @@
     "content__bluetooth": "Bluetooth",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "Безусловно, это самый классический аппаратный кошелек, вы можете использовать его даже в пути, тот, в котором есть все.",
     "content__intel_chip": "Чип Intel",
+    "content__mac_app_store": "Магазин приложений для Mac",
     "content__mini_sized_safety_without_compromise": "Миниатюрный размер, безопасность без компромиссов.",
     "content__no_results": "Нет результатов",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "Мощный комплект резервного копирования кошелька из авиационного титана с 2 копиями KeyTag в комплекте.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "Настройте аппаратный кошелек OneKey",
     "title__stay_in_touch": "Оставайтесь на связи",
     "title__subscribe_to_our_notifications": "Подпишитесь на наши уведомления",
+    "title__try_our_app_wallet_first_its_free": "Попробуйте наш кошелек приложения\\n первый? Это бесплатно.",
     "title__tutorials": "Учебники",
     "title__view_all_products": "Посмотреть все продукты"
 }

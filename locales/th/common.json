@@ -29,6 +29,7 @@
     "content__bluetooth": "บลูทู ธ",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "จนถึงตอนนี้ กระเป๋าเงินฮาร์ดแวร์สุดคลาสสิก คุณสามารถใช้มันได้แม้ในขณะเดินทาง ซึ่งเป็นกระเป๋าที่มีครบทุกอย่าง",
     "content__intel_chip": "ชิป Intel",
+    "content__mac_app_store": "แมคแอพสโตร์",
     "content__mini_sized_safety_without_compromise": "ขนาดเล็ก ปลอดภัยไร้ที่ติ",
     "content__no_results": "ไม่มีผลลัพธ์",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "ชุดสำรองข้อมูลกระเป๋าสตางค์อันทรงพลังที่ทำจากไททาเนียมเกรดอากาศยาน พร้อมสำเนา KeyTag 2 ชุดที่รวมอยู่ในชุดอุปกรณ์",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "ตั้งค่า OneKey hardware wallet ของคุณ",
     "title__stay_in_touch": "อยู่ในการติดต่อ",
     "title__subscribe_to_our_notifications": "สมัครรับการแจ้งเตือนของเรา",
+    "title__try_our_app_wallet_first_its_free": "ลองใช้กระเป๋าเงินแอปของเรา\\n แรก? แจกฟรี.",
     "title__tutorials": "บทช่วยสอน",
     "title__view_all_products": "ดูสินค้าทั้งหมด"
 }

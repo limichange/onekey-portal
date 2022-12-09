@@ -69,6 +69,7 @@ export interface Desktop {
   linux: string;
   macX64: string;
   macArm: string;
+  mas: { url: string; version: [number, number, number] };
   win: string;
   sha256SumAsc?: string;
   changelog: Changelog;

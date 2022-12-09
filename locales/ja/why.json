@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "ここでサードパーティのウォレットを表示",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "フィッシング対策、SCAM、悪意のある契約認証傍受",
     "content__browser_plug_in": "ブラウザプラグイン",
     "content__cost_of_a_onekey_hardware_wallet": "OneKey ハードウェア ウォレットのコスト",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "あなたの暗号資産の価値",
     "content__use_app_independently_without_hardware": "ハードウェアなしでアプリを単独で使用する",
     "content__use_app_only": "アプリのみ使用",
+    "title__best_fido_key": "最高の FIDO キー",
+    "title__best_fido_key_desc": "OneKey は FIDO および FIDO2 プロトコル* をサポートし、Google、GitHub、Dropbox、Binance、および Coinbase と連携している。アカウント安全の物理キーになる。 <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link>には、すべての 2FA サイトがリストされている。",
+    "title__currency_support": "通貨サポート",
+    "title__earths_strongest_wallet": "地上最強のウォレット",
+    "title__earths_strongest_wallet_desc": "MetaMask、Phantom、Bitcoin Core、Electrum、Spectre、Wasabi、Sparrow... などなど。 OneKey は、何百ものサードパーティ ソフトウェア ウォレットをサポートしている。",
+    "title__migrating_to_onekey": "OneKey への移行",
+    "title__migrating_to_onekey_desc": "OneKey はすべてのプラットフォームとコインをサポートしているため、Ledger、Trezor、Phantom、MetaMask、Zerion、TokenPocket、imToken、またはその他のウォレットから切り替えることができる。",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey と他のハードウェア ウォレットの比較",
-    "title__starting_from_free_buy_if_you_need_it": "無料から始める。必要なら買う。",
+    "title__starting_from_free_buy_if_you_need_it": "無料で始め、\\n必要なら買う。",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "アプリの使用にハードウェア ウォレットが必要ではない。",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "入金できるコインの数量に上限がない。",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "当社の製品とサービスは、世界中のお客様によって試行され、テストされた。",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "ハードウェア ウォレットのご使用には、 1 回の少額料金だけ支払えば済む。",
-    "title__use_the_app_wallet_to_feel_it_first": "App Wallet を使用して、最初にそれを感じますか?",
+    "title__switch_to_open_source_wallet": "オープンソースのウォレットに切り替える。",
+    "title__switch_to_open_source_wallet_desc": "クローズドソースのウォレットはブラックボックスのようなもので、内部で何が起こっているかは誰にも分からない。\\n AD ではなく、コードと計算を信頼できる。\\n検証可能なオープンソースのウォレットは常に最高である。",
     "title__why_use_onekey": "OneKey を使用する理由",
-    "title__why_use_onekey_desc": "オープンソースで、初日から簡単に使用できる。"
+    "title__why_use_onekey_desc": "オープンソースで、初日から簡単に使用できる。",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "ハードウェア ウォレットがないと、ハッカーがコインを盗む恐れがある。",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "毎日、人々の仮想通貨はシードフレーズや有害な契約によって不正に承認されている。ハードウェアウォレットを持っていないことを後悔する前に、既に物を失ってしまった。\\nハードウェア ウォレットは、秘密鍵をネットワークから隔離、すべての署名トランザクションはデバイス上で安全に行われるため、安心できる。"
 }

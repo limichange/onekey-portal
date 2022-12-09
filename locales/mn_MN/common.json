@@ -29,6 +29,7 @@
     "content__bluetooth": "Bluetooth",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "Өнөөг хүртэл хамгийн сонгодог тоног төхөөрөмжийн түрийвч, та үүнийг явж байхдаа ч ашиглах боломжтой, бүгдийг нь агуулсан түрийвч.",
     "content__intel_chip": "Intel чип",
+    "content__mac_app_store": "Mac App Store",
     "content__mini_sized_safety_without_compromise": "Хэмжээ багатай, аюулгүй байдал алдагдахгүй.",
     "content__no_results": "Үр дүнгүй",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "Онгоцны титанаар хийгдсэн хүчирхэг түрийвчний нөөц хэрэгсэл, иж бүрдэлд 2 ширхэг KeyTag багтсан болно.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "OneKey тоног төхөөрөмжийн түрийвчээ тохируулна уу",
     "title__stay_in_touch": "Холбоотой байгаарай",
     "title__subscribe_to_our_notifications": "Манай мэдэгдлүүдийг захиалаарай",
+    "title__try_our_app_wallet_first_its_free": "Манай програмын түрийвчийг туршиж үзээрэй\\n эхлээд? Энэ Үнэгүй.",
     "title__tutorials": "Хичээлүүд",
     "title__view_all_products": "Бүх бүтээгдэхүүнийг үзэх"
 }

@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Xem ví của bên thứ ba tại đây",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Chống lừa đảo, SCAM và chặn ủy quyền hợp đồng độc hại",
     "content__browser_plug_in": "plug-in trình duyệt",
     "content__cost_of_a_onekey_hardware_wallet": "Chi phí của Ví phần cứng OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Giá trị tài sản tiền điện tử của bạn",
     "content__use_app_independently_without_hardware": "Sử dụng ứng dụng độc lập mà không cần phần cứng",
     "content__use_app_only": "Chỉ sử dụng ứng dụng",
+    "title__best_fido_key": "Khóa FIDO tốt nhất",
+    "title__best_fido_key_desc": "OneKey hỗ trợ các giao thức FIDO và FIDO2* và hoạt động với Google, GitHub, Dropbox, Binance và Coinbase. Hãy là một chìa khóa vật lý an toàn cho tài khoản của bạn. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> liệt kê tất cả các trang web 2FA của chúng tôi.",
+    "title__currency_support": "hỗ trợ tiền tệ",
+    "title__earths_strongest_wallet": "Ví mạnh nhất trái đất",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... Và nhiều hơn nữa. OneKey hỗ trợ hàng trăm ví phần mềm của bên thứ ba.",
+    "title__migrating_to_onekey": "Di chuyển sang OneKey",
+    "title__migrating_to_onekey_desc": "OneKey hỗ trợ tất cả các nền tảng và tiền xu, vì vậy bạn có thể chuyển sang nó từ Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken hoặc bất kỳ ví nào khác.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey so với các ví phần cứng khác",
-    "title__starting_from_free_buy_if_you_need_it": "Bắt đầu từ miễn phí. Hãy mua nếu bạn cần.",
+    "title__starting_from_free_buy_if_you_need_it": "Bắt đầu từ miễn phí.\\n Hãy mua nếu bạn cần.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Không cần phải có ví phần cứng để sử dụng ứng dụng.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Không có giới hạn về số lượng xu bạn có thể gửi.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Các sản phẩm và dịch vụ của chúng tôi đã được khách hàng trên toàn thế giới dùng thử và kiểm nghiệm.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Để sử dụng ví phần cứng, bạn chỉ cần trả một khoản phí nhỏ một lần.",
-    "title__use_the_app_wallet_to_feel_it_first": "Hãy dùng App Wallet để cảm nhận trước?",
+    "title__switch_to_open_source_wallet": "Chuyển sang ví mã nguồn mở.",
+    "title__switch_to_open_source_wallet_desc": "Ví nguồn đóng giống như một hộp đen, không ai biết điều gì đang xảy ra bên trong.\\n Tin tưởng vào mã và toán học, không phải quảng cáo.\\n Ví mã nguồn mở có thể kiểm chứng luôn là ví tốt nhất.",
     "title__why_use_onekey": "Tại sao nên sử dụng OneKey?",
-    "title__why_use_onekey_desc": "Mã nguồn mở và dễ sử dụng ngay từ ngày đầu tiên."
+    "title__why_use_onekey_desc": "Mã nguồn mở và dễ sử dụng ngay từ ngày đầu tiên.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Nếu không có ví phần cứng, tin tặc có thể đánh cắp tiền của bạn.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Mỗi ngày, tiền điện tử của mọi người bị chiếm đoạt bởi các cụm từ hạt giống hoặc hợp đồng có hại được ủy quyền bất hợp pháp. Mọi người luôn mất đồ trước khi hối tiếc vì không có ví phần cứng.\\n Ví phần cứng cách ly các khóa riêng của bạn khỏi mạng. Tất cả các giao dịch chữ ký được thực hiện an toàn trên thiết bị nên bạn có thể yên tâm."
 }

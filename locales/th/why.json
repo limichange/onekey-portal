@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "ดูกระเป๋าเงินของบุคคลที่สามที่นี่",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "การต่อต้านฟิชชิ่ง การหลอกลวง และการสกัดกั้นการให้สิทธิ์สัญญาที่เป็นอันตราย",
     "content__browser_plug_in": "ปลั๊กอินของเบราว์เซอร์",
     "content__cost_of_a_onekey_hardware_wallet": "ราคาของ OneKey Hardware Wallet",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "มูลค่าของสินทรัพย์ crypto ของคุณ",
     "content__use_app_independently_without_hardware": "ใช้แอพอย่างอิสระโดยไม่ต้องใช้ฮาร์ดแวร์",
     "content__use_app_only": "ใช้แอพเท่านั้น",
+    "title__best_fido_key": "คีย์ FIDO ที่ดีที่สุด",
+    "title__best_fido_key_desc": "OneKey รองรับโปรโตคอล FIDO และ FIDO2* และทำงานร่วมกับ Google, GitHub, Dropbox, Binance และ Coinbase เป็นรหัสทางกายภาพที่ปลอดภัยสำหรับบัญชีของคุณ <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> แสดงรายการไซต์ 2FA ทั้งหมดของเรา",
+    "title__currency_support": "รองรับสกุลเงิน",
+    "title__earths_strongest_wallet": "กระเป๋าเงินที่แข็งแกร่งที่สุดในโลก",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... และอีกมากมาย OneKey รองรับกระเป๋าซอฟต์แวร์บุคคลที่สามหลายร้อยรายการ",
+    "title__migrating_to_onekey": "การย้ายข้อมูลไปยัง OneKey",
+    "title__migrating_to_onekey_desc": "OneKey รองรับทุกแพลตฟอร์มและเหรียญ ดังนั้นคุณจึงสามารถเปลี่ยนจาก Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken หรือกระเป๋าเงินอื่น ๆ",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey เทียบกับฮาร์ดแวร์วอลเล็ตอื่นๆ",
-    "title__starting_from_free_buy_if_you_need_it": "เริ่มต้นจากฟรี ซื้อถ้าคุณต้องการมัน",
+    "title__starting_from_free_buy_if_you_need_it": "เริ่มต้นจากฟรี\\n ซื้อถ้าคุณต้องการมัน",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "ไม่จำเป็นต้องมีกระเป๋าเงินฮาร์ดแวร์เพื่อใช้แอพ",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "ไม่มีการจำกัดจำนวนเหรียญที่คุณสามารถฝากได้",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "ผลิตภัณฑ์และบริการของเราได้รับการทดลองและทดสอบจากลูกค้าทั่วโลก",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "ในการใช้กระเป๋าเงินฮาร์ดแวร์ คุณจะต้องจ่ายค่าธรรมเนียมเพียงเล็กน้อยเพียงครั้งเดียว",
-    "title__use_the_app_wallet_to_feel_it_first": "ใช้ App Wallet รู้สึกก่อนไหม?",
+    "title__switch_to_open_source_wallet": "เปลี่ยนเป็นกระเป๋าเงินโอเพ่นซอร์ส",
+    "title__switch_to_open_source_wallet_desc": "กระเป๋าเงินแบบปิดเป็นเหมือนกล่องดำ ไม่มีใครรู้ว่าข้างในเกิดอะไรขึ้น\\n รหัสความน่าเชื่อถือและคณิตศาสตร์ ไม่ใช่โฆษณา\\n กระเป๋าเงินโอเพ่นซอร์สที่ตรวจสอบได้นั้นดีที่สุดเสมอ",
     "title__why_use_onekey": "ทำไมต้องใช้ OneKey?",
-    "title__why_use_onekey_desc": "โอเพ่นซอร์สและใช้งานง่ายตั้งแต่วันแรก"
+    "title__why_use_onekey_desc": "โอเพ่นซอร์สและใช้งานง่ายตั้งแต่วันแรก",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "หากไม่มีกระเป๋าฮาร์ดแวร์ แฮ็กเกอร์อาจขโมยเหรียญของคุณ",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "ทุกวัน cryptos ของผู้คนถูกนำไปใช้โดยวลีหรือสัญญาที่เป็นอันตรายซึ่งได้รับอนุญาตอย่างผิดกฎหมาย ผู้คนมักจะสูญเสียสิ่งต่าง ๆ ก่อนที่จะเสียใจที่ไม่มีกระเป๋าเงินฮาร์ดแวร์\\n กระเป๋าเงินฮาร์ดแวร์แยกคีย์ส่วนตัวของคุณออกจากเครือข่าย ธุรกรรมลายเซ็นทั้งหมดทำอย่างปลอดภัยบนอุปกรณ์ คุณจึงสบายใจได้"
 }

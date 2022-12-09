@@ -29,6 +29,7 @@
     "content__bluetooth": "Bluetooth",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "На сьогоднішній день найкласичниший апаратний гаманець, яким можна користуватися навіть у дорозі, він має все.",
     "content__intel_chip": "Чіп Intel",
+    "content__mac_app_store": "Mac App Store",
     "content__mini_sized_safety_without_compromise": "Міні розміри, безпека без компромісів.",
     "content__no_results": "Немає результатів",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "Потужний резервний набір гаманця, виготовлений з авіаційного титану, з 2 копіями KeyTag, що входять до комплекту.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "Налаштуйте апаратний гаманець OneKey",
     "title__stay_in_touch": "Будь на зв'язку",
     "title__subscribe_to_our_notifications": "Підпишіться на наші сповіщення",
+    "title__try_our_app_wallet_first_its_free": "Спробуйте наш додаток гаманець\\n спочатку? Це безкоштовно.",
     "title__tutorials": "Підручники",
     "title__view_all_products": "Переглянути всі продукти"
 }

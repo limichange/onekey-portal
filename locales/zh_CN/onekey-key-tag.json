@@ -11,6 +11,6 @@
     "title__how_to_setup_desc_2": "在提供的打印单词列表中查找您的每个助记词，并依据黑色实心圆圈的位置打孔。",
     "title__record_24_words_and_2_extra_passphrases": "至强兼容能力，记录24位助记词+2组 Passphrase",
     "title__record_24_words_and_2_extra_passphrases_desc": "所有钱包都使用相同的BIP39单词列表来选择单词。这个列表包含2048个按字母顺序和编号的单词。在 KeyTag 中打入的不是字母和单词，而是代表它们在单词列表中各自位置的数字。\u2028\u2028你瞧，我们甚至额外增加了两栏用以记录 Passphrase。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny": "小，\\n超级小，\\n小到到让人惊叹。",
-    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "重量14g，身材只有信用卡约1\/4大小，带到哪里都不容易让人发现。"
+    "title__small_the_smallest_of_the_small_incredibly_tiny": "小，\\n超级小，\\n小到让人惊叹。",
+    "title__small_the_smallest_of_the_small_incredibly_tiny_desc": "重 14g，大小约为信用卡的 1\/4，想带到哪儿就带到哪儿。"
 }

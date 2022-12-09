@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "View third-party wallets here",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-phishing, SCAM and malicious contract authorization interception",
     "content__browser_plug_in": "Browser plug-in",
     "content__cost_of_a_onekey_hardware_wallet": "Cost of a OneKey Hardware Wallet",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "The value of your crypto assets",
     "content__use_app_independently_without_hardware": "Use App independently without hardware",
     "content__use_app_only": "Use app only",
+    "title__best_fido_key": "Best FIDO key",
+    "title__best_fido_key_desc": "OneKey supports FIDO and FIDO2 protocols* and works with Google, GitHub, Dropbox, Binance, and Coinbase. Be a secure physical key for your account. <Link to=\"https:\/\/2fa.directory\/\">2fa.directory<\/Link> lists all our 2FA sites.",
+    "title__currency_support": "Currency support",
+    "title__earths_strongest_wallet": "Earth's Strongest Wallet",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Specter, Wasabi, Sparrow... And so much more. OneKey supports hundreds of third-party software wallets.",
+    "title__migrating_to_onekey": "Migrating to OneKey",
+    "title__migrating_to_onekey_desc": "OneKey supports all platforms and coins, so you can switch to it from Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken, or any other wallet.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey compared to other hardware wallets",
-    "title__starting_from_free_buy_if_you_need_it": "Starting from free. Buy if you need it.",
+    "title__starting_from_free_buy_if_you_need_it": "Starting from free.\\nBuy if you need it.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Having a hardware wallet is not required to use the app.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "There is no cap on the amount of coins you can deposit.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Our products and services have been tried and tested by customers all over the world.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "In order to use a hardware wallet, you will only need to pay a small one-time fee.",
-    "title__use_the_app_wallet_to_feel_it_first": "Use the App Wallet to feel it first?",
-    "title__why_use_onekey": "Why use OneKey?",
-    "title__why_use_onekey_desc": "Open source and easy to use from day one."
+    "title__switch_to_open_source_wallet": "Switch to open-source wallet.",
+    "title__switch_to_open_source_wallet_desc": "Closed source wallet is just like a black box, no one knows what is happening inside. \\nTrust code and math, not ADs. \\nVerifiable open source wallet is always the best.",
+    "title__why_use_onekey": "Why use\\nOneKey?",
+    "title__why_use_onekey_desc": "Open source and easy to use from day one.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Without a hardware wallet, hackers may steal your coins.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Every day, people's cryptos are taken by seed phrases or harmful contracts that illegally get authorization. People always lose things before regretting not having a hardware wallet. \\nA hardware wallet isolates your private keys from the network. All signature transactions are done securely on the device, so you can rest easy. "
 }

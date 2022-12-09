@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "এখানে তৃতীয় পক্ষের ওয়ালেট দেখুন",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "অ্যান্টি-ফিশিং, স্ক্যাম এবং দূষিত চুক্তি অনুমোদন বাধা",
     "content__browser_plug_in": "ব্রাউজার প্লাগ-ইন",
     "content__cost_of_a_onekey_hardware_wallet": "একটি OneKey হার্ডওয়্যার ওয়ালেটের খরচ",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "আপনার ক্রিপ্টো সম্পদের মূল্য",
     "content__use_app_independently_without_hardware": "হার্ডওয়্যার ছাড়াই স্বাধীনভাবে অ্যাপ ব্যবহার করুন",
     "content__use_app_only": "শুধুমাত্র অ্যাপ ব্যবহার করুন",
+    "title__best_fido_key": "সেরা FIDO কী",
+    "title__best_fido_key_desc": "OneKey FIDO এবং FIDO2 প্রোটোকল* সমর্থন করে এবং Google, GitHub, Dropbox, Binance এবং Coinbase-এর সাথে কাজ করে। আপনার অ্যাকাউন্টের জন্য একটি নিরাপদ ফিজিক্যাল কী হোন। <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> আমাদের সমস্ত 2FA সাইটের তালিকা করে।",
+    "title__currency_support": "মুদ্রা সমর্থন",
+    "title__earths_strongest_wallet": "পৃথিবীর সবচেয়ে শক্তিশালী ওয়ালেট",
+    "title__earths_strongest_wallet_desc": "মেটামাস্ক, ফ্যান্টম, বিটকয়েন কোর, ইলেকট্রাম, স্পেকটার, ওয়াসাবি, স্প্যারো... এবং আরও অনেক কিছু। OneKey শত শত তৃতীয় পক্ষের সফ্টওয়্যার ওয়ালেট সমর্থন করে।",
+    "title__migrating_to_onekey": "OneKey-এ স্থানান্তরিত হচ্ছে",
+    "title__migrating_to_onekey_desc": "OneKey সমস্ত প্ল্যাটফর্ম এবং কয়েন সমর্থন করে, তাই আপনি লেজার, ট্রেজার, ফ্যান্টম, মেটামাস্ক, জেরিওন, টোকেনপকেট, ইমটোকেন বা অন্য কোনও ওয়ালেট থেকে এটিতে স্যুইচ করতে পারেন।",
     "title__onekey_compared_to_other_hardware_wallets": "অন্যান্য হার্ডওয়্যার ওয়ালেটের তুলনায় OneKey",
-    "title__starting_from_free_buy_if_you_need_it": "বিনামূল্যে থেকে শুরু. আপনার প্রয়োজন হলে কিনুন।",
+    "title__starting_from_free_buy_if_you_need_it": "বিনামূল্যে থেকে শুরু.\\n আপনার প্রয়োজন হলে কিনুন।",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "অ্যাপটি ব্যবহার করার জন্য হার্ডওয়্যার ওয়ালেট থাকার প্রয়োজন নেই।",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "আপনি যে পরিমাণ কয়েন জমা করতে পারবেন তার কোন ক্যাপ নেই।",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "আমাদের পণ্য এবং পরিষেবাগুলি সারা বিশ্ব জুড়ে গ্রাহকদের দ্বারা চেষ্টা এবং পরীক্ষা করা হয়েছে।",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "একটি হার্ডওয়্যার ওয়ালেট ব্যবহার করার জন্য, আপনাকে শুধুমাত্র একটি ছোট এককালীন ফি দিতে হবে৷",
-    "title__use_the_app_wallet_to_feel_it_first": "অ্যাপ ওয়ালেট ব্যবহার করে প্রথমে অনুভব করবেন?",
+    "title__switch_to_open_source_wallet": "ওপেন সোর্স ওয়ালেটে স্যুইচ করুন।",
+    "title__switch_to_open_source_wallet_desc": "ক্লোজড সোর্স ওয়ালেটটি একটি কালো বাক্সের মতো, কেউ জানে না ভিতরে কী ঘটছে।\\n বিশ্বাস কোড এবং গণিত, না ADs.\\n যাচাইযোগ্য ওপেন সোর্স ওয়ালেট সর্বদা সেরা।",
     "title__why_use_onekey": "কেন OneKey ব্যবহার করবেন?",
-    "title__why_use_onekey_desc": "ওপেন সোর্স এবং প্রথম দিন থেকেই ব্যবহার করা সহজ।"
+    "title__why_use_onekey_desc": "ওপেন সোর্স এবং প্রথম দিন থেকেই ব্যবহার করা সহজ।",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "হার্ডওয়্যার ওয়ালেট ছাড়া হ্যাকাররা আপনার কয়েন চুরি করতে পারে।",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "প্রতিদিন, মানুষের ক্রিপ্টো বীজ বাক্যাংশ বা ক্ষতিকারক চুক্তি দ্বারা নেওয়া হয় যা অবৈধভাবে অনুমোদন পায়। হার্ডওয়্যার ওয়ালেট না থাকার আফসোস করার আগে লোকেরা সর্বদা জিনিস হারায়।\\n একটি হার্ডওয়্যার ওয়ালেট নেটওয়ার্ক থেকে আপনার ব্যক্তিগত কীগুলিকে বিচ্ছিন্ন করে। সমস্ত স্বাক্ষর লেনদেন ডিভাইসে নিরাপদে সম্পন্ন হয়, যাতে আপনি সহজে বিশ্রাম নিতে পারেন।"
 }

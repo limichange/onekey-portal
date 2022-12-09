@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Ver monederos de terceros aquí",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-phishing, SCAM e interceptación de autorizaciones de contratos maliciosos",
     "content__browser_plug_in": "Plugin para el navegador",
     "content__cost_of_a_onekey_hardware_wallet": "Costo de una billetera de hardware OneKey",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "El valor de sus criptoactivos",
     "content__use_app_independently_without_hardware": "Use la aplicación de forma independiente sin hardware",
     "content__use_app_only": "Usar solo la aplicación",
+    "title__best_fido_key": "Mejor clave FIDO",
+    "title__best_fido_key_desc": "OneKey es compatible con los protocolos FIDO y FIDO2* y funciona con Google, GitHub, Dropbox, Binance y Coinbase. Ser una clave física segura para su cuenta. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> enumera todos nuestros sitios 2FA.",
+    "title__currency_support": "Soporte de moneda",
+    "title__earths_strongest_wallet": "La billetera más fuerte de la Tierra",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow... Y mucho más. OneKey admite cientos de carteras de software de terceros.",
+    "title__migrating_to_onekey": "Migración a OneKey",
+    "title__migrating_to_onekey_desc": "OneKey es compatible con todas las plataformas y monedas, por lo que puede cambiar a Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken o cualquier otra billetera.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey en comparación con otras billeteras de hardware",
-    "title__starting_from_free_buy_if_you_need_it": "A partir de gratis. Compra si lo necesitas.",
+    "title__starting_from_free_buy_if_you_need_it": "A partir de gratis.\\n Compra si lo necesitas.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "No es necesario tener una billetera de hardware para usar la aplicación.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "No hay límite en la cantidad de monedas que puede depositar.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Nuestros productos y servicios han sido probados y probados por clientes de todo el mundo.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Para usar una billetera de hardware, solo deberá pagar una pequeña tarifa única.",
-    "title__use_the_app_wallet_to_feel_it_first": "¿Usar la App Wallet para sentirlo primero?",
+    "title__switch_to_open_source_wallet": "Cambie a la billetera de código abierto.",
+    "title__switch_to_open_source_wallet_desc": "La billetera de código cerrado es como una caja negra, nadie sabe lo que sucede dentro.\\n Confíe en el código y las matemáticas, no en los AD.\\n La billetera de código abierto verificable es siempre la mejor.",
     "title__why_use_onekey": "¿Por qué usar OneKey?",
-    "title__why_use_onekey_desc": "Código abierto y fácil de usar desde el primer día."
+    "title__why_use_onekey_desc": "Código abierto y fácil de usar desde el primer día.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Sin una billetera de hardware, los piratas informáticos pueden robar sus monedas.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Todos los días, las criptos de las personas son tomadas por frases semilla o contratos dañinos que obtienen autorización ilegalmente. La gente siempre pierde cosas antes de arrepentirse de no tener una billetera de hardware.\\n Una billetera de hardware aísla sus claves privadas de la red. Todas las transacciones con firma se realizan de forma segura en el dispositivo, por lo que puede estar tranquilo."
 }

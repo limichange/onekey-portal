@@ -24,12 +24,13 @@ export const MacDownloadButton: FC<MacDownloadButtonProps> = (props) => {
   const menu = useMenu();
 
   const {
-    platforms: { macIntel, macSilicon },
+    platforms: { macIntel, macSilicon, macStore },
   } = useOneKeyDownloadData();
 
   const menus = [
     { name: macIntel.name, url: macIntel.url },
     { name: macSilicon.name, url: macSilicon.url },
+    { name: macStore.name, url: macStore.url },
   ];
 
   return (

@@ -29,6 +29,7 @@
     "content__bluetooth": "بلوتوث",
     "content__by_far_the_most_classic_hardware_wallet_you_can_use_it_even_on_the_go_the_one_that_has_it_all": "تعتبر محفظة الأجهزة الأكثر كلاسيكية إلى حد بعيد ، يمكنك استخدامها حتى أثناء التنقل ، تلك التي تحتوي على كل شيء.",
     "content__intel_chip": "رقاقة إنتل",
+    "content__mac_app_store": "متجر تطبيقات ماك",
     "content__mini_sized_safety_without_compromise": "حجم صغير ، أمان بدون تنازلات.",
     "content__no_results": "لا نتائج",
     "content__powerful_wallet_backup_kit_made_of_aircraft_grade_titanium_with_2_copies_of_keytag_included_in_the_kit": "مجموعة أدوات احتياطية قوية للمحفظة مصنوعة من التيتانيوم المستخدم في الطائرات ، مع نسختين من KeyTag مضمنة في المجموعة.",
@@ -120,6 +121,7 @@
     "title__set_up_your_onekey_hardware_wallet": "قم بإعداد OneKeyمحفظة الأجهزة الخاصة بك",
     "title__stay_in_touch": "ابق على تواصل",
     "title__subscribe_to_our_notifications": "اشترك في إشعاراتنا",
+    "title__try_our_app_wallet_first_its_free": "جرب محفظة التطبيق لدينا\\n أول؟ انه مجانا.",
     "title__tutorials": "دروس",
     "title__view_all_products": "مشاهدة جميع المنتجات"
 }

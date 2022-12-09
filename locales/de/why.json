@@ -1,4 +1,5 @@
 {
+    "action__view_third_party_wallets_here": "Sehen Sie sich hier Wallets von Drittanbietern an",
     "content__anti_phishing_scam_and_malicious_contract_authorization_interception": "Anti-Phishing, SCAM und böswilliges Abfangen von Vertragsautorisierungen",
     "content__browser_plug_in": "Browser-Plugin",
     "content__cost_of_a_onekey_hardware_wallet": "Kosten für eine OneKey Hardware Wallet",
@@ -13,13 +14,23 @@
     "content__the_value_of_your_crypto_assets": "Der Wert Ihrer Krypto-Assets",
     "content__use_app_independently_without_hardware": "App unabhängig ohne Hardware nutzen",
     "content__use_app_only": "Nur App verwenden",
+    "title__best_fido_key": "Bester FIDO-Schlüssel",
+    "title__best_fido_key_desc": "OneKey unterstützt die Protokolle FIDO und FIDO2* und funktioniert mit Google, GitHub, Dropbox, Binance und Coinbase. Seien Sie ein sicherer physischer Schlüssel für Ihr Konto. <Link to=\"https:\/\/2fa.directory\/\"> 2fa.directory <\/Link> listet alle unsere 2FA-Sites auf.",
+    "title__currency_support": "Währungsunterstützung",
+    "title__earths_strongest_wallet": "Die stärkste Geldbörse der Erde",
+    "title__earths_strongest_wallet_desc": "MetaMask, Phantom, Bitcoin Core, Electrum, Spectre, Wasabi, Sparrow ... und vieles mehr. OneKey unterstützt Hunderte von Software-Wallets von Drittanbietern.",
+    "title__migrating_to_onekey": "Migration zu OneKey",
+    "title__migrating_to_onekey_desc": "OneKey unterstützt alle Plattformen und Münzen, sodass Sie von Ledger, Trezor, Phantom, MetaMask, Zerion, TokenPocket, imToken oder jeder anderen Brieftasche darauf wechseln können.",
     "title__onekey_compared_to_other_hardware_wallets": "OneKey im Vergleich zu anderen Hardware Wallets",
-    "title__starting_from_free_buy_if_you_need_it": "Ab kostenlos. Kaufen Sie, wenn Sie es brauchen.",
+    "title__starting_from_free_buy_if_you_need_it": "Ab kostenlos.\\n Kaufen Sie, wenn Sie es brauchen.",
     "title__starting_from_free_buy_if_you_need_it_desc_1": "Für die Nutzung der App ist kein Hardware Wallet erforderlich.",
     "title__starting_from_free_buy_if_you_need_it_desc_2": "Es gibt keine Obergrenze für die Anzahl der Münzen, die Sie einzahlen können.",
     "title__starting_from_free_buy_if_you_need_it_desc_3": "Unsere Produkte und Dienstleistungen haben sich bei Kunden auf der ganzen Welt bewährt und getestet.",
     "title__starting_from_free_buy_if_you_need_it_desc_4": "Um eine Hardware-Wallet zu verwenden, müssen Sie nur eine geringe einmalige Gebühr bezahlen.",
-    "title__use_the_app_wallet_to_feel_it_first": "Verwenden Sie die App Wallet, um es zuerst zu fühlen?",
+    "title__switch_to_open_source_wallet": "Wechseln Sie zu einer Open-Source-Wallet.",
+    "title__switch_to_open_source_wallet_desc": "Closed-Source-Geldbörsen sind wie eine Blackbox, niemand weiß, was darin passiert.\\n Vertrauen Sie Code und Mathematik, nicht ADs.\\n Verifizierbare Open-Source-Brieftaschen sind immer die besten.",
     "title__why_use_onekey": "Warum OneKey verwenden?",
-    "title__why_use_onekey_desc": "Open Source und vom ersten Tag an einfach zu bedienen."
+    "title__why_use_onekey_desc": "Open Source und vom ersten Tag an einfach zu bedienen.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins": "Ohne eine Hardware-Wallet können Hacker Ihre Coins stehlen.",
+    "title__without_a_hardware_wallet_hackers_may_steal_your_coins_desc": "Jeden Tag werden die Kryptos von Menschen durch Seed-Phrasen oder schädliche Verträge gestohlen, die illegal autorisiert werden. Die Leute verlieren immer Dinge, bevor sie es bereuen, keine Hardware Wallet zu haben.\\n Eine Hardware-Wallet isoliert Ihre privaten Schlüssel vom Netzwerk. Alle Signaturtransaktionen werden sicher auf dem Gerät durchgeführt, sodass Sie sich beruhigt zurücklehnen können."
 }
