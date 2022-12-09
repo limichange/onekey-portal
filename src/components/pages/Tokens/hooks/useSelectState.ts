@@ -31,8 +31,10 @@ export function useSelectState() {
   }, [medium, tokenImplsData]);
 
   useEffect(() => {
-    setCurrentActiveChain(tokenImplsData[0]);
-  }, [tokenImplsData, setCurrentActiveChain]);
+    if (!currentActiveChain) {
+      setCurrentActiveChain(tokenImplsData[0]);
+    }
+  }, [tokenImplsData, setCurrentActiveChain, currentActiveChain]);
 
   const needShowChainAtSwitch = useMemo(
     () =>
