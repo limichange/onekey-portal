@@ -1,19 +1,25 @@
-import { useMemo } from 'react';
+import { FC, ReactNode, useMemo } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import {
-  DownloadTypes,
-  useDownloadData,
-} from '../../../../../data/useDownloadData';
-import { useMediaQuery, useRuntimeDetect } from '../../../../../hooks';
-import { Container, Flex, I18n, Img, Section, Span } from '../../../../base';
-import { FloatCursor, useFloatCursor } from '../../../../common';
+import { FloatCursor, useFloatCursor } from '..';
+import { DownloadTypes, useDownloadData } from '../../../data/useDownloadData';
+import { useMediaQuery, useRuntimeDetect } from '../../../hooks';
+import { Box, Container, Flex, I18n, Img, Section, Span } from '../../base';
 
 import arrowSvg from './images/arrow.svg';
 import { StartItem } from './StartItem';
 
-export const Start = () => {
+export interface StartSectionProps {
+  title?: string | ReactNode;
+}
+
+export const StartSection: FC<StartSectionProps> = (props) => {
+  const {
+    title = (
+      <I18n name="title__start_using_onekey_wallet_today" alwaysMultiLine />
+    ),
+  } = props;
   const theme = useTheme();
   const media = useMediaQuery();
   const downloadData = useDownloadData();
@@ -69,30 +75,37 @@ export const Start = () => {
               paddingBottom: 164,
             }}
           >
-            <Flex
-              xs={{ gap: 16, flexDirection: 'column' }}
-              m={{ flexDirection: 'row', alignItems: 'flex-end' }}
+            <Box
+              xs={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 16,
+              }}
+              m={{
+                display: 'block',
+              }}
             >
               <Span
                 css={{ color: theme.colors.test500 }}
                 xs={{ ...theme.text.medium900 }}
                 xl={{ ...theme.text.medium1200 }}
               >
-                <I18n
-                  name="title__start_using_onekey_wallet_today"
-                  alwaysMultiLine
-                />
+                {title}
               </Span>
 
               <Img
-                alt="arrow.svg"
+                alt="arrow"
                 src={arrowSvg}
                 css={{
-                  width: 106 / 2,
-                  height: 100 / 2,
+                  marginBottom: -10,
+                  maxWidth: 106 / 2,
+                  maxHeight: 100 / 2,
+                }}
+                m={{
+                  marginLeft: 16,
                 }}
               />
-            </Flex>
+            </Box>
             <Flex
               onMouseEnter={() => setStatus('active')}
               onMouseLeave={() => setStatus('hidden')}

@@ -23,7 +23,7 @@ export function useTechnicalSpecificationsSectionData() {
             },
             {
               title2: t('title__weight'),
-              description: 'N/A',
+              description: '75g',
             },
           ],
         },

@@ -1,7 +1,7 @@
 import {
   AnimatedSprite,
   Application,
-  Loader,
+  Assets,
   Resource,
   Texture,
 } from 'pixi.js';
@@ -30,20 +30,15 @@ export function init(
   });
 
   // set black background
-  app.renderer.backgroundColor = 0xffffff;
-
-  const loader = new Loader();
+  // app.renderer.backgroundColor = 0xffffff;
 
   // remove duplicated images
   const imagesWithoutDuplicated = images.filter(
     (image, index) => images.indexOf(image) === index,
   );
 
-  for (const image of imagesWithoutDuplicated) {
-    loader.add(image);
-  }
-
-  loader.load(() => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+  Assets.loadBundle(imagesWithoutDuplicated).then(() => {
     // create textures from resources
     const textures: Texture<Resource>[] = [];
 

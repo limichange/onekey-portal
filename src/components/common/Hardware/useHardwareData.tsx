@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
-import { Loader } from 'pixi.js';
+import { Assets } from 'pixi.js';
 
-import { useOneKeyProduct } from '../../../../../data/useOneKeyProduct';
+import { useOneKeyProduct } from '../../../data/useOneKeyProduct';
 
 import classicOutlineImage from './images/classic.svg';
 import classicHover from './images/classicHover.png';
@@ -16,7 +16,8 @@ export function useHardwareData(): ItemProps[] {
   const oneKeyProduct = useOneKeyProduct();
 
   useEffect(() => {
-    new Loader().add(miniHover).add(touchHover).load();
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+    Assets.load([miniHover, touchHover]);
   }, []);
   return [
     {

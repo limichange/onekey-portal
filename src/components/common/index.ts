@@ -28,3 +28,6 @@ export * from './BoldHighlight';
 export * from './RedHighlight';
 export * from './PrevAndNext';
 export * from './CompatibilitySection';
+export * from './Hardware';
+export * from './StartSection';
+export * from './SectionContainer';

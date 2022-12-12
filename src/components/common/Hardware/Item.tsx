@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { useHover, useMediaQuery } from '../../../../../hooks';
-import { Box, Flex, Link, Span } from '../../../../base';
+import { useHover, useMediaQuery } from '../../../hooks';
+import { Box, Flex, Link, Span } from '../../base';
 
 import { ComingSoon } from './ComingSoon';
 

@@ -13,6 +13,10 @@ interface CanvasPlayerNextProps {
   backgroundColor: string;
   width: number;
   height: number;
+  frameSize?: {
+    width: number;
+    height: number;
+  };
   onTotalProgressChange?: (
     progress: number,
     currentState: ProgressStateItem | undefined,
@@ -28,6 +32,7 @@ export const CanvasPlayerNext: FC<CanvasPlayerNextProps> = (props) => {
     frames,
     width,
     height,
+    frameSize,
     onTotalProgressChange,
     onUpdate = () => {},
     onInit = () => {},
@@ -45,6 +50,7 @@ export const CanvasPlayerNext: FC<CanvasPlayerNextProps> = (props) => {
         width,
         height,
         backgroundColor,
+        frameSize,
         onUpdate,
       });
 
@@ -68,6 +74,7 @@ export const CanvasPlayerNext: FC<CanvasPlayerNextProps> = (props) => {
     backgroundColor,
     onUpdate,
     onInit,
+    frameSize,
   ]);
 
   useEffect(() => {

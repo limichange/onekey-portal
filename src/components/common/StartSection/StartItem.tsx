@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { DownloadTypes } from '../../../../../data/useDownloadData';
-import { Box, Flex, Link, Span } from '../../../../base';
-import { PlatformIcon } from '../../../../common';
+import { PlatformIcon } from '..';
+import { DownloadTypes } from '../../../data/useDownloadData';
+import { Box, Flex, Link, Span } from '../../base';
 
 export interface StartItemProps {
   name: string;

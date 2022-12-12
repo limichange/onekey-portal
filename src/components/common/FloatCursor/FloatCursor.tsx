@@ -18,6 +18,7 @@ export const FloatCursor: FC<FloatCursorProps> = (props) => {
   return (
     <motion.div
       style={{
+        opacity: 0,
         width: 72,
         height: 72,
         originX: 0.5,

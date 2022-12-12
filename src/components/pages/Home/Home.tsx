@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet';
 import { isBrowser } from '../../../utils';
 import { Box, Main, SEO } from '../../base';
 import { FadeIn } from '../../base/FadeIn';
+import { Hardware, StartSection } from '../../common';
 import { Navigation } from '../../common/Navigation';
 import { PageFooter } from '../../common/PageFooter';
 
@@ -14,13 +15,11 @@ import {
   Contact,
   FAQ,
   Feature,
-  Hardware,
   Header,
   LogoWall,
   MultiImageIntroduction,
   Rewards,
   Security,
-  Start,
   WhatOurUsersSay,
   Why,
 } from './components';
@@ -145,7 +144,7 @@ export const Home: React.FC = () => {
         </FadeIn>
 
         <FadeIn>
-          <Start />
+          <StartSection />
         </FadeIn>
 
         <FadeIn>

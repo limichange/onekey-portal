@@ -39,7 +39,7 @@ function useMouse(ref: RefObject<HTMLDivElement>) {
 }
 
 export function useFloatCursor() {
-  const lastPosition = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const lastPosition = useRef<{ x: number; y: number }>({ x: 0, y: -200 });
   const [cursorVariant, setCursorVariant] =
     useState<FloatCursorStatus>('hidden');
   const ref = useRef<HTMLDivElement>(null);

@@ -3,8 +3,8 @@ import { nanoid } from 'nanoid';
 import {
   AnimatedSprite,
   Application,
+  Assets,
   Container,
-  Loader,
   Texture,
 } from 'pixi.js';
 
@@ -13,6 +13,10 @@ export type PlayerConfig = {
   width: number;
   height: number;
   backgroundColor?: string;
+  frameSize?: {
+    width: number;
+    height: number;
+  };
   onUpdate?: (data: {
     currentState?: ProgressStateItem;
     progressStates: ProgressStates;
@@ -73,8 +77,18 @@ class Player {
   onUpdate: PlayerConfig['onUpdate'];
 
   constructor(config: PlayerConfig) {
-    const { element, width, height, onUpdate } = config;
+    const {
+      element,
+      width,
+      height,
+      onUpdate,
+      frameSize = {
+        width: 1920,
+        height: 1440,
+      },
+    } = config;
 
+    this.frameSize = frameSize;
     this.width = width;
     this.height = height;
     this.onUpdate = onUpdate;
@@ -435,11 +449,8 @@ class Player {
   }
 
   load(url: string, callback: () => void) {
-    const loader = new Loader().add(url);
-
-    loader.load(callback);
-
-    return loader;
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+    Assets.load<string[]>(url).then(callback);
   }
 }
 

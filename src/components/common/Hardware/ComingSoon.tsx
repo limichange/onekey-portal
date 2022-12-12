@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import { BoxProps, I18n, Span } from '../../../../base';
+import { BoxProps, I18n, Span } from '../../base';
 
 export const ComingSoon: FC<BoxProps> = (props) => {
   const theme = useTheme();

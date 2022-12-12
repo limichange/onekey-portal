@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { Box, Container, Section } from '../../../../base';
+import { Box, Button, Container, I18n, Link, Section } from '../../../../base';
 import { FadeIn } from '../../../../base/FadeIn';
 
 import { SideImage } from './components/SideImage';
@@ -48,9 +48,11 @@ export const WhatMakesOneKeyDifferent: FC<WhatMakesOneKeyDifferentProps> = (
                 m={{ gridTemplateColumns: `repeat(2, 1fr)` }}
               >
                 <Box>
-                  {/* <Button variant="outlined">
-                    <I18n name="action__learn_more" />
-                  </Button> */}
+                  <Link to="/why">
+                    <Button variant="outlined">
+                      <I18n name="action__learn_more" />
+                    </Button>
+                  </Link>
                 </Box>
 
                 <Story1 />

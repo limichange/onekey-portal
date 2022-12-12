@@ -1,4 +1,10 @@
-import { FC, VideoHTMLAttributes, useEffect, useRef } from 'react';
+import {
+  CSSProperties,
+  FC,
+  VideoHTMLAttributes,
+  useEffect,
+  useRef,
+} from 'react';
 
 export type VideoStatus = 'ready' | 'play' | 'loading';
 
@@ -7,10 +13,20 @@ export interface VideoPlayerProps
   src: string;
   poster?: string;
   status?: VideoStatus;
+  loop?: boolean;
+  autoPlay?: boolean;
+  style?: CSSProperties;
 }
 
 export const VideoPlayer: FC<VideoPlayerProps> = (props) => {
-  const { src, poster, status = 'play', ...rest } = props;
+  const {
+    src,
+    poster,
+    status = 'play',
+    loop = true,
+    style = {},
+    ...rest
+  } = props;
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -26,7 +42,7 @@ export const VideoPlayer: FC<VideoPlayerProps> = (props) => {
       playsInline
       ref={videoRef}
       controls={false}
-      loop
+      loop={loop}
       preload="true"
       autoPlay
       muted
@@ -35,6 +51,7 @@ export const VideoPlayer: FC<VideoPlayerProps> = (props) => {
         width: '100%',
         height: 'auto',
         objectFit: 'cover',
+        ...style,
       }}
       src={src}
       poster={poster}

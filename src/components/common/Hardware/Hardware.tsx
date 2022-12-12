@@ -4,8 +4,9 @@ import { useTheme } from '@emotion/react';
 import { motion, useMotionValue } from 'framer-motion';
 import { FreeMode } from 'swiper';
 
-import { useMediaQuery, usePositionAnimation } from '../../../../../hooks';
-import { mergeRefs } from '../../../../../utils';
+import { FloatCursor, useFloatCursor } from '..';
+import { useMediaQuery, usePositionAnimation } from '../../../hooks';
+import { mergeRefs } from '../../../utils';
 import {
   Box,
   Container,
@@ -15,8 +16,7 @@ import {
   Span,
   Swiper as SwiperComponent,
   SwiperSlide,
-} from '../../../../base';
-import { FloatCursor, useFloatCursor } from '../../../../common';
+} from '../../base';
 
 import cursorImage from './images/cursor.svg';
 import { Item } from './Item';
