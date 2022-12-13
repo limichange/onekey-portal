@@ -38,7 +38,7 @@ export const CompatibilitySection: FC<CompatibilitySectionProps> = (props) => {
           >
             {data.map((item, index) => {
               if (!isSeeMore && index >= 12) {
-                return <div />;
+                return <div key={item.name} />;
               }
 
               return <CompatibilitySectionItem key={item.name} {...item} />;

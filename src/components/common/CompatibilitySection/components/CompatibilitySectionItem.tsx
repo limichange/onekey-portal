@@ -8,7 +8,6 @@ import {
   Box,
   Divider,
   Img,
-  Link,
   OnlyDisplay,
   Span,
 } from '../../../base';
@@ -27,7 +26,12 @@ export const CompatibilitySectionItem: FC<CompatibilitySectionItemProps> = (
   const theme = useTheme();
 
   return (
-    <Link to={url}>
+    <Box
+      xs={{ cursor: 'pointer' }}
+      onClick={() => {
+        window.open(url);
+      }}
+    >
       <Divider color={theme.colors.test200} />
 
       <Box
@@ -104,6 +108,6 @@ export const CompatibilitySectionItem: FC<CompatibilitySectionItemProps> = (
 
         {children}
       </Box>
-    </Link>
+    </Box>
   );
 };
