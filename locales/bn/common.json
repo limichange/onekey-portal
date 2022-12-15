@@ -118,10 +118,12 @@
     "title__price": "দাম",
     "title__resellers": "রিসেলার",
     "title__security": "নিরাপত্তা",
+    "title__security_architecture": "নিরাপত্তা আর্কিটেকচার",
     "title__set_up_your_onekey_hardware_wallet": "আপনার OneKeyহার্ডওয়্যার ওয়ালেট সেট আপ করুন",
     "title__stay_in_touch": "সাথে থাকুন",
     "title__subscribe_to_our_notifications": "আমাদের বিজ্ঞপ্তি সাবস্ক্রাইব করুন",
     "title__try_our_app_wallet_first_its_free": "আমাদের অ্যাপ ওয়ালেট চেষ্টা করুন\\n প্রথম? এটা বিনামূল্যে.",
     "title__tutorials": "টিউটোরিয়াল",
-    "title__view_all_products": "সমস্ত পণ্য দেখুন"
+    "title__view_all_products": "সমস্ত পণ্য দেখুন",
+    "title__why_onekey": "কেন OneKey"
 }

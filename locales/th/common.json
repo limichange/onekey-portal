@@ -118,10 +118,12 @@
     "title__price": "ราคา",
     "title__resellers": "ตัวแทนจำหน่าย",
     "title__security": "ความปลอดภัย",
+    "title__security_architecture": "สถาปัตยกรรมความปลอดภัย",
     "title__set_up_your_onekey_hardware_wallet": "ตั้งค่า OneKey hardware wallet ของคุณ",
     "title__stay_in_touch": "อยู่ในการติดต่อ",
     "title__subscribe_to_our_notifications": "สมัครรับการแจ้งเตือนของเรา",
     "title__try_our_app_wallet_first_its_free": "ลองใช้กระเป๋าเงินแอปของเรา\\n แรก? แจกฟรี.",
     "title__tutorials": "บทช่วยสอน",
-    "title__view_all_products": "ดูสินค้าทั้งหมด"
+    "title__view_all_products": "ดูสินค้าทั้งหมด",
+    "title__why_onekey": "ทำไมต้องวันคีย์"
 }

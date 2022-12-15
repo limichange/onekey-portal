@@ -118,10 +118,12 @@
     "title__price": "Цена",
     "title__resellers": "Реселлеры",
     "title__security": "безопасность",
+    "title__security_architecture": "Архитектура безопасности",
     "title__set_up_your_onekey_hardware_wallet": "Настройте аппаратный кошелек OneKey",
     "title__stay_in_touch": "Оставайтесь на связи",
     "title__subscribe_to_our_notifications": "Подпишитесь на наши уведомления",
     "title__try_our_app_wallet_first_its_free": "Попробуйте наш кошелек приложения\\n первый? Это бесплатно.",
     "title__tutorials": "Учебники",
-    "title__view_all_products": "Посмотреть все продукты"
+    "title__view_all_products": "Посмотреть все продукты",
+    "title__why_onekey": "Почему OneKey"
 }

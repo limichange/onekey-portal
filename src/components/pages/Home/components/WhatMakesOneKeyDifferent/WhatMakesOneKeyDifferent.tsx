@@ -47,7 +47,7 @@ export const WhatMakesOneKeyDifferent: FC<WhatMakesOneKeyDifferentProps> = (
                 }}
                 m={{ gridTemplateColumns: `repeat(2, 1fr)` }}
               >
-                <Box>
+                <Box xs={{ width: 'fit-content' }}>
                   <Link to="/why">
                     <Button variant="outlined">
                       <I18n name="action__learn_more" />

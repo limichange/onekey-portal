@@ -118,10 +118,12 @@
     "title__price": "سعر",
     "title__resellers": "الموزعين",
     "title__security": "الأمان",
+    "title__security_architecture": "هندسة الأمن",
     "title__set_up_your_onekey_hardware_wallet": "قم بإعداد OneKeyمحفظة الأجهزة الخاصة بك",
     "title__stay_in_touch": "ابق على تواصل",
     "title__subscribe_to_our_notifications": "اشترك في إشعاراتنا",
     "title__try_our_app_wallet_first_its_free": "جرب محفظة التطبيق لدينا\\n أول؟ انه مجانا.",
     "title__tutorials": "دروس",
-    "title__view_all_products": "مشاهدة جميع المنتجات"
+    "title__view_all_products": "مشاهدة جميع المنتجات",
+    "title__why_onekey": "لماذا OneKey"
 }

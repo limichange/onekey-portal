@@ -118,10 +118,12 @@
     "title__price": "Presyo",
     "title__resellers": "Mga reseller",
     "title__security": "seguridad",
+    "title__security_architecture": "Arkitektura ng Seguridad",
     "title__set_up_your_onekey_hardware_wallet": "I-set up ang iyong OneKey hardware wallet",
     "title__stay_in_touch": "Manatiling nakikipag-ugnayan",
     "title__subscribe_to_our_notifications": "Mag-subscribe sa aming mga notification",
     "title__try_our_app_wallet_first_its_free": "Subukan ang aming app wallet\\n una? Ito'y LIBRE.",
     "title__tutorials": "Mga Tutorial",
-    "title__view_all_products": "Tingnan ang Lahat ng Produkto"
+    "title__view_all_products": "Tingnan ang Lahat ng Produkto",
+    "title__why_onekey": "Bakit OneKey"
 }

@@ -118,10 +118,12 @@
     "title__price": "価格",
     "title__resellers": "再販業者",
     "title__security": "安全",
+    "title__security_architecture": "セキュリティ アーキテクチャ",
     "title__set_up_your_onekey_hardware_wallet": "OneKey ハードウェアウォレットを設定する",
     "title__stay_in_touch": "連絡を取り合う",
     "title__subscribe_to_our_notifications": "通知を購読する",
     "title__try_our_app_wallet_first_its_free": "まずは無料でアプリウォレットをお試してみよう？",
     "title__tutorials": "チュートリアル",
-    "title__view_all_products": "全ての製品を表示"
+    "title__view_all_products": "全ての製品を表示",
+    "title__why_onekey": "OneKey を選ぶ理由"
 }

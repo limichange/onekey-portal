@@ -118,10 +118,12 @@
     "title__price": "價格",
     "title__resellers": "經銷商",
     "title__security": "安全",
+    "title__security_architecture": "安全架構",
     "title__set_up_your_onekey_hardware_wallet": "設置您的OneKey硬件錢包",
     "title__stay_in_touch": "保持聯繫",
     "title__subscribe_to_our_notifications": "訂閱我們的通知",
     "title__try_our_app_wallet_first_its_free": "試試我們的應用程序錢包\\n第一的？免費。",
     "title__tutorials": "教程",
-    "title__view_all_products": "查看所有產品"
+    "title__view_all_products": "查看所有產品",
+    "title__why_onekey": "為什麼選擇 Onekey"
 }

@@ -118,10 +118,12 @@
     "title__price": "Ціна",
     "title__resellers": "Торгові посередники",
     "title__security": "безпеки",
+    "title__security_architecture": "Архітектура безпеки",
     "title__set_up_your_onekey_hardware_wallet": "Налаштуйте апаратний гаманець OneKey",
     "title__stay_in_touch": "Будь на зв'язку",
     "title__subscribe_to_our_notifications": "Підпишіться на наші сповіщення",
     "title__try_our_app_wallet_first_its_free": "Спробуйте наш додаток гаманець\\n спочатку? Це безкоштовно.",
     "title__tutorials": "Підручники",
-    "title__view_all_products": "Переглянути всі продукти"
+    "title__view_all_products": "Переглянути всі продукти",
+    "title__why_onekey": "Чому OneKey"
 }

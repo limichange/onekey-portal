@@ -118,10 +118,12 @@
     "title__price": "Price",
     "title__resellers": "Resellers",
     "title__security": "security",
+    "title__security_architecture": "Security Architecture",
     "title__set_up_your_onekey_hardware_wallet": "Set up your OneKey hardware wallet",
     "title__stay_in_touch": "Stay in touch",
     "title__subscribe_to_our_notifications": "Subscribe to our notifications",
     "title__try_our_app_wallet_first_its_free": "Try our app wallet \\nfirst? It's free.",
     "title__tutorials": "Tutorials",
-    "title__view_all_products": "View All Products"
+    "title__view_all_products": "View All Products",
+    "title__why_onekey": "Why OneKey"
 }

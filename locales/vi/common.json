@@ -118,10 +118,12 @@
     "title__price": "Giá bán",
     "title__resellers": "đại lý",
     "title__security": "Bảo vệ",
+    "title__security_architecture": "Kiến trúc bảo mật",
     "title__set_up_your_onekey_hardware_wallet": "Thiết lập ví phần cứng OneKey của bạn",
     "title__stay_in_touch": "Giữ liên lạc",
     "title__subscribe_to_our_notifications": "Đăng ký nhận thông báo của chúng tôi",
     "title__try_our_app_wallet_first_its_free": "Hãy thử ví ứng dụng của chúng tôi\\n Đầu tiên? Nó miễn phí.",
     "title__tutorials": "Hướng dẫn",
-    "title__view_all_products": "Xem tất cả các sản phẩm"
+    "title__view_all_products": "Xem tất cả các sản phẩm",
+    "title__why_onekey": "Tại sao OneKey"
 }

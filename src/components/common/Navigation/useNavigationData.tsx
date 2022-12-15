@@ -170,7 +170,18 @@ export function useNavigationDataObject(): Record<
   const security = {
     name: t('menu__security'),
     key: 'security',
-    path: '/security',
+    subItems: [
+      {
+        name: t('title__why_onekey'),
+        key: t('title__why_onekey'),
+        path: '/why',
+      },
+      {
+        name: t('title__security_architecture'),
+        key: t('title__security_architecture'),
+        path: '/security',
+      },
+    ],
   };
 
   const forDeveloper = {

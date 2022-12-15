@@ -118,10 +118,12 @@
     "title__price": "Үнэ",
     "title__resellers": "Борлуулагчид",
     "title__security": "аюулгүй байдал",
+    "title__security_architecture": "Аюулгүй байдлын архитектур",
     "title__set_up_your_onekey_hardware_wallet": "OneKey тоног төхөөрөмжийн түрийвчээ тохируулна уу",
     "title__stay_in_touch": "Холбоотой байгаарай",
     "title__subscribe_to_our_notifications": "Манай мэдэгдлүүдийг захиалаарай",
     "title__try_our_app_wallet_first_its_free": "Манай програмын түрийвчийг туршиж үзээрэй\\n эхлээд? Энэ Үнэгүй.",
     "title__tutorials": "Хичээлүүд",
-    "title__view_all_products": "Бүх бүтээгдэхүүнийг үзэх"
+    "title__view_all_products": "Бүх бүтээгдэхүүнийг үзэх",
+    "title__why_onekey": "Яагаад OneKey"
 }
