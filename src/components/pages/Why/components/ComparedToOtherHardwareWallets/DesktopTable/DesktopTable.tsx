@@ -32,7 +32,12 @@ export const DesktopTable: FC<DesktopTableProps> = (props) => {
             <Fragment key={item.name}>
               {/* only mobile */}
               <tr css={{ position: 'relative' }}>
-                <Box as="td" colSpan={3} m={{ display: 'none' }}>
+                <Box
+                  as="td"
+                  colSpan={3}
+                  xs={{ position: 'relative' }}
+                  m={{ display: 'none' }}
+                >
                   <Box
                     xs={{
                       background: '#F0F1F2',
