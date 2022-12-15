@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import { useTheme } from '@emotion/react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { splitMultiline } from '../../../../../utils';
+import { splitMultiline, staticAssetPrefix } from '../../../../../utils';
 import {
   ArrowRightIcon,
   Box,
@@ -36,7 +36,7 @@ export function useScrollStory(): ScrollStoryItem[] {
           components={{}}
         />
       ),
-      video: '/why-video/why-feature-01.mp4',
+      video: staticAssetPrefix('/why-video/why-feature-01.mp4'),
     },
     {
       title: t('title__switch_to_open_source_wallet'),
@@ -48,12 +48,12 @@ export function useScrollStory(): ScrollStoryItem[] {
           components={{}}
         />
       ),
-      video: '/why-video/why-feature-02.mp4',
+      video: staticAssetPrefix('/why-video/why-feature-02.mp4'),
     },
     {
       title: t('title__earths_strongest_wallet'),
       content: t('title__earths_strongest_wallet_desc'),
-      video: '/why-video/why-feature-03.mp4',
+      video: staticAssetPrefix('/why-video/why-feature-03.mp4'),
       button: (
         <Box xs={{ width: 'fit-content' }}>
           <Link to="/shop/#compatibility-section">
@@ -70,7 +70,7 @@ export function useScrollStory(): ScrollStoryItem[] {
     {
       title: t('title__migrating_to_onekey'),
       content: t('title__migrating_to_onekey_desc'),
-      video: '/why-video/why-feature-04.mp4',
+      video: staticAssetPrefix('/why-video/why-feature-04.mp4'),
       button: (
         <Box xs={{ width: 'fit-content' }}>
           <Link to="/tokens">
@@ -122,7 +122,7 @@ export function useScrollStory(): ScrollStoryItem[] {
           />
         </Box>
       ),
-      video: '/why-video/why-feature-05.mp4',
+      video: staticAssetPrefix('/why-video/why-feature-05.mp4'),
     },
   ];
 }

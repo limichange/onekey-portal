@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { isBrowser } from '../../../../../utils';
+import { isBrowser, staticAssetPrefix } from '../../../../../utils';
 import { Box, VideoPlayer } from '../../../../base';
 
 export interface HeroVideoProps {
@@ -24,7 +24,7 @@ export const HeroVideo: FC<HeroVideoProps> = (props) => {
             height: '100%',
             width: '100%',
           }}
-          src="/why-video/why-hero.mp4"
+          src={staticAssetPrefix('/why-video/why-hero.mp4')}
         />
       )}
 
