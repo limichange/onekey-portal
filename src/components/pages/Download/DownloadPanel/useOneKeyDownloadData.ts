@@ -193,6 +193,10 @@ export function useOneKeyDownloadData() {
           text: t('title__package_checksum'),
           url: 'https://help.onekey.so/hc/articles/4978747315343',
         },
+        {
+          text: t('title__linux_install'),
+          url: 'https://help.onekey.so/hc/articles/6064684585359',
+        },
       ],
     },
   };
