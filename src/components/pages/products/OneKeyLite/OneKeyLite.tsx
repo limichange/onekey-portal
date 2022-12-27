@@ -1,8 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
-
-import { Box, Main } from '../../../base';
+import { Box, Main, SEO } from '../../../base';
 import {
   Navigation,
   PageFooter,
@@ -30,9 +28,11 @@ export const OneKeyLite: FC<OneKeyLiteProps> = (props) => {
 
   return (
     <Box>
-      <Helmet>
-        <title>{OneKeyLiteData.title}</title>
-      </Helmet>
+      <SEO
+        title={OneKeyLiteData.title}
+        description={OneKeyLiteData.productInformationData.description}
+        image="https://www.onekey.so/og/og-onekey-lite.jpg"
+      />
 
       <Navigation>
         <NavigationCart {...OneKeyLiteData.productInformationData} />

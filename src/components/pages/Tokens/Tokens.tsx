@@ -1,9 +1,10 @@
 import { FC, ReactNode, useState } from 'react';
 
 import { useTheme } from '@emotion/react';
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, Container, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Container, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { PageTitle } from './components/PageTitle';
@@ -23,12 +24,14 @@ export const Tokens: FC<TokensProps> = (props) => {
   const [searchInputValue, setSearchInputValue] = useState('');
   const { currentActiveChain } = useSelectState();
   const { data } = useTokenList(currentActiveChain);
+  const { t } = useTranslation();
 
   return (
     <Box xs={{ background: theme.colors.test100 }}>
-      <Helmet>
-        <title>Tokens</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('menu__token_list'))}
+        description={oneLine(t('menu__token_list_desc'))}
+      />
 
       <Navigation>
         <Box

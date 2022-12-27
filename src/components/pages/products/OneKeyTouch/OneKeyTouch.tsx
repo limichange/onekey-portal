@@ -1,9 +1,7 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
-
 import { useGPUTier } from '../../../../hooks';
-import { Box, Main, OnlyDisplay } from '../../../base';
+import { Box, Main, OnlyDisplay, SEO } from '../../../base';
 import {
   Navigation,
   PageFooter,
@@ -34,9 +32,11 @@ export const OneKeyTouch: FC<OneKeyTouchProps> = (props) => {
 
   return (
     <Box>
-      <Helmet>
-        <title>{onekeyTouchData.title}</title>
-      </Helmet>
+      <SEO
+        title={onekeyTouchData.title}
+        description={onekeyTouchData.productInformationData.description}
+        image="https://www.onekey.so/og/og-onekey-touch.jpg"
+      />
 
       <Navigation />
 

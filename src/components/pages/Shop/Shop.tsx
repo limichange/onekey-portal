@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
+import { oneLine } from '../../../utils';
 import { Container, Main, SEO } from '../../base';
 import {
   CompatibilitySection,
@@ -15,34 +16,37 @@ import { Hero } from './components/Hero';
 import { ProductCompare } from './components/ProductCompare';
 import { Products } from './components/Products';
 
-export const Shop: React.FC = () => (
-  <>
-    <Helmet>
-      <title>Shop</title>
-    </Helmet>
+export const Shop: React.FC = () => {
+  const { t } = useTranslation();
 
-    <SEO title="onekey" />
+  return (
+    <>
+      <SEO
+        title={oneLine(t('title__shop_onekey'))}
+        description={t('title__shop_onekey_desc')}
+      />
 
-    <Navigation />
+      <Navigation />
 
-    <Main>
-      <Hero />
+      <Main>
+        <Hero />
 
-      <Container>
-        <Products />
-      </Container>
+        <Container>
+          <Products />
+        </Container>
 
-      <CompatibilitySection />
+        <CompatibilitySection />
 
-      <ProductCompare />
+        <ProductCompare />
 
-      <Container>
-        <TwoMediaCards />
-      </Container>
+        <Container>
+          <TwoMediaCards />
+        </Container>
 
-      <StayInTouchWidthContainerAndPadding />
-    </Main>
+        <StayInTouchWidthContainerAndPadding />
+      </Main>
 
-    <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
-  </>
-);
+      <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
+    </>
+  );
+};

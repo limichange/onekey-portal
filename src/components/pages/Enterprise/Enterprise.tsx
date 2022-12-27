@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, Container, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Container, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { Hero } from './Hero';
@@ -13,12 +14,15 @@ export interface EnterpriseProps {
 
 export const Enterprise: FC<EnterpriseProps> = (props) => {
   const { children } = props;
+  const { t } = useTranslation();
 
   return (
     <Box>
-      <Helmet>
-        <title>OneKey</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('title__enterprise_solutions'))}
+        description={t('title__enterprise_solutions_desc')}
+      />
+
       <Navigation />
 
       <Main>

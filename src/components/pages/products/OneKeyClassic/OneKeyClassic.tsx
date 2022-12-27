@@ -1,8 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
-
-import { Box, Main, OnlyDisplay } from '../../../base';
+import { Box, Main, OnlyDisplay, SEO } from '../../../base';
 import {
   Navigation,
   PageFooter,
@@ -42,9 +40,11 @@ export const OneKeyClassic: FC<OneKeyClassicProps> = (props) => {
 
   return (
     <div>
-      <Helmet>
-        <title>{data.title}</title>
-      </Helmet>
+      <SEO
+        title={data.title}
+        description={data.productInformation.description}
+        image="https://www.onekey.so/og/og-onekey-classic.jpg"
+      />
 
       <Navigation>
         <NavigationCart {...data.productInformation} />

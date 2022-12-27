@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, Container, Flex, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Container, Flex, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { AffiliateProgramCard } from './AffiliateProgramCard';
@@ -16,12 +17,15 @@ export interface AffiliateProgramProps {
 export const AffiliateProgram: FC<AffiliateProgramProps> = (props) => {
   const { children } = props;
   const affiliateProgramData = useAffiliateProgramData();
+  const { t } = useTranslation();
 
   return (
     <Box>
-      <Helmet>
-        <title>OneKey</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('title__affiliate_program'))}
+        description={t('title__affiliate_program_desc')}
+      />
+
       <Navigation />
 
       <Main>

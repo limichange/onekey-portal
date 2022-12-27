@@ -1,9 +1,7 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
-
 import { useGPUTier } from '../../../../hooks';
-import { Box, Main, OnlyDisplay } from '../../../base';
+import { Box, Main, OnlyDisplay, SEO } from '../../../base';
 import {
   Navigation,
   PageFooter,
@@ -35,9 +33,11 @@ export const OneKeyMini: FC<OneKeyMiniProps> = (props) => {
 
   return (
     <Box>
-      <Helmet>
-        <title>{oneKeyMiniData.title}</title>
-      </Helmet>
+      <SEO
+        title={oneKeyMiniData.title}
+        description={oneKeyMiniData.productInformation.description}
+        image="https://www.onekey.so/og/og-onekey-mini.jpg"
+      />
 
       <Navigation>
         <NavigationCart {...oneKeyMiniData.productInformation} />

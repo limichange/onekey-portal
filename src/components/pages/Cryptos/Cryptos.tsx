@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, Container, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Container, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { CryptosTable } from './CryptosTable';
@@ -14,12 +15,16 @@ export interface CryptosProps {
 
 export const Cryptos: FC<CryptosProps> = (props) => {
   const { children } = props;
+  const { t } = useTranslation();
 
   return (
     <Box>
-      <Helmet>
-        <title>Cryptos</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('title__onekey_crypto_assets'))}
+        description={t('title__support_list_desc', {
+          email: 'hi@onekey.so',
+        })}
+      />
 
       <Navigation />
 

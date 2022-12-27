@@ -1,8 +1,6 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
-
-import { Box, Main } from '../../../base';
+import { Box, Main, SEO } from '../../../base';
 import {
   Navigation,
   PageFooter,
@@ -34,10 +32,11 @@ export const OneKeyKeyTag: FC<OneKeyKeyTagProps> = (props) => {
 
   return (
     <Box>
-      <Helmet>
-        <title>{OneKeyKeyTagData.title}</title>
-      </Helmet>
-
+      <SEO
+        title={OneKeyKeyTagData.title}
+        description={OneKeyKeyTagData.productInformation.description}
+        image="https://www.onekey.so/og/og-onekey-keytag.jpg"
+      />
       <Navigation>
         <NavigationCart {...OneKeyKeyTagData.productInformation} />
       </Navigation>

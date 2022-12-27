@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, I18n, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, I18n, Main, SEO } from '../../base';
 import {
   Hardware,
   Navigation,
@@ -25,12 +26,14 @@ export interface WhyProps {
 
 export const Why: FC<WhyProps> = (props) => {
   const { children } = props;
+  const { t } = useTranslation();
 
   return (
     <Box>
-      <Helmet>
-        <title>Why</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('title__why_use_onekey'))}
+        description={t('title__why_use_onekey_desc')}
+      />
 
       <Navigation>
         <FixedTableHeader />

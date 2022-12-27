@@ -1,8 +1,9 @@
 import React, { ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
+import { oneLine } from '../../../utils';
 import { Box, Container, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
@@ -17,14 +18,16 @@ export interface SecurityProps {
 export const Security: React.FC<SecurityProps> = (props) => {
   const { children } = props;
   const theme = useTheme();
+  const { t } = useTranslation();
 
   return (
     <>
-      <Helmet>
-        <title>OneKey</title>
-      </Helmet>
-
-      <SEO title="onekey" />
+      <SEO
+        title={oneLine(t('title__security_both_hard_and_soft'))
+          .replace('.', '')
+          .replace('。', '')}
+        description={t('title__security_both_hard_and_soft_desc')}
+      />
 
       <Navigation />
 

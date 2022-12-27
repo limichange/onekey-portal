@@ -9,3 +9,4 @@ export * from './isEmail';
 export * from './staticAssetPrefix';
 export * from './splitMultiline';
 export * from './removeTextBreak';
+export * from './oneLine';

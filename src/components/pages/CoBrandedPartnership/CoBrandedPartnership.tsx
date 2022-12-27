@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react';
 
-import { Helmet } from 'react-helmet';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-import { Box, Container, Main } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Container, Main, SEO } from '../../base';
 import { Navigation, PageFooter, StayInTouch } from '../../common';
 
 import { Hero } from './Hero';
@@ -15,12 +16,15 @@ export interface CoBrandedPartnershipProps {
 
 export const CoBrandedPartnership: FC<CoBrandedPartnershipProps> = (props) => {
   const { children } = props;
+  const { t } = useTranslation();
 
   return (
     <Box>
-      <Helmet>
-        <title>OneKey</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('title__co_branded_partnership'))}
+        description={t('title__co_branded_partnership_desc')}
+      />
+
       <Navigation />
 
       <Main>

@@ -2,10 +2,10 @@ import { FC, Fragment, ReactNode } from 'react';
 
 import { useTheme } from '@emotion/react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
-import { Helmet } from 'react-helmet';
 
 import { useMediaQuery } from '../../../hooks';
-import { Box, Main, OnlyDisplay } from '../../base';
+import { oneLine } from '../../../utils';
+import { Box, Main, OnlyDisplay, SEO } from '../../base';
 import { Navigation, PageFooter } from '../../common';
 
 import { ButtonContent } from './components/ButtonContent/ButtonContent';
@@ -22,14 +22,18 @@ export const NotFound: FC<NotFoundProps> = (props) => {
   const { children } = props;
   const theme = useTheme();
   const mediaQuery = useMediaQuery();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const { language } = i18n;
 
   return (
     <Box xs={{ background: theme.colors.test100 }}>
-      <Helmet>
-        <title>Not Found</title>
-      </Helmet>
+      <SEO
+        title={oneLine(t('content__lost_your_way'))}
+        description={t(
+          'content__we_cant_seem_to_find_the_page_youre_looking_for',
+        )}
+      />
+
       <Navigation />
 
       <Main>
@@ -63,7 +67,6 @@ export const NotFound: FC<NotFoundProps> = (props) => {
 
         {children}
       </Main>
-
       <PageFooter isShowEmailSubscribe={false} isShowMediaLinks />
     </Box>
   );

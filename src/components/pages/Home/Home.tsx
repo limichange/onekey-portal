@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 
 import { useTheme } from '@emotion/react';
-import { Helmet } from 'react-helmet';
 
 import { isBrowser } from '../../../utils';
 import { Box, Main, SEO } from '../../base';
@@ -92,10 +91,6 @@ export const Home: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>All-in-one crypto wallet trusted by millions.</title>
-      </Helmet>
-
       <SEO />
 
       <Navigation />
