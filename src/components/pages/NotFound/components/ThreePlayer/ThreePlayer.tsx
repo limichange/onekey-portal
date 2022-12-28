@@ -28,7 +28,7 @@ function getBoolean() {
 }
 
 const Model = (props: any) => {
-  const { nodes, materials }: any = useLoader(GLTFLoader, '/3d/404single.glb');
+  const { nodes, materials }: any = useLoader(GLTFLoader, '/3d/single.glb');
   const mesh = useRef<Mesh>();
 
   useMemo(() => {
