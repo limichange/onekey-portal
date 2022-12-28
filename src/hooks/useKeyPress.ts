@@ -15,8 +15,6 @@ export function useKeyPress(targetKey: string, callback: () => void) {
 
   const upHandler = useCallback(
     (e: KeyboardEvent) => {
-      console.log('e.key', e.key);
-
       if (e.key === targetKey) {
         setKeyPressed(false);
         callback();

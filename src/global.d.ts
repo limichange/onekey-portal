@@ -1,5 +1,6 @@
 declare let PUBLIC_URL: string;
 declare let API_URL: string;
+declare let keep: boolean;
 
 declare module '*.jpg' {
   const value: string;
@@ -20,6 +21,7 @@ declare module '*.svg' {
 }
 
 interface Window {
+  keep?: boolean;
   ethereum?: any;
   videoask?: {
     loadEmbed: (config: any, callback: any) => Promise<any>;

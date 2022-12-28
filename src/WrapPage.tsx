@@ -63,7 +63,7 @@ const WrapPage: FC<WrapPageProps> = (props) => {
 
         // no way
         setTimeout(() => {
-          navigate(newUrl);
+          if (!window.keep) navigate(newUrl);
         }, 200);
       }
     }

@@ -1,10 +1,10 @@
-import { FC, Fragment, ReactNode } from 'react';
+import { FC, Fragment, ReactNode, useEffect } from 'react';
 
 import { useTheme } from '@emotion/react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import { useMediaQuery } from '../../../hooks';
-import { oneLine } from '../../../utils';
+import { isBrowser, oneLine } from '../../../utils';
 import { Box, Main, OnlyDisplay, SEO } from '../../base';
 import { Navigation, PageFooter } from '../../common';
 
@@ -24,6 +24,12 @@ export const NotFound: FC<NotFoundProps> = (props) => {
   const mediaQuery = useMediaQuery();
   const { i18n, t } = useTranslation();
   const { language } = i18n;
+
+  useEffect(() => {
+    if (isBrowser()) {
+      window.keep = true;
+    }
+  }, []);
 
   return (
     <Box xs={{ background: theme.colors.test100 }}>
