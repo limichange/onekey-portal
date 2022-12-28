@@ -27,7 +27,7 @@ export const NotFound: FC<NotFoundProps> = (props) => {
 
   useEffect(() => {
     if (isBrowser()) {
-      window.keep = false;
+      window.keep = true;
     }
   }, []);
 
