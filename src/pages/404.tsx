@@ -1,22 +1,28 @@
-import { graphql } from 'gatsby';
+import { FC, ReactNode, useEffect } from 'react';
 
-export { NotFound as default } from '../components/pages/NotFound';
+import { navigate } from 'gatsby';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
-export const query = graphql`
-  query ($language: String!) {
-    locales: allLocale(
-      filter: {
-        ns: { in: ["common", "not-found"] }
-        language: { eq: $language }
-      }
-    ) {
-      edges {
-        node {
-          ns
-          data
-          language
-        }
-      }
+import { isBrowser } from '../utils';
+
+export interface Props {
+  children?: ReactNode;
+}
+
+export const NotFound: FC<Props> = (props) => {
+  const { children } = props;
+  const { i18n } = useTranslation();
+  const { language } = i18n;
+
+  useEffect(() => {
+    if (isBrowser()) {
+      setTimeout(() => {
+        navigate(language === 'en' ? `/not-found` : `/${language}/not-found`);
+      }, 200);
     }
-  }
-`;
+  }, [language]);
+
+  return <div>{children}</div>;
+};
+
+export default NotFound;

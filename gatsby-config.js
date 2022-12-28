@@ -1,4 +1,4 @@
-const {languages, defaultLanguage} = require('./languages');
+const { languages, defaultLanguage } = require('./languages');
 
 module.exports = {
   assetPrefix: process.env.PUBLIC_URL || '',
@@ -15,8 +15,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/locales`,
-        name: `locale`
-      }
+        name: `locale`,
+      },
     },
     {
       resolve: `gatsby-plugin-react-i18next`,
@@ -32,13 +32,13 @@ module.exports = {
         // you can pass any i18next options
         i18nextOptions: {
           interpolation: {
-            escapeValue: false // not needed for react as it escapes by default
+            escapeValue: false, // not needed for react as it escapes by default
           },
           keySeparator: false,
-          nsSeparator: false
+          nsSeparator: false,
         },
-        pages: []
-      }
+        pages: [],
+      },
     },
     'gatsby-plugin-emotion',
     {
@@ -65,11 +65,11 @@ module.exports = {
         defaults: {
           quality: 100,
           breakpoints: [414, 960, 1200, 1440, 1920],
-          placeholder: "blurred",
+          placeholder: 'blurred',
           backgroundColor: `transparent`,
         },
-      }
+      },
     },
-    `gatsby-plugin-less`
+    `gatsby-plugin-less`,
   ],
-}
+};
